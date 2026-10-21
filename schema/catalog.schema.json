@@ -11,10 +11,11 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. `renodx` and `renodxDlss` exist so far; later areas (luma, addons, shaderPacks, feeder, optiscalerCompat) are added as new keys.",
+      "description": "One entry per catalog area. `renodx`, `renodxDlss` and `optiscalerCompat` exist so far; later areas (luma, addons, shaderPacks, feeder) are added as new keys.",
       "properties": {
         "renodx": { "$ref": "#/$defs/renodxSection" },
-        "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" }
+        "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" },
+        "optiscalerCompat": { "$ref": "#/$defs/optiscalerCompatSection" }
       },
       "additionalProperties": true
     }
@@ -215,6 +216,36 @@
         "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
         "source": { "type": "string", "format": "uri", "description": "The releases API url the builds were read from." },
         "builds": { "type": "array", "items": { "$ref": "#/$defs/dlssBuild" }, "description": "At most 10, newest first." }
+      },
+      "additionalProperties": true
+    },
+
+    "optiscalerCompatSection": {
+      "type": "object",
+      "required": ["updated", "source", "hudfixSource", "games", "hudfixIncompatible"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
+        "source": { "type": "string", "format": "uri", "description": "The OptiScaler wiki page (raw Markdown) the games were read from." },
+        "hudfixSource": { "type": "string", "format": "uri", "description": "The wiki page the HUDfix-incompatible names were read from." },
+        "games": {
+          "type": "array",
+          "description": "Upstream order within each list; lists in main, upscalerMods, lumaUe order.",
+          "items": {
+            "type": "object",
+            "required": ["name", "list", "compat", "inputs", "optiPatcher"],
+            "properties": {
+              "name": { "type": "string", "minLength": 1 },
+              "page": { "type": "string", "description": "Slug of the game's own page in the OptiScaler wiki; absent when upstream lists a plain name." },
+              "list": { "enum": ["main", "upscalerMods", "lumaUe"] },
+              "compat": { "enum": ["working", "not-working", "single-os"] },
+              "inputs": { "type": "array", "items": { "type": "string" }, "description": "Upscaler inputs as upstream writes them: DLSS, FSR2, FSR3, FSR3.1/4, XeSS." },
+              "optiPatcher": { "type": "boolean", "description": "Upstream marks the game as supported by OptiPatcher. Always false in the two small lists, which have no such column." },
+              "notes": { "type": "string", "description": "Short plain-text note (links and line breaks flattened)." }
+            },
+            "additionalProperties": true
+          }
+        },
+        "hudfixIncompatible": { "type": "array", "items": { "type": "string" }, "description": "Games upstream lists as incompatible with OptiFG's HUDfix." }
       },
       "additionalProperties": true
     },

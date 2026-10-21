@@ -91,6 +91,20 @@ public static class Program
             failed = true;
         }
 
+        var compatGenerator = new OptiScalerCompatGenerator(new HttpText(http));
+        try
+        {
+            var output = await compatGenerator.BuildAsync(cts.Token);
+            failed |= Report(output.Warnings, []);
+            var changed = CatalogFile.SetSection(root, "optiscalerCompat", output.Section, now);
+            Console.WriteLine(changed ? "optiscalerCompat section changed" : "optiscalerCompat section unchanged");
+        }
+        catch (SourceException ex)
+        {
+            Console.WriteLine($"::error::optiscalerCompat: {ex.Message}. Keeping the last good section.");
+            failed = true;
+        }
+
         var written = CatalogFile.Save(catalogPath, root);
         Console.WriteLine(written ? $"wrote {catalogPath}" : $"{catalogPath} is already current");
         return failed ? 1 : 0;
