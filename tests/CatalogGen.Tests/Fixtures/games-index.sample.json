@@ -1,0 +1,86 @@
+{
+  "games": [
+    {
+      "id": "1000xresist",
+      "title": "1000xResist",
+      "aliases": [],
+      "deploy": { "steam_appid": 1675830 },
+      "mods": [
+        {
+          "id": "1000xresist",
+          "title": "1000xResist",
+          "variant": null,
+          "support": null,
+          "category": "game",
+          "compatibility": "unknown",
+          "status": "stable",
+          "maintainers": [ "Ritsu" ],
+          "summary": "",
+          "notes": [],
+          "tags": [],
+          "urls": [],
+          "deploy": { "steam_appid": 1675830 },
+          "artifacts": [
+            { "name": "renodx-1000xresist.addon64", "mod": "1000xresist", "arch": "x64", "size": 2595840, "url": "./renodx-1000xresist.addon64", "path": "./renodx-1000xresist.addon64" }
+          ]
+        }
+      ],
+      "steam_appid": 1675830
+    },
+    {
+      "id": "alien-isolation",
+      "title": "Alien: Isolation",
+      "aliases": [ "Alien Isolation" ],
+      "deploy": { "steam_appid": 214490, "architecture": [ "x86" ] },
+      "mods": [
+        {
+          "id": "alienisolation",
+          "title": "Alien: Isolation",
+          "category": "game",
+          "compatibility": "in-progress",
+          "status": "beta",
+          "maintainers": [ "Musa" ],
+          "notes": [ "Playable, but some unresolved graphical bugs." ],
+          "urls": [ { "url": "https://www.nexusmods.com/alienisolation/mods/78", "kind": "nexus_mods" } ],
+          "deploy": { "steam_appid": 214490, "architecture": [ "x86" ] },
+          "artifacts": [
+            { "name": "renodx-alienisolation.addon32", "mod": "alienisolation", "arch": "x86", "size": 100, "url": "./renodx-alienisolation.addon32", "path": "./renodx-alienisolation.addon32" }
+          ]
+        }
+      ],
+      "steam_appid": 214490
+    },
+    {
+      "id": "deaths-door",
+      "title": "Death's Door",
+      "aliases": [],
+      "deploy": { "steam_appid": 894020 },
+      "mods": [
+        { "id": "unityengine", "title": "Unity Engine", "category": "engine", "support": "engine", "maintainers": [], "notes": [], "urls": [], "artifacts": [] }
+      ],
+      "steam_appid": 894020
+    },
+    {
+      "id": "two-variants",
+      "title": "Two Variants",
+      "aliases": [],
+      "deploy": { "steam_appid": 5 },
+      "mods": [
+        {
+          "id": "twovariants",
+          "title": "Two Variants",
+          "category": "game",
+          "maintainers": [ "Voosh" ],
+          "notes": [],
+          "urls": [],
+          "artifacts": [
+            { "name": "renodx-twovariants.addon64", "arch": "x64", "url": "./renodx-twovariants.addon64" },
+            { "name": "renodx-twovariants.addon32", "arch": "x86", "url": "./renodx-twovariants.addon32" },
+            { "name": "renodx-twovariants.addon64", "arch": "x64", "url": "./renodx-twovariants.addon64" }
+          ]
+        }
+      ],
+      "steam_appid": 5
+    }
+  ]
+}

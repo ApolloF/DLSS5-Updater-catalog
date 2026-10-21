@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ApolloF/DLSS5-Updater-catalog/main/schema/catalog.schema.json",
+  "title": "DLSS5 Updater catalog",
+  "description": "catalog.json, schema version 1. Sections are independent: a reader uses the sections it knows and ignores the rest, so new sections and new properties are not breaking changes. Removing or changing the meaning of a property bumps `schema`.",
+  "type": "object",
+  "required": ["schema", "repository", "sections"],
+  "properties": {
+    "schema": { "const": 1, "description": "Schema version. Readers refuse a higher number." },
+    "repository": { "type": "string", "description": "owner/repo that hosts the mirror assets." },
+    "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
+    "sections": {
+      "type": "object",
+      "description": "One entry per catalog area. Only `renodx` exists so far; later areas (luma, addons, shaderPacks, feeder, optiscalerCompat) are added as new keys.",
+      "properties": {
+        "renodx": { "$ref": "#/$defs/renodxSection" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true,
+
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "utcTime": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" },
+    "utcDate": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+
+    "historyEntry": {
+      "description": "An earlier build of the same file.",
+      "type": "object",
+      "required": ["version", "sha256", "size", "firstSeen"],
+      "properties": {
+        "version": { "type": "string" },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "size": { "type": "integer", "minimum": 1 },
+        "firstSeen": { "$ref": "#/$defs/utcTime" },
+        "mirrorUrl": { "type": "string", "format": "uri" }
+      },
+      "additionalProperties": true
+    },
+
+    "file": {
+      "description": "A downloadable binary. A reader installs only entries that have `sha256`; it downloads from `mirrorUrl` when present, else from `url`, and refuses the file when its SHA-256 or size differ.",
+      "type": "object",
+      "required": ["name", "arch", "url", "sha256", "size", "version", "firstSeen", "history"],
+      "properties": {
+        "name": { "type": "string", "description": "File name as the author publishes it, e.g. renodx-hades2.addon64." },
+        "arch": { "enum": ["x64", "x86"] },
+        "url": { "type": "string", "format": "uri", "description": "The author's own download address." },
+        "sha256": { "$ref": "#/$defs/sha256", "description": "Lowercase hex SHA-256 of the current build." },
+        "size": { "type": "integer", "minimum": 1, "description": "Bytes." },
+        "version": { "type": "string", "description": "Upstream snapshots carry no version, so a build is named by the UTC date we first saw it plus the first seven hash characters: 2026-10-21-ab12cd3." },
+        "firstSeen": { "$ref": "#/$defs/utcTime" },
+        "verified": { "$ref": "#/$defs/utcDate", "description": "Date of the last full download that confirmed the hash (re-done weekly)." },
+        "etag": { "type": "string", "description": "Provenance for conditional requests. Readers ignore it." },
+        "lastModified": { "type": "string", "description": "Provenance for conditional requests. Readers ignore it." },
+        "license": { "type": "string", "description": "SPDX id of the source repository's licence, when GitHub reports one." },
+        "mirrorUrl": { "type": "string", "format": "uri", "description": "Immutable copy in this repository's release assets (named by hash, never overwritten). Only for MIT, BSD-2/3, Apache-2.0, ISC and Unlicense sources. Absent = pinned: upstream url plus hash only." },
+        "mod": { "type": "string", "description": "The upstream games-index mod this file belongs to." },
+        "history": { "type": "array", "items": { "$ref": "#/$defs/historyEntry" }, "description": "Previous builds, newest first." }
+      },
+      "additionalProperties": true
+    },
+
+    "links": {
+      "type": "object",
+      "properties": {
+        "nexus": { "type": "string", "format": "uri" },
+        "discord": { "type": "string", "format": "uri" },
+        "discussion": { "type": "string", "format": "uri" },
+        "gameBanana": { "type": "string", "format": "uri" },
+        "other": { "type": "array", "items": { "type": "string", "format": "uri" } }
+      },
+      "additionalProperties": true
+    },
+
+    "mod": {
+      "description": "A game (or related mod) with its RenoDX add-on.",
+      "type": "object",
+      "required": ["id", "name", "aliases", "steamAppIds", "authors", "listing", "blocked", "files"],
+      "properties": {
+        "id": { "type": "string", "description": "Stable id: the games-index game id, or a slug of the wiki name." },
+        "name": { "type": "string" },
+        "aliases": { "type": "array", "items": { "type": "string" }, "description": "Other titles that match this entry (store titles, overrides)." },
+        "steamAppIds": { "type": "array", "items": { "type": "integer", "minimum": 1 } },
+        "authors": { "type": "array", "items": { "type": "string" } },
+        "listing": { "enum": ["main", "related", "engine", "deprecated"], "description": "`deprecated` and `related` entries are shown for information; they are not offered for install." },
+        "status": { "type": "string", "description": "Upstream's own rating from games-index: stable, beta, experimental." },
+        "compat": { "enum": ["working", "in-progress"], "description": "The wiki table's mark, else the games-index rating. Absent when upstream hasn't said." },
+        "notes": { "type": "string", "description": "Plain text, lines separated by \\n." },
+        "generic": { "enum": ["unreal", "unity"], "description": "The game has no file of its own: upstream points it at the generic engine mod (see section.generic)." },
+        "links": { "$ref": "#/$defs/links" },
+        "blocked": { "type": "boolean", "description": "Set by overrides.json; a blocked entry has no files and is never offered." },
+        "blockReason": { "type": "string" },
+        "files": { "type": "array", "items": { "$ref": "#/$defs/file" } }
+      },
+      "additionalProperties": true
+    },
+
+    "genericEntry": {
+      "type": "object",
+      "required": ["id", "name", "files"],
+      "properties": {
+        "id": { "enum": ["unreal", "unity", "ue-extended"] },
+        "name": { "type": "string" },
+        "files": { "type": "array", "items": { "$ref": "#/$defs/file" } }
+      },
+      "additionalProperties": true
+    },
+
+    "engineGame": {
+      "description": "A row of the wiki's per-engine tables: a game reported to work with the generic mod of that engine.",
+      "type": "object",
+      "required": ["engine", "name"],
+      "properties": {
+        "engine": { "enum": ["ue-extended", "unreal", "unity", "source"] },
+        "name": { "type": "string" },
+        "compat": { "enum": ["working", "in-progress"] },
+        "notes": { "type": "string", "description": "As written on the wiki (for Unreal Extended: Native HDR, Engine.ini, Upgrade Path: On, resource upgrades)." }
+      },
+      "additionalProperties": true
+    },
+
+    "overrides": {
+      "description": "A copy of the renodx block of overrides.json (see README). Readers apply it before any fuzzy matching.",
+      "type": "object",
+      "properties": {
+        "nameFixes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id"],
+            "properties": { "id": { "type": "string" }, "name": { "type": "string" }, "aliases": { "type": "array", "items": { "type": "string" } } }
+          }
+        },
+        "appIdFixes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "steamAppIds"],
+            "properties": { "id": { "type": "string" }, "steamAppIds": { "type": "array", "items": { "type": "integer" } } }
+          }
+        },
+        "blocklist": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": { "id": { "type": "string" }, "name": { "type": "string" }, "reason": { "type": "string" } }
+          }
+        },
+        "ueExtendedOptOut": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": { "steamAppId": { "type": "integer" }, "name": { "type": "string" }, "reason": { "type": "string" } }
+          }
+        },
+        "engineIniPaths": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "properties": { "steamAppId": { "type": "integer" }, "name": { "type": "string" }, "path": { "type": "string" } }
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+
+    "renodxSection": {
+      "type": "object",
+      "required": ["updated", "sources", "generic", "mods", "engineGames", "overrides"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["url", "count"],
+            "properties": { "url": { "type": "string", "format": "uri" }, "count": { "type": "integer", "minimum": 0 } }
+          }
+        },
+        "generic": { "type": "array", "items": { "$ref": "#/$defs/genericEntry" } },
+        "mods": { "type": "array", "items": { "$ref": "#/$defs/mod" } },
+        "engineGames": { "type": "array", "items": { "$ref": "#/$defs/engineGame" } },
+        "overrides": { "$ref": "#/$defs/overrides" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "renodx": {
+    "nameFixes": [],
+    "appIdFixes": [],
+    "blocklist": [],
+    "ueExtendedOptOut": [],
+    "engineIniPaths": []
+  }
+}

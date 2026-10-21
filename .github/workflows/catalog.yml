@@ -1,0 +1,75 @@
+name: catalog
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      accept_shrink:
+        description: "Accept a catalog that lost more than 20% of its mods (upstream really removed them)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["src/**", "tests/**", "schema/**", "*.sln", ".github/workflows/catalog.yml"]
+  pull_request:
+
+# One run at a time: two runs would race on the release assets and on the commit.
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write # commit catalog.json, create the monthly mirror releases and upload their assets
+
+jobs:
+  test:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - run: dotnet test -c Release
+
+  update:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Test
+        run: dotnet test -c Release
+
+      - name: Generate catalog.json
+        id: generate
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          CATALOG_ACCEPT_SHRINK: ${{ inputs.accept_shrink && '1' || '0' }}
+        run: dotnet run -c Release --no-build --project src/CatalogGen -- --catalog catalog.json --overrides overrides.json --temp "$RUNNER_TEMP/downloads"
+
+      # A broken source keeps the last good section (the generator writes nothing for it), so whatever did change is still committed.
+      - name: Commit catalog.json if it changed
+        run: |
+          if git diff --quiet -- catalog.json; then
+            echo "catalog.json unchanged"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add catalog.json
+            git commit -m "Update catalog.json"
+            git push
+          fi
+
+      - name: Fail the run when a source broke
+        if: steps.generate.outcome == 'failure'
+        run: |
+          echo "::error::The generator reported a broken source; see the 'Generate catalog.json' step. The last good section was kept."
+          exit 1
