@@ -48,9 +48,9 @@ public delegate void FileInspector(string path, FileEntry entry);
 
 /// <summary>
 /// Brings one file entry up to date: conditional re-download, SHA-256, first-seen version and history,
-/// licence decision and mirroring. A failure keeps the last good entry.
+/// licence decision and mirroring (<paramref name="mirrorAnyLicence"/> mirrors files whose source has no permissive licence too). A failure keeps the last good entry.
 /// </summary>
-public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror? mirror, int verifyEveryDays = 7, int historyLimit = 20)
+public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror? mirror, int verifyEveryDays = 7, int historyLimit = 20, bool mirrorAnyLicence = false)
 {
     public async Task<SyncResult> SyncAsync(FileEntry wanted, FileEntry? previous, DateTimeOffset now, CancellationToken ct, FileInspector? inspect = null)
     {
@@ -65,7 +65,7 @@ public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror?
             }
         }
 
-        var mirrorAllowed = mirror is not null && Licence.AllowsMirror(license);
+        var mirrorAllowed = mirror is not null && (mirrorAnyLicence || Licence.AllowsMirror(license));
         var today = DateOnly.FromDateTime(now.UtcDateTime);
         var due = !DateOnly.TryParse(previous?.Verified, out var last) || today.DayNumber - last.DayNumber >= verifyEveryDays;
         var force = previous?.Sha256 is null || due || (mirrorAllowed && previous.MirrorUrl is null);
@@ -121,7 +121,7 @@ public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror?
         }
     }
 
-    private static FileEntry Describe(FileEntry previous, FileEntry wanted, string? license)
+    private FileEntry Describe(FileEntry previous, FileEntry wanted, string? license)
     {
         var e = previous.Clone();
         e.Name = wanted.Name;
@@ -129,7 +129,7 @@ public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror?
         e.Url = wanted.Url;
         e.Mod = wanted.Mod;
         e.License = license;
-        if (!Licence.AllowsMirror(license)) e.MirrorUrl = null;
+        if (!mirrorAnyLicence && !Licence.AllowsMirror(license)) e.MirrorUrl = null;
         return e;
     }
 

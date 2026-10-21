@@ -11,10 +11,11 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas (luma, feeder) are added as new keys.",
+      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas (luma, feeder) are added as new keys.",
       "properties": {
         "renodx": { "$ref": "#/$defs/renodxSection" },
         "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" },
+        "neural": { "$ref": "#/$defs/neuralSection" },
         "optiscalerCompat": { "$ref": "#/$defs/optiscalerCompatSection" },
         "addons": { "$ref": "#/$defs/addonsSection" },
         "frameLimiters": { "$ref": "#/$defs/frameLimitersSection" },
@@ -221,7 +222,47 @@
       "properties": {
         "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
         "source": { "type": "string", "format": "uri", "description": "The releases API url the builds were read from." },
-        "builds": { "type": "array", "items": { "$ref": "#/$defs/dlssBuild" }, "description": "At most 10, newest first." }
+        "builds": { "type": "array", "items": { "$ref": "#/$defs/dlssBuild" }, "description": "At most 20, newest first." }
+      },
+      "additionalProperties": true
+    },
+
+    "neuralBuild": {
+      "description": "A binary kept in this repository's mirror. A reader downloads `mirrorUrl`, checks `sha256` and `size`, and saves the file as `name`.",
+      "type": "object",
+      "required": ["name", "version", "sha256", "size", "firstSeen", "mirrorUrl"],
+      "properties": {
+        "name": { "type": "string", "description": "nvngx_dlssnr.dll, renodx-dlss5.addon64 (Lecram v10 and older) or dlss5-nr.addon64 (Lecram v11 and newer)." },
+        "version": { "type": "string", "description": "nvngx_dlssnr.dll: the file version (310.8.3). Lecram: the build label inside the add-on (v8.5.0-rc10)." },
+        "sha256": { "$ref": "#/$defs/sha256" },
+        "size": { "type": "integer", "minimum": 1 },
+        "firstSeen": { "$ref": "#/$defs/utcTime" },
+        "mirrorUrl": { "type": "string", "format": "uri" },
+        "generation": { "enum": ["v10", "v11"], "description": "Lecram only." },
+        "url": { "type": "string", "format": "uri", "description": "Provenance: the download the build was taken from. Absent for a file added by hand. Readers ignore it." }
+      },
+      "additionalProperties": true
+    },
+
+    "neuralStream": {
+      "type": "object",
+      "properties": {
+        "current": { "$ref": "#/$defs/neuralBuild", "description": "The newest build. Absent until one has been mirrored." },
+        "history": { "type": "array", "items": { "$ref": "#/$defs/neuralBuild" }, "description": "Older builds, newest first; with `current` at most 20." },
+        "generation": { "enum": ["v10", "v11"], "description": "Lecram only: the generation of `current`." }
+      },
+      "required": ["history"],
+      "additionalProperties": true
+    },
+
+    "neuralSection": {
+      "type": "object",
+      "required": ["updated", "source", "dlssnr", "lecram"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
+        "source": { "type": "string", "format": "uri", "description": "The releases API url the zip builds were read from." },
+        "dlssnr": { "$ref": "#/$defs/neuralStream", "description": "NVIDIA's nvngx_dlssnr.dll." },
+        "lecram": { "$ref": "#/$defs/neuralStream", "description": "Lecram's DLSS5 add-on." }
       },
       "additionalProperties": true
     },

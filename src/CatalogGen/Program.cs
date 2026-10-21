@@ -78,11 +78,27 @@ public static class Program
             failed = true;
         }
 
-        // A broken source for one section never stops the other.
-        var dlssGenerator = new RenodxDlssGenerator(new GitHubText(http, token), sync);
+        // Files the owner dropped into the "incoming" release; the sections below mirror them, the files are removed once the catalog is written.
+        var drops = new List<Drop>();
+        IIncoming? incoming = mirror is not null ? new GitHubIncoming(http, repo!, token!) : null;
+        if (incoming is not null)
+        {
+            var dropWarnings = new List<string>();
+            try { drops = await IncomingDrops.ReadAsync(incoming, new UpstreamFetcher(http, tempDir, requiredZipEntry: null), dropWarnings, cts.Token); }
+            catch (Exception ex) when (ex is HttpRequestException or IOException or JsonException && !cts.IsCancellationRequested)
+            {
+                dropWarnings.Add($"incoming could not be read: {ex.Message}");
+                failed = true;
+            }
+            Report(dropWarnings, []);
+        }
+
+        // A broken source for one section never stops the other. Every build of this section is mirrored, whatever the licence of its source.
+        var dlssSync = new FileSync(new UpstreamFetcher(http, tempDir), licences, mirror, mirrorAnyLicence: true);
+        var dlssGenerator = new RenodxDlssGenerator(new GitHubText(http, token), dlssSync, mirror);
         try
         {
-            var output = await dlssGenerator.BuildAsync(CatalogFile.ReadSection<RenodxDlssSection>(root, "renodxDlss"), now, cts.Token);
+            var output = await dlssGenerator.BuildAsync(CatalogFile.ReadSection<RenodxDlssSection>(root, "renodxDlss"), now, cts.Token, drops);
             failed |= Report(output.Warnings, output.Errors);
             var changed = CatalogFile.SetSection(root, "renodxDlss", output.Section, now);
             Console.WriteLine(changed ? "renodxDlss section changed" : "renodxDlss section unchanged");
@@ -92,6 +108,16 @@ public static class Program
             Console.WriteLine($"::error::renodxDlss: {ex.Message}. Keeping the last good section.");
             failed = true;
         }
+
+        if (mirror is not null)
+        {
+            var neural = new NeuralGenerator(new GitHubText(http, token), new UpstreamFetcher(http, tempDir, requiredZipEntry: null), mirror, tempDir);
+            var output = await neural.BuildAsync(CatalogFile.ReadSection<NeuralSection>(root, "neural"), drops, now, cts.Token);
+            failed |= Report(output.Warnings, output.Errors);
+            var changed = CatalogFile.SetSection(root, "neural", output.Section, now);
+            Console.WriteLine(changed ? "neural section changed" : "neural section unchanged");
+        }
+        else Console.WriteLine("neural section kept as it is: the mirrored binaries need mirroring on.");
 
         var compatGenerator = new OptiScalerCompatGenerator(new HttpText(http));
         try
@@ -165,6 +191,21 @@ public static class Program
 
         var written = CatalogFile.Save(catalogPath, root);
         Console.WriteLine(written ? $"wrote {catalogPath}" : $"{catalogPath} is already current");
+
+        // Only now that the catalog lists them do the mirrored drop-ins leave "incoming".
+        foreach (var drop in drops.Where(d => d.Handled))
+        {
+            try
+            {
+                await incoming!.DeleteAsync(drop.Asset.Id, cts.Token);
+                Console.WriteLine($"incoming/{drop.Asset.Name}: mirrored and removed");
+            }
+            catch (HttpRequestException ex)
+            {
+                failed |= Report([], [$"incoming/{drop.Asset.Name}: mirrored but could not be removed: {ex.Message}"]);
+            }
+        }
+        foreach (var drop in drops) drop.Dispose();
         return failed ? 1 : 0;
     }
 

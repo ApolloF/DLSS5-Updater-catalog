@@ -11,7 +11,7 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
+`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
 (Luma, the DLSS5 feeder) are added as new sections without touching these. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
@@ -34,7 +34,12 @@ output against it.
     "renodxDlss": {
       "updated": "...",
       "source": "...",               the releases API url the builds were read from
-      "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
+      "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 20)
+    },
+    "neural": {
+      "updated": "...", "source": "...",
+      "dlssnr": { "current", "history": [ ... ] },                    nvngx_dlssnr.dll
+      "lecram": { "current", "history": [ ... ], "generation" }       Lecram's DLSS5 add-on
     },
     "optiscalerCompat": {
       "updated": "...",
@@ -187,8 +192,8 @@ but `catalog.json` is still written.
 The mirrored files belong to their authors and stay under their licences. They are copies for reliability and hash
 pinning, not a new distribution: see each file's `license` and the source repositories (for example
 [clshortfuse/renodx](https://github.com/clshortfuse/renodx), [NotVoosh/renodx-unity](https://github.com/NotVoosh/renodx-unity),
-[marat569/renodx](https://github.com/marat569/renodx)) for the licence texts and credits. This repository never hosts or lists
-NVIDIA's `nvngx_dlssnr.dll` or any other NVIDIA DLL.
+[marat569/renodx](https://github.com/marat569/renodx)) for the licence texts and credits. The binaries of the `renodxDlss` and `neural`
+sections are the exception: they are downloaded and installed automatically and are always mirrored (below).
 
 ### `renodxDlss`
 
@@ -196,7 +201,7 @@ ShortFuse's `renodx-dlss.addon64` has no official download channel. The builds a
 `RankFTW/rhi-repo`, tagged `renodx-dlss-SF-<version>` (for example `26.1003.2350`, older ones `0.55`). Each release has one
 asset, a **zip** named `renodx-dlss_SF_<version>.zip` whose only entry is `renodx-dlss.addon64` at the root (about 1 MB).
 The generator reads `https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100`, keeps the releases with that tag
-that are neither drafts nor prereleases and have exactly one `.zip` asset, and lists the newest 10 by publish date.
+that are neither drafts nor prereleases and have exactly one `.zip` asset, and lists the newest 20 by publish date.
 
 ```json
 {
@@ -214,10 +219,57 @@ that are neither drafts nor prereleases and have exactly one `.zip` asset, and l
 ```
 
 `file` is a normal file entry (above), so it has the hash, size, first-seen version, history and ETag like the others, but the
-repository has no licence: the build is **pinned, never mirrored**, so there is never a `mirrorUrl`. A reader downloads the
-zip from `url`, checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
+repository has no licence, but every build is **mirrored** all the same (assets of the monthly `mirror-YYYY-MM` release, no licence block in its notes), so `file.mirrorUrl` is always there. A reader downloads the
+zip from `mirrorUrl` (else `url`), checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
 download. If the release list is unreachable, isn't a list or has no matching release, the run fails and the previous
 section stays; a single build whose download fails is a warning and keeps its last good entry.
+
+A raw `renodx-dlss.addon64` in the `incoming` release (see `neural`) is mirrored as it is and listed as a build tagged
+`incoming-<version>` (`version` is the first-seen version, `published` the time of the run); its `file.name` is
+`renodx-dlss.addon64` instead of a zip and `url` equals `mirrorUrl`. Those builds stay in the list until they drop off the newest 20.
+
+### `neural`
+
+NVIDIA's `nvngx_dlssnr.dll` and Lecram's DLSS5 add-on builds, hosted in this repository's mirror as plain binaries (not zips).
+
+```json
+{
+  "updated": "2026-10-21T12:00:00Z",
+  "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
+  "dlssnr": {
+    "current": { "name": "nvngx_dlssnr.dll", "version": "310.8.3", "sha256": "...", "size": 165840496, "firstSeen": "2026-10-21T12:00:00Z", "mirrorUrl": "https://github.com/.../mirror-2026-10/<hash16>-nvngx_dlssnr.dll", "url": "https://github.com/RankFTW/rhi-repo/releases/download/..." },
+    "history": [ { "name": "nvngx_dlssnr.dll", "version": "310.8.0", "sha256": "...", "size": 165840496, "firstSeen": "...", "mirrorUrl": "..." } ]
+  },
+  "lecram": {
+    "generation": "v10",
+    "current": { "name": "renodx-dlss5.addon64", "version": "v8.5.0-rc10", "generation": "v10", "sha256": "...", "size": 3141632, "firstSeen": "...", "mirrorUrl": "..." },
+    "history": [ ]
+  }
+}
+```
+
+Each entry has `name`, `version`, `sha256`, `size`, `firstSeen` and `mirrorUrl`; a reader downloads `mirrorUrl`, checks the hash and
+size and saves the file as `name`. `url` (where the build was taken from, absent for a hand-dropped file) is provenance. `current` is
+the newest build, `history` the older ones, newest first; together at most 20 per kind. Order: Lecram's v11 builds above v10, then
+the version (numerically, a release above its release candidates), then first-seen time. A build is identified by its SHA-256, so
+the same binary from two sources is listed once. `lecram.generation` is the generation of `current`; a build's own `generation` is
+`v10` (`renodx-dlss5.addon64`, v10 and older) or `v11` (`dlss5-nr.addon64`).
+
+Sources, in this order of work:
+
+1. The releases of `RankFTW/rhi-repo`: tags `dlssnr-*` (zip with `nvngx_dlssnr.dll`) and `renodx-dlss5-*` / `dlss5-nr-*` (zip with the add-on).
+   Only the facts of the release list are used. The zip must hold exactly one file; it is extracted, checked as a PE file, identified
+   (below) and hashed, and the **binary** is uploaded. A release whose download url is already listed is not downloaded again.
+2. The `incoming` release of this repository (a prerelease, created when missing). Raw files dropped there are identified by their
+   content, mirrored like the rest and then deleted from `incoming`; an upload that failed leaves the file there. A file that is
+   none of the known binaries stays in `incoming` and the run log has a warning. The same file twice (same hash) is a no-op.
+
+Identification reads the PE version resource (without Windows APIs): `nvngx_dlssnr.dll` has the internal name `DLSSNR` and its
+file version (`310,8,3,0` is `310.8.3`) is the version; Lecram v10 names itself `renodx-dlss5.addon64` in `OriginalFilename`, v11
+is the file with the strings `RenoDX.DLSS5`, `NR-SETTINGS` and `NR-COMPAT`; both take the highest `v1.2.3[-pre]` string in the
+binary as their version (the rule of the app's Lecram import). ShortFuse's `renodx-dlss.addon64` is recognised by its name.
+
+Mirroring is needed: a run with `--no-mirror` (or without a token) leaves the `neural` section as it is.
 
 ### `optiscalerCompat`
 
@@ -309,7 +361,8 @@ An `id` that matches no entry is reported as a warning in the run log.
 ## Running it
 
 The `catalog` workflow runs on a six-hour schedule and by hand (Actions → catalog → Run workflow). It tests, runs the
-generator, and commits `catalog.json` if it changed. Pull requests and pushes run the tests only.
+generator, and commits `catalog.json` if it changed. Pull requests and pushes run the tests only. A run started with
+`workflow_dispatch` (for example by a hook after a file landed in the `incoming` release) picks up the dropped files.
 
 Locally (.NET 8 SDK):
 
