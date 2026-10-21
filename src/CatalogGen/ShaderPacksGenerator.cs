@@ -43,7 +43,7 @@ public sealed class ShaderPacksGenerator(ITextSource github, FileSync sync, int 
                 var prev = before?.File?.Clone();
                 if (prev is not null && prev.Url != r.Wanted.Url) { prev.ETag = null; prev.LastModified = null; }
                 // A build recorded before layouts existed is read again.
-                if (prev is { Layout: null }) prev.Verified = null;
+                if (prev is { Layout: null } or { Layout.Effects.Count: 0 }) prev.Verified = null;
                 results[p.Id] = await sync.SyncAsync(r.Wanted, prev, now, ct, Inspect);
             }
             finally { gate.Release(); }

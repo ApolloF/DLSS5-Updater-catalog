@@ -45,6 +45,8 @@ public static class PackLayoutScan
         {
             ShadersDir = shaders + "/",
             TexturesDir = textures is null ? null : textures + "/",
+            Effects = files.Where(f => f.StartsWith(shaders + "/", StringComparison.Ordinal) && IsEffect(f))
+                .Select(f => f[(f.LastIndexOf('/') + 1)..]).Distinct(StringComparer.OrdinalIgnoreCase).Order(StringComparer.OrdinalIgnoreCase).ToList(),
             ShaderFiles = files.Count(f => f.StartsWith(shaders + "/", StringComparison.Ordinal)),
             TextureFiles = textures is null ? 0 : files.Count(f => f.StartsWith(textures + "/", StringComparison.Ordinal)),
         };

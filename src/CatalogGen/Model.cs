@@ -41,7 +41,7 @@ public sealed class FileEntry
         c.History = History.Select(h => h with { }).ToList();
         c.Payload = Payload?.Select(p => p with { }).ToList();
         c.Unplaced = Unplaced?.ToList();
-        c.Layout = Layout is null ? null : new PackLayout { ShadersDir = Layout.ShadersDir, TexturesDir = Layout.TexturesDir, ShaderFiles = Layout.ShaderFiles, TextureFiles = Layout.TextureFiles };
+        c.Layout = Layout is null ? null : new PackLayout { ShadersDir = Layout.ShadersDir, TexturesDir = Layout.TexturesDir, Effects = [.. Layout.Effects], ShaderFiles = Layout.ShaderFiles, TextureFiles = Layout.TextureFiles };
         return c;
     }
 }

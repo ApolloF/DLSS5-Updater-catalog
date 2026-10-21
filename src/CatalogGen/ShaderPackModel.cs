@@ -9,6 +9,8 @@ public sealed class PackLayout
     public string ShadersDir { get; set; } = "";
     /// <summary>Zip prefix of the Textures folder; absent when the pack has none.</summary>
     public string? TexturesDir { get; set; }
+    /// <summary>File names of the effects (.fx) in the Shaders folder, without folders, sorted; presets name their effects by file name.</summary>
+    public List<string> Effects { get; set; } = [];
     public int ShaderFiles { get; set; }
     public int TextureFiles { get; set; }
 }

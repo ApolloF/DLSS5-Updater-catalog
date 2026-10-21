@@ -139,7 +139,7 @@ The generator pins each pack: a branch pack to the branch's current commit (`GET
 release's tag and its one asset matching the pattern. `version` is the release tag or the first seven characters of the commit.
 The pack's `file` is a normal file entry (hash, size, history, `mirrorUrl` when the licence allows) with a `layout`:
 `shadersDir` and `texturesDir` (zip prefixes, found without case and without stray spaces; the folder with the most `.fx` files wins),
-and the file counts. A zip without a `Shaders` folder holding `.fx` files is refused like a bad download. `license` is GitHub's SPDX id; the
+the sorted file names of its effects (`effects`, because presets name effects by file name) and the file counts. A zip without a `Shaders` folder holding `.fx` files is refused like a bad download. `license` is GitHub's SPDX id; the
 optional `license` in the list is a licence we read in the repository's licence file and is used only when GitHub reports none
 (`NOASSERTION`), so a hand-checked MIT still counts as permissive. A conflict (the list says X, GitHub says Y) is a warning and GitHub wins.
 

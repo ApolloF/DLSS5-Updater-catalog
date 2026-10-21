@@ -16,6 +16,7 @@ public class PackLayoutScanTests
         Assert.Equal("repo-abc/Textures/", l.TexturesDir);
         Assert.Equal(2, l.ShaderFiles);
         Assert.Equal(2, l.TextureFiles);
+        Assert.Equal(["A.fx"], l.Effects);
     }
 
     [Fact]
