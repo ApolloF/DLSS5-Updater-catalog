@@ -11,7 +11,7 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. Only `renodx` exists so far; later areas (Luma, add-ons,
+`catalog.json` has a schema version and independent sections. `renodx` and `renodxDlss` exist so far; later areas (Luma, add-ons,
 shader packs, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching this one. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
@@ -30,6 +30,11 @@ output against it.
       "mods":    [ ... ],            one entry per game
       "engineGames": [ ... ],        games the wiki lists as working with a generic add-on
       "overrides": { ... }           copy of overrides.json, for the app's matcher
+    },
+    "renodxDlss": {
+      "updated": "...",
+      "source": "...",               the releases API url the builds were read from
+      "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
     }
   }
 }
@@ -63,6 +68,17 @@ A **mod** entry:
 | `blocked`, `blockReason` | Set by `overrides.json`; a blocked entry has no files |
 | `files` | The downloadable binaries (below) |
 
+An **engineGames** entry is one row of a wiki per-engine table: `engine` (`ue-extended`, `unreal`, `unity`, `source`),
+`name`, `compat` and the wiki's `notes` as written. For `ue-extended` the notes are also read into optional fields
+(the note stays the source of truth; a field is absent when the note doesn't say):
+
+| Field | Meaning |
+|---|---|
+| `method` | `upgrade` (note says `Upgrade Path: On`), else `native` (`Upgrade Path: Off` or `Native HDR`), else `ini` (mentions `Engine.ini`) |
+| `upgrades` | `[ { "format": "B8G8R8A8_TYPELESS", "mode": "output-size" } ]`. `mode` is `output-size`, `output-ratio` or `any-size`, the words right after the format. Only the 12 formats the add-on knows are listed; anything else (a typo such as `R8G8R8A8_TYPELESS`) is dropped and reported as a warning in the run log |
+| `copyDestinations` | `false` for `Upgrade Copy Destinations Off`, `true` for `On` |
+| `engineIni` | `[ { "section": "SystemSettings", "key": "r.HDR.EnableHDROutput", "value": "1" } ]` for every `r.Key=Value` in the note |
+
 A **file** entry:
 
 | Field | Meaning |
@@ -77,7 +93,8 @@ A **file** entry:
 | `mod` | The index mod the file belongs to |
 
 Every binary is downloaded by the generator, hashed, size-checked and must start with `MZ` (an HTML error page is never
-recorded as a build). A file that fails keeps its last good entry, or is left out if it never had one.
+recorded as a build). The one exception is a zip (it starts with `PK\x03\x04`), accepted only when its central directory lists an entry
+named `renodx-dlss.addon64`. A file that fails keeps its last good entry, or is left out if it never had one.
 
 ### Mirror or pinned
 
@@ -89,11 +106,61 @@ never overwritten or replaced. Any other licence, no licence, or a source we can
 made, the entry keeps the upstream `url` plus the hash, and the app refuses the file if upstream changes it before the
 next run.
 
+MIT, BSD and Apache require the copyright and licence notice to travel with copies, so the notes of every `mirror-YYYY-MM`
+release carry them. After the file sync the generator groups every mirrored file (the current build and the history entries
+that kept a `mirrorUrl`) by month and source repository, reads each repository's licence file once
+(`GET /repos/{repo}/license`), and writes one block per repository, sorted by name: the `owner/repo` link, the SPDX id, a
+link to the licence file, the `Copyright ...` lines of the licence text (or "Copyright holder: see the licence file at
+<link>" when it has none) and the asset names. The full licence text is not copied. The release's first paragraph is
+kept, the body is only written when it differs, and the text is the same for the same input.
+
+```
+### clshortfuse/renodx
+- Repository: https://github.com/clshortfuse/renodx
+- Licence: MIT (https://github.com/clshortfuse/renodx/blob/main/LICENSE)
+- Copyright:
+  - Copyright (c) 2024 Jane Doe
+- Files:
+  - 0123456789abcdef-renodx-example.addon64
+```
+
+If a licence or the release notes can't be read or written the run reports an error (exit code 1, retried on the next run)
+but `catalog.json` is still written.
+
 The mirrored files belong to their authors and stay under their licences. They are copies for reliability and hash
 pinning, not a new distribution: see each file's `license` and the source repositories (for example
 [clshortfuse/renodx](https://github.com/clshortfuse/renodx), [NotVoosh/renodx-unity](https://github.com/NotVoosh/renodx-unity),
 [marat569/renodx](https://github.com/marat569/renodx)) for the licence texts and credits. This repository never hosts or lists
 NVIDIA's `nvngx_dlssnr.dll` or any other NVIDIA DLL.
+
+### `renodxDlss`
+
+ShortFuse's `renodx-dlss.addon64` has no official download channel. The builds are published as GitHub releases of
+`RankFTW/rhi-repo`, tagged `renodx-dlss-SF-<version>` (for example `26.1003.2350`, older ones `0.55`). Each release has one
+asset, a **zip** named `renodx-dlss_SF_<version>.zip` whose only entry is `renodx-dlss.addon64` at the root (about 1 MB).
+The generator reads `https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100`, keeps the releases with that tag
+that are neither drafts nor prereleases and have exactly one `.zip` asset, and lists the newest 10 by publish date.
+
+```json
+{
+  "updated": "2026-10-21T12:00:00Z",
+  "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
+  "builds": [
+    {
+      "tag": "renodx-dlss-SF-26.1003.2350",
+      "version": "26.1003.2350",
+      "published": "2026-10-03T23:55:00Z",
+      "file": { "name": "renodx-dlss_SF_26.1003.2350.zip", "arch": "x64", "url": "https://github.com/RankFTW/rhi-repo/releases/download/...", "sha256": "...", "size": 1000000, "version": "2026-10-21-ab12cd3", "firstSeen": "...", "mod": "renodx-dlss", "history": [] }
+    }
+  ]
+}
+```
+
+`file` is a normal file entry (above), so it has the hash, size, first-seen version, history and ETag like the others, but the
+repository has no licence: the build is **pinned, never mirrored**, so there is never a `mirrorUrl`. A reader downloads the
+zip from `url`, checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
+download. If the release list is unreachable, isn't a list or has no matching release, the run fails and the previous
+section stays; a single build whose download fails is a warning and keeps its last good entry.
 
 ### Being polite upstream
 

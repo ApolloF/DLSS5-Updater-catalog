@@ -88,6 +88,14 @@ public sealed class EngineGame
     public string Name { get; set; } = "";
     public string? Compat { get; set; }
     public string? Notes { get; set; }
+
+    // Unreal Extended only, read from the notes by UeExtendedNotes. Null = the notes don't say (and the JSON omits it).
+    /// <summary>"upgrade", "ini" or "native".</summary>
+    public string? Method { get; set; }
+    public List<UpgradeFormat>? Upgrades { get; set; }
+    /// <summary>"Upgrade Copy Destinations" On (true) or Off (false).</summary>
+    public bool? CopyDestinations { get; set; }
+    public List<IniSetting>? EngineIni { get; set; }
 }
 
 public sealed class OverrideBlock
@@ -149,6 +157,24 @@ public sealed class RenodxSection
     public List<ModEntry> Mods { get; set; } = [];
     public List<EngineGame> EngineGames { get; set; } = [];
     public OverrideBlock Overrides { get; set; } = new();
+}
+
+/// <summary>One published renodx-dlss build: the release it came from and the zip, pinned by hash.</summary>
+public sealed class DlssBuild
+{
+    public string Tag { get; set; } = "";
+    public string Version { get; set; } = "";
+    /// <summary>When the release was published (UTC).</summary>
+    public string Published { get; set; } = "";
+    public FileEntry File { get; set; } = new();
+}
+
+public sealed class RenodxDlssSection
+{
+    public string? Updated { get; set; }
+    public string Source { get; set; } = "";
+    /// <summary>Newest first.</summary>
+    public List<DlssBuild> Builds { get; set; } = [];
 }
 
 /// <summary>overrides.json: hand-maintained, one block per section.</summary>

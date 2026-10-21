@@ -27,6 +27,18 @@ public interface IMirror
 {
     /// <summary>Stores the file as an immutable release asset named by its hash and returns its download url. Existing assets are never overwritten.</summary>
     Task<string> PublishAsync(string fileName, string sha256, string month, string path, CancellationToken ct);
+
+    /// <summary>Sets the licence notices of the monthly release. The release's intro paragraph stays; nothing is written when the text is already there.</summary>
+    Task SetNotesAsync(string month, string body, CancellationToken ct);
+}
+
+/// <summary>A source repository's licence file as GitHub reports it.</summary>
+public sealed record LicenceNotice(string? Spdx, string? Url, string Text);
+
+public interface INoticeSource
+{
+    /// <summary>The licence file of <paramref name="repo"/> ("owner/repo"), null when it has none; throws when the lookup itself failed.</summary>
+    Task<LicenceNotice?> NoticeAsync(string repo, CancellationToken ct);
 }
 
 public sealed record SyncResult(FileEntry? Entry, string? Warning, string? Error);

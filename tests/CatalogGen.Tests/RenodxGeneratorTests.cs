@@ -47,12 +47,39 @@ public class RenodxGeneratorTests : IDisposable
     private sealed class RecordingMirror : IMirror
     {
         public List<string> Names { get; } = [];
+        public List<(string Month, string Body)> Notes { get; } = [];
+        public bool FailNotes;
 
         public Task<string> PublishAsync(string fileName, string sha256, string month, string path, CancellationToken ct)
         {
             lock (Names) Names.Add(fileName);
-            return Task.FromResult($"https://mirror.test/{month}/{sha256[..16]}-{fileName}");
+            return Task.FromResult($"https://mirror.test/mirror-{month}/{sha256[..16]}-{fileName}");
         }
+
+        public Task SetNotesAsync(string month, string body, CancellationToken ct)
+        {
+            if (FailNotes) throw new HttpRequestException("403");
+            Notes.Add((month, body));
+            return Task.CompletedTask;
+        }
+    }
+
+    private sealed class MitNotices : INoticeSource
+    {
+        public List<string> Repos { get; } = [];
+        public bool Fail;
+
+        public Task<LicenceNotice?> NoticeAsync(string repo, CancellationToken ct)
+        {
+            Repos.Add(repo);
+            if (Fail) throw new HttpRequestException("rate limited");
+            return Task.FromResult<LicenceNotice?>(new LicenceNotice("MIT", $"https://github.com/{repo}/blob/main/LICENSE", "MIT License\n\nCopyright (c) 2025 Someone\n"));
+        }
+    }
+
+    private sealed class NoLicence : ILicenceSource
+    {
+        public Task<string?> SpdxAsync(string repo, CancellationToken ct) => Task.FromResult<string?>(null);
     }
 
     private static Dictionary<string, string> Pages() => new()
@@ -61,8 +88,9 @@ public class RenodxGeneratorTests : IDisposable
         [RenodxSources.WikiUrl] = File.ReadAllText(Path.Combine("Fixtures", "Mods.sample.md")),
     };
 
-    private RenodxGenerator Generator(Dictionary<string, string> pages, Files files, IMirror? mirror = null, bool acceptShrink = false) =>
-        new(new Texts(pages), new FileSync(files, new Mit(), mirror), 4, acceptShrink, minIndexGames: 2, minWikiRows: 5);
+    private RenodxGenerator Generator(Dictionary<string, string> pages, Files files, IMirror? mirror = null, bool acceptShrink = false, INoticeSource? notices = null) =>
+        new(new Texts(pages), new FileSync(files, new Mit(), mirror), 4, acceptShrink, minIndexGames: 2, minWikiRows: 5,
+            notices: mirror is not null && notices is not null ? new MirrorNoticePublisher(notices, mirror) : null);
 
     [Fact]
     public async Task Every_file_gets_a_hash_and_a_url_shared_by_two_entries_is_fetched_once()
@@ -90,6 +118,65 @@ public class RenodxGeneratorTests : IDisposable
         Assert.All(all.Where(f => !f.Url.Contains("github.com/clshortfuse/")), f => Assert.Null(f.MirrorUrl));
         Assert.Contains("renodx-1000xresist.addon64", mirror.Names);
         Assert.DoesNotContain("renodx-ue-extended.addon64", mirror.Names);
+    }
+
+    [Fact]
+    public async Task The_notices_of_each_month_are_set_once_with_the_mirrored_files_of_their_repositories()
+    {
+        var mirror = new RecordingMirror();
+        var notices = new MitNotices();
+
+        var output = await Generator(Pages(), new Files(_dir), mirror, notices: notices).BuildAsync(null, new OverrideBlock(), Now, default);
+
+        var (month, body) = Assert.Single(mirror.Notes);
+        Assert.Equal("2026-10", month);
+        Assert.Empty(output.Errors);
+        Assert.Contains("### clshortfuse/renodx\n", body);
+        Assert.Contains("- Licence: MIT (https://github.com/clshortfuse/renodx/blob/main/LICENSE)", body);
+        Assert.Contains("  - Copyright (c) 2025 Someone\n", body);
+        var mirrored = output.Section.Mods.SelectMany(m => m.Files).Concat(output.Section.Generic.SelectMany(g => g.Files))
+            .Where(f => f.MirrorUrl is not null).ToList();
+        Assert.NotEmpty(mirrored);
+        Assert.All(mirrored, f => Assert.Contains("  - " + f.MirrorUrl![(f.MirrorUrl!.LastIndexOf('/') + 1)..] + "\n", body + "\n"));
+        Assert.DoesNotContain("marat569", body);
+        Assert.Equal(notices.Repos.Count, notices.Repos.Distinct().Count());
+    }
+
+    [Fact]
+    public async Task No_notices_are_set_when_nothing_is_mirrored()
+    {
+        var mirror = new RecordingMirror();
+
+        var generator = new RenodxGenerator(new Texts(Pages()), new FileSync(new Files(_dir), new NoLicence(), mirror), 4, false, 2, 5,
+            new MirrorNoticePublisher(new MitNotices(), mirror));
+        var output = await generator.BuildAsync(null, new OverrideBlock(), Now, default);
+
+        Assert.Empty(mirror.Notes);
+        Assert.Empty(mirror.Names);
+        Assert.Empty(output.Errors);
+    }
+
+    [Fact]
+    public async Task A_failed_notice_lookup_is_an_error_for_the_run_but_the_section_is_still_built()
+    {
+        var mirror = new RecordingMirror();
+
+        var output = await Generator(Pages(), new Files(_dir), mirror, notices: new MitNotices { Fail = true }).BuildAsync(null, new OverrideBlock(), Now, default);
+
+        Assert.Empty(mirror.Notes);
+        Assert.Contains(output.Errors, e => e.Contains("clshortfuse/renodx") && e.Contains("rate limited"));
+        Assert.NotEmpty(output.Section.Mods);
+    }
+
+    [Fact]
+    public async Task A_failed_notice_write_is_an_error_for_the_run_but_the_section_is_still_built()
+    {
+        var mirror = new RecordingMirror { FailNotes = true };
+
+        var output = await Generator(Pages(), new Files(_dir), mirror, notices: new MitNotices()).BuildAsync(null, new OverrideBlock(), Now, default);
+
+        Assert.Contains(output.Errors, e => e.Contains("mirror-2026-10") && e.Contains("403"));
+        Assert.NotEmpty(output.Section.Mods);
     }
 
     [Fact]
@@ -195,6 +282,22 @@ public class RenodxGeneratorTests : IDisposable
             """);
 
         Assert.False(schema.Evaluate(doc, new EvaluationOptions { OutputFormat = OutputFormat.List }).IsValid);
+    }
+
+    [Fact]
+    public void The_schema_checks_the_structured_unreal_extended_fields()
+    {
+        var schema = JsonSchema.FromText(File.ReadAllText(SchemaPath()));
+        string Doc(string game) => """
+            {"schema":1,"repository":"a/b","sections":{"renodx":{"updated":"2026-10-21T12:00:00Z","sources":[],"generic":[],"mods":[],"overrides":{},"engineGames":[GAME]}}}
+            """.Replace("GAME", game);
+        bool Valid(string game) => schema.Evaluate(JsonNode.Parse(Doc(game)), new EvaluationOptions { OutputFormat = OutputFormat.List }).IsValid;
+
+        Assert.True(Valid("""{"engine":"ue-extended","name":"X","method":"upgrade","upgrades":[{"format":"B8G8R8A8_TYPELESS","mode":"output-size"}],"copyDestinations":false,"engineIni":[{"section":"SystemSettings","key":"r.HDR.EnableHDROutput","value":"1"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","method":"magic"}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","upgrades":[{"format":"R8G8R8A8_TYPELESS","mode":"any-size"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","upgrades":[{"format":"R11G11B10_FLOAT","mode":"whatever"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","engineIni":[{"section":"SystemSettings","key":"foo","value":"1"}]}"""));
     }
 
     [Fact]

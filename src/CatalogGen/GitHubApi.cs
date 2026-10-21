@@ -8,9 +8,31 @@ using System.Text.RegularExpressions;
 namespace CatalogGen;
 
 /// <summary>Source repository licences, read from the GitHub API once per repository and run.</summary>
-public sealed class GitHubLicences(HttpClient http, string? token) : ILicenceSource
+public sealed class GitHubLicences(HttpClient http, string? token) : ILicenceSource, INoticeSource
 {
     private readonly ConcurrentDictionary<string, Lazy<Task<string?>>> _cache = new(StringComparer.OrdinalIgnoreCase);
+    private readonly ConcurrentDictionary<string, Lazy<Task<LicenceNotice?>>> _notices = new(StringComparer.OrdinalIgnoreCase);
+
+    public Task<LicenceNotice?> NoticeAsync(string repo, CancellationToken ct) =>
+        _notices.GetOrAdd(repo, r => new Lazy<Task<LicenceNotice?>>(() => NoticeLookupAsync(r, ct))).Value;
+
+    private async Task<LicenceNotice?> NoticeLookupAsync(string repo, CancellationToken ct)
+    {
+        using var req = GitHubRequest.Create(HttpMethod.Get, $"https://api.github.com/repos/{repo}/license", token);
+        using var res = await http.SendAsync(req, ct);
+        if (res.StatusCode == HttpStatusCode.NotFound) return null;
+        res.EnsureSuccessStatusCode();
+        using var doc = JsonDocument.Parse(await res.Content.ReadAsStringAsync(ct));
+        var root = doc.RootElement;
+        string? spdx = null;
+        if (root.TryGetProperty("license", out var l) && l.ValueKind == JsonValueKind.Object
+            && l.TryGetProperty("spdx_id", out var id) && id.GetString() is { } s && s != "NOASSERTION")
+            spdx = s;
+        var url = root.TryGetProperty("html_url", out var u) ? u.GetString() : null;
+        var content = root.TryGetProperty("content", out var c) ? c.GetString() : null;
+        var text = content is null ? "" : Encoding.UTF8.GetString(Convert.FromBase64String(content.Replace("\n", "").Replace("\r", "")));
+        return new LicenceNotice(spdx, url, text);
+    }
 
     public Task<string?> SpdxAsync(string repo, CancellationToken ct)
     {
@@ -29,6 +51,28 @@ public sealed class GitHubLicences(HttpClient http, string? token) : ILicenceSou
             && l.TryGetProperty("spdx_id", out var id) && id.GetString() is { } spdx && spdx != "NOASSERTION")
             return spdx;
         return null;
+    }
+}
+
+/// <summary>GitHub API JSON (releases lists), with the token so the run isn't held to the anonymous rate limit.</summary>
+public sealed class GitHubText(HttpClient http, string? token) : ITextSource
+{
+    public async Task<string> GetStringAsync(string url, CancellationToken ct)
+    {
+        for (var attempt = 1; ; attempt++)
+        {
+            try
+            {
+                using var req = GitHubRequest.Create(HttpMethod.Get, url, token);
+                using var res = await http.SendAsync(req, ct);
+                res.EnsureSuccessStatusCode();
+                return await res.Content.ReadAsStringAsync(ct);
+            }
+            catch (HttpRequestException) when (attempt < 3 && !ct.IsCancellationRequested)
+            {
+                await Task.Delay(TimeSpan.FromSeconds(5 * attempt), ct);
+            }
+        }
     }
 }
 
@@ -98,6 +142,27 @@ public sealed partial class GitHubMirror(HttpClient http, string repo, string to
         finally { release.Gate.Release(); }
     }
 
+    public async Task SetNotesAsync(string month, string body, CancellationToken ct)
+    {
+        var tag = $"mirror-{month}";
+        using var get = GitHubRequest.Create(HttpMethod.Get, $"https://api.github.com/repos/{repo}/releases/tags/{tag}", token);
+        using var found = await http.SendAsync(get, ct);
+        if (found.StatusCode == HttpStatusCode.NotFound) throw new HttpRequestException($"release {tag} does not exist");
+        found.EnsureSuccessStatusCode();
+        using var doc = JsonDocument.Parse(await found.Content.ReadAsStringAsync(ct));
+        var id = doc.RootElement.GetProperty("id").GetInt64();
+        var existing = doc.RootElement.TryGetProperty("body", out var b) && b.ValueKind == JsonValueKind.String ? b.GetString() : null;
+
+        var wanted = MirrorNotes.WithIntroOf(existing, body);
+        if (MirrorNotes.Normalize(existing) == wanted) return;
+
+        using var patch = GitHubRequest.Create(HttpMethod.Patch, $"https://api.github.com/repos/{repo}/releases/{id}", token);
+        patch.Content = new StringContent(JsonSerializer.Serialize(new { body = wanted }), Encoding.UTF8, "application/json");
+        using var res = await http.SendAsync(patch, ct);
+        if (!res.IsSuccessStatusCode)
+            throw new HttpRequestException($"updating the notes of {tag} returned {(int)res.StatusCode}: {Trim(await res.Content.ReadAsStringAsync(ct))}");
+    }
+
     private async Task<MonthRelease> EnsureReleaseAsync(string tag, CancellationToken ct)
     {
         using var get = GitHubRequest.Create(HttpMethod.Get, $"https://api.github.com/repos/{repo}/releases/tags/{tag}", token);
@@ -110,7 +175,7 @@ public sealed partial class GitHubMirror(HttpClient http, string repo, string to
             {
                 tag_name = tag,
                 name = tag,
-                body = "Immutable copies of upstream mod files, named by SHA-256 prefix. They belong to their authors under the licences listed in catalog.json; see the README.",
+                body = MirrorNotes.Intro,
                 make_latest = "false",
             }), Encoding.UTF8, "application/json");
             using var made = await http.SendAsync(create, ct);

@@ -64,6 +64,54 @@ public class UpstreamFetcherTests : IDisposable
         Assert.StartsWith(_dir, r.Path);
     }
 
+    private static byte[] Zip(params string[] entries)
+    {
+        using var ms = new MemoryStream();
+        using (var zip = new System.IO.Compression.ZipArchive(ms, System.IO.Compression.ZipArchiveMode.Create, true))
+            foreach (var name in entries)
+            {
+                using var w = zip.CreateEntry(name).Open();
+                w.Write(Pe(200));
+            }
+        return ms.ToArray();
+    }
+
+    [Theory]
+    [InlineData("renodx-dlss.addon64")]
+    [InlineData("RenoDX-DLSS.addon64")]
+    [InlineData("inner/renodx-dlss.addon64")]
+    public async Task A_zip_that_holds_the_add_on_is_accepted(string entry)
+    {
+        var fetcher = Fetcher(_ => Ok(Zip(entry)), out _);
+
+        var r = Assert.IsType<FetchResult.Fetched>(await fetcher.FetchAsync("https://x.test/renodx-dlss_SF_1.zip", null, default));
+
+        Assert.True(File.Exists(r.Path));
+    }
+
+    [Fact]
+    public async Task A_zip_without_the_add_on_is_rejected_and_leaves_no_file()
+    {
+        var fetcher = Fetcher(_ => Ok(Zip("readme.txt", "other.addon64")), out _);
+
+        var r = Assert.IsType<FetchResult.Failed>(await fetcher.FetchAsync("https://x.test/a.zip", null, default));
+
+        Assert.Contains("renodx-dlss.addon64", r.Reason);
+        Assert.Empty(Directory.GetFiles(_dir));
+    }
+
+    [Fact]
+    public async Task A_truncated_zip_is_rejected()
+    {
+        var bytes = Zip("renodx-dlss.addon64");
+        var fetcher = Fetcher(_ => Ok(bytes[..(bytes.Length / 2)]), out _);
+
+        var r = Assert.IsType<FetchResult.Failed>(await fetcher.FetchAsync("https://x.test/a.zip", null, default));
+
+        Assert.Contains("zip", r.Reason);
+        Assert.Empty(Directory.GetFiles(_dir));
+    }
+
     [Fact]
     public async Task An_html_page_is_rejected_and_leaves_no_file()
     {

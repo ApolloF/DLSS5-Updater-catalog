@@ -11,7 +11,8 @@ public interface ITextSource
 public sealed record GeneratorOutput(RenodxSection Section, List<string> Warnings, List<string> Errors);
 
 /// <summary>Builds the <c>renodx</c> section: lists, merge, overrides, then every binary through <see cref="FileSync"/>.</summary>
-public sealed class RenodxGenerator(ITextSource text, FileSync sync, int parallelism = 4, bool acceptShrink = false, int minIndexGames = 50, int minWikiRows = 100)
+public sealed class RenodxGenerator(ITextSource text, FileSync sync, int parallelism = 4, bool acceptShrink = false, int minIndexGames = 50, int minWikiRows = 100,
+    MirrorNoticePublisher? notices = null)
 {
     public async Task<GeneratorOutput> BuildAsync(RenodxSection? previous, OverrideBlock overrides, DateTimeOffset now, CancellationToken ct)
     {
@@ -53,6 +54,8 @@ public sealed class RenodxGenerator(ITextSource text, FileSync sync, int paralle
         var warnings = new List<string>(built.Warnings);
         var errors = new List<string>();
         await SyncFilesAsync(section, previous, now, warnings, errors, ct);
+        if (notices is not null)
+            await notices.PublishAsync(section.Mods.SelectMany(m => m.Files).Concat(section.Generic.SelectMany(g => g.Files)), errors, ct);
         return new GeneratorOutput(section, warnings, errors);
     }
 
