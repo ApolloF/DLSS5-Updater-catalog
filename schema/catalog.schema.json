@@ -11,7 +11,7 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas (luma, feeder) are added as new keys.",
+      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters`, `luma` and `shaderPacks` exist so far; later areas (feeder) are added as new keys.",
       "properties": {
         "renodx": { "$ref": "#/$defs/renodxSection" },
         "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" },
@@ -19,6 +19,7 @@
         "optiscalerCompat": { "$ref": "#/$defs/optiscalerCompatSection" },
         "addons": { "$ref": "#/$defs/addonsSection" },
         "frameLimiters": { "$ref": "#/$defs/frameLimitersSection" },
+        "luma": { "$ref": "#/$defs/lumaSection" },
         "shaderPacks": { "$ref": "#/$defs/shaderPacksSection" }
       },
       "additionalProperties": true
@@ -376,6 +377,70 @@
         "updated": { "$ref": "#/$defs/utcTime" },
         "sources": { "type": "array", "items": { "type": "object", "required": ["url", "count"], "properties": { "url": { "type": "string", "format": "uri" }, "count": { "type": "integer" } } } },
         "limiters": { "type": "array", "items": { "$ref": "#/$defs/limiter" } }
+      },
+      "additionalProperties": true
+    },
+
+    "lumaSection": {
+      "description": "Luma Framework (Filoppi/Luma-Framework): the wiki's completed mods and generic Unreal Engine games, merged with the zips of the latest release. Licence NOASSERTION: every zip is pinned (upstream URL plus hash), never mirrored.",
+      "type": "object",
+      "required": ["updated", "sources", "release", "packages", "mods", "unrealPackage", "unrealGames"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime" },
+        "sources": { "type": "array", "items": { "type": "object", "required": ["url", "count"], "properties": { "url": { "type": "string", "format": "uri" }, "count": { "type": "integer" } } } },
+        "release": { "type": "string", "description": "The release tag the zips were read from (`latest-755`). Part of every file URL." },
+        "license": { "type": "string" },
+        "packages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "files"],
+            "properties": {
+              "id": { "type": "string", "description": "Release asset `Luma-<id>.zip` without the bitness suffix: `Prey`, `BioShock_Series`, `Unity_Engine`, `Unreal_Engine`." },
+              "files": { "type": "array", "items": { "$ref": "#/$defs/file" }, "description": "`x64` = `Luma-<id>.zip`, `x86` = `Luma-<id>-x32.zip`. Either may be absent." }
+            },
+            "additionalProperties": true
+          }
+        },
+        "mods": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "name"],
+            "properties": {
+              "id": { "type": "string" },
+              "name": { "type": "string" },
+              "authors": { "type": "array", "items": { "type": "string" } },
+              "status": { "enum": ["working", "in-progress"], "description": "Absent for a zip the wiki does not list." },
+              "notes": { "type": "string" },
+              "links": { "type": "object" },
+              "package": { "type": "string", "description": "`id` of a package; absent when the mod is published elsewhere (Nexus Mods)." },
+              "requiresDgVoodoo": { "type": "boolean" },
+              "dgVoodooVersions": { "type": "array", "items": { "type": "string" } },
+              "dgVoodooSetup": { "type": "array", "items": { "type": "string" } },
+              "featuresUrl": { "type": "string", "format": "uri" }
+            },
+            "additionalProperties": true
+          }
+        },
+        "unrealPackage": { "type": "string", "description": "`id` of the package that is the generic Unreal Engine mod." },
+        "unrealGames": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "dlss": { "enum": ["yes", "blocked", "in-progress"] },
+              "hdr": { "enum": ["yes", "blocked", "in-progress"] },
+              "ueVersion": { "type": "string" },
+              "notes": { "type": "string" },
+              "engineIni": { "type": "array", "items": { "type": "object", "required": ["section", "key", "value"], "properties": { "section": { "type": "string" }, "key": { "type": "string" }, "value": { "type": "string" } } } },
+              "launchArgs": { "type": "array", "items": { "type": "string" } }
+            },
+            "additionalProperties": true
+          }
+        }
       },
       "additionalProperties": true
     },
