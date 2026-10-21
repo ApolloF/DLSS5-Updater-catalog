@@ -11,7 +11,7 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. Only `renodx` exists so far; later areas (Luma, add-ons,
+`catalog.json` has a schema version and independent sections. `renodx` and `renodxDlss` exist so far; later areas (Luma, add-ons,
 shader packs, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching this one. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
@@ -30,6 +30,11 @@ output against it.
       "mods":    [ ... ],            one entry per game
       "engineGames": [ ... ],        games the wiki lists as working with a generic add-on
       "overrides": { ... }           copy of overrides.json, for the app's matcher
+    },
+    "renodxDlss": {
+      "updated": "...",
+      "source": "...",               the releases API url the builds were read from
+      "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
     }
   }
 }
@@ -88,7 +93,8 @@ A **file** entry:
 | `mod` | The index mod the file belongs to |
 
 Every binary is downloaded by the generator, hashed, size-checked and must start with `MZ` (an HTML error page is never
-recorded as a build). A file that fails keeps its last good entry, or is left out if it never had one.
+recorded as a build). The one exception is a zip (`PK`), accepted only when its central directory lists an entry
+named `renodx-dlss.addon64`. A file that fails keeps its last good entry, or is left out if it never had one.
 
 ### Mirror or pinned
 
@@ -105,6 +111,35 @@ pinning, not a new distribution: see each file's `license` and the source reposi
 [clshortfuse/renodx](https://github.com/clshortfuse/renodx), [NotVoosh/renodx-unity](https://github.com/NotVoosh/renodx-unity),
 [marat569/renodx](https://github.com/marat569/renodx)) for the licence texts and credits. This repository never hosts or lists
 NVIDIA's `nvngx_dlssnr.dll` or any other NVIDIA DLL.
+
+### `renodxDlss`
+
+ShortFuse's `renodx-dlss.addon64` has no official download channel. The builds are published as GitHub releases of
+`RankFTW/rhi-repo`, tagged `renodx-dlss-SF-<version>` (for example `26.1003.2350`, older ones `0.55`). Each release has one
+asset, a **zip** named `renodx-dlss_SF_<version>.zip` whose only entry is `renodx-dlss.addon64` at the root (about 1 MB).
+The generator reads `https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100`, keeps the releases with that tag
+that are neither drafts nor prereleases and have exactly one `.zip` asset, and lists the newest 10 by publish date.
+
+```json
+{
+  "updated": "2026-10-21T12:00:00Z",
+  "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
+  "builds": [
+    {
+      "tag": "renodx-dlss-SF-26.1003.2350",
+      "version": "26.1003.2350",
+      "published": "2026-10-03T23:55:00Z",
+      "file": { "name": "renodx-dlss_SF_26.1003.2350.zip", "arch": "x64", "url": "https://github.com/RankFTW/rhi-repo/releases/download/...", "sha256": "...", "size": 1000000, "version": "2026-10-21-ab12cd3", "firstSeen": "...", "mod": "renodx-dlss", "history": [] }
+    }
+  ]
+}
+```
+
+`file` is a normal file entry (above), so it has the hash, size, first-seen version, history and ETag like the others, but the
+repository has no licence: the build is **pinned, never mirrored**, so there is never a `mirrorUrl`. A reader downloads the
+zip from `url`, checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
+download. If the release list is unreachable, isn't a list or has no matching release, the run fails and the previous
+section stays; a single build whose download fails is a warning and keeps its last good entry.
 
 ### Being polite upstream
 

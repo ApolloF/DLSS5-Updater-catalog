@@ -32,6 +32,28 @@ public sealed class GitHubLicences(HttpClient http, string? token) : ILicenceSou
     }
 }
 
+/// <summary>GitHub API JSON (releases lists), with the token so the run isn't held to the anonymous rate limit.</summary>
+public sealed class GitHubText(HttpClient http, string? token) : ITextSource
+{
+    public async Task<string> GetStringAsync(string url, CancellationToken ct)
+    {
+        for (var attempt = 1; ; attempt++)
+        {
+            try
+            {
+                using var req = GitHubRequest.Create(HttpMethod.Get, url, token);
+                using var res = await http.SendAsync(req, ct);
+                res.EnsureSuccessStatusCode();
+                return await res.Content.ReadAsStringAsync(ct);
+            }
+            catch (HttpRequestException) when (attempt < 3 && !ct.IsCancellationRequested)
+            {
+                await Task.Delay(TimeSpan.FromSeconds(5 * attempt), ct);
+            }
+        }
+    }
+}
+
 internal static class GitHubRequest
 {
     public static HttpRequestMessage Create(HttpMethod method, string url, string? token)

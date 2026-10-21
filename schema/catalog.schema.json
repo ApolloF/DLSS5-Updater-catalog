@@ -11,9 +11,10 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. Only `renodx` exists so far; later areas (luma, addons, shaderPacks, feeder, optiscalerCompat) are added as new keys.",
+      "description": "One entry per catalog area. `renodx` and `renodxDlss` exist so far; later areas (luma, addons, shaderPacks, feeder, optiscalerCompat) are added as new keys.",
       "properties": {
-        "renodx": { "$ref": "#/$defs/renodxSection" }
+        "renodx": { "$ref": "#/$defs/renodxSection" },
+        "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" }
       },
       "additionalProperties": true
     }
@@ -190,6 +191,30 @@
             "properties": { "steamAppId": { "type": "integer" }, "name": { "type": "string" }, "path": { "type": "string" } }
           }
         }
+      },
+      "additionalProperties": true
+    },
+
+    "dlssBuild": {
+      "description": "One renodx-dlss release. `file` is a zip whose only entry is `renodx-dlss.addon64`; it is pinned by hash and never mirrored.",
+      "type": "object",
+      "required": ["tag", "version", "published", "file"],
+      "properties": {
+        "tag": { "type": "string", "description": "Release tag, renodx-dlss-SF-<version>." },
+        "version": { "type": "string", "description": "The part of the tag after renodx-dlss-SF-, e.g. 26.1003.2350 or 0.55." },
+        "published": { "$ref": "#/$defs/utcTime" },
+        "file": { "$ref": "#/$defs/file" }
+      },
+      "additionalProperties": true
+    },
+
+    "renodxDlssSection": {
+      "type": "object",
+      "required": ["updated", "source", "builds"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime", "description": "When this section's content last changed." },
+        "source": { "type": "string", "format": "uri", "description": "The releases API url the builds were read from." },
+        "builds": { "type": "array", "items": { "$ref": "#/$defs/dlssBuild" }, "description": "At most 10, newest first." }
       },
       "additionalProperties": true
     },

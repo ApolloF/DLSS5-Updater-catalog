@@ -6,7 +6,7 @@ namespace CatalogGen;
 
 /// <summary>
 /// Downloads upstream binaries politely: conditional requests (ETag / Last-Modified) when a previous build is known,
-/// and the body is only read when the size or ETag changed. Rejects anything that isn't a PE file (HTML error pages).
+/// and the body is only read when the size or ETag changed. Rejects anything that isn't a PE file or a zip holding the add-on (HTML error pages).
 /// </summary>
 public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? retryDelay = null) : IFetcher
 {
@@ -68,7 +68,7 @@ public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? r
         {
             using var sha = SHA256.Create();
             long size = 0;
-            var head = new byte[2];
+            var head = new byte[4];
             var headLen = 0;
             await using (var src = await res.Content.ReadAsStreamAsync(ct))
             await using (var dst = new FileStream(path, FileMode.Create, FileAccess.Write, FileShare.None, 1 << 20, true))
@@ -77,7 +77,7 @@ public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? r
                 int read;
                 while ((read = await src.ReadAsync(buffer, ct)) > 0)
                 {
-                    for (var i = 0; i < read && headLen < 2; i++) head[headLen++] = buffer[i];
+                    for (var i = 0; i < read && headLen < head.Length; i++) head[headLen++] = buffer[i];
                     sha.TransformBlock(buffer, 0, read, null, 0);
                     await dst.WriteAsync(buffer.AsMemory(0, read), ct);
                     size += read;
@@ -85,10 +85,10 @@ public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? r
             }
             sha.TransformFinalBlock([], 0, 0);
 
-            if (headLen < 2 || head[0] != 'M' || head[1] != 'Z')
+            if (DownloadCheck.Problem(path, head.AsSpan(0, headLen)) is { } problem)
             {
                 File.Delete(path);
-                return new FetchResult.Failed("not a Windows executable (no MZ header, probably an HTML page)");
+                return new FetchResult.Failed(problem);
             }
             if (res.Content.Headers.ContentLength is { } expected && expected != size)
             {
