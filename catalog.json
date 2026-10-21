@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-10-21T07:18:45Z",
+      "updated": "2026-10-21T08:06:58Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -85,8 +85,8 @@
               "version": "2026-10-21-48fa2f3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-425be00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-425be00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/48fa2f37d7ccfda9-renodx-ue-extended.addon64",
               "history": []
@@ -1189,8 +1189,8 @@
               "version": "2026-10-21-b7fa531",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fcc-620800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:24 GMT",
+              "etag": "\"6ad79fca-620800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:22 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b7fa53126945efb5-renodx-atelierryzadx.addon64",
               "history": []
@@ -1218,8 +1218,8 @@
               "version": "2026-10-21-d024181",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-257000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-257000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d024181da60a9443-renodx-sophie1.addon64",
               "history": []
@@ -1519,8 +1519,8 @@
               "version": "2026-10-21-1353ed7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad82979-256000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
+              "etag": "\"6ad8297a-256000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/1353ed7116620259-renodx-BerserkBotH.addon64",
               "history": []
@@ -2824,8 +2824,8 @@
               "version": "2026-10-21-d9aad79",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13983-201a00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
+              "etag": "\"6ad13982-201a00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d9aad79682d48d40-renodx-daysgone.addon64",
               "history": []
@@ -2854,8 +2854,8 @@
               "version": "2026-10-21-3f30d93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad4082f-3d0600\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:43 GMT",
+              "etag": "\"6ad4082e-3d0600\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:42 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3f30d937d3891505-renodx-deadislandde.addon64",
               "history": []
@@ -3437,8 +3437,8 @@
               "version": "2026-10-21-ec0bfe0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-26b400\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13983-26b400\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec0bfe0b49de9b60-renodx-dragonsdogma2.addon64",
               "history": []
@@ -3830,8 +3830,8 @@
               "version": "2026-10-21-86215dd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-26c600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297a-26c600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/86215ddecb6098ce-renodx-fantasianneodimension.addon64",
               "history": []
@@ -4252,8 +4252,8 @@
               "version": "2026-10-21-0c78785",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13981-221200\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
+              "etag": "\"6ad13982-221200\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/0c78785c49d30069-renodx-forzahorizon6.addon64",
               "history": []
@@ -4694,8 +4694,8 @@
               "version": "2026-10-21-85a3bbd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-4aee00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40830-4aee00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:44 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/85a3bbdb8018d203-renodx-guildwars2.addon64",
               "history": []
@@ -5620,8 +5620,8 @@
               "version": "2026-10-21-981cd8e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b0-280c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
+              "etag": "\"6ac0e4b1-280c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/981cd8e6908c2a9c-renodx-legohpc.addon64",
               "history": []
@@ -5787,8 +5787,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -5973,8 +5973,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b3-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -6410,8 +6410,8 @@
               "version": "2026-10-21-9fd338d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-27be00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-27be00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9fd338d56e1a2d8d-renodx-metroidprime.addon64",
               "history": []
@@ -6497,8 +6497,8 @@
               "version": "2026-10-21-9eb522e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-268e00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-268e00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9eb522e5066e82a5-renodx-mhgu.addon64",
               "history": []
@@ -6753,8 +6753,8 @@
               "version": "2026-10-21-8a22097",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-230c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-230c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a22097869d7dfff-renodx-nierreplicant.addon64",
               "history": []
@@ -6782,8 +6782,8 @@
               "version": "2026-10-21-70ca03b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-25ac00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-25ac00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/70ca03bd323a365e-renodx-nightsofazure1.addon64",
               "history": []
@@ -6811,8 +6811,8 @@
               "version": "2026-10-21-4988bb6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-257a00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297b-257a00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/4988bb60ecd7b26f-renodx-nightsofazure2.addon64",
               "history": []
@@ -7585,8 +7585,8 @@
               "version": "2026-10-21-872d320",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-269200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-269200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/872d320939fa83bf-renodx-raidou.addon64",
               "history": []
@@ -8051,8 +8051,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -8389,8 +8389,8 @@
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1288-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -8589,8 +8589,8 @@
               "version": "2026-10-21-8bd95b4",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-338e00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-338e00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8bd95b46d4fc7d2e-renodx-smt5.addon64",
               "history": []
@@ -8879,8 +8879,8 @@
               "version": "2026-10-21-b546e4a",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-21fc00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-21fc00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b546e4ad0eef8ec3-renodx-sonicunleashedrecomp.addon64",
               "history": []
@@ -9020,8 +9020,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -9053,8 +9053,8 @@
               "version": "2026-10-21-9345234",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-2d6000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b4-2d6000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/93452345af06d1cf-renodx-splatoon2.addon64",
               "history": []
@@ -9086,8 +9086,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -9346,8 +9346,8 @@
               "version": "2026-10-21-266ef81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-22e200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-22e200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/266ef81bbca05104-renodx-sopffo.addon64",
               "history": []
@@ -9587,8 +9587,8 @@
               "version": "2026-10-21-c543ce7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40832-26bc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
+              "etag": "\"6ad40831-26bc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c543ce706fca2cca-renodx-teardown.addon64",
               "history": []
@@ -9715,8 +9715,8 @@
               "version": "2026-10-21-a1c38d9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad1dfe8-33ae00\"",
-              "lastModified": "Fri, 16 Oct 2026 08:27:20 GMT",
+              "etag": "\"6ad1dfe9-33ae00\"",
+              "lastModified": "Fri, 16 Oct 2026 08:27:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a1c38d93ffa65419-renodx-callistoprotocol.addon64",
               "history": []
@@ -9816,8 +9816,8 @@
               "version": "2026-10-21-fa7c51f",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-261600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-261600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/fa7c51f8a4c0a201-renodx-tew2.addon64",
               "history": []
@@ -10035,8 +10035,8 @@
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b0-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -10068,8 +10068,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b5-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -10264,8 +10264,8 @@
               "version": "2026-10-21-8a84c93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-288000\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13985-288000\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:25 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a84c9361b33c1e3-renodx-thewitcher3remastered.addon64",
               "history": []
@@ -10371,8 +10371,8 @@
               "version": "2026-10-21-d22538d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fcd-266800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:25 GMT",
+              "etag": "\"6ad79fce-266800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:26 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d22538d296ac968b-renodx-terraria-tml.addon64",
               "history": []
@@ -10895,8 +10895,8 @@
               "version": "2026-10-21-ec7e155",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-233800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-233800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec7e155fc413945e-renodx-wolong.addon64",
               "history": []
@@ -11042,8 +11042,8 @@
               "version": "2026-10-21-c32aaee",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c7-141000\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "etag": "\"6999a1c8-141000\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c32aaee51f894864-renodx-xcom2.addon64",
               "history": []
@@ -11071,8 +11071,8 @@
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b5-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "etag": "\"6ac0e4b2-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -11104,8 +11104,8 @@
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b5-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "etag": "\"6ac0e4b3-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -11167,8 +11167,8 @@
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128b-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:31 GMT",
+              "etag": "\"6abc1289-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -11229,8 +11229,8 @@
               "version": "2026-10-21-f11c2af",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-24fa00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-24fa00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f11c2afa8153644c-renodx-ys10.addon64",
               "history": []
@@ -11363,493 +11363,644 @@
           "engine": "ue-extended",
           "name": "A Way Out",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Lacks testing."
+          "notes": "Upgrade Path: On. Lacks testing.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Abiotic Factor",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "ABZÛ",
           "compat": "working",
-          "notes": "Upgrade Path: On\nB8G8R8A8_TYPELESS Output Size for 100% render resolution or Output Ratio for other percentages."
+          "notes": "Upgrade Path: On\nB8G8R8A8_TYPELESS Output Size for 100% render resolution or Output Ratio for other percentages.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Assetto Corsa Competizione",
           "compat": "working",
-          "notes": "Native HDR, need to load in-game for HDR to toggle."
+          "notes": "Native HDR, need to load in-game for HDR to toggle.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Assetto Corsa Rally",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Astroneer",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading and flickering issues."
+          "notes": "Upgrade Path: On. Grading and flickering issues.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Black Myth: Wukong",
           "compat": "working",
-          "notes": "Engine.ini, Only add r.HDR.EnableHDROutput=1 to Engine.ini."
+          "notes": "Engine.ini, Only add r.HDR.EnableHDROutput=1 to Engine.ini.",
+          "method": "ini",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.HDR.EnableHDROutput",
+              "value": "1"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Bodycam",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Borderlands 4",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Chained Together",
           "compat": "working",
-          "notes": "Engine.ini, Slider do not change in real-time."
+          "notes": "Engine.ini, Slider do not change in real-time.",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Choo-Choo Charles",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Chromatic Conundrum",
           "compat": "working",
-          "notes": "Upgrade Path: Off. Broken rendering when enabled."
+          "notes": "Upgrade Path: Off. Broken rendering when enabled.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Conan Exiles Enhanced",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Crab Champions",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Days Gone",
           "compat": "in-progress",
-          "notes": "Native HDR. Lacks testing."
+          "notes": "Native HDR. Lacks testing.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Dead as Disco",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Deep Rock Galactic",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Deep Rock Galactic: Rogue Core",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Native HDR is broken."
+          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Native HDR is broken.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "R10G10B10A2_UNORM",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Deliver Us The Moon",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "End of Abyss",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Engine.ini HDR can't be used due to issues with saving game progress."
+          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Engine.ini HDR can't be used due to issues with saving game progress.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "R10G10B10A2_UNORM",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Escape the Backrooms",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Lacks testing."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Lacks testing.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Everwind",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Far Far West",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "FlyKnight Enhanced Edition",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Multiple in-game filters change HDR presentation, Lacks testing."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Multiple in-game filters change HDR presentation, Lacks testing.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Frostpunk 2",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. UI slider controls paper white."
+          "notes": "Upgrade Path: On. UI slider controls paper white.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Ghostrunner",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Ghostrunner 2",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing."
+          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Ghostwire: Tokyo",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Goat Simulator 3",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Gothic 1 Remake",
           "compat": "in-progress",
-          "notes": "Native HDR. Tonemapping issues."
+          "notes": "Native HDR. Tonemapping issues.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Grand Theft Auto: The Trilogy – The Definitive Edition (III, Vice City, San Andreas)",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Grounded 2",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Half Sword",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Hellblade II: Senua’s Saga",
           "compat": "in-progress",
-          "notes": "Native HDR, Slider do not change in real-time. Lacks testing."
+          "notes": "Native HDR, Slider do not change in real-time. Lacks testing.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Hi-Fi Rush",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. Gameplay and highlights are clamped to UI brightness.\nUpgrade Copy Destinations Off\nR8G8R8A8_TYPELESS Any Size"
+          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. Gameplay and highlights are clamped to UI brightness.\nUpgrade Copy Destinations Off\nR8G8R8A8_TYPELESS Any Size",
+          "method": "upgrade",
+          "copyDestinations": false
         },
         {
           "engine": "ue-extended",
           "name": "Hydroneer",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "inZOI",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "It Takes Two",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Jusant",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "LEGO Batman: Legacy of the Dark Knight",
           "compat": "in-progress",
-          "notes": "Native HDR, Sliders do not change in real-time, Lacks testing."
+          "notes": "Native HDR, Sliders do not change in real-time, Lacks testing.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Lies of P",
           "compat": "in-progress",
-          "notes": "Native HDR, Sliders do not change in real-time, Lacks testing."
+          "notes": "Native HDR, Sliders do not change in real-time, Lacks testing.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares Enhanced",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares II",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading issues."
+          "notes": "Upgrade Path: On. Grading issues.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares II Enhanced",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading issues."
+          "notes": "Upgrade Path: On. Grading issues.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Lords of the Fallen",
           "compat": "in-progress",
-          "notes": "Native HDR. Tonemapping issues."
+          "notes": "Native HDR. Tonemapping issues.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Luto",
           "compat": "in-progress",
-          "notes": "Engine.ini. UI and some graphical effects cause tonemapping issues, needs more testing."
+          "notes": "Engine.ini. UI and some graphical effects cause tonemapping issues, needs more testing.",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Mafia: The Old Country",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Marsupilami 2: Salsa Palombia",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "MECCHA CHAMELEON",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Mortal Shell II",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Motor Town: Behind The Wheel",
           "compat": "working",
-          "notes": "Upgrade Path: On. Sliders do not change in real-time."
+          "notes": "Upgrade Path: On. Sliders do not change in real-time.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Nikoderiko: The Magical World",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Nobody Wants to Die",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Pacific Drive",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Palworld",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Lacks testing."
+          "notes": "Upgrade Path: On. Lacks testing.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Persona 3 Reload",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Pih",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Quarantine Zone: The Last Check",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Ready or Not",
           "compat": "in-progress",
-          "notes": "Engine.ini, Sliders do not change in real-time, Lacks testing."
+          "notes": "Engine.ini, Sliders do not change in real-time, Lacks testing.",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "RV There Yet",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Satisfactory",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "Scorn",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Sifu",
           "compat": "working",
-          "notes": "Upgrade Path: On. Limited brightness."
+          "notes": "Upgrade Path: On. Limited brightness.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Solarpunk",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "STAR WARS Zero Company",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Still Wakes the Deep",
           "compat": "working",
-          "notes": "Native HDR. Sliders do not change in real-time."
+          "notes": "Native HDR. Sliders do not change in real-time.",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Stray",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "Subnautica 2",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "System Shock Remake",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "The Alters",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "The Blood of Dawnwalker",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "The Enjenir: The Engineering Physics Building Simulator",
           "compat": "working",
-          "notes": "Engine.ini"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
           "name": "The First Berserker: Khazan",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing."
+          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing.",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "The Forgotten City",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "The iDOLM@STER: Starlit Season",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. DX11; refused to boot up DX12 as Low Level Fatal Error Line: 266\nCamped to UI brightness has issues with Commu's blue lighting, as well for the stage lighting on the top. Small cameras with multiple idols during certain Commus does not highlight the HDR.\nUpgrade Copy Destinations Off\nB8G8R8A8_TYPELESS Any Size"
+          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. DX11; refused to boot up DX12 as Low Level Fatal Error Line: 266\nCamped to UI brightness has issues with Commu's blue lighting, as well for the stage lighting on the top. Small cameras with multiple idols during certain Commus does not highlight the HDR.\nUpgrade Copy Destinations Off\nB8G8R8A8_TYPELESS Any Size",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "any-size"
+            }
+          ],
+          "copyDestinations": false
         },
         {
           "engine": "ue-extended",
           "name": "THRESHOLD",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size."
+          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
+          "method": "upgrade",
+          "upgrades": [
+            {
+              "format": "B8G8R8A8_TYPELESS",
+              "mode": "output-size"
+            }
+          ]
         },
         {
           "engine": "ue-extended",
           "name": "Tokyo Xtreme Racer",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "Until Dawn",
           "compat": "working",
-          "notes": "Native HDR"
+          "notes": "Native HDR",
+          "method": "native"
         },
         {
           "engine": "ue-extended",
           "name": "VHOLUME",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "ue-extended",
           "name": "What Remains of Edith Finch",
           "compat": "working",
-          "notes": "Upgrade Path: On"
+          "notes": "Upgrade Path: On",
+          "method": "upgrade"
         },
         {
           "engine": "unity",
@@ -15494,7 +15645,203 @@
         "ueExtendedOptOut": [],
         "engineIniPaths": []
       }
+    },
+    "renodxDlss": {
+      "updated": "2026-10-21T08:06:58Z",
+      "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
+      "builds": [
+        {
+          "tag": "renodx-dlss-SF-26.1003.2350",
+          "version": "26.1003.2350",
+          "published": "2026-10-04T07:59:13Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.1003.2350.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.1003.2350/renodx-dlss_SF_26.1003.2350.zip",
+            "sha256": "34ef92d6742bf6d05df42ff81c04b70f5138b0a0a970a93f1a04295ac83f7f0f",
+            "size": 1150675,
+            "version": "2026-10-21-34ef92d",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF21ED60FA4D47\"",
+            "lastModified": "Sun, 04 Oct 2026 07:59:12 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0928.0205",
+          "version": "26.0928.0205",
+          "published": "2026-09-29T14:22:19Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0928.0205.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0928.0205/renodx-dlss_SF_26.0928.0205.zip",
+            "sha256": "6091f47a2248854eb1779b2c3b97939f1fbe53adbae7d1642ada236fcc0b6f52",
+            "size": 1128107,
+            "version": "2026-10-21-6091f47",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF1E35114A626B\"",
+            "lastModified": "Tue, 29 Sep 2026 14:22:18 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0927.2125",
+          "version": "26.0927.2125",
+          "published": "2026-09-28T05:38:17Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0927.2125.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0927.2125/renodx-dlss_SF_26.0927.2125.zip",
+            "sha256": "2ccf4605ea8fd2b3be72d1aee13fad1ae4ef66845845f5db97503eb6f70b00bf",
+            "size": 1123438,
+            "version": "2026-10-21-2ccf460",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF1D22B2086A1D\"",
+            "lastModified": "Mon, 28 Sep 2026 05:38:16 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0922.0041",
+          "version": "26.0922.0041",
+          "published": "2026-09-23T12:19:49Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0922.0041.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0922.0041/renodx-dlss_SF_26.0922.0041.zip",
+            "sha256": "ee24bfb96de2fa9fab6ae9188507870dafbd8ed55343f9f5cbbe92531a5bab70",
+            "size": 1097487,
+            "version": "2026-10-21-ee24bfb",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF196CF67C599B\"",
+            "lastModified": "Wed, 23 Sep 2026 12:19:49 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0919.2025",
+          "version": "26.0919.2025",
+          "published": "2026-09-20T12:24:35Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0919.2025.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0919.2025/renodx-dlss_SF_26.0919.2025.zip",
+            "sha256": "d0f0d05a1eafdff080844de4b43745c54da0aa313cb23c4b20c54977eb99bc37",
+            "size": 1053874,
+            "version": "2026-10-21-d0f0d05",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF171221682AC6\"",
+            "lastModified": "Sun, 20 Sep 2026 12:24:34 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0917.1904",
+          "version": "26.0917.1904",
+          "published": "2026-09-18T05:54:53Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0917.1904.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0917.1904/renodx-dlss_SF_26.0917.1904.zip",
+            "sha256": "a2856a44aa7138a784cdd1b1300a609cae4b5b0b218101ec3b700b7454a54ebf",
+            "size": 1053352,
+            "version": "2026-10-21-a2856a4",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF15495BE6F7E3\"",
+            "lastModified": "Fri, 18 Sep 2026 05:54:52 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0917.1436",
+          "version": "26.0917.1436",
+          "published": "2026-09-17T20:57:59Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0917.1436.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0917.1436/renodx-dlss_SF_26.0917.1436.zip",
+            "sha256": "846278e1e80764a12360933632b353e3c23a2c787574664b9ccc65bf227cd498",
+            "size": 1038284,
+            "version": "2026-10-21-846278e",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF14FE5AD8D4A5\"",
+            "lastModified": "Thu, 17 Sep 2026 20:57:58 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-26.0917.1145",
+          "version": "26.0917.1145",
+          "published": "2026-09-17T16:48:47Z",
+          "file": {
+            "name": "renodx-dlss_SF_26.0917.1145.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-26.0917.1145/renodx-dlss_SF_26.0917.1145.zip",
+            "sha256": "8404144c24f1a7bb0f8fa4216a897a460c588099bac13c6fcc11e3621f643f97",
+            "size": 1007408,
+            "version": "2026-10-21-8404144",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF14DB8A623A04\"",
+            "lastModified": "Thu, 17 Sep 2026 16:48:46 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-0.55",
+          "version": "0.55",
+          "published": "2026-09-11T20:35:44Z",
+          "file": {
+            "name": "renodx-dlss_SF_0.55.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-0.55/renodx-dlss_SF_0.55.zip",
+            "sha256": "a08d6afa0291d3a185beb35ea4b34ed7b01e3e312a072206090f286d52cf5990",
+            "size": 1071756,
+            "version": "2026-10-21-a08d6af",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF104440BD6F7E\"",
+            "lastModified": "Fri, 11 Sep 2026 20:35:43 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        },
+        {
+          "tag": "renodx-dlss-SF-0.54",
+          "version": "0.54",
+          "published": "2026-09-08T14:38:56Z",
+          "file": {
+            "name": "renodx-dlss_SF_0.54.zip",
+            "arch": "x64",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss-SF-0.54/renodx-dlss_SF_0.54.zip",
+            "sha256": "ae1e768228a5a9df04d86c1a839a6a7b110e8029d47431161ea7563fe9e5d36e",
+            "size": 1013897,
+            "version": "2026-10-21-ae1e768",
+            "firstSeen": "2026-10-21T08:06:58Z",
+            "verified": "2026-10-21",
+            "etag": "\"0x8DF0DB6E9948296\"",
+            "lastModified": "Tue, 08 Sep 2026 14:38:56 GMT",
+            "mod": "renodx-dlss",
+            "history": []
+          }
+        }
+      ]
     }
   },
-  "generated": "2026-10-21T07:18:45Z"
+  "generated": "2026-10-21T08:06:58Z"
 }
