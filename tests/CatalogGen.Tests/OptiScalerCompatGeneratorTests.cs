@@ -115,6 +115,14 @@ public class OptiScalerCompatGeneratorTests
     }
 
     [Fact]
+    public void A_row_missing_its_leading_pipe_does_not_end_the_table()
+    {
+        var games = Parse(Header + "| A | ✅ | DLSS | | | |\n B | ✅ | XeSS | | | |\n| C | ✅ | DLSS | | | |\n");
+
+        Assert.Equal(["A", "B", "C"], games.Select(g => g.Name));
+    }
+
+    [Fact]
     public void An_empty_note_is_left_out()
     {
         Assert.Null(Parse(Header + "| A | ✅ | DLSS | | | |\n").Single().Notes);

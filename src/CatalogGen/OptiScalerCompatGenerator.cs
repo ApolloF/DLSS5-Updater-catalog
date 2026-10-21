@@ -58,7 +58,8 @@ public sealed partial class OptiScalerCompatGenerator(ITextSource text, int minM
                 columns = 0;
                 continue;
             }
-            if (!line.StartsWith('|')) { columns = 0; continue; }
+            // A row may lack its leading pipe upstream (Metro Exodus does); inside a table that is still a row.
+            if (!line.StartsWith('|') && (columns == 0 || !line.Contains(" | "))) continue;
 
             var cells = SplitRow(line);
             if (cells[0] == "Game")
@@ -113,7 +114,7 @@ public sealed partial class OptiScalerCompatGenerator(ITextSource text, int minM
 
     private static List<string> SplitRow(string line)
     {
-        var body = line[1..];
+        var body = line.StartsWith('|') ? line[1..] : line;
         if (body.EndsWith('|') && !body.EndsWith("\\|")) body = body[..^1];
         return UnescapedPipe().Split(body).Select(c => c.Trim()).ToList();
     }
