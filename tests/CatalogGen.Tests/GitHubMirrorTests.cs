@@ -168,4 +168,92 @@ public class GitHubMirrorTests : IDisposable
 
         await Assert.ThrowsAsync<HttpRequestException>(() => licences.SpdxAsync("a/b", default));
     }
+
+    [Fact]
+    public async Task The_licence_file_gives_spdx_link_and_text_and_is_looked_up_once_per_repository()
+    {
+        var calls = 0;
+        var text = Convert.ToBase64String(Encoding.UTF8.GetBytes("MIT License\n\nCopyright (c) 2024 Jane\n"));
+        var handler = new StubHandler(req =>
+        {
+            calls++;
+            return req.RequestUri!.AbsolutePath.EndsWith("/gone/repo/license")
+                ? new HttpResponseMessage(HttpStatusCode.NotFound)
+                : Json(HttpStatusCode.OK, new
+                {
+                    html_url = "https://github.com/clshortfuse/renodx/blob/main/LICENSE",
+                    content = text.Insert(8, "\n"),
+                    license = new { spdx_id = "MIT" },
+                });
+        });
+        var licences = new GitHubLicences(new HttpClient(handler), null);
+
+        var notice = await licences.NoticeAsync("clshortfuse/renodx", default);
+        await licences.NoticeAsync("clshortfuse/renodx", default);
+
+        Assert.Equal("MIT", notice!.Spdx);
+        Assert.Equal("https://github.com/clshortfuse/renodx/blob/main/LICENSE", notice.Url);
+        Assert.Equal(["Copyright (c) 2024 Jane"], MirrorNotes.CopyrightLines(notice.Text));
+        Assert.Null(await licences.NoticeAsync("gone/repo", default));
+        Assert.Equal(2, calls);
+        Assert.EndsWith("/repos/clshortfuse/renodx/license", handler.Requests[0].RequestUri!.AbsolutePath);
+    }
+
+    private sealed class NotesFake(string? body)
+    {
+        public List<string> Calls { get; } = [];
+        public string? Patched;
+
+        public HttpResponseMessage Respond(HttpRequestMessage req)
+        {
+            Calls.Add($"{req.Method} {req.RequestUri}");
+            if (req.Method == HttpMethod.Get && req.RequestUri!.AbsolutePath.EndsWith("/releases/tags/mirror-2026-10"))
+                return Json(HttpStatusCode.OK, new { id = 77, body });
+            if (req.Method == HttpMethod.Get && req.RequestUri!.AbsolutePath.EndsWith("/releases/tags/mirror-2026-11"))
+                return new HttpResponseMessage(HttpStatusCode.NotFound);
+            if (req.Method == HttpMethod.Patch && req.RequestUri!.AbsolutePath.EndsWith("/releases/77"))
+            {
+                Patched = JsonDocument.Parse(req.Content!.ReadAsStringAsync().Result).RootElement.GetProperty("body").GetString();
+                return Json(HttpStatusCode.OK, new { id = 77 });
+            }
+            return new HttpResponseMessage(HttpStatusCode.InternalServerError);
+        }
+    }
+
+    [Fact]
+    public async Task The_notes_are_patched_into_the_release_and_its_intro_paragraph_stays()
+    {
+        var fake = new NotesFake("Edited intro.\r\n\r\nold block");
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok");
+        var body = MirrorNotes.Build([new RepoNotes("a/x", "MIT", null, ["Copyright (c) 1"], ["f.addon64"])]);
+
+        await mirror.SetNotesAsync("2026-10", body, default);
+
+        Assert.StartsWith("Edited intro.\n\n### a/x", fake.Patched);
+        Assert.Contains("  - f.addon64", fake.Patched);
+    }
+
+    [Fact]
+    public async Task Notes_that_are_already_there_are_not_written_again()
+    {
+        var body = MirrorNotes.Build([new RepoNotes("a/x", "MIT", null, [], ["f.addon64"])]);
+        var fake = new NotesFake(body.Replace("\n", "\r\n"));
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok");
+
+        await mirror.SetNotesAsync("2026-10", body, default);
+
+        Assert.Null(fake.Patched);
+        Assert.DoesNotContain(fake.Calls, c => c.StartsWith("PATCH"));
+    }
+
+    [Fact]
+    public async Task Notes_for_a_release_that_does_not_exist_fail_without_creating_one()
+    {
+        var fake = new NotesFake(null);
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok");
+
+        await Assert.ThrowsAsync<HttpRequestException>(() => mirror.SetNotesAsync("2026-11", MirrorNotes.Intro, default));
+
+        Assert.DoesNotContain(fake.Calls, c => c.StartsWith("POST"));
+    }
 }

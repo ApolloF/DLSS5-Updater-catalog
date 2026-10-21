@@ -57,6 +57,8 @@ public class RenodxDlssGeneratorTests : IDisposable
             Calls++;
             return Task.FromResult("https://mirror.test/" + fileName);
         }
+
+        public Task SetNotesAsync(string month, string body, CancellationToken ct) => Task.CompletedTask;
     }
 
     private static object Release(string version, string published, int zips = 1, bool draft = false, bool prerelease = false, string? tag = null) => new

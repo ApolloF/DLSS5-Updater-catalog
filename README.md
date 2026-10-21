@@ -93,7 +93,7 @@ A **file** entry:
 | `mod` | The index mod the file belongs to |
 
 Every binary is downloaded by the generator, hashed, size-checked and must start with `MZ` (an HTML error page is never
-recorded as a build). The one exception is a zip (`PK`), accepted only when its central directory lists an entry
+recorded as a build). The one exception is a zip (it starts with `PK\x03\x04`), accepted only when its central directory lists an entry
 named `renodx-dlss.addon64`. A file that fails keeps its last good entry, or is left out if it never had one.
 
 ### Mirror or pinned
@@ -105,6 +105,27 @@ immutable release asset of this repository and `mirrorUrl` points at it. Assets 
 never overwritten or replaced. Any other licence, no licence, or a source we can't attribute to a repository: no copy is
 made, the entry keeps the upstream `url` plus the hash, and the app refuses the file if upstream changes it before the
 next run.
+
+MIT, BSD and Apache require the copyright and licence notice to travel with copies, so the notes of every `mirror-YYYY-MM`
+release carry them. After the file sync the generator groups every mirrored file (the current build and the history entries
+that kept a `mirrorUrl`) by month and source repository, reads each repository's licence file once
+(`GET /repos/{repo}/license`), and writes one block per repository, sorted by name: the `owner/repo` link, the SPDX id, a
+link to the licence file, the `Copyright ...` lines of the licence text (or "Copyright holder: see the licence file at
+<link>" when it has none) and the asset names. The full licence text is not copied. The release's first paragraph is
+kept, the body is only written when it differs, and the text is the same for the same input.
+
+```
+### clshortfuse/renodx
+- Repository: https://github.com/clshortfuse/renodx
+- Licence: MIT (https://github.com/clshortfuse/renodx/blob/main/LICENSE)
+- Copyright:
+  - Copyright (c) 2024 Jane Doe
+- Files:
+  - 0123456789abcdef-renodx-example.addon64
+```
+
+If a licence or the release notes can't be read or written the run reports an error (exit code 1, retried on the next run)
+but `catalog.json` is still written.
 
 The mirrored files belong to their authors and stay under their licences. They are copies for reliability and hash
 pinning, not a new distribution: see each file's `license` and the source repositories (for example

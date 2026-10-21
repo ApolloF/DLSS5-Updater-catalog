@@ -55,6 +55,8 @@ public class FileSyncTests : IDisposable
             Uploads.Add((fileName, sha256, month));
             return Task.FromResult($"https://mirror.test/mirror-{month}/{sha256[..16]}-{fileName}");
         }
+
+        public Task SetNotesAsync(string month, string body, CancellationToken ct) => Task.CompletedTask;
     }
 
     private static string Sha(char c) => new(c, 64);

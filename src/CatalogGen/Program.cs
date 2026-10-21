@@ -57,8 +57,10 @@ public static class Program
             ? new GitHubMirror(http, repo!, token!) : null;
         if (mirror is null) Console.WriteLine("Mirroring is off (no token, no repository, or --no-mirror): files are hashed and pinned only.");
 
-        var sync = new FileSync(new UpstreamFetcher(http, tempDir), new GitHubLicences(http, token), mirror);
-        var generator = new RenodxGenerator(new HttpText(http), sync, 4, Environment.GetEnvironmentVariable("CATALOG_ACCEPT_SHRINK") == "1");
+        var licences = new GitHubLicences(http, token);
+        var sync = new FileSync(new UpstreamFetcher(http, tempDir), licences, mirror);
+        var generator = new RenodxGenerator(new HttpText(http), sync, 4, Environment.GetEnvironmentVariable("CATALOG_ACCEPT_SHRINK") == "1",
+            notices: mirror is null ? null : new MirrorNoticePublisher(licences, mirror));
 
         var failed = false;
         try
