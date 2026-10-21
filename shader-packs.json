@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "packs": [
+    {
+      "id": "lilium-hdr",
+      "name": "Lilium HDR shaders",
+      "repo": "EndlesslyFlowering/ReShade_HDR_shaders",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "hdr",
+      "default": true,
+      "description": "HDR analysis, inverse tone mapping, brightness and black floor tools. Needs an HDR game, or one forced to scRGB / HDR10."
+    },
+    {
+      "id": "pumbo-autohdr",
+      "name": "Pumbo AutoHDR",
+      "repo": "Filoppi/PumboAutoHDR",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "hdr",
+      "default": true,
+      "description": "AutoHDR-style shader that expands an SDR image into HDR. Works best when the game renders to a float16 / scRGB buffer."
+    },
+    {
+      "id": "renofx",
+      "name": "RenoFX",
+      "repo": "clshortfuse/renofx",
+      "source": { "kind": "branch", "branch": "main" },
+      "category": "hdr",
+      "default": true,
+      "description": "RenoFX HDR Toolkit and the SDR compatibility sandwich: brightness, colour, contrast and HDR presentation."
+    },
+    {
+      "id": "maxg2d-simple-hdr",
+      "name": "MaxG2D simple HDR shaders",
+      "repo": "MaxG2D/ReshadeSimpleHDRShaders",
+      "source": { "kind": "branch", "branch": "main" },
+      "category": "hdr",
+      "description": "Simple HDR-aware cinematic effects (motion blur and others) that keep the image above SDR range."
+    },
+    {
+      "id": "crosire-reshade-shaders",
+      "name": "ReShade shaders (standard)",
+      "repo": "crosire/reshade-shaders",
+      "source": { "kind": "branch", "branch": "slim" },
+      "category": "general",
+      "description": "crosire's collection of post-processing effects, the 'slim' branch ReShade's own setup offers."
+    },
+    {
+      "id": "crosire-reshade-shaders-legacy",
+      "name": "ReShade shaders (legacy)",
+      "repo": "crosire/reshade-shaders",
+      "source": { "kind": "branch", "branch": "legacy" },
+      "category": "general",
+      "description": "The older, larger set of effects from crosire's repository (the 'legacy' branch)."
+    },
+    {
+      "id": "sweetfx",
+      "name": "SweetFX",
+      "repo": "CeeJayDK/SweetFX",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "general",
+      "description": "The SweetFX shader suite: SMAA, LumaSharpen, Vibrance, Tonemap and more."
+    },
+    {
+      "id": "quint",
+      "name": "qUINT",
+      "repo": "martymcmodding/qUINT",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "general",
+      "description": "Marty's general-purpose effects: MXAO, SSR, bloom, lightroom, depth of field and others."
+    },
+    {
+      "id": "immerse",
+      "name": "iMMERSE",
+      "repo": "martymcmodding/iMMERSE",
+      "source": { "kind": "branch", "branch": "main" },
+      "category": "general",
+      "description": "Marty's Mods Epic ReShade Effects, the successor to qUINT: MXAO, ReLight, SMAA, sharpening and more."
+    },
+    {
+      "id": "prod80",
+      "name": "prod80 colour effects",
+      "repo": "prod80/prod80-ReShade-Repository",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "color",
+      "description": "Colour, contrast and brightness effects, numbered by suggested load order. A large download because of its LUT templates."
+    },
+    {
+      "id": "daodan",
+      "name": "Daodan shaders",
+      "repo": "Daodan317081/reshade-shaders",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "cinematic",
+      "description": "Comic, colour-grading and other stylised effects that read the depth buffer."
+    },
+    {
+      "id": "cobrafx",
+      "name": "CobraFX",
+      "repo": "LordKobra/CobraFX",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "cinematic",
+      "description": "SirCobra's shaders for in-game photography. The _CS compute shaders need DirectX 11+, OpenGL 4.3+ or Vulkan."
+    },
+    {
+      "id": "fxshaders",
+      "name": "FXShaders",
+      "repo": "luluco250/FXShaders",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "cinematic",
+      "description": "luluco250's collection of ReShade effects."
+    },
+    {
+      "id": "otisfx",
+      "name": "OtisFX",
+      "repo": "FransBouma/OtisFX",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "cinematic",
+      "license": "MIT",
+      "description": "Frans Bouma's effects (depth of field, adaptive fog, emphasize, magic bloom and more), kept compatible with current ReShade."
+    },
+    {
+      "id": "astrayfx",
+      "name": "AstrayFX",
+      "repo": "BlueSkyDefender/AstrayFX",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "general",
+      "description": "Effects that strayed away from the Depth3D repository: Smart Sharp and others."
+    },
+    {
+      "id": "depth3d",
+      "name": "Depth3D",
+      "repo": "BlueSkyDefender/Depth3D",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "depth-3d",
+      "description": "SuperDepth3D and other depth-based stereoscopic 3D shaders."
+    },
+    {
+      "id": "cshade",
+      "name": "CShade",
+      "repo": "papadanku/CShade",
+      "source": { "kind": "branch", "branch": "main" },
+      "category": "cinematic",
+      "description": "Motion graphics shaders for ReShade."
+    },
+    {
+      "id": "fubax",
+      "name": "Fubax shaders",
+      "repo": "Fubaxiusz/fubax-shaders",
+      "source": { "kind": "branch", "branch": "master" },
+      "category": "general",
+      "description": "Fubax's post-processing shaders."
+    },
+    {
+      "id": "zenteonfx",
+      "name": "ZenteonFX",
+      "repo": "Zenteon/ZenteonFX",
+      "source": { "kind": "branch", "branch": "main" },
+      "category": "cinematic",
+      "description": "Zenteon's public ReShade shaders. Under the AGNYA licence: read it before sharing anything built with them."
+    }
+  ]
+}

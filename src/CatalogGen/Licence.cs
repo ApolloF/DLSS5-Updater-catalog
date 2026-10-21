@@ -30,3 +30,13 @@ public static partial class Licence
     [GeneratedRegex(@"^([a-z0-9-]+)\.github\.io$")]
     private static partial Regex PagesHost();
 }
+
+/// <summary>
+/// Licences checked by hand in shader-packs.json: used only when GitHub reports no usable licence (none, or "NOASSERTION"
+/// for a licence file it can't classify). A licence GitHub does report always wins.
+/// </summary>
+public sealed class VerifiedLicences(ILicenceSource inner, IReadOnlyDictionary<string, string> verified) : ILicenceSource
+{
+    public async Task<string?> SpdxAsync(string repo, CancellationToken ct) =>
+        await inner.SpdxAsync(repo, ct) ?? (verified.TryGetValue(repo, out var v) ? v : null);
+}

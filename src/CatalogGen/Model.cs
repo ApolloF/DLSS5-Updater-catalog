@@ -7,7 +7,7 @@ namespace CatalogGen;
 public sealed class FileEntry
 {
     public string Name { get; set; } = "";
-    /// <summary>"x64" or "x86".</summary>
+    /// <summary>"x64" or "x86"; "both" for an add-on package that holds both builds.</summary>
     public string Arch { get; set; } = "x64";
     /// <summary>Where the author publishes it.</summary>
     public string Url { get; set; } = "";
@@ -27,15 +27,31 @@ public sealed class FileEntry
     public string? MirrorUrl { get; set; }
     /// <summary>The games-index mod this file belongs to.</summary>
     public string? Mod { get; set; }
+    /// <summary>Add-on packages only: what the app takes out of the zip and where it goes (<see cref="AddonPayload"/>).</summary>
+    public List<PayloadItem>? Payload { get; set; }
+    /// <summary>Add-on packages only: zip entries the app does not place (the package then needs a manual install).</summary>
+    public List<string>? Unplaced { get; set; }
+    /// <summary>Shader packs only: where the Shaders and Textures folders sit inside the zip.</summary>
+    public PackLayout? Layout { get; set; }
     public List<HistoryEntry> History { get; set; } = [];
 
     public FileEntry Clone()
     {
         var c = (FileEntry)MemberwiseClone();
         c.History = History.Select(h => h with { }).ToList();
+        c.Payload = Payload?.Select(p => p with { }).ToList();
+        c.Unplaced = Unplaced?.ToList();
+        c.Layout = Layout is null ? null : new PackLayout { ShadersDir = Layout.ShadersDir, TexturesDir = Layout.TexturesDir, Effects = [.. Layout.Effects], ShaderFiles = Layout.ShaderFiles, TextureFiles = Layout.TextureFiles };
         return c;
     }
 }
+
+/// <summary>One file of an add-on zip the app installs: an add-on binary (to the add-on folder) or an effect file (under the game's shaders folder).</summary>
+/// <param name="Entry">Path inside the zip.</param>
+/// <param name="Kind">"addon" or "effect".</param>
+/// <param name="Arch">"x64", "x86" or "both" (add-ons only).</param>
+/// <param name="Dest">Effects only: path below the game's Shaders folder, with '/' separators.</param>
+public sealed record PayloadItem(string Entry, string Kind, string? Arch, string? Dest);
 
 public sealed record HistoryEntry(string Version, string Sha256, long Size, string FirstSeen, string? MirrorUrl);
 

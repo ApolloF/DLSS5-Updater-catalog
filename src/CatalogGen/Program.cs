@@ -9,6 +9,7 @@ public static class Program
 
           --catalog <file>     catalog.json to read and update (default catalog.json)
           --overrides <file>   hand-maintained overrides (default overrides.json)
+          --packs <file>       hand-maintained shader pack list (default shader-packs.json)
           --temp <dir>         scratch folder for downloads (default: system temp)
           --repo <owner/repo>  repository that hosts the mirror assets (default GITHUB_REPOSITORY)
           --no-mirror          hash everything but upload nothing
@@ -19,7 +20,7 @@ public static class Program
 
     public static async Task<int> Main(string[] args)
     {
-        string catalogPath = "catalog.json", overridesPath = "overrides.json";
+        string catalogPath = "catalog.json", overridesPath = "overrides.json", packsPath = "shader-packs.json";
         string tempDir = Path.Combine(Path.GetTempPath(), "catalog-gen");
         var repo = Environment.GetEnvironmentVariable("GITHUB_REPOSITORY");
         var mirrorOn = true;
@@ -29,6 +30,7 @@ public static class Program
             {
                 case "--catalog" when i + 1 < args.Length: catalogPath = args[++i]; break;
                 case "--overrides" when i + 1 < args.Length: overridesPath = args[++i]; break;
+                case "--packs" when i + 1 < args.Length: packsPath = args[++i]; break;
                 case "--temp" when i + 1 < args.Length: tempDir = args[++i]; break;
                 case "--repo" when i + 1 < args.Length: repo = args[++i]; break;
                 case "--no-mirror": mirrorOn = false; break;
@@ -59,8 +61,8 @@ public static class Program
 
         var licences = new GitHubLicences(http, token);
         var sync = new FileSync(new UpstreamFetcher(http, tempDir), licences, mirror);
-        var generator = new RenodxGenerator(new HttpText(http), sync, 4, Environment.GetEnvironmentVariable("CATALOG_ACCEPT_SHRINK") == "1",
-            notices: mirror is null ? null : new MirrorNoticePublisher(licences, mirror));
+        var acceptShrink = Environment.GetEnvironmentVariable("CATALOG_ACCEPT_SHRINK") == "1";
+        var generator = new RenodxGenerator(new HttpText(http), sync, 4, acceptShrink);
 
         var failed = false;
         try
@@ -91,9 +93,63 @@ public static class Program
             failed = true;
         }
 
+        // Zips and plain add-on binaries: any readable zip passes the download check.
+        var zipSync = new FileSync(new UpstreamFetcher(http, tempDir, requiredZipEntry: null), licences, mirror);
+
+        try
+        {
+            var addons = new AddonsGenerator(new HttpText(http), zipSync, 4, acceptShrink);
+            var output = await addons.BuildAsync(CatalogFile.ReadSection<AddonsSection>(root, "addons"), now, cts.Token);
+            failed |= Report(output.Warnings, output.Errors);
+            var changed = CatalogFile.SetSection(root, "addons", output.Section, now);
+            Console.WriteLine(changed ? "addons section changed" : "addons section unchanged");
+        }
+        catch (SourceException ex)
+        {
+            Console.WriteLine($"::error::addons: {ex.Message}. Keeping the last good section.");
+            failed = true;
+        }
+
+        try
+        {
+            var list = ShaderPackLists.Load(packsPath);
+            var verified = list.Packs.Where(p => p.License is not null).ToDictionary(p => p.Repo, p => p.License!, StringComparer.OrdinalIgnoreCase);
+            var packSync = new FileSync(new UpstreamFetcher(http, tempDir, requiredZipEntry: null), new VerifiedLicences(licences, verified), mirror);
+            var packs = new ShaderPacksGenerator(new GitHubText(http, token), packSync);
+            var output = await packs.BuildAsync(list, CatalogFile.ReadSection<ShaderPacksSection>(root, "shaderPacks"), now, cts.Token);
+            failed |= Report(output.Warnings, output.Errors);
+            var changed = CatalogFile.SetSection(root, "shaderPacks", output.Section, now);
+            Console.WriteLine(changed ? "shaderPacks section changed" : "shaderPacks section unchanged");
+        }
+        catch (SourceException ex)
+        {
+            Console.WriteLine($"::error::shaderPacks: {ex.Message}. Keeping the last good section.");
+            failed = true;
+        }
+
+        // One notice pass over every mirrored file of every section: each monthly release gets the licences of all of them.
+        if (mirror is not null)
+        {
+            var errors = new List<string>();
+            await new MirrorNoticePublisher(licences, mirror).PublishAsync(MirroredFiles(root), errors, cts.Token);
+            failed |= Report([], errors);
+        }
+
         var written = CatalogFile.Save(catalogPath, root);
         Console.WriteLine(written ? $"wrote {catalogPath}" : $"{catalogPath} is already current");
         return failed ? 1 : 0;
+    }
+
+    /// <summary>Every file entry of the sections that can be mirrored, as they stand in the catalog.</summary>
+    public static List<FileEntry> MirroredFiles(System.Text.Json.Nodes.JsonObject root)
+    {
+        var files = new List<FileEntry>();
+        if (CatalogFile.ReadSection<RenodxSection>(root, "renodx") is { } renodx)
+            files.AddRange(renodx.Mods.SelectMany(m => m.Files).Concat(renodx.Generic.SelectMany(g => g.Files)));
+        if (CatalogFile.ReadSection<AddonsSection>(root, "addons") is { } addons) files.AddRange(addons.Addons.SelectMany(a => a.Files));
+        if (CatalogFile.ReadSection<ShaderPacksSection>(root, "shaderPacks") is { } packs)
+            files.AddRange(packs.Packs.Select(p => p.File).OfType<FileEntry>());
+        return files;
     }
 
     /// <summary>Prints the run's warnings and errors as workflow annotations; true when there was an error.</summary>
