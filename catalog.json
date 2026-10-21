@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-10-21T08:06:58Z",
+      "updated": "2026-10-21T08:57:30Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -85,8 +85,8 @@
               "version": "2026-10-21-48fa2f3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-425be00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-425be00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/48fa2f37d7ccfda9-renodx-ue-extended.addon64",
               "history": []
@@ -1160,8 +1160,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1288-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -1218,8 +1218,8 @@
               "version": "2026-10-21-d024181",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-257000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297c-257000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d024181da60a9443-renodx-sophie1.addon64",
               "history": []
@@ -1519,8 +1519,8 @@
               "version": "2026-10-21-1353ed7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-256000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad82979-256000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/1353ed7116620259-renodx-BerserkBotH.addon64",
               "history": []
@@ -2824,8 +2824,8 @@
               "version": "2026-10-21-d9aad79",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-201a00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13983-201a00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d9aad79682d48d40-renodx-daysgone.addon64",
               "history": []
@@ -3437,8 +3437,8 @@
               "version": "2026-10-21-ec0bfe0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13983-26b400\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
+              "etag": "\"6ad13981-26b400\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec0bfe0b49de9b60-renodx-dragonsdogma2.addon64",
               "history": []
@@ -3661,8 +3661,8 @@
               "version": "2026-10-21-a13565d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-263200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297a-263200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a13565d95aad9acd-renodx-endermagnolia.addon64",
               "history": []
@@ -3830,8 +3830,8 @@
               "version": "2026-10-21-86215dd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-26c600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad8297b-26c600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/86215ddecb6098ce-renodx-fantasianneodimension.addon64",
               "history": []
@@ -4019,8 +4019,8 @@
               "version": "2026-10-21-d3da9e7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1287-22ca00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:27 GMT",
+              "etag": "\"6abc1288-22ca00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3da9e7fc06e4be2-renodx-fatesamurairemnant.addon64",
               "history": []
@@ -4302,8 +4302,8 @@
               "version": "2026-10-21-a91a898",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad7c406-2b4600\"",
-              "lastModified": "Tue, 20 Oct 2026 19:41:58 GMT",
+              "etag": "\"6ad7c405-2b4600\"",
+              "lastModified": "Tue, 20 Oct 2026 19:41:57 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a91a898711be6d80-renodx-gotsushima.addon64",
               "history": []
@@ -4694,8 +4694,8 @@
               "version": "2026-10-21-85a3bbd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40830-4aee00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:44 GMT",
+              "etag": "\"6ad40831-4aee00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/85a3bbdb8018d203-renodx-guildwars2.addon64",
               "history": []
@@ -4930,8 +4930,8 @@
               "version": "2026-10-21-d3a61a3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-32dc00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13981-32dc00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3a61a367954c235-renodx-helldivers2.addon64",
               "history": []
@@ -5653,8 +5653,8 @@
               "version": "2026-10-21-53ed450",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297e-1dbc00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
+              "etag": "\"6ad8297d-1dbc00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/53ed45030c2be331-renodx-yakuzapirates.addon64",
               "history": []
@@ -5787,8 +5787,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b3-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -6315,8 +6315,8 @@
               "version": "2026-10-21-09b8ea0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-4a4800\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13984-4a4800\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/09b8ea0c2e6c3245-renodx-metroexodus.addon64",
               "history": []
@@ -6377,8 +6377,8 @@
               "version": "2026-10-21-04bc9fe",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-27a600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-27a600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/04bc9fee5e3b812e-renodx-metroiddread.addon64",
               "history": []
@@ -6753,8 +6753,8 @@
               "version": "2026-10-21-8a22097",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1288-230c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-230c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a22097869d7dfff-renodx-nierreplicant.addon64",
               "history": []
@@ -6782,8 +6782,8 @@
               "version": "2026-10-21-70ca03b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-25ac00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297d-25ac00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/70ca03bd323a365e-renodx-nightsofazure1.addon64",
               "history": []
@@ -7328,8 +7328,8 @@
               "version": "2026-10-21-8d28d12",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-297c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-297c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8d28d12aa463e5a0-renodx-pathfinder2wotr.addon64",
               "history": []
@@ -8051,8 +8051,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -8084,8 +8084,8 @@
               "version": "2026-10-21-848da8b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-277c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-277c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/848da8b59aa5eead-renodx-riseofronin.addon64",
               "history": []
@@ -8589,8 +8589,8 @@
               "version": "2026-10-21-8bd95b4",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-338e00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297c-338e00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8bd95b46d4fc7d2e-renodx-smt5.addon64",
               "history": []
@@ -8908,8 +8908,8 @@
               "version": "2026-10-21-95d69dc",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-246600\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246600\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/95d69dc11790ba56-renodx-sonsoftheforest.addon64",
               "history": []
@@ -9086,8 +9086,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b4-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b3-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -9300,8 +9300,8 @@
               "version": "2026-10-21-d1eecd8",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-282e00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40830-282e00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:44 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d1eecd8afc586793-renodx-steelrising.addon64",
               "history": []
@@ -9346,8 +9346,8 @@
               "version": "2026-10-21-266ef81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-22e200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-22e200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/266ef81bbca05104-renodx-sopffo.addon64",
               "history": []
@@ -9587,8 +9587,8 @@
               "version": "2026-10-21-c543ce7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-26bc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40832-26bc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c543ce706fca2cca-renodx-teardown.addon64",
               "history": []
@@ -9816,8 +9816,8 @@
               "version": "2026-10-21-fa7c51f",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297e-261600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
+              "etag": "\"6ad8297c-261600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/fa7c51f8a4c0a201-renodx-tew2.addon64",
               "history": []
@@ -9845,8 +9845,8 @@
               "version": "2026-10-21-a026439",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad82979-2aea00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
+              "etag": "\"6ad8297b-2aea00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a026439a14b6ad0e-renodx-bersekerKhazan.addon64",
               "history": []
@@ -9907,8 +9907,8 @@
               "version": "2026-10-21-a5ab9b6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40833-29dc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:47 GMT",
+              "etag": "\"6ad40831-29dc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a5ab9b6b282ea9ee-renodx-vanhelsingfinalcut.addon64",
               "history": []
@@ -10264,8 +10264,8 @@
               "version": "2026-10-21-8a84c93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13985-288000\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:25 GMT",
+              "etag": "\"6ad13983-288000\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a84c9361b33c1e3-renodx-thewitcher3remastered.addon64",
               "history": []
@@ -10371,8 +10371,8 @@
               "version": "2026-10-21-d22538d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fce-266800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:26 GMT",
+              "etag": "\"6ad79fcf-266800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:27 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d22538d296ac968b-renodx-terraria-tml.addon64",
               "history": []
@@ -10740,8 +10740,8 @@
               "version": "2026-10-21-9d07c01",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"68fd62e4-f4c00\"",
-              "lastModified": "Sat, 25 Oct 2025 23:53:08 GMT",
+              "etag": "\"68fd62e5-f4c00\"",
+              "lastModified": "Sat, 25 Oct 2025 23:53:09 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9d07c0152868bd28-renodx-warframe.addon64",
               "history": []
@@ -10895,8 +10895,8 @@
               "version": "2026-10-21-ec7e155",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-233800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-233800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec7e155fc413945e-renodx-wolong.addon64",
               "history": []
@@ -11104,8 +11104,8 @@
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b5-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -15841,7 +15841,4318 @@
           }
         }
       ]
+    },
+    "optiscalerCompat": {
+      "updated": "2026-10-21T08:57:30Z",
+      "source": "https://raw.githubusercontent.com/wiki/optiscaler/OptiScaler/Compatibility-List.md",
+      "hudfixSource": "https://raw.githubusercontent.com/wiki/optiscaler/OptiScaler/Hudfix-incompatible.md",
+      "games": [
+        {
+          "name": "007 First Light",
+          "page": "007-First-Light",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3.1 inputs are now supported with PT update, check compat entry for more info"
+        },
+        {
+          "name": "1666: Amsterdam",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Using FSR4 through XeSS or DLSS inputs requires enabling `Non-Linear Color Space` to avoid black screens and flickering."
+        },
+        {
+          "name": "171",
+          "page": "171",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "7 Days To Die",
+          "page": "7-Days-to-Die",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Make sure **EAC** is disabled."
+        },
+        {
+          "name": "63 Days",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "687 Days on Mars Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "771",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Forced balanced Upscaler preset, use Upscale Ratio Override to set a custom internal resolution. DX12 cannot be forced."
+        },
+        {
+          "name": "Achilles: Legends Untold",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Ad Infinitum",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use -dx12 launch option. FSR4 on DX11 requires UE DX11 note."
+        },
+        {
+          "name": "AI Limit",
+          "page": "AI-Limit",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Airborne Empire",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "AirportSim",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Akimbot",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Both TAA and DLSS must be enabled in game settings."
+        },
+        {
+          "name": "Alan Wake Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Alan Wake 2",
+          "page": "Alan-Wake-II",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Alien: Rogue Incursion Evolved Edition",
+          "page": "Alien-Rogue-Incursion-Evolved-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Alien Agent X",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires these UE tweaks for DLSSG inputs."
+        },
+        {
+          "name": "Aliens: Fireteam Elite 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Alone in the Dark (2024)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Launch executable with -dx12 launch option, OptiScaler needs DLSS mode to be changed and applied in game settings."
+        },
+        {
+          "name": "Ambulance Life: A Paramedic Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Amid Evil",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Linux: use `dxgi.dll`, hudfix=true."
+        },
+        {
+          "name": "Anchor Quest for Atlantis",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Aphelion",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "Install as `winmm.dll` for Xbox version."
+        },
+        {
+          "name": "A Plague Tale: Requiem",
+          "page": "A-Plague-Tale-Requiem",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Apocalypse 2.0",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Disable Display Res.MV to fix shimmer issues"
+        },
+        {
+          "name": "A Quiet Place: The Road Ahead",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use OptiScaler as `winmm.dll`."
+        },
+        {
+          "name": "Arcadegeddon",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Free online co-op game, no anticheat"
+        },
+        {
+          "name": "Ark: Survival Ascended",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FG doesn’t work."
+        },
+        {
+          "name": "Arknights: Endfield",
+          "page": "Arknights-Endfield",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Online game, use at your own risk!**"
+        },
+        {
+          "name": "Armatus Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Arons Adventure",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ascend to ZERO",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR FG output causes game to crash on launch. DLSS inputs are forced with `dxgi=true`, FSR3.1 inputs are forced with `dxgi=false`."
+        },
+        {
+          "name": "Ashgard: Infinity Mask",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "ASKA",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Assassin's Creed Black Flag Resynced",
+          "page": "Assassins-Creed-Black-Flag-Resynced",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Recommended to disable spoofing"
+        },
+        {
+          "name": "Assassin’s Creed Mirage",
+          "page": "Assassins-Creed-Mirage",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Recommended to disable spoofing, use FSR/XeSS inputs + native XeFG (requires updating XeSS files to latest 2.1 SDK, latest Opti already ships with them)."
+        },
+        {
+          "name": "Assassin’s Creed Shadows",
+          "page": "Assassins-Creed-Shadows",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Need to disable Ubisoft overlay. Click on your profile in the Ubisoft app, than settings, interface and uncheck Enable overlay in the compatible games. Don’t use HDR, it causes extreme ghosting."
+        },
+        {
+          "name": "Assetto Corsa Competizione",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use -dx12 to force DX12 mode, default DX11 mode also works"
+        },
+        {
+          "name": "Assetto Corsa EVO",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR4 requires **AutoExposure ON** on DLSS inputs"
+        },
+        {
+          "name": "Assetto Corsa Rally",
+          "page": "Assetto-Corsa-Rally",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR3.1 inputs require Engine.ini command to stop crashing, check Compatibility entry"
+        },
+        {
+          "name": "Asterigos: Curse of the Stars",
+          "page": "Asterigos-Curse-of-the-Stars",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR2"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR quality setting needs to be changed in-game for Optiscaler to detect FSR2 input"
+        },
+        {
+          "name": "Astrobotanica",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Atelier Yumia: The Alchemist of Memories & the Envisioned Land",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Atlas Fallen: Reign Of Sand",
+          "list": "main",
+          "compat": "not-working",
+          "inputs": [],
+          "optiPatcher": false,
+          "notes": "OptiScaler cannot hook this game's FSR2 inputs in DX12 or Vulkan."
+        },
+        {
+          "name": "Atomic Heart",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": true,
+          "notes": "Use Fsr2Pattern=true in the .ini for FSR2 inputs, if you cant turn FSR2 inputs on make sure ray tracing is off."
+        },
+        {
+          "name": "Automate It: Factory Puzzle",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR needs setting to be changed for it to be detected, DLSS is not detected by Optiscaler"
+        },
+        {
+          "name": "Automation - The Car Company Tycoon Game",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Avatar: Frontiers of Pandora",
+          "page": "Avatar-Frontiers-of-Pandora",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Spoofing disabled by default since it seems to break interior ray tracing (too dark)."
+        },
+        {
+          "name": "Avowed",
+          "page": "Avowed",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR4 requires **AutoExposure ON**, check the Compat entry"
+        },
+        {
+          "name": "Backrooms Lost Runners Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires these UE tweaks for DLSSG inputs."
+        },
+        {
+          "name": "Baldur’s Gate 3",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ballads of Hongye",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ballex 2: The Hanging Gardens",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity DX12 game"
+        },
+        {
+          "name": "Banishers: Ghosts of New Eden",
+          "page": "Banishers-Ghosts-of-New-Eden",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": true,
+          "notes": "For FSR2 inputs please check UE Tweaks page"
+        },
+        {
+          "name": "Batora: Lost Haven",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Run in DX12 mode"
+        },
+        {
+          "name": "Bears in Space",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "BEAST: False Prophet",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Beast of Reincarnation",
+          "page": "Beast-of-Reincarnation",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR4"
+          ],
+          "optiPatcher": true,
+          "notes": "Click the compatibility entry link to see more info. FSR3 inputs are not supported."
+        },
+        {
+          "name": "Bellwright",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Beyond Hanwell",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Black Myth: Wukong",
+          "page": "Black-Myth-Wukong",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "FSR4",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Black One: Blood Brothers",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Blacktail",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Run DX12 version, requires a copy of nvngx_dlss.dll in `BLACKTAIL\\` `BLACKTAIL\\` `Binaries\\` `Win64\\`."
+        },
+        {
+          "name": "Blades of Fire",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use keyboard to navigate through Opti overlay, mouse doesn’t work."
+        },
+        {
+          "name": "Bleak Faith: Forsaken",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Launch game with -dx12 parameter"
+        },
+        {
+          "name": "Bleak Haven",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Blind Fate: Edo no Yami",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Bloodhound",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Blue Protocol: Star Resonance",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Shader compilation crashes if FSR4 is selected. Compile shaders first, then change upscaler."
+        },
+        {
+          "name": "Boba Cafe Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Borderlands 4",
+          "page": "Borderlands-4",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Spoofing causes a big performance overhead, so recommended to use FSR or XeSS inputs. Reflex works without spoof."
+        },
+        {
+          "name": "Bottle Pilgrim Redux",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Brawlers of the West",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity **DX11** game"
+        },
+        {
+          "name": "Break Arts III",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Breathedge 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Only DLSS inputs work"
+        },
+        {
+          "name": "Bright Memory",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Launch game with -dx12. DLSS inputs are only enabled if RT is also enabled. Requires Nvidia spoof to expose DLSS and „RTX“ options."
+        },
+        {
+          "name": "Bright Memory: Infinite",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Launch game with -dx12"
+        },
+        {
+          "name": "Broken Pieces",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut and add a -dx12 launch parameter"
+        },
+        {
+          "name": "Brothers: A Tale of Two Sons Remake",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use Non-Linear sRGB Input to fix screen flicker with FSR4."
+        },
+        {
+          "name": "Burning Sword: Death",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Bus Simulator 21",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Run DX12 version, copy OptiScaler files and nvngx_dlss.dll into `Bus Simulator 21\\` `BusSimulator21\\` `Binaries\\` `Win64\\`"
+        },
+        {
+          "name": "Capes",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut and add a -dx12 launch parameter"
+        },
+        {
+          "name": "Car Dealer Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut and add a -dx12 launch parameter"
+        },
+        {
+          "name": "Caravan SandWitch",
+          "page": "Caravan-Sandwitch",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "Crashes without FSR3.1 Unreal Engine Tweaks"
+        },
+        {
+          "name": "Carmageddon: Rogue Shift",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Car Mechanic Simulator 2026 - Single Player Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3 inputs don't work. DX12 can be forced using -force-d3d12."
+        },
+        {
+          "name": "Celestial Empire",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR crashes without Unreal Engine Tweaks. Engine.ini must be created in `%LOCALAPPDATA%\\` `CelestialEmpire\\` `Saved\\` `Config\\` `Windows\\` and made read-only"
+        },
+        {
+          "name": "Chernobylite",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Run with -dx12 launch option"
+        },
+        {
+          "name": "Chernobylite 2: Exclusion Zone",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Cinematic Reflections can cause sparkling artifacts on some surfaces, reduce to Ultra or lower setting"
+        },
+        {
+          "name": "Chionophile",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter, DX11 mode has shimmer"
+        },
+        {
+          "name": "Chip 'n Clawz vs The Brainioids",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR4 requires non-linear sRGB input to fix flicker in cutscenes."
+        },
+        {
+          "name": "Choo Choo Charles",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Chorus",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Chronicles of Sagrea",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Cions of Vega",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter, DX11 mode has shimmer"
+        },
+        {
+          "name": "Cities: Skylines II",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Crashes with default DX11. Launch with -force-d3d12 parameter. Due to the Unity engine, it is necessary to check whether everything is rendered correctly."
+        },
+        {
+          "name": "City of Springs",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Clair Obscur: Expedition 33",
+          "page": "Clair-Obscur-Expedition-33",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Avoid using Ultra Quality preset, broken rendering. Running in full-screen instead of borderless windowed mode may also help prevent crashes. If cutscenes flicker with FSR4, try using Non-Linear or sRGB option."
+        },
+        {
+          "name": "Clash: Artifacts of Chaos",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR2"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Clive Barker's Hellraiser: Revival",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Opti 0.9 needs `AlwaysCaptureFSRFGSwapchain=true` in OptiScaler.ini if stuck on boot"
+        },
+        {
+          "name": "CODE EXIT Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "CODE VEIN II",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Commandos: Origins",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Company of Heroes 3",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR2"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Conan Exiles Enhanced",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Requires **disabling BattlEye** under Game - More in Funcom Launcher, or launching the game directly through `ConanSandbox-Win64-Shipping.exe`"
+        },
+        {
+          "name": "CONTROL Resonant",
+          "page": "CONTROL-Resonant",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires reading compatibility entry for more info"
+        },
+        {
+          "name": "CONTROL Ultimate Edition",
+          "page": "Control-Ultimate-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "CoopRooms Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS inputs don't work. DLSS-FG inputs require selecting DLSS in-game."
+        },
+        {
+          "name": "Corsair Cove",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "Use `winmm.dll` for Xbox Gamepass version."
+        },
+        {
+          "name": "Creatures of Ava",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Crime Boss: Rockay City",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Online co-op game, does not use anticheat"
+        },
+        {
+          "name": "Crimson Desert",
+          "page": "Crimson-Desert",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Crimson Moon",
+          "page": "Crimson-Moon",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Crimson Oath",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "XeSS inputs require Non-Linear Colour Space for FSR4. FSR FG output doesn't work on DLSSG inputs."
+        },
+        {
+          "name": "Crisol: Theater of Idols",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Cronos: The New Dawn",
+          "page": "Cronos-The-New-Dawn",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Crysis Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Crysis 2 Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Crysis 3 Remastered",
+          "page": "Crysis-3-Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Cthulhu: The Cosmic Abyss",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Cursed Deal",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Curse Of The Abandoned Floor Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Upscale presets may be bugged on restart. Use Upscale Ratio Override inside OptiScaler to force a specific upscale preset. HUDFix for FG is recommended if HUD ghosts."
+        },
+        {
+          "name": "Cyberpunk 2077",
+          "page": "Cyberpunk-2077",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR4 is a preset that's exposed in-game when using OptiScaler, regardless of the GPU hardware, and can be used as an upscaler input."
+        },
+        {
+          "name": "Daemon x Machina Titanic Scion",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use Non-Linear sRGB Input to fix screen flicker with FSR4 if present."
+        },
+        {
+          "name": "Dakar Desert Rally",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Darkwatch",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Darwin's Paradox",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "Game has Streamline DLLs but no DLSS FG."
+        },
+        {
+          "name": "Dawn Break Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Force DX12 with launch option -dx12. Disable motion blur and enable non-linear PQ input to fix flickering with FSR4."
+        },
+        {
+          "name": "Daydream: Forgotten Sorrow",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Daymare - 1994 Sandcastle",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "DCS World",
+          "page": "DCS-World",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Install into bin folder, not bin-mt folder; if FSR4 is crashing, delete fakenvapi.dll"
+        },
+        {
+          "name": "DDoD",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "Use the game's \"3D Resolution\" slider to change the upscale preset. FSR FG output crashes the game, stick to XeFG and close RTSS."
+        },
+        {
+          "name": "Dead as Disco",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Dead Island 2",
+          "page": "Dead-Island-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR2"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Deadlink",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "DLSS or XeSS settings must be changed everytime game is loaded for Opti to work"
+        },
+        {
+          "name": "DEAD OR ALIVE 6 Last Round",
+          "page": "DEAD-OR-ALIVE-6-Last-Round",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Opti needs to be used as `d3d12.dll` or `version.dll`"
+        },
+        {
+          "name": "Dead Rising Deluxe Remaster",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Enable Restore Compute Root Signature to fix DLSS input graphical issues"
+        },
+        {
+          "name": "Dead Signal",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Dead Space (2023)",
+          "page": "Dead-Space-(2023)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": false,
+          "notes": "Disable Motion Blur to fix ghosting around Isaac’s head."
+        },
+        {
+          "name": "Dead Take",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "enable Non-Linear sRGB input to fix flashing graphics with FSR4."
+        },
+        {
+          "name": "Deadzone Rogue",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true,
+          "notes": "Due to a game bug, might require re-enabling DLSS-FG in game options"
+        },
+        {
+          "name": "Deathbound",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Deathloop",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Game now works with OptiScaler (tested on 0.9), FSR2.0 inputs are not supported, but DLSS inputs work fine and don't require spoofing"
+        },
+        {
+          "name": "Death Stranding: Director’s Cut",
+          "page": "Death-Stranding-Director's-Cut",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Try Non-Linear PQ Input for better image quality with FSR4. Use XeSS inputs as DLSS inputs cause shimmer."
+        },
+        {
+          "name": "DEATH STRANDING 2: ON THE BEACH",
+          "page": "DEATH-STRANDING-2-ON-THE-BEACH",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use XeSS inputs as DLSS inputs cause shimmer."
+        },
+        {
+          "name": "Deconstruction Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "enable Non-Linear sRGB input to fix flashing graphics with FSR4."
+        },
+        {
+          "name": "Deep Rock Galactic",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Deep Rock Galactic: Rogue Core",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Deep Space 7",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires these UE tweaks for DLSSG inputs."
+        },
+        {
+          "name": "Deliver Us Mars",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true,
+          "notes": "Use DX12 mode, check FSR3 UE Tweaks if FSR3 inputs crashing"
+        },
+        {
+          "name": "Deliver Us the Moon",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use DX12"
+        },
+        {
+          "name": "Demonologist",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Demon Tides Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity **DX11**"
+        },
+        {
+          "name": "Desordre",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR is not detected"
+        },
+        {
+          "name": "Descenders Next",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3 inputs don't work. DX12 can't be forced."
+        },
+        {
+          "name": "Destroy All Humans! 2 – Reprobed",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": true,
+          "notes": "Use DX12"
+        },
+        {
+          "name": "Diablo II: Resurrected",
+          "page": "Diablo-II-Resurrected",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Signed Opti builds seem to work fine as `winmm.dll`"
+        },
+        {
+          "name": "Diablo IV",
+          "page": "Diablo-4",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use DX12"
+        },
+        {
+          "name": "Dinoblade",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS inputs don't work. Requires these UE tweaks for DLSSG inputs."
+        },
+        {
+          "name": "Directive 8020",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Directorate Novitiate Demo",
+          "page": "Directorate-Novitiate",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Dolmen",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Doom Eternal",
+          "page": "DOOM-Eternal",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Doom: The Dark Ages",
+          "page": "Doom-The-Dark-Ages",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Dragon Age: The Veilguard",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR2 has broken graphics, For Linux use OptiScaler as `winmm.dll`"
+        },
+        {
+          "name": "Dragon’s Dogma II",
+          "page": "Dragons-Dogma-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "Check Wiki entry for more info"
+        },
+        {
+          "name": "Dragonkin: The Banished",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR crashes without Unreal Engine Tweaks. Engine.ini must be created and made read-only"
+        },
+        {
+          "name": "DragonSword : Awakening",
+          "page": "DragonSword-Awakening",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true,
+          "notes": "Check Wiki entry for more info"
+        },
+        {
+          "name": "Dream Cycle",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Dream Eaters.exe",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS inputs with FSR4 require enabling Non-Linear Color Space. OptiFG may crash."
+        },
+        {
+          "name": "Dreams Far Away",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Duskfade Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "Game doesn't have FSR FG despite having the DLL."
+        },
+        {
+          "name": "Dying Light 2",
+          "page": "Dying-Light-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Dying Light The Beast",
+          "page": "Dying-Light-The-Beast",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "DYNASTY WARRIORS: ORIGINS",
+          "page": "DYNASTY-WARRIORS-ORIGINS",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "EA Sports WRC",
+          "list": "main",
+          "compat": "not-working",
+          "inputs": [],
+          "optiPatcher": false,
+          "notes": "EA Anti-cheat blocks unknown .dlls"
+        },
+        {
+          "name": "Eastern Era",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR crashes without Unreal Engine Tweaks. Engine.ini must be created in `%LOCALAPPDATA%\\` `EasternEra\\` `Saved\\` `Config\\` `Windows\\` and made read-only"
+        },
+        {
+          "name": "Echo 91",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Echoes of the End",
+          "page": "Echoes-of-the-End",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true,
+          "notes": "Use Non-Linear sRGB Input to fix screen flickering on FSR4. Selecting FSR3.1 input causes a crash. To fix this, create an Engine.ini file in `%LOCALAPPDATA%\\` `TheDarken\\` `Saved\\` `Config\\` `Windows\\` and add the FSR3.1 commands from the UE Tweaks page. NOTE: Set Engine.ini to read-only to prevent the game from deleting it on startup."
+        },
+        {
+          "name": "Echoes of Yi: Samsara",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Echo Point Nova",
+          "page": "Echo-Point-Nova",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Edge of Eternity",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Emissary Zero",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Empire of the Ants",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Copy files into `Empire of the Ants\\` `Empire\\` `Binaries\\` `Win64\\`"
+        },
+        {
+          "name": "Empyreal",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Enshrouded",
+          "page": "Enshrouded",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Shimmering grass and fog with FSR2/3."
+        },
+        {
+          "name": "Enotria: The Last Song",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Run game with -dx12 launch parameter."
+        },
+        {
+          "name": "Entity: The Black Day",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3 inputs don't work."
+        },
+        {
+          "name": "Epic Mickey: Rebrushed",
+          "page": "Epic-Mickey-Rebrushed",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ereban: Shadow Legacy",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity game, DX11 only."
+        },
+        {
+          "name": "Ertugrul of Ulukayin",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3.1 crashes without Unreal Engine Tweaks. Engine.ini must be created and also made read-only"
+        },
+        {
+          "name": "Escape from Naraka",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Escape from Tarkov – SPT",
+          "page": "Escape-from-Tarkov-(SPT)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Works only for Singleplayer Tarkov (SPT) mod without EAC."
+        },
+        {
+          "name": "Escape Simulator 2 Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Forced Ultra Performance preset. Needs scale override, DLSS option is found in the dynamic resolution setting."
+        },
+        {
+          "name": "Eternal Strands",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Europa Universalis V",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "EVERSPACE 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Everwind Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Evil West",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Run game with -dx12 launch option, DX11 mode has low performance and severe shimmer."
+        },
+        {
+          "name": "EVOTINCTION",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "F1 2020",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "F1 22",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Keep DLSS at Quality as trying to switch crashes game, use optis upscale ratio override instead (works in real time)"
+        },
+        {
+          "name": "F1 24",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Offline mode ONLY!** Spoofing for DLSS inputs doesn't work, set Dxgi=false."
+        },
+        {
+          "name": "F1 25",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use OptiScaler in **offline mode ONLY!** Spoofing for DLSS inputs doesn't work, set Dxgi=false."
+        },
+        {
+          "name": "F1 Manager 2024",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR2 inputs don't work. Use OptiPatcher to unlock DLSS without spoofing."
+        },
+        {
+          "name": "Fairy Tail 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Faraday Protocol",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Far Far West",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Farming Simulator 22",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Farming Simulator 25",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Ensure Detours API Hooking is enabled in RTSS overlay"
+        },
+        {
+          "name": "FATAL FRAME II: Crimson Butterfly REMAKE",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ferocious",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity DX11 game"
+        },
+        {
+          "name": "Fight or Flight",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "APIs can be switched between DX11 and DX12 in the game settings. Set HUDFix limit to 2 for OptiFG."
+        },
+        {
+          "name": "FINAL FANTASY VII REBIRTH",
+          "page": "FINAL-FANTASY-VII-REBIRTH",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true,
+          "notes": "Use OptiPatcher for AMD/Intel to avoid any extra spoofing performance overhead or stutters"
+        },
+        {
+          "name": "FINAL FANTASY XIV: Dawntrail",
+          "page": "Final-Fantasy-XIV-Dawntrail",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "FINAL FANTASY XVI",
+          "page": "FINAL-FANTASY-XVI",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Might require enabling Non-Linear PQ Input for better image quality with FSR4."
+        },
+        {
+          "name": "Finnish Cottage Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3.1 crashes without Unreal Engine Tweaks. Engine.ini must be created and also made read-only. use Non-Linear sRGB to fix flashing gfx with FSR4."
+        },
+        {
+          "name": "Firefighting Simulator: Ignite",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Firmament",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "F.I.S.T.: Forged In Shadow Torch",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Fishing: North Atlantic Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "FixForce",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR 3.1 FG inputs don't work. Use DLSSG via Streamline inputs or native XeFG/FSR FG."
+        },
+        {
+          "name": "Flipscapes",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR setting must be changed for Optisclaer to detect it FSR3.1 input. DLSS input is only detected if games is restarted after choosing DLSS |"
+        },
+        {
+          "name": "Flintlock: The Siege of Dawn",
+          "page": "Flintlock-The-Siege-of-Dawn",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Please Refer To UE Tweaks"
+        },
+        {
+          "name": "Fobia – St. Dinfna Hotel",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Forgive me Father 2",
+          "page": "Forgive-me-Father-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Create shortcut with -dx12 launch parameter, enable Non-Linear sRGB Input to fix screen flicker with FSR4."
+        },
+        {
+          "name": "Forspoken",
+          "page": "Forspoken",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "`OptiScaler.dll` must be renamed to `d3d12.dll` to detect DLSS input"
+        },
+        {
+          "name": "Fort Solis",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true,
+          "notes": "Use FSR3 in game settings if DLSS has some ghosting next to the main character and more shimmer."
+        },
+        {
+          "name": "Forza Horizon 5",
+          "page": "Forza-Horizon-5",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Read the compatibility entry."
+        },
+        {
+          "name": "Forza Horizon 6",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "On the GamePass/MS Store version, install OptiScaler as `d3d12.dll` and to use the Overlay, set `OverlayMenu=false` in **OptiScaler.ini** while an upscaler is active _(might require reverting back to `auto` if FG isn't working properly)_."
+        },
+        {
+          "name": "Forza Motorsport",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Five Nights at Freddy’s: Security Breach",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "DLSS is enabled by default – no option to disable it in game settings"
+        },
+        {
+          "name": "Frostpunk 2",
+          "page": "Frostpunk-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Enable Non-Linear sRGB Input for better image quality with FSR4, FSR Inputs require FSR3.1 inputs crash fix or just disable them with Fsr3=false and Ffx=false in OptiScaler.ini."
+        },
+        {
+          "name": "Frozenheim",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Use DX12 mode"
+        },
+        {
+          "name": "Funko Fusion",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use FSR input for best result. Enable Non-Linear sRGB Input if screen flickers with FSR4 on balanced preset."
+        },
+        {
+          "name": "Gaming Cafe Simulator",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Gangs of Sherwood",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter, online co-op, no anticheat"
+        },
+        {
+          "name": "Gears of War: E-Day",
+          "page": "Gears-of-War-E‐Day",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR4",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Requires using **Offline mode**, check compatibility entry for more info"
+        },
+        {
+          "name": "Gears of War: Reloaded",
+          "list": "main",
+          "compat": "not-working",
+          "inputs": [],
+          "optiPatcher": false,
+          "notes": "EAC. Game has FSR3.1, but no FSR dll."
+        },
+        {
+          "name": "Ghostbusters: Spirits Unleashed",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "online co-op, no anticheat"
+        },
+        {
+          "name": "Ghost of Tsushima DIRECTOR'S CUT",
+          "page": "Ghost-of-Tsushima-DIRECTORS-CUT",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Ghostrunner",
+          "page": "Ghostrunner",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Game must run in DX12 (-dx12)"
+        },
+        {
+          "name": "Ghostrunner 2",
+          "page": "Ghostrunner-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Game must run in DX12 (-dx12), spoofing seems to cause a big performance overhead, so recommended to use FSR or XeSS inputs or OptiPatcher."
+        },
+        {
+          "name": "Ghostwire: Tokyo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Glaciered Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity game, Create shortcut with -force-d3d12 launch parameter"
+        },
+        {
+          "name": "GOALS",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Online game!** Use OptiScaler at your own discretion."
+        },
+        {
+          "name": "God of War (2018)",
+          "page": "God-of-War-2018",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Non-Linear sRGB Input seems to look the best when using FSR4."
+        },
+        {
+          "name": "God of War Ragnarok",
+          "page": "God-of-War-Ragnarok",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Gotham Knights",
+          "page": "Gotham-Knights",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Gord",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Gori: Cuddly Carnage",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Gothic 1 Remake",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Game autoenables sharpening for every upscaler, lower sharpening in game settings"
+        },
+        {
+          "name": "Grand Theft Auto: San Andreas – Definitive Edition",
+          "page": "Grand-Theft-Auto-San-Andreas-‐-Definitive-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Turn City Glow Effect off in-game. Install OptiScaler as `d3d12.dll` and force DX12 with -dx12 launch command. Use OptiPatcher to prevent spoofing performance penalty."
+        },
+        {
+          "name": "Grand Theft Auto: Vice City – Definitive Edition",
+          "page": "Grand-Theft-Auto-Vice-City-%E2%80%90-Definitive-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Turn City Glow Effect off in-game. Install OptiScaler as `d3d12.dll` and force DX12 with -dx12 launch command. Use OptiPatcher to prevent spoofing performance penalty."
+        },
+        {
+          "name": "Grand Theft Auto III – Definitive Edition",
+          "page": "Grand-Theft-Auto-III-%E2%80%90-Definitive-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Turn City Glow Effect off in-game. Install OptiScaler as `d3d12.dll` and force DX12 with -dx12 launch command. Use OptiPatcher to prevent spoofing performance penalty."
+        },
+        {
+          "name": "Grand Theft Auto V Enhanced",
+          "page": "Grand-Theft-Auto-V-Enhanced",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "**Officially supported game**.."
+        },
+        {
+          "name": "GreedFall - The Dying World",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Greedland",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "If DLSS input is selected then the game needs to be reloaded for Optiscaler to detect DLSS. FSR3 input works fine without restarting."
+        },
+        {
+          "name": "Grid Legends",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "May need to force disable TAA if image looks blurry. Refer to the PCGW entry"
+        },
+        {
+          "name": "Gripper",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Grounded 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Guardians of the Galaxy",
+          "page": "Guardians-of-the-Galaxy",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Set Dxgi=false under [Spoofing] – critical for proper performance"
+        },
+        {
+          "name": "Gungrave G.O.R.E",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Gun Jam",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Guns of Eschaton Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "GYLT",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR2"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Half Sword",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Halo: Campaign Evolved",
+          "page": "Halo-Campaign-Evolved",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Haste",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Hellblade: Senua’s Sacrifice",
+          "page": "Hellblade-Senuas-Sacrifice",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Hellbreak",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Hell is Us",
+          "page": "Hell-is-Us",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "DLSS -> FSR4 on balanced flickers. Either change upscaling preset or inputs."
+        },
+        {
+          "name": "Hell Pie",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Hello Neighbor 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "No DLSS option visible in game settings but DLSS input is working in Opti menu"
+        },
+        {
+          "name": "Hi-Fi RUSH",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "High on Life",
+          "page": "High-on-Life",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "High On Life 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Highrise City",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Run in DX12 mode"
+        },
+        {
+          "name": "HITMAN World of Assassination",
+          "page": "HITMAN-3-World-of-Assassination",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Spoofing disables RT options, better use XeSS inputs on Intel/AMD."
+        },
+        {
+          "name": "Hogwarts Legacy",
+          "page": "Hogwarts-Legacy",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Significant spoofing overhead, so use OptiPatcher."
+        },
+        {
+          "name": "Hold Your Own",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS is enabled by default"
+        },
+        {
+          "name": "Homeworld 3",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Horizon Forbidden West Complete Edition",
+          "page": "Horizon-Forbidden-West-Complete-Edition",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Horizon Zero Dawn Complete Edition",
+          "page": "Horizon-Zero-Dawn",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Not the Remastered Version"
+        },
+        {
+          "name": "Horizon Zero Dawn Remastered",
+          "page": "Horizon-Zero-Dawn-Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "HOT WHEELS UNLEASHED",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "House Flipper 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity game, Create a shortcut with -force-d3d12 launch parameter, but also works with default DX11"
+        },
+        {
+          "name": "Hydroneer",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "I Am Jesus Christ",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "ICARUS",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Ikonei Island: An Earthlock Adventure",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Immortals of Aveum",
+          "page": "Immortals-of-Aveum",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": true,
+          "notes": "Install OptiScaler as `d3d12.dll` to bypass verification checks. Loaded upscaler is often reset when loading a new level and must be reselected."
+        },
+        {
+          "name": "Indiana Jones and the Great Circle",
+          "page": "Indiana-Jones-and-the-Great-Circle",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "For Linux, FSR4 VK w/DX12 requires latest Proton 11"
+        },
+        {
+          "name": "INDIKA",
+          "page": "INDIKA",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Recommended to use OptiScaler as `d3d12.dll`"
+        },
+        {
+          "name": "INDUSTRIA",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "INDUSTRIA 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Industry Giant 4",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Infinity Nikki",
+          "page": "https://github.com/optiscaler/OptiScaler/wiki/Infinity-Nikki",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Install as `version.dll`. Make sure to use signed build, else anti-cheat will block it."
+        },
+        {
+          "name": "Influx Redux",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR3 Quality mode has flashing lights on water, use Balanced/Performance modes or DLSS."
+        },
+        {
+          "name": "Into the Dead: Our Darkest Days",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "InZOI",
+          "page": "InZOI",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "You might need to allow unsigned mods to use OptiPatcher. For FG stick to DLSSG inputs. FG doesn't work in menus."
+        },
+        {
+          "name": "It Reaches",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Jagged Alliance 3",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "JDM: Japanese Drift Master",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use DLSS for the best result"
+        },
+        {
+          "name": "Jotunnslayer - Hordes of Hel",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Unity game. FSR3.1 and XeSS inputs are not detected by Optiscaler"
+        },
+        {
+          "name": "Judgment",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use DLSS input. FSR2.1 and XeSS do not work."
+        },
+        {
+          "name": "Jump Space (formerly Jump Ship)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "*DX11* Online co-op Unity game (no anti-cheat), create shortcut with -force-d3d12 launch paramater to enable DX12 mode"
+        },
+        {
+          "name": "Jurassic World Evolution 2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Jurassic World Evolution 3",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Recommended to use OptiPatcher to avoid spoofing. Spoofing causes foliage rendering issues."
+        },
+        {
+          "name": "Jusant",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "May requiring Non-Linear sRGB Input to fix flicker with FSR4 if present."
+        },
+        {
+          "name": "KARMA: The Dark World",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Keeper",
+          "page": "Keeper",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "If you want FSR3.1 inputs, check the Wiki entry"
+        },
+        {
+          "name": "Kena: Bridge of Spirits",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "HUDFix with limit 1 works with OptiFG inputs. Spoofing (`dxgi=auto`) required on non-Nvidia."
+        },
+        {
+          "name": "Kiborg",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Enable Non-Linear sRGB Input to fix flicker with FSR4."
+        },
+        {
+          "name": "Kiln",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "For Xbox, use `winmm.dll`. Reflex is unlocked without spoofing, so set Dxgi=false to disable spoofing. Use the in-game Temporal Upscaling slider to change your upscaler preset."
+        },
+        {
+          "name": "Kingdom Come: Deliverance II",
+          "page": "Kingdom-Come-Deliverance-II",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Check compatibility entry regarding HDR (and XeFG)."
+        },
+        {
+          "name": "Kitten Burst",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS always enabled no option in game menu"
+        },
+        {
+          "name": "Kunitsu-Gami: Path of the Goddess",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Enable Restore Compute Root Signature to fix graphics corruption (Under Advanced Settings > Root Signatures), FSR3 input is not detected."
+        },
+        {
+          "name": "Land of the Vikings",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Create a shortcut with -dx12 launch parameter, use Model 5 to reduce shimmering trees."
+        },
+        {
+          "name": "LANESPLIT Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Last Floor",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS is forced by default when spoofing is active (`dxgi=auto`), use Upscale Ratio Override to change the upscaler ratio."
+        },
+        {
+          "name": "Last Train Home",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Layers of Fear (2023)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "LEGO Batman : Legacy of the Dark Knight",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Game does not launch if XEFG is enabled in game settings"
+        },
+        {
+          "name": "LEGO Builder’s Journey",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "LEGO Harry Potter Collection",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "Game has **only** FSRAA 3.0"
+        },
+        {
+          "name": "LEGO Horizon Adventures",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Lies of P",
+          "page": "Lies-of-P",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Lightyear Frontier",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Like A Dragon: Infinite Wealth",
+          "page": "Like-a-Dragon-Infinite-Wealth",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS inputs require spoofing. Read the Compatibility entry for more info."
+        },
+        {
+          "name": "Like a Dragon: Ishin!",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR2/3",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Like a Dragon Gaiden: The Man Who Erased His Name",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Liminalcore",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR Inputs require FSR3.1 inputs crash fix or just disable them with Fsr3=false and Ffx=false in OptiScaler.ini"
+        },
+        {
+          "name": "Little Nightmares III",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Loopmancer",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Lost Judgment",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSS inputs don't work. Select XeSS in-game."
+        },
+        {
+          "name": "Lost Records: Bloom and Rage",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR3 inputs are not useable"
+        },
+        {
+          "name": "Lost Skies",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Lost Soul Aside",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Lords of the Fallen (2023)",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true
+        },
+        {
+          "name": "Lumina Veil",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1/4"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR FG output results in crash on launch, use XeFG or add `r.FidelityFX.FI.Enabled=1` to your Engine.ini file."
+        },
+        {
+          "name": "Luna Abyss",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Requires these UE tweaks and closing RTSS to use XeFG. Enable HUDFix with FSR FG output."
+        },
+        {
+          "name": "Lunacy: Saint Rhodes",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Create a shortcut with -dx12 launch parameter"
+        },
+        {
+          "name": "Lunar Eclipse",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR FG output crashes. Non-Linear Colour Space is required for FSR4 through DLSS inputs."
+        },
+        {
+          "name": "Luto",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Mafia: The Old Country",
+          "page": "Mafia-The-Old-Country",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR4 may require Non-Linear Color/sRGB option if flickering with DLSS inputs."
+        },
+        {
+          "name": "Mandragora: Whispers of the Witch Tree",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Tested on DLSS input, but XeSS should also be working."
+        },
+        {
+          "name": "Manor Lords",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "DLSS inputs use custom ratios, Quality 1.3, Balanced 2.0, Performance 3.0 and are hardcoded - Balanced seems to work fine, but others require Non-Linear (sRGB) for FSR4 to work properly. XeSS inputs also require Non-Linear sRGB for FSR4 to work and have hardcoded XeSS 1.3+ ratios"
+        },
+        {
+          "name": "Martha is Dead",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Window in the screenshot is very pixelated depending on your angle, might need Non-Linear PQ Input for better image quality with FSR4."
+        },
+        {
+          "name": "Marvel’s Avengers",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Marvel's Guardians of the Galaxy",
+          "page": "Guardians-of-the-Galaxy",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Marvel's Midnight Suns",
+          "page": "Marvels-Midnight-Suns",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use Opti as `d3d12.dll`, check Wiki compat entry"
+        },
+        {
+          "name": "Marvel's Spider‐Man 2",
+          "page": "Marvels-Spider‐Man-2",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Marvel's Spider-Man: Miles Morales",
+          "page": "Marvels-Spider‐Man-Miles-Morales",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Marvel’s Spider-Man Remastered",
+          "page": "Marvels-Spider‐Man-Remastered",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Matcho Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "MAVRIX by Matt Jones",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "DLSSG via Streamline inputs are unsupported."
+        },
+        {
+          "name": "MechWarrior 5: Mercenaries",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Run game with -dx12 commandline / launch option."
+        },
+        {
+          "name": "Medieval Dynasty",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "XeSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Memory’s Reach Demo",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Menace",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "METAL EDEN",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": true,
+          "notes": "FSR3.1 inputs require Engine.ini commands from Wiki link"
+        },
+        {
+          "name": "METAL GEAR SOLID DELTA: SNAKE EATER",
+          "page": "Metal-Gear-Solid-%CE%94-Snake-Eater",
+          "list": "main",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": true,
+          "notes": "Be aware that the DLSS presets Quality (75%) and Balanced (67%) use higher internal resolutions than expected. Check OptiPatcher to see how to force FG, albeit it might not be implemented yet with reason, as it crashes at certain scenes."
+        },
+        {
+          "name": "Assassin's Creed Origins",
+          "page": "Assassins-Creed-Origins",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires using a DLSS mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Devil May Cry 5",
+          "page": "Devil-May-Cry-5",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires REFramework PDUpscaler branch mod + PDPerfPlugin mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Dishonored 2",
+          "page": "Dishonored-2",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma Framework mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Elden Ring",
+          "page": "Elden-Ring-(ERSS‐FG)",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "FSR3.1",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Use ERSS-FG mod as basis for Upscaling and FG."
+        },
+        {
+          "name": "Far Cry 5",
+          "page": "Far-Cry-5",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma Framework mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "FINAL FANTASY VII REMAKE INTERGRADE",
+          "page": "FINAL-FANTASY-VII-REMAKE-INTERGRADE",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires FF7 Remake Luma mod, requires running the game in DX11 mode - add `-dx11` launch command"
+        },
+        {
+          "name": "Metaphor: ReFantazio",
+          "page": "Metaphor-ReFantazio",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma mod, check the compatibility entry for info"
+        },
+        {
+          "name": "Persona 5 Royal",
+          "page": "Persona-5-Royal",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma mod, check the compatibility entry for info"
+        },
+        {
+          "name": "Prey (2017)",
+          "page": "Prey-Luma-Remastered-mod",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Prey Luma Remastered mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Quantum Break",
+          "page": "Quantum-Break",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma mod, click the game name to open the compatibility entry"
+        },
+        {
+          "name": "Resident Evil 2 (2019)",
+          "page": "Resident-Evil-2-(2019)",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires REFramework mod (pd-upscaler branch) + PDUpscaler plugin + OptiScaler, check Wiki"
+        },
+        {
+          "name": "Resident Evil 3 (2020)",
+          "page": "Resident-Evil-3-(2020)",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires REFramework mod (pd-upscaler branch) + PDUpscaler plugin + OptiScaler, check Wiki"
+        },
+        {
+          "name": "Resident Evil 4 (2023)",
+          "page": "Resident-Evil-4-(2023)",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires REFramework mod (pd-upscaler branch) + PDUpscaler plugin + OptiScaler, check Wiki"
+        },
+        {
+          "name": "Resident Evil 7 Biohazard",
+          "page": "Resident-Evil-7-Biohazard",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires REFramework mod (pd-upscaler branch) + PDUpscaler plugin + OptiScaler, check Wiki"
+        },
+        {
+          "name": "Resident Evil 8 Village",
+          "page": "Resident-Evil-8-Village",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS",
+            "XeSS"
+          ],
+          "optiPatcher": false,
+          "notes": "FSR4 \uD83D\uDC80 is unusable on Windows (black screen), but other upscalers work. Requires REFramework mod (pd-upscaler branch) + PDUpscaler plugin + OptiScaler, check Wiki."
+        },
+        {
+          "name": "Sekiro: Shadows Die Twice",
+          "page": "SekiroTSR",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires using SekiroTSR mod as basis for DLSS inputs"
+        },
+        {
+          "name": "Tom Clancy's Ghost Recon Wildlands",
+          "page": "Tom-Clancys-Ghost-Recon-Wildlands",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires using a DLSS mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Total War: WARHAMMER III",
+          "page": "Total-War-WARHAMMER-III",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires using Warhammer3DLSS mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Watch Dogs 2",
+          "page": "Watch-Dogs-2",
+          "list": "upscalerMods",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires Luma Framework mod and carefully reading the compatibility entry"
+        },
+        {
+          "name": "Aliens: Fireteam Elite",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Bloodstained: Ritual of the Night",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Disable `Frame Smoothing` in game settings to unlock FPS"
+        },
+        {
+          "name": "Breathedge",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Crash Bandicoot 4: It’s About Time",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "In-game: at least Medium (2x) Antialiasing Quality"
+        },
+        {
+          "name": "Darksiders III",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "In-game: AA Epic"
+        },
+        {
+          "name": "GUILTY GEAR -STRIVE-",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "AA does not work in character selection screen, In-game: AA \"Temporal Anti Aliasing\", **Requires extra Engine.ini commands**, check Luma UE table"
+        },
+        {
+          "name": "Life is Strange 2",
+          "page": "Life-is-Strange-2",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Little Nightmares",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Little Nightmares II",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "MOTHERGUNSHIP",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Requires extra Engine.ini commands**, check Luma UE table"
+        },
+        {
+          "name": "OCTOPATH TRAVELER",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Requires extra Engine.ini commands**, check Luma UE table, Engine.ini located in `%USERPROFILE%\\Documents\\My Games\\Octopath_Traveler\\Config\\WindowsNoEditor\\`"
+        },
+        {
+          "name": "Psychonauts 2",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires `-dx11` launch argument"
+        },
+        {
+          "name": "Redeemer Enhanced Edition",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Redout Enhanced Edition",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires `-dx11` launch argument"
+        },
+        {
+          "name": "Remnant: From the Ashes",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Requires extra Engine.ini commands**, check Luma UE table"
+        },
+        {
+          "name": "Roboquest",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "Requires In-game: TAA, Quality \"3\""
+        },
+        {
+          "name": "RUINER",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Spyro Reignited Trilogy",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "In-game: High TAA"
+        },
+        {
+          "name": "STAR WARS Jedi: Fallen Order",
+          "page": "STAR-WARS-Jedi-Fallen-Order",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Stray",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Styx: Shards of Darkness",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "**Requires extra Engine.ini commands**, check Luma UE table"
+        },
+        {
+          "name": "Terminator: Resistance",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Trek to Yomi",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false
+        },
+        {
+          "name": "Vampyr",
+          "page": "Luma-Unreal-Engine-Luma-UE",
+          "list": "lumaUe",
+          "compat": "working",
+          "inputs": [
+            "DLSS"
+          ],
+          "optiPatcher": false,
+          "notes": "In-game: AA TXAA 6X, check PCGW entry to remove 62fps cap"
+        }
+      ],
+      "hudfixIncompatible": [
+        "Alan Wake 2",
+        "Assassin's Creed: Mirage",
+        "Avatar Frontiers of Pandora",
+        "Cyberpunk 2077",
+        "Dragon Age: The Veilguard",
+        "Dragon's Dogma 2",
+        "Dying Light 2",
+        "F1 2020",
+        "F1 2021",
+        "Final Fantasy VII Rebirth",
+        "Ghost of Tsushima",
+        "Grand Theft Auto V Enhanced",
+        "Marvel's Guardians of the Galaxy",
+        "Marvel's Spider-Man",
+        "Marvel's Spider-Man: Miles Morales",
+        "Marvel's Spider-Man 2",
+        "Metro Exodus Enhanced Edition",
+        "Ninja Gaiden 4",
+        "Rise of the Tomb Raider",
+        "Shadow of the Tomb Raider",
+        "Star Wars Outlaws",
+        "Stellar Blade",
+        "The Last of Us Part 1",
+        "Uncharted 4"
+      ]
     }
   },
-  "generated": "2026-10-21T08:06:58Z"
+  "generated": "2026-10-21T08:57:30Z"
 }
