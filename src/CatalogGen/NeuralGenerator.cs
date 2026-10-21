@@ -48,7 +48,10 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
                 }
                 await IngestAsync(known, binary, identified, candidate.AssetUrl, now, errors, ct);
             }
-            catch (InvalidDataException ex) { warnings.Add($"{candidate.Tag}: skipped, {ex.Message}"); }
+            catch (Exception ex) when (ex is InvalidDataException or IOException or UnauthorizedAccessException)
+            {
+                warnings.Add($"{candidate.Tag}: skipped, {ex.Message}");
+            }
             finally
             {
                 TryDelete(fetched.Path);
@@ -202,7 +205,10 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
         if (files.Count != 1) throw new InvalidDataException($"the zip holds {files.Count} files, expected one");
         Directory.CreateDirectory(tempDir);
         var target = Path.Combine(tempDir, Guid.NewGuid().ToString("N") + ".bin");
-        files[0].ExtractToFile(target, true);
+        // Copied by hand: ExtractToFile applies the unix permissions stored in the zip, which can leave an unreadable file.
+        using (var source = files[0].Open())
+        using (var destination = new FileStream(target, FileMode.CreateNew, FileAccess.Write, FileShare.None))
+            source.CopyTo(destination);
         return target;
     }
 
