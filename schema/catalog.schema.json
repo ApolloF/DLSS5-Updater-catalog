@@ -11,11 +11,12 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `addons` and `shaderPacks` exist so far; later areas (luma, feeder, optiscalerCompat) are added as new keys.",
+      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas (luma, feeder, optiscalerCompat) are added as new keys.",
       "properties": {
         "renodx": { "$ref": "#/$defs/renodxSection" },
         "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" },
         "addons": { "$ref": "#/$defs/addonsSection" },
+        "frameLimiters": { "$ref": "#/$defs/frameLimitersSection" },
         "shaderPacks": { "$ref": "#/$defs/shaderPacksSection" }
       },
       "additionalProperties": true
@@ -277,6 +278,32 @@
         "updated": { "$ref": "#/$defs/utcTime" },
         "source": { "type": "string", "format": "uri", "description": "crosire's Addons.ini." },
         "addons": { "type": "array", "items": { "$ref": "#/$defs/addon" } }
+      },
+      "additionalProperties": true
+    },
+
+    "limiter": {
+      "description": "A frame-limiter add-on (ReLimiter, Display Commander): the add-on binaries of one release. A 32-bit file is absent when the release has none.",
+      "type": "object",
+      "required": ["id", "name", "repository", "release", "files"],
+      "properties": {
+        "id": { "enum": ["relimiter", "display-commander"] },
+        "name": { "type": "string" },
+        "repository": { "type": "string", "description": "owner/repo the files are published from." },
+        "release": { "type": "string", "description": "The release tag the files were read from. Display Commander republishes the tag `latest`." },
+        "license": { "type": "string", "description": "SPDX id of the repository's licence. Absent = no licence found, so the files are pinned (author's URL plus hash), never mirrored." },
+        "files": { "type": "array", "items": { "$ref": "#/$defs/file" }, "description": "`relimiter.addon64` / `.addon32`, `zzz_display_commander.addon64` / `.addon32`." }
+      },
+      "additionalProperties": true
+    },
+
+    "frameLimitersSection": {
+      "type": "object",
+      "required": ["updated", "sources", "limiters"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime" },
+        "sources": { "type": "array", "items": { "type": "object", "required": ["url", "count"], "properties": { "url": { "type": "string", "format": "uri" }, "count": { "type": "integer" } } } },
+        "limiters": { "type": "array", "items": { "$ref": "#/$defs/limiter" } }
       },
       "additionalProperties": true
     },
