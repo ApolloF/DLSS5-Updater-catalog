@@ -11,8 +11,8 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. `renodx` and `renodxDlss` exist so far; later areas (Luma, add-ons,
-shader packs, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching this one. A reader
+`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `addons` and `shaderPacks` exist so far; later areas
+(Luma, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching these. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
 output against it.
@@ -35,7 +35,9 @@ output against it.
       "updated": "...",
       "source": "...",               the releases API url the builds were read from
       "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
-    }
+    },
+    "addons":      { "updated", "source", "addons": [ ... ] },       packages from crosire's Addons.ini
+    "shaderPacks": { "updated", "source", "packs":  [ ... ] }        shader repositories from shader-packs.json
   }
 }
 ```
@@ -95,6 +97,54 @@ A **file** entry:
 Every binary is downloaded by the generator, hashed, size-checked and must start with `MZ` (an HTML error page is never
 recorded as a build). The one exception is a zip (it starts with `PK\x03\x04`), accepted only when its central directory lists an entry
 named `renodx-dlss.addon64`. A file that fails keeps its last good entry, or is left out if it never had one.
+
+### `addons`
+
+Generated from crosire's list, `https://raw.githubusercontent.com/crosire/reshade-shaders/list/Addons.ini`: numbered sections with
+`PackageName`, `PackageDescription`, `DownloadUrl` / `DownloadUrl32` / `DownloadUrl64`, `RepositoryUrl` and `EffectInstallPath`.
+A section that is commented out (every line starts with `#`) is not part of the list. The list is read every run; fewer than 10
+packages, or more than 20% fewer than before, fails the run and keeps the previous section.
+
+An **add-on** entry:
+
+| Field | Meaning |
+|---|---|
+| `id`, `name`, `author`, `description` | `id` is a slug of the whole package name; `name` and `author` are the package name split at " by " |
+| `repositoryUrl`, `effectInstallPath` | As the list writes them (`effectInstallPath` is relative to the game folder) |
+| `license` | SPDX id of the repository the files come from, when GitHub reports one |
+| `managedBy` | The app already manages this add-on as a component of its own: `renodx`, `display-commander`, `relimiter`, `dfc`, `lecram-dlss5`, `gitc-uplift` or `dlss5-feeder` (matched on name, repository and download addresses). No files are listed; the app points at the component instead of installing a second copy |
+| `manual` | Why the app can't install it itself: no download is published, the download is dead, or the zip holds files the app doesn't place (shader replacements, a launcher, ...). The repository link is the way in |
+| `files` | The downloads, as in `renodx` files. `arch` is `x86`, `x64`, or `both` (one download listed for both, or a zip holding both builds) |
+
+Every download is fetched, hashed and mirrored or pinned exactly as in `renodx` (below). A zip must be readable and hold at least
+one file; a plain binary must start with `MZ`. A file entry of an add-on also has:
+
+| Field | Meaning |
+|---|---|
+| `payload` | What the app installs from it: `{ "entry", "kind": "addon" or "effect", "arch", "dest" }`. `addon` = a `.addon32` / `.addon64` / `.addon` file for the add-on folder (a bare `.addon` takes the bitness of the list key it came from). `effect` = a `.fx` / `.fxh` file; `dest` is its path below the game's `Shaders` folder: after a `Shaders` folder inside the zip if there is one, else flat in `effectInstallPath` |
+| `unplaced` | Zip entries that are neither documentation, an add-on nor a placeable effect. The package is then `manual` |
+
+### `shaderPacks`
+
+Generated from [`shader-packs.json`](shader-packs.json), the list we maintain by hand (not copied from anyone's list). Each pack:
+
+```
+{ "id": "lilium-hdr", "name": "...", "repo": "EndlesslyFlowering/ReShade_HDR_shaders",
+  "source": { "kind": "branch", "branch": "master" }      or { "kind": "release-asset", "asset": "*.zip" },
+  "category": "hdr|general|color|depth-3d|cinematic", "default": true, "license": "MIT" (optional), "description": "..." }
+```
+
+The generator pins each pack: a branch pack to the branch's current commit (`GET /repos/{repo}/commits/{branch}`, zip from
+`https://github.com/{repo}/archive/{sha}.zip`, so the URL names exactly the bytes that were hashed); a release-asset pack to the latest
+release's tag and its one asset matching the pattern. `version` is the release tag or the first seven characters of the commit.
+The pack's `file` is a normal file entry (hash, size, history, `mirrorUrl` when the licence allows) with a `layout`:
+`shadersDir` and `texturesDir` (zip prefixes, found without case and without stray spaces; the folder with the most `.fx` files wins),
+and the file counts. A zip without a `Shaders` folder holding `.fx` files is refused like a bad download. `license` is GitHub's SPDX id; the
+optional `license` in the list is a licence we read in the repository's licence file and is used only when GitHub reports none
+(`NOASSERTION`), so a hand-checked MIT still counts as permissive. A conflict (the list says X, GitHub says Y) is a warning and GitHub wins.
+
+Pre-selected packs (`default: true`) are the HDR essentials. The app never installs anything on its own: the flag only decides
+what is ticked the first time.
 
 ### Mirror or pinned
 
@@ -213,7 +263,7 @@ dotnet test
 dotnet run --project src/CatalogGen -- --no-mirror          # hashes and pins, uploads nothing
 ```
 
-`--catalog`, `--overrides`, `--temp` and `--repo` change the paths; `GITHUB_TOKEN` raises the API rate limit and, with
+`--catalog`, `--overrides`, `--packs`, `--temp` and `--repo` change the paths; `GITHUB_TOKEN` raises the API rate limit and, with
 `--repo`, enables mirror uploads. `CATALOG_ACCEPT_SHRINK=1` accepts a section that lost more than 20% of its mods.
 
 ## Layout
@@ -221,6 +271,7 @@ dotnet run --project src/CatalogGen -- --no-mirror          # hashes and pins, u
 ```
 catalog.json              generated, committed by the Action
 overrides.json            hand-maintained
+shader-packs.json         hand-maintained list of shader repositories
 schema/catalog.schema.json
 src/CatalogGen            the generator (.NET 8 console app)
 tests/CatalogGen.Tests    xUnit: wiki parsing, merge, licence decision, history, mirror, schema

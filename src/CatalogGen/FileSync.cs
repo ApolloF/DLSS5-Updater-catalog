@@ -43,13 +43,16 @@ public interface INoticeSource
 
 public sealed record SyncResult(FileEntry? Entry, string? Warning, string? Error);
 
+/// <summary>Reads a freshly downloaded file (a zip) and records what it holds on the entry. Throws <see cref="InvalidDataException"/> when the file is unusable.</summary>
+public delegate void FileInspector(string path, FileEntry entry);
+
 /// <summary>
 /// Brings one file entry up to date: conditional re-download, SHA-256, first-seen version and history,
 /// licence decision and mirroring. A failure keeps the last good entry.
 /// </summary>
 public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror? mirror, int verifyEveryDays = 7, int historyLimit = 20)
 {
-    public async Task<SyncResult> SyncAsync(FileEntry wanted, FileEntry? previous, DateTimeOffset now, CancellationToken ct)
+    public async Task<SyncResult> SyncAsync(FileEntry wanted, FileEntry? previous, DateTimeOffset now, CancellationToken ct, FileInspector? inspect = null)
     {
         string? error = null;
         var license = previous?.License;
@@ -86,6 +89,17 @@ public sealed class FileSync(IFetcher fetcher, ILicenceSource licences, IMirror?
                 try
                 {
                     var entry = Merge(wanted, previous, fetched, license, now);
+                    if (inspect is not null)
+                    {
+                        try { inspect(fetched.Path, entry); }
+                        catch (InvalidDataException ex)
+                        {
+                            var why = $"{wanted.Url}: {ex.Message}";
+                            return previous is null
+                                ? new SyncResult(null, $"skipped, {why}", error)
+                                : new SyncResult(Describe(previous, wanted, license), $"kept the last good build, {why}", error);
+                        }
+                    }
                     if (mirrorAllowed && entry.MirrorUrl is null)
                     {
                         try

@@ -6,9 +6,10 @@ namespace CatalogGen;
 
 /// <summary>
 /// Downloads upstream binaries politely: conditional requests (ETag / Last-Modified) when a previous build is known,
-/// and the body is only read when the size or ETag changed. Rejects anything that isn't a PE file or a zip holding the add-on (HTML error pages).
+/// and the body is only read when the size or ETag changed. Rejects anything that isn't a PE file or a zip holding <c>requiredZipEntry</c>
+/// (any zip with files when that is null): HTML error pages never become a build.
 /// </summary>
-public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? retryDelay = null) : IFetcher
+public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? retryDelay = null, string? requiredZipEntry = DownloadCheck.ZipEntryName) : IFetcher
 {
     private const int Attempts = 3;
 
@@ -85,7 +86,7 @@ public sealed class UpstreamFetcher(HttpClient http, string tempDir, TimeSpan? r
             }
             sha.TransformFinalBlock([], 0, 0);
 
-            if (DownloadCheck.Problem(path, head.AsSpan(0, headLen)) is { } problem)
+            if (DownloadCheck.Problem(path, head.AsSpan(0, headLen), requiredZipEntry) is { } problem)
             {
                 File.Delete(path);
                 return new FetchResult.Failed(problem);

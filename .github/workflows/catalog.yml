@@ -11,7 +11,7 @@ on:
         default: false
   push:
     branches: [main]
-    paths: ["src/**", "tests/**", "schema/**", "*.sln", ".github/workflows/catalog.yml"]
+    paths: ["src/**", "tests/**", "schema/**", "shader-packs.json", "*.sln", ".github/workflows/catalog.yml"]
   pull_request:
 
 # One run at a time: two runs would race on the release assets and on the commit.
@@ -53,7 +53,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           CATALOG_ACCEPT_SHRINK: ${{ inputs.accept_shrink && '1' || '0' }}
-        run: dotnet run -c Release --no-build --project src/CatalogGen -- --catalog catalog.json --overrides overrides.json --temp "$RUNNER_TEMP/downloads"
+        run: dotnet run -c Release --no-build --project src/CatalogGen -- --catalog catalog.json --overrides overrides.json --packs shader-packs.json --temp "$RUNNER_TEMP/downloads"
 
       # A broken source keeps the last good section (the generator writes nothing for it), so whatever did change is still committed.
       - name: Commit catalog.json if it changed
