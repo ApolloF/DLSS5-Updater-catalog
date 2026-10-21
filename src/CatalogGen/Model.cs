@@ -193,6 +193,30 @@ public sealed class RenodxDlssSection
     public List<DlssBuild> Builds { get; set; } = [];
 }
 
+/// <summary>One row of the OptiScaler compatibility list.</summary>
+public sealed class CompatGame
+{
+    public string Name { get; set; } = "";
+    /// <summary>Wiki page slug of the game's own compatibility entry; absent for plain-text names.</summary>
+    public string? Page { get; set; }
+    /// <summary><c>main</c>, <c>upscalerMods</c> or <c>lumaUe</c>: the table the row sits in.</summary>
+    public string List { get; set; } = "main";
+    /// <summary><c>working</c>, <c>not-working</c> or <c>single-os</c>.</summary>
+    public string Compat { get; set; } = "";
+    public List<string> Inputs { get; set; } = [];
+    public bool OptiPatcher { get; set; }
+    public string? Notes { get; set; }
+}
+
+public sealed class OptiScalerCompatSection
+{
+    public string? Updated { get; set; }
+    public string Source { get; set; } = "";
+    public string HudfixSource { get; set; } = "";
+    public List<CompatGame> Games { get; set; } = [];
+    public List<string> HudfixIncompatible { get; set; } = [];
+}
+
 /// <summary>overrides.json: hand-maintained, one block per section.</summary>
 public sealed class OverridesFile
 {

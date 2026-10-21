@@ -11,8 +11,8 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
-(Luma, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching these. A reader
+`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
+(Luma, the DLSS5 feeder) are added as new sections without touching these. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
 output against it.
@@ -35,6 +35,12 @@ output against it.
       "updated": "...",
       "source": "...",               the releases API url the builds were read from
       "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
+    },
+    "optiscalerCompat": {
+      "updated": "...",
+      "source": "...", "hudfixSource": "...",   the two OptiScaler wiki pages
+      "games": [ ... ],              OptiScaler's compatibility list, three tables
+      "hudfixIncompatible": [ ... ]  game names the HUDfix list calls incompatible
     },
     "addons":      { "updated", "source", "addons": [ ... ] },       packages from crosire's Addons.ini
     "frameLimiters": { "updated", "sources", "limiters": [ ... ] },  ReLimiter and Display Commander add-ons
@@ -212,6 +218,39 @@ repository has no licence: the build is **pinned, never mirrored**, so there is 
 zip from `url`, checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
 download. If the release list is unreachable, isn't a list or has no matching release, the run fails and the previous
 section stays; a single build whose download fails is a warning and keeps its last good entry.
+
+### `optiscalerCompat`
+
+The OptiScaler wiki's compatibility list and its "HUDfix incompatible" page, read as raw Markdown from
+`https://raw.githubusercontent.com/wiki/optiscaler/OptiScaler/Compatibility-List.md` and `.../Hudfix-incompatible.md`. Nothing is
+downloaded, hashed or mirrored. The wiki states no licence for its text, so only facts are copied (name, status, inputs, a short
+plain-text note) and every entry points back to its upstream page through `page`.
+
+```json
+{
+  "updated": "2026-10-21T12:00:00Z",
+  "source": "https://raw.githubusercontent.com/wiki/optiscaler/OptiScaler/Compatibility-List.md",
+  "hudfixSource": "https://raw.githubusercontent.com/wiki/optiscaler/OptiScaler/Hudfix-incompatible.md",
+  "games": [
+    { "name": "Cyberpunk 2077", "page": "Cyberpunk-2077", "list": "main", "compat": "working",
+      "inputs": ["DLSS", "FSR3", "FSR3.1/4", "XeSS"], "optiPatcher": true, "notes": "..." }
+  ],
+  "hudfixIncompatible": ["Alan Wake 2", "Assassin's Creed: Mirage"]
+}
+```
+
+| Field | Meaning |
+|---|---|
+| `name`, `page` | The game as the wiki writes it; `page` is the slug of its own wiki page (`https://github.com/optiscaler/OptiScaler/wiki/<page>`), absent when the wiki lists a plain name |
+| `list` | The table the row is in: `main`, `upscalerMods` (games that only get upscalers through a third-party mod) or `lumaUe` (Luma for Unreal Engine) |
+| `compat` | `working` (checkmark), `not-working` (cross) or `single-os` (works on Windows or Linux only; the note says which). Rows with any other mark are skipped with a warning |
+| `inputs` | Upscaler inputs as written upstream (`DLSS`, `FSR2`, `FSR3`, `FSR3.1/4`, `XeSS`); empty when none is listed |
+| `optiPatcher` | The wiki marks the game as supported by OptiPatcher. Only the `main` table has that column, so it is always `false` elsewhere |
+| `notes` | Upstream's note as plain text: `<br>` becomes a space, links keep only their text. The images column is not copied |
+
+Rows keep upstream order, lists come in `main`, `upscalerMods`, `lumaUe` order, and a repeated name within a list keeps its first row
+(warning in the run log). If either page is unreachable, fewer than 100 `main` games parse, or fewer than 5 HUDfix names are
+found, the run fails and the previous section stays.
 
 ### `frameLimiters`
 
