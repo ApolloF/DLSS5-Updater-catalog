@@ -133,14 +133,14 @@ public class RenodxDlssGeneratorTests : IDisposable
     }
 
     [Fact]
-    public async Task Only_the_newest_ten_are_kept()
+    public async Task Only_the_newest_twenty_are_kept()
     {
-        var json = ReleaseList(Enumerable.Range(1, 14).Select(i => Release($"v{i}", $"2026-01-{i:00}T00:00:00Z")).ToArray());
+        var json = ReleaseList(Enumerable.Range(1, 24).Select(i => Release($"v{i}", $"2026-01-{i:00}T00:00:00Z")).ToArray());
 
         var output = await Generator(json).BuildAsync(null, Now, default);
 
-        Assert.Equal(10, output.Section.Builds.Count);
-        Assert.Equal("v14", output.Section.Builds[0].Version);
+        Assert.Equal(20, output.Section.Builds.Count);
+        Assert.Equal("v24", output.Section.Builds[0].Version);
         Assert.Equal("v5", output.Section.Builds[^1].Version);
     }
 
@@ -196,7 +196,7 @@ public class RenodxDlssGeneratorTests : IDisposable
     }
 
     [Fact]
-    public async Task The_repository_has_no_licence_so_a_build_is_never_mirrored()
+    public async Task Without_the_any_licence_switch_a_build_of_an_unlicensed_repository_is_never_mirrored()
     {
         var mirror = new CountingMirror();
         var licences = new Licences(null);

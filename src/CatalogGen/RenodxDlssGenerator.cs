@@ -7,17 +7,19 @@ public sealed record DlssOutput(RenodxDlssSection Section, List<string> Warnings
 
 /// <summary>
 /// Builds the <c>renodxDlss</c> section: ShortFuse's renodx-dlss add-on has no official channel, so the builds come from
-/// the GitHub releases of RankFTW/rhi-repo (tag <c>renodx-dlss-SF-&lt;version&gt;</c>, one zip each). That repository has no
-/// licence, so <see cref="FileSync"/> keeps every build pinned (url + hash) and never mirrors it.
+/// the GitHub releases of RankFTW/rhi-repo (tag <c>renodx-dlss-SF-&lt;version&gt;</c>, one zip each), mirrored in this repository.
+/// A raw <c>renodx-dlss.addon64</c> dropped into the <c>incoming</c> release is mirrored the same way and listed as a build tagged
+/// <c>incoming-&lt;version&gt;</c>. The newest 20 builds are listed.
 /// </summary>
-public sealed partial class RenodxDlssGenerator(ITextSource text, FileSync sync, int keep = 10, int parallelism = 4)
+public sealed partial class RenodxDlssGenerator(ITextSource text, FileSync sync, IMirror? mirror = null, int keep = 20, int parallelism = 4)
 {
     public const string ReleasesUrl = "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100";
     public const string Mod = "renodx-dlss";
+    public const string IncomingTag = "incoming-";
 
     private sealed record Release(string Tag, string Version, DateTimeOffset Published, string AssetName, string AssetUrl);
 
-    public async Task<DlssOutput> BuildAsync(RenodxDlssSection? previous, DateTimeOffset now, CancellationToken ct)
+    public async Task<DlssOutput> BuildAsync(RenodxDlssSection? previous, DateTimeOffset now, CancellationToken ct, IReadOnlyList<Drop>? drops = null)
     {
         var warnings = new List<string>();
         var errors = new List<string>();
@@ -47,6 +49,36 @@ public sealed partial class RenodxDlssGenerator(ITextSource text, FileSync sync,
             var r = releases[i];
             builds.Add(new DlssBuild { Tag = r.Tag, Version = r.Version, Published = FileSync.Iso(r.Published), File = file });
         }
+
+        var dropped = (previous?.Builds ?? []).Where(b => b.Tag.StartsWith(IncomingTag, StringComparison.Ordinal)).ToList();
+        foreach (var drop in (drops ?? []).Where(d => d.Identified.Kind == NeuralKind.RenodxDlss))
+        {
+            if (dropped.Any(b => b.File.Sha256 == drop.Sha256)) { drop.Handled = true; continue; }
+            if (mirror is null) continue;
+            try
+            {
+                var stamp = FileSync.Iso(now);
+                var url = await mirror.PublishAsync(drop.Identified.FileName, drop.Sha256, stamp[..7], drop.Path, ct);
+                var version = FileSync.VersionOf(now, drop.Sha256);
+                dropped.Add(new DlssBuild
+                {
+                    Tag = IncomingTag + version,
+                    Version = version,
+                    Published = stamp,
+                    File = new FileEntry
+                    {
+                        Name = drop.Identified.FileName, Arch = "x64", Url = url, MirrorUrl = url, Mod = Mod,
+                        Sha256 = drop.Sha256, Size = drop.Size, Version = version, FirstSeen = stamp, Verified = stamp[..10],
+                    },
+                });
+                drop.Handled = true;
+            }
+            catch (Exception ex) when (ex is HttpRequestException or IOException or InvalidOperationException)
+            {
+                errors.Add($"mirroring {drop.Identified.FileName} failed: {ex.Message}");
+            }
+        }
+        builds = builds.Concat(dropped).OrderByDescending(b => b.Published, StringComparer.Ordinal).ThenBy(b => b.Tag, StringComparer.Ordinal).Take(keep).ToList();
         return new DlssOutput(new RenodxDlssSection { Source = ReleasesUrl, Builds = builds }, warnings, errors);
     }
 
