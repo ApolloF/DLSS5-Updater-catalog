@@ -197,6 +197,18 @@ public class RenodxGeneratorTests : IDisposable
         Assert.False(schema.Evaluate(doc, new EvaluationOptions { OutputFormat = OutputFormat.List }).IsValid);
     }
 
+    [Fact]
+    public void The_committed_catalog_json_validates_against_the_schema()
+    {
+        var path = Path.Combine(Path.GetDirectoryName(SchemaPath())!, "..", "catalog.json");
+        if (!File.Exists(path)) return; // before the first Action run there is none
+
+        var schema = JsonSchema.FromText(File.ReadAllText(SchemaPath()));
+        var result = schema.Evaluate(JsonNode.Parse(File.ReadAllText(path)), new EvaluationOptions { OutputFormat = OutputFormat.List });
+
+        Assert.True(result.IsValid, string.Join(Environment.NewLine, result.Details.Where(d => !d.IsValid && d.Errors is not null).Take(10).SelectMany(d => d.Errors!.Select(e => $"{d.InstanceLocation}: {e.Value}"))));
+    }
+
     private static string SchemaPath()
     {
         for (var dir = new DirectoryInfo(AppContext.BaseDirectory); dir is not null; dir = dir.Parent)
