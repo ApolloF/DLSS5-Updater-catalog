@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-10-21T08:06:58Z",
+      "updated": "2026-10-21T09:05:42Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -85,8 +85,8 @@
               "version": "2026-10-21-48fa2f3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-425be00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-425be00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/48fa2f37d7ccfda9-renodx-ue-extended.addon64",
               "history": []
@@ -1160,8 +1160,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -1189,8 +1189,8 @@
               "version": "2026-10-21-b7fa531",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fca-620800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:22 GMT",
+              "etag": "\"6ad79fcc-620800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b7fa53126945efb5-renodx-atelierryzadx.addon64",
               "history": []
@@ -1519,8 +1519,8 @@
               "version": "2026-10-21-1353ed7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-256000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad82979-256000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/1353ed7116620259-renodx-BerserkBotH.addon64",
               "history": []
@@ -1700,8 +1700,8 @@
               "version": "2026-10-21-25b928d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c6-c8a00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:02 GMT",
+              "etag": "\"6999a1c7-c8a00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25b928d52299169e-renodx-black-desert-online.addon64",
               "history": []
@@ -2824,8 +2824,8 @@
               "version": "2026-10-21-d9aad79",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-201a00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13983-201a00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d9aad79682d48d40-renodx-daysgone.addon64",
               "history": []
@@ -2854,8 +2854,8 @@
               "version": "2026-10-21-3f30d93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad4082e-3d0600\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:42 GMT",
+              "etag": "\"6ad40830-3d0600\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:44 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3f30d937d3891505-renodx-deadislandde.addon64",
               "history": []
@@ -3661,8 +3661,8 @@
               "version": "2026-10-21-a13565d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-263200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297a-263200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a13565d95aad9acd-renodx-endermagnolia.addon64",
               "history": []
@@ -4252,8 +4252,8 @@
               "version": "2026-10-21-0c78785",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-221200\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13984-221200\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/0c78785c49d30069-renodx-forzahorizon6.addon64",
               "history": []
@@ -4302,8 +4302,8 @@
               "version": "2026-10-21-a91a898",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad7c406-2b4600\"",
-              "lastModified": "Tue, 20 Oct 2026 19:41:58 GMT",
+              "etag": "\"6ad7c405-2b4600\"",
+              "lastModified": "Tue, 20 Oct 2026 19:41:57 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a91a898711be6d80-renodx-gotsushima.addon64",
               "history": []
@@ -5620,8 +5620,8 @@
               "version": "2026-10-21-981cd8e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-280c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b0-280c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/981cd8e6908c2a9c-renodx-legohpc.addon64",
               "history": []
@@ -5653,8 +5653,8 @@
               "version": "2026-10-21-53ed450",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297e-1dbc00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
+              "etag": "\"6ad8297d-1dbc00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/53ed45030c2be331-renodx-yakuzapirates.addon64",
               "history": []
@@ -5787,8 +5787,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b0-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -5973,8 +5973,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -6315,8 +6315,8 @@
               "version": "2026-10-21-09b8ea0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13982-4a4800\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
+              "etag": "\"6ad13984-4a4800\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/09b8ea0c2e6c3245-renodx-metroexodus.addon64",
               "history": []
@@ -6377,8 +6377,8 @@
               "version": "2026-10-21-04bc9fe",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-27a600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-27a600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/04bc9fee5e3b812e-renodx-metroiddread.addon64",
               "history": []
@@ -6410,8 +6410,8 @@
               "version": "2026-10-21-9fd338d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-27be00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-27be00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9fd338d56e1a2d8d-renodx-metroidprime.addon64",
               "history": []
@@ -6497,8 +6497,8 @@
               "version": "2026-10-21-9eb522e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-268e00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b2-268e00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9eb522e5066e82a5-renodx-mhgu.addon64",
               "history": []
@@ -6753,8 +6753,8 @@
               "version": "2026-10-21-8a22097",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1288-230c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-230c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a22097869d7dfff-renodx-nierreplicant.addon64",
               "history": []
@@ -6782,8 +6782,8 @@
               "version": "2026-10-21-70ca03b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-25ac00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297d-25ac00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/70ca03bd323a365e-renodx-nightsofazure1.addon64",
               "history": []
@@ -6811,8 +6811,8 @@
               "version": "2026-10-21-4988bb6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-257a00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297c-257a00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/4988bb60ecd7b26f-renodx-nightsofazure2.addon64",
               "history": []
@@ -6942,8 +6942,8 @@
               "version": "2026-10-21-6492fe9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-22fa00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-22fa00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/6492fe9e62d90fdc-renodx-nioh2.addon64",
               "history": []
@@ -8051,8 +8051,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -8084,8 +8084,8 @@
               "version": "2026-10-21-848da8b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-277c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-277c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/848da8b59aa5eead-renodx-riseofronin.addon64",
               "history": []
@@ -8389,8 +8389,8 @@
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1288-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -8589,8 +8589,8 @@
               "version": "2026-10-21-8bd95b4",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-338e00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297c-338e00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8bd95b46d4fc7d2e-renodx-smt5.addon64",
               "history": []
@@ -8908,8 +8908,8 @@
               "version": "2026-10-21-95d69dc",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-246600\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246600\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/95d69dc11790ba56-renodx-sonsoftheforest.addon64",
               "history": []
@@ -9020,8 +9020,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b4-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -9053,8 +9053,8 @@
               "version": "2026-10-21-9345234",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b4-2d6000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b2-2d6000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/93452345af06d1cf-renodx-splatoon2.addon64",
               "history": []
@@ -9086,8 +9086,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b4-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b2-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -9346,8 +9346,8 @@
               "version": "2026-10-21-266ef81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-22e200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-22e200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/266ef81bbca05104-renodx-sopffo.addon64",
               "history": []
@@ -9455,8 +9455,8 @@
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -9587,8 +9587,8 @@
               "version": "2026-10-21-c543ce7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-26bc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40832-26bc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c543ce706fca2cca-renodx-teardown.addon64",
               "history": []
@@ -10035,8 +10035,8 @@
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b0-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
+              "etag": "\"6ac0e4af-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:11 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -10068,8 +10068,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b5-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "etag": "\"6ac0e4b2-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -10264,8 +10264,8 @@
               "version": "2026-10-21-8a84c93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13985-288000\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:25 GMT",
+              "etag": "\"6ad13984-288000\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a84c9361b33c1e3-renodx-thewitcher3remastered.addon64",
               "history": []
@@ -10371,8 +10371,8 @@
               "version": "2026-10-21-d22538d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fce-266800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:26 GMT",
+              "etag": "\"6ad79fcd-266800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:25 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d22538d296ac968b-renodx-terraria-tml.addon64",
               "history": []
@@ -10467,8 +10467,8 @@
               "version": "2026-10-21-113bd81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c7-c3c00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "etag": "\"6999a1c8-c3c00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/113bd81b2bd48d12-renodx-tw-3kingdoms.addon64",
               "history": []
@@ -10740,8 +10740,8 @@
               "version": "2026-10-21-9d07c01",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"68fd62e4-f4c00\"",
-              "lastModified": "Sat, 25 Oct 2025 23:53:08 GMT",
+              "etag": "\"68fd62e5-f4c00\"",
+              "lastModified": "Sat, 25 Oct 2025 23:53:09 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9d07c0152868bd28-renodx-warframe.addon64",
               "history": []
@@ -10895,8 +10895,8 @@
               "version": "2026-10-21-ec7e155",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-233800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-233800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec7e155fc413945e-renodx-wolong.addon64",
               "history": []
@@ -11042,8 +11042,8 @@
               "version": "2026-10-21-c32aaee",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c8-141000\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
+              "etag": "\"6999a1c7-141000\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c32aaee51f894864-renodx-xcom2.addon64",
               "history": []
@@ -11167,8 +11167,8 @@
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -11229,8 +11229,8 @@
               "version": "2026-10-21-f11c2af",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297e-24fa00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
+              "etag": "\"6ad8297d-24fa00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f11c2afa8153644c-renodx-ys10.addon64",
               "history": []
@@ -15841,7 +15841,1712 @@
           }
         }
       ]
+    },
+    "addons": {
+      "updated": "2026-10-21T09:05:42Z",
+      "source": "https://raw.githubusercontent.com/crosire/reshade-shaders/list/Addons.ini",
+      "addons": [
+        {
+          "id": "swap-chain-override-by-crosire",
+          "name": "Swap chain override",
+          "author": "crosire",
+          "description": "Adds options to ReShade.ini to force the application into windowed or fullscreen mode, or force a specific resolution or the default refresh rate.",
+          "repositoryUrl": "https://github.com/crosire/reshade/tree/main/examples/16-swapchain_override",
+          "files": [
+            {
+              "name": "swapchain_override.addon32",
+              "arch": "x86",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/swapchain_override.addon32",
+              "sha256": "8e1f8633ec226a52bc9f68a7f9d2c4bdf2cb56d602fa7b768d0f927651b16eea",
+              "size": 12800,
+              "version": "2026-10-21-8e1f863",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A08333AD82\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:31 GMT",
+              "payload": [
+                {
+                  "entry": "swapchain_override.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "swapchain_override.addon64",
+              "arch": "x64",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/swapchain_override.addon64",
+              "sha256": "2b8c819fbec96869c16466cc3640c60e249429a44cfaa6480f72f66fe11b9b53",
+              "size": 15360,
+              "version": "2026-10-21-2b8c819",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A0833A0EFA\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "swapchain_override.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "freepie-by-crosire",
+          "name": "FreePIE",
+          "author": "crosire",
+          "description": "Adds support for reading FreePIE input data in effects via uniform variables.",
+          "repositoryUrl": "https://github.com/crosire/reshade/tree/main/examples/02-freepie",
+          "files": [
+            {
+              "name": "freepie.addon32",
+              "arch": "x86",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/freepie.addon32",
+              "sha256": "e394bf3d9a6dfe08d8b89685ed0b612417b5e269d2604159ea1f3fa5f6749513",
+              "size": 11776,
+              "version": "2026-10-21-e394bf3",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A0832FBA59\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:31 GMT",
+              "payload": [
+                {
+                  "entry": "freepie.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "freepie.addon64",
+              "arch": "x64",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/freepie.addon64",
+              "sha256": "67bc69b30e4a9d7b97d355ebf21e27bd41ea962742ea9575bd6ecd8041025725",
+              "size": 13824,
+              "version": "2026-10-21-67bc69b",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A083329D49\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:31 GMT",
+              "payload": [
+                {
+                  "entry": "freepie.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "obs-capture-by-crosire",
+          "name": "OBS Capture",
+          "author": "crosire",
+          "description": "An OBS capture driver which overrides the one OBS ships with to be able to give more control over where in the frame to send images to OBS.",
+          "repositoryUrl": "https://github.com/crosire/reshade/tree/main/examples/11-obs_capture",
+          "files": [
+            {
+              "name": "obs_capture.addon32",
+              "arch": "x86",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/obs_capture.addon32",
+              "sha256": "a8948a5e95c8c9a4b05c911aced386f9df57791777a2a7e26dfd4da9f965f191",
+              "size": 18944,
+              "version": "2026-10-21-a8948a5",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A0833DDB46\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "obs_capture.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "obs_capture.addon64",
+              "arch": "x64",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/obs_capture.addon64",
+              "sha256": "c987d5047b66e2452589db1c64d026870b627b892a5d5b9211044d24dc512211",
+              "size": 22016,
+              "version": "2026-10-21-c987d50",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A08337A0C1\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "obs_capture.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "frame-capture-by-murchalloo",
+          "name": "Frame Capture",
+          "author": "murchalloo",
+          "description": "Export 32 bit EXR depth and normal textures (requires https://github.com/murchalloo/murchFX/blob/main/Shaders/DepthToAddon.fx)",
+          "repositoryUrl": "https://github.com/murchalloo/reshade-addons",
+          "files": [
+            {
+              "name": "frame_capture.addon",
+              "arch": "x64",
+              "url": "https://github.com/murchalloo/reshade-addons/releases/download/1.0.2/frame_capture.addon",
+              "sha256": "d792f9adb8d49f68ae57829980c82bd1dcd76966e8a3baa127a909bc3af254ae",
+              "size": 100864,
+              "version": "2026-10-21-d792f9a",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8D9ED996239C086\"",
+              "lastModified": "Fri, 11 Feb 2022 20:02:08 GMT",
+              "payload": [
+                {
+                  "entry": "frame_capture.addon",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "shadertoggler-by-otis-inf",
+          "name": "ShaderToggler",
+          "author": "Otis_Inf",
+          "description": "Toggle game shaders on/off in groups based on a key press",
+          "repositoryUrl": "https://github.com/FransBouma/ShaderToggler",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "ShaderToggler_v122.zip",
+              "arch": "x64",
+              "url": "https://github.com/FransBouma/ShaderToggler/releases/download/1.2.2/ShaderToggler_v122.zip",
+              "sha256": "8e345148ad4ff2e7e85f2a160903dc95d7eb8134b49c4b89eafb0854e01cce39",
+              "size": 64885,
+              "version": "2026-10-21-8e34514",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF04F77FF1D767\"",
+              "lastModified": "Fri, 28 Aug 2026 11:28:35 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8e345148ad4ff2e7-ShaderToggler_v122.zip",
+              "payload": [
+                {
+                  "entry": "ShaderToggler.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "reshadeeffectshadertoggler-rest-by-4lex4nder",
+          "name": "ReshadeEffectShaderToggler (REST)",
+          "author": "4lex4nder",
+          "description": "Apply ReShade effects to render targets of shader groups based on a key press",
+          "repositoryUrl": "https://github.com/4lex4nder/ReshadeEffectShaderToggler",
+          "effectInstallPath": ".\\reshade-shaders\\Shaders\\REST",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "release.zip",
+              "arch": "both",
+              "url": "https://github.com/4lex4nder/ReshadeEffectShaderToggler/releases/latest/download/release.zip",
+              "sha256": "79aaf38002e103034527eeb09553cbc422b44989d22258e905652131904afa6d",
+              "size": 575261,
+              "version": "2026-10-21-79aaf38",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DD22EC1B69CF06\"",
+              "lastModified": "Mon, 23 Dec 2024 00:52:42 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/79aaf38002e10303-release.zip",
+              "payload": [
+                {
+                  "entry": "ReshadeEffectShaderToggler.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                },
+                {
+                  "entry": "ReshadeEffectShaderToggler.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                },
+                {
+                  "entry": "REST_FLIP.fx",
+                  "kind": "effect",
+                  "dest": "REST/REST_FLIP.fx"
+                },
+                {
+                  "entry": "REST_NOOP.fx",
+                  "kind": "effect",
+                  "dest": "REST/REST_NOOP.fx"
+                },
+                {
+                  "entry": "REST_TONEMAP.fx",
+                  "kind": "effect",
+                  "dest": "REST/REST_TONEMAP.fx"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "igcs-connector-by-otis-inf",
+          "name": "IGCS Connector",
+          "author": "Otis_Inf",
+          "description": "Connects ReShade with a photomode mod built with IGCS to exchange data and issue actions, e.g. IGCS DOF and more.",
+          "repositoryUrl": "https://github.com/FransBouma/IgcsConnector",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "IGCSConnector_v260.zip",
+              "arch": "x64",
+              "url": "https://github.com/FransBouma/IgcsConnector/releases/download/v260/IGCSConnector_v260.zip",
+              "sha256": "e0560a7628f70420e98bf9a4bbcfb4a8ca3651f9d4b775898ebedd0b3cfc0007",
+              "size": 243575,
+              "version": "2026-10-21-e0560a7",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEA86CF1C37DB0\"",
+              "lastModified": "Sat, 02 May 2026 17:04:59 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e0560a7628f70420-IGCSConnector_v260.zip",
+              "payload": [
+                {
+                  "entry": "IgcsConnector.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                },
+                {
+                  "entry": "Shaders/IgcsDof.fx",
+                  "kind": "effect",
+                  "dest": "IgcsDof.fx"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "autohdr-by-endlesslyflowering-original-by-majorpainthecactus",
+          "name": "AutoHDR",
+          "author": "EndlesslyFlowering (original by MajorPainTheCactus)",
+          "description": "AutoHDR add-on (requires lilium__inverse_tone_mapping.fx from ReShade_HDR_shaders or AdvancedAutoHDR.fx to fix gamma and actually re-tonemap to HDR)",
+          "repositoryUrl": "https://github.com/EndlesslyFlowering/AutoHDR-ReShade",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "AutoHDR.addon32",
+              "arch": "x86",
+              "url": "https://github.com/EndlesslyFlowering/AutoHDR-ReShade/releases/latest/download/AutoHDR.addon32",
+              "sha256": "189f09998d7767cf164443f4e5e7bd3af3c16c412ffbfa90bc9e94dd4d559e54",
+              "size": 44544,
+              "version": "2026-10-21-189f099",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DDA2FF6A3232C3\"",
+              "lastModified": "Wed, 04 Jun 2025 00:33:23 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/189f09998d7767cf-AutoHDR.addon32",
+              "payload": [
+                {
+                  "entry": "AutoHDR.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "AutoHDR.addon64",
+              "arch": "x64",
+              "url": "https://github.com/EndlesslyFlowering/AutoHDR-ReShade/releases/latest/download/AutoHDR.addon64",
+              "sha256": "e4fc8cb75e6ff5315179eff0cfdbd3386f333a2d2d4911ee199094c887ae8a10",
+              "size": 51200,
+              "version": "2026-10-21-e4fc8cb",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DDA2FF6515B3C4\"",
+              "lastModified": "Wed, 04 Jun 2025 00:33:15 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e4fc8cb75e6ff531-AutoHDR.addon64",
+              "payload": [
+                {
+                  "entry": "AutoHDR.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "livesplit-overlay-by-mleise",
+          "name": "LiveSplit Overlay",
+          "author": "mleise",
+          "description": "Renders the LiveSplit app below the FPS counter in-game",
+          "repositoryUrl": "https://github.com/mleise/livesplit_overlay",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "livesplit_overlay.zip",
+              "arch": "both",
+              "url": "https://github.com/mleise/livesplit_overlay/releases/latest/download/livesplit_overlay.zip",
+              "sha256": "9b10507c78946896b9ddcead5ab8c308eea2c3e50643c5755cb78df180f8c047",
+              "size": 47007,
+              "version": "2026-10-21-9b10507",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DD1B141FE47CB5\"",
+              "lastModified": "Fri, 13 Dec 2024 01:19:00 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9b10507c78946896-livesplit_overlay.zip",
+              "payload": [
+                {
+                  "entry": "livesplit_overlay.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                },
+                {
+                  "entry": "livesplit_overlay.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "pyhook-by-dwojtasik",
+          "name": "PyHook",
+          "author": "dwojtasik",
+          "description": "Python hook for ReShade image processing",
+          "repositoryUrl": "https://github.com/dwojtasik/PyHook",
+          "manual": "No download is published for this package; get it from the repository.",
+          "files": []
+        },
+        {
+          "id": "reshade-cv-by-jasonbunk",
+          "name": "reshade_cv",
+          "author": "jasonbunk",
+          "description": "Generate 3D datasets from games for DNN training (NeRF, RGBD, point clouds, semantic segmentation ...)",
+          "repositoryUrl": "https://github.com/jasonbunk/reshade_cv",
+          "manual": "No download is published for this package; get it from the repository.",
+          "files": []
+        },
+        {
+          "id": "geo3d-by-flugan",
+          "name": "Geo3D",
+          "author": "Flugan",
+          "description": "Render games in geometric 3D using SBS",
+          "repositoryUrl": "https://github.com/Flugan/Geo3D-Installer",
+          "manual": "No download is published for this package; get it from the repository.",
+          "files": []
+        },
+        {
+          "id": "editor-history-by-seri14",
+          "name": "Editor History",
+          "author": "seri14",
+          "description": "Adds a history window that keeps track of technique and variable modifications, with the ability to go back to a previous state in the history.",
+          "repositoryUrl": "https://github.com/cot6/reshade-addons",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "ReShade32-EditorHistory-By-seri14.zip",
+              "arch": "x86",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade32-EditorHistory-By-seri14.zip",
+              "sha256": "b59be256f798385c44e37933d97b3b9c2d27295b42423eaf173c5cec0647accf",
+              "size": 70512,
+              "version": "2026-10-21-b59be25",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FE95FA67\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:34 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b59be256f798385c-ReShade32-EditorHistory-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade32-EditorHistory-By-seri14.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "ReShade64-EditorHistory-By-seri14.zip",
+              "arch": "x64",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade64-EditorHistory-By-seri14.zip",
+              "sha256": "e69bd1d17abc1898243ed04c463a38f24a83173430e727994a9f5e48f6bcb3d5",
+              "size": 78389,
+              "version": "2026-10-21-e69bd1d",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FC8379F9\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:31 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e69bd1d17abc1898-ReShade64-EditorHistory-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade64-EditorHistory-By-seri14.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "screenshot-by-seri14",
+          "name": "Screenshot",
+          "author": "seri14",
+          "description": "Extended screenshot functionality, like being able to shoot continuous screenshots, additional image file formats etc.",
+          "repositoryUrl": "https://github.com/cot6/reshade-addons",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "ReShade32-Screenshot-By-seri14.zip",
+              "arch": "x86",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade32-Screenshot-By-seri14.zip",
+              "sha256": "d3ac680d6bfd393703494181006f86b7b996dea55a774a0e55c8be110baf87cd",
+              "size": 404078,
+              "version": "2026-10-21-d3ac680",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FE2AB922\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:33 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3ac680d6bfd3937-ReShade32-Screenshot-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade32-Screenshot-By-seri14.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "ReShade64-Screenshot-By-seri14.zip",
+              "arch": "x64",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade64-Screenshot-By-seri14.zip",
+              "sha256": "900082e23e4c9031486ec2ec25c3d85a723d3f5cc3d4489d6c6f05eceabb878b",
+              "size": 456470,
+              "version": "2026-10-21-900082e",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FC10A01D\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:30 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/900082e23e4c9031-ReShade64-Screenshot-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade64-Screenshot-By-seri14.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "uibind-by-seri14",
+          "name": "UIBind",
+          "author": "seri14",
+          "description": "Adds support for \"ui_bind\" annotations on uniform variables to have them automatically change preprocessor definitions.",
+          "repositoryUrl": "https://github.com/cot6/reshade-addons",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "ReShade32-UIBind-By-seri14.zip",
+              "arch": "x86",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade32-UIBind-By-seri14.zip",
+              "sha256": "8cc0f3e62662553e19bddb176418366c7bbbf7581943f08d680fc2b656149512",
+              "size": 15282,
+              "version": "2026-10-21-8cc0f3e",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FDABDEE3\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:33 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8cc0f3e62662553e-ReShade32-UIBind-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade32-UIBind-By-seri14.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "ReShade64-UIBind-By-seri14.zip",
+              "arch": "x64",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade64-UIBind-By-seri14.zip",
+              "sha256": "b097bc9fd33b6403953f7688a266ccf4578ba1c2bfaea410dbb38865ac3661a4",
+              "size": 17416,
+              "version": "2026-10-21-b097bc9",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FBB221C1\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:29 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b097bc9fd33b6403-ReShade64-UIBind-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade64-UIBind-By-seri14.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "adjust-depth-by-seri14",
+          "name": "Adjust Depth",
+          "author": "seri14",
+          "description": "Adds a button to DisplayDepth.fx which takes the configured variables and sets the related preprocessor definitions.",
+          "repositoryUrl": "https://github.com/cot6/reshade-addons",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "ReShade32-AdjustDepth-By-seri14.zip",
+              "arch": "x86",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade32-AdjustDepth-By-seri14.zip",
+              "sha256": "a9c2af4c025760e3b1ecd3afc4fe6a239e4062765da279563c275f07c92d0b7a",
+              "size": 115025,
+              "version": "2026-10-21-a9c2af4",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FF62EAD0\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:35 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a9c2af4c025760e3-ReShade32-AdjustDepth-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade32-AdjustDepth-By-seri14.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "ReShade64-AdjustDepth-By-seri14.zip",
+              "arch": "x64",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade64-AdjustDepth-By-seri14.zip",
+              "sha256": "1d9ed7be57c4f3b95fccf32b5df90c6b64821b3c046bd9fb1376b3c156a92964",
+              "size": 130094,
+              "version": "2026-10-21-1d9ed7b",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FD5153A9\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:32 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/1d9ed7be57c4f3b9-ReShade64-AdjustDepth-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade64-AdjustDepth-By-seri14.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "renodx-by-shortfuse",
+          "name": "RenoDX",
+          "author": "ShortFuse",
+          "description": "A toolset to mod games, short for \"Renovation Engine for DirectX Games\". Currently it can replace shaders, inject buffers, add overlays, upgrade swapchains, upgrade texture resources ...",
+          "repositoryUrl": "https://github.com/clshortfuse/renodx",
+          "managedBy": "renodx",
+          "files": []
+        },
+        {
+          "id": "3dgamebridge-by-janthony-dinnerbram",
+          "name": "3DGameBridge",
+          "author": "Janthony & DinnerBram",
+          "description": "Enable stereoscopic 3D on LeiaSR displays for SBS content",
+          "repositoryUrl": "https://github.com/JoeyAnthony/3DGameBridgeProjects",
+          "effectInstallPath": ".\\reshade-shaders\\Shaders",
+          "license": "GPL-3.0",
+          "manual": "The package holds files this app does not place (DO_NOT_ENABLE.addonfx); install it by hand from the repository.",
+          "files": [
+            {
+              "name": "srReshade.zip",
+              "arch": "both",
+              "url": "https://github.com/JoeyAnthony/3DGameBridgeProjects/releases/latest/download/srReshade.zip",
+              "sha256": "42ab6b79358ee6ea05a77e4793e1f5a1a13c8264c5f24bd090d0ac01feecbe7b",
+              "size": 803857,
+              "version": "2026-10-21-42ab6b7",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE3642AFEA33E4\"",
+              "lastModified": "Mon, 08 Dec 2025 10:15:18 GMT",
+              "license": "GPL-3.0",
+              "payload": [
+                {
+                  "entry": "srReshade_v2.1.0.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                },
+                {
+                  "entry": "srReshade_v2.1.0.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "unplaced": [
+                "DO_NOT_ENABLE.addonfx"
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "autoreload-by-seri14",
+          "name": "AutoReload",
+          "author": "seri14",
+          "description": "Automatically reloads effect files when modified on disk",
+          "repositoryUrl": "https://github.com/cot6/reshade-addons",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "ReShade32-AutoReload-By-seri14.zip",
+              "arch": "x86",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade32-AutoReload-By-seri14.zip",
+              "sha256": "c544a80d4f41fad7922456a8dae40989815dbfbe4944de301addd578c248b6f8",
+              "size": 143433,
+              "version": "2026-10-21-c544a80",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FEFDBD2B\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:35 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c544a80d4f41fad7-ReShade32-AutoReload-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade32-AutoReload-By-seri14.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "ReShade64-AutoReload-By-seri14.zip",
+              "arch": "x64",
+              "url": "https://github.com/cot6/reshade-addons/releases/download/setup-release-reference/ReShade64-AutoReload-By-seri14.zip",
+              "sha256": "55524a66837d53df4f98d97e32aa65b97894087a6796a81da54c711e8d038ca7",
+              "size": 169349,
+              "version": "2026-10-21-55524a6",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE7C14FCF1297E\"",
+              "lastModified": "Sat, 07 Mar 2026 06:44:31 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/55524a66837d53df-ReShade64-AutoReload-By-seri14.zip",
+              "payload": [
+                {
+                  "entry": "ReShade64-AutoReload-By-seri14.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "screenshot-to-clipboard-by-crosire",
+          "name": "Screenshot to clipboard",
+          "author": "crosire",
+          "description": "Copies the saved image file to the Windows clipboard every time a screenshot is taken.",
+          "repositoryUrl": "https://github.com/crosire/reshade/tree/main/examples/17-screenshot_to_clipboard",
+          "files": [
+            {
+              "name": "screenshot_to_clipboard.addon32",
+              "arch": "x86",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/screenshot_to_clipboard.addon32",
+              "sha256": "b60744cd0520026b3eb17b8d24b2942396bc203b0df6495aec158467a0469cc3",
+              "size": 17408,
+              "version": "2026-10-21-b60744c",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A0833A0EFA\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "screenshot_to_clipboard.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "screenshot_to_clipboard.addon64",
+              "arch": "x64",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/screenshot_to_clipboard.addon64",
+              "sha256": "25edd359482905f830b7e842ca22314c3764280cc27d42073e7f8ce9b98cc593",
+              "size": 20992,
+              "version": "2026-10-21-25edd35",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A08337A0C1\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "screenshot_to_clipboard.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "xinp-gamepad-by-blueskydefender",
+          "name": "Xinp Gamepad",
+          "author": "BlueSkyDefender",
+          "description": "Xinp Gamepad is an Xinput add-on for ReShade that lets shader developers use gamepad inputs in their shaders.",
+          "repositoryUrl": "https://github.com/BlueSkyDefender/Xinp",
+          "effectInstallPath": ".\\reshade-shaders\\Shaders\\Xinp",
+          "license": "BSD-3-Clause",
+          "files": [
+            {
+              "name": "Xinp_Release.zip",
+              "arch": "both",
+              "url": "https://github.com/BlueSkyDefender/Xinp/releases/latest/download/Xinp_Release.zip",
+              "sha256": "25c567740d6638672b56b8bc072bb9cae439648fc719e87251c5a83c0114f112",
+              "size": 25297,
+              "version": "2026-10-21-25c5677",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DE8F9AA8DD182D\"",
+              "lastModified": "Wed, 01 Apr 2026 02:59:15 GMT",
+              "license": "BSD-3-Clause",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25c567740d663867-Xinp_Release.zip",
+              "payload": [
+                {
+                  "entry": "Xinp_Release/2DSDFunctions.fxh",
+                  "kind": "effect",
+                  "dest": "Xinp/2DSDFunctions.fxh"
+                },
+                {
+                  "entry": "Xinp_Release/Xinp.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                },
+                {
+                  "entry": "Xinp_Release/Xinp.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                },
+                {
+                  "entry": "Xinp_Release/Xinp_Controller_Debugger.fx",
+                  "kind": "effect",
+                  "dest": "Xinp/Xinp_Controller_Debugger.fx"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "display-commander-by-pmnoxx",
+          "name": "Display Commander",
+          "author": "pmnoxx",
+          "description": "Display Commander is advanced fps limiter, window control, OSD, and more.",
+          "repositoryUrl": "https://github.com/pmnoxx/display-commander",
+          "managedBy": "display-commander",
+          "files": []
+        },
+        {
+          "id": "fix-window-transparency-by-crosire",
+          "name": "Fix window transparency",
+          "author": "crosire",
+          "description": "Disables transparency for windows, since it messes with effects that do not return an alpha value. This is needed for GTK driven apps like Ryujinx.",
+          "repositoryUrl": "https://github.com/crosire/reshade/tree/main/examples/18-window_transparency",
+          "files": [
+            {
+              "name": "window_transparency.addon32",
+              "arch": "x86",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/window_transparency.addon32",
+              "sha256": "74dd7f87b424eef5f74110b4a7397b3d21f993ae11f162722628f8f3d0ec357a",
+              "size": 10752,
+              "version": "2026-10-21-74dd7f8",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A0833AD171\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "window_transparency.addon32",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
+            {
+              "name": "window_transparency.addon64",
+              "arch": "x64",
+              "url": "https://github.com/crosire/reshade-docs/releases/latest/download/window_transparency.addon64",
+              "sha256": "866f3dc356e49cc1d001e2cc83e71b8cc21e8d7c89ac3b24ea216dbc42e15773",
+              "size": 12800,
+              "version": "2026-10-21-866f3dc",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEF0A08336DE48\"",
+              "lastModified": "Sun, 02 Aug 2026 14:15:32 GMT",
+              "payload": [
+                {
+                  "entry": "window_transparency.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "vr-enhancer-mod-vrem-for-dcs-world",
+          "name": "VR Enhancer Mod (VREM) for DCS world",
+          "description": "ReShade addon designed to enhance the VR experience in DCS World (though most features are also compatible with 2D gameplay).",
+          "repositoryUrl": "https://github.com/lefufu/DCS-world-reshade-VREM2",
+          "manual": "The package holds files this app does not place (VREM_shaderreplace/AH64_rotor2PS.cso, VREM_shaderreplace/AH64_rotorPS.cso, VREM_shaderreplace/full_red.cso, ...); install it by hand from the repository.",
+          "files": [
+            {
+              "name": "ReshadeDCS_VREM2_latest.zip",
+              "arch": "both",
+              "url": "https://github.com/lefufu/DCS-world-reshade-VREM2/releases/download/latest/ReshadeDCS_VREM2_latest.zip",
+              "sha256": "eae3064e27e5bbffabf9d1484a73697b533945fb129fa4d89fbf402729cbabcd",
+              "size": 190750,
+              "version": "2026-10-21-eae3064",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DEFBB69C26094E\"",
+              "lastModified": "Sun, 16 Aug 2026 16:51:25 GMT",
+              "payload": [
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/Debug_VREM.fx",
+                  "kind": "effect",
+                  "dest": "VREM/Debug_VREM.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/FXAA.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/FXAA.fxh"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/SMAA.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/SMAA.fxh"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/SMAA_VREM.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/SMAA_VREM.fxh"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/VREM.fxh"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_ColorMatrix.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_ColorMatrix.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_Deband.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_Deband.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_FakeHDR.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_FakeHDR.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_FXAA.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_FXAA.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_LumaSharpen.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_LumaSharpen.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_settings.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_settings.fx"
+                },
+                {
+                  "entry": "reshade-shaders/Shaders/VREM/VREM_Technicolor2.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_Technicolor2.fx"
+                },
+                {
+                  "entry": "VREM_launcher.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "unplaced": [
+                "VREM_shaderreplace/AH64_rotor2PS.cso",
+                "VREM_shaderreplace/AH64_rotorPS.cso",
+                "VREM_shaderreplace/full_red.cso",
+                "VREM_shaderreplace/global_PS_2.cso",
+                "VREM_shaderreplace/IHADSS_PNVS_PS.cso",
+                "VREM_shaderreplace/IHADSS_PS.cso",
+                "VREM_shaderreplace/IHADSS_VS.cso",
+                "VREM_shaderreplace/labels_PS.cso",
+                "VREM_shaderreplace/NVG_extPS.cso",
+                "VREM_shaderreplace/NVG_intPS.cso",
+                "VREM_shaderreplace/UH1_rotorPS.cso",
+                "VREM_shaderreplace/visor_PS.cso",
+                "VREM_shaderreplace/visor_VS.cso",
+                "VREM_shaderreplace/VR_GUI_PS.cso",
+                "VREM_shaderreplace/VR_GUI_VS.cso"
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "undo-redo-by-notrayst",
+          "name": "Undo/Redo",
+          "author": "NotRayST",
+          "description": "Undo/Redo add-on for ReShade. Tracks toggling shaders and any shader parameter changes, with a history browser and rebindable hotkeys (Ctrl+Z / Ctrl+Y).",
+          "repositoryUrl": "https://github.com/NotRayST/ShaderLab",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "UndoRedo.addon",
+              "arch": "x64",
+              "url": "https://github.com/NotRayST/ShaderLab/releases/latest/download/UndoRedo.addon",
+              "sha256": "59f7a0f7164236915b8435486069bb135453a143aae68502c450a5cc55c3e3e4",
+              "size": 107008,
+              "version": "2026-10-21-59f7a0f",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF1EC020D9C599\"",
+              "lastModified": "Wed, 30 Sep 2026 06:57:44 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/59f7a0f716423691-UndoRedo.addon",
+              "payload": [
+                {
+                  "entry": "UndoRedo.addon",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "shaderlab-capture-by-notrayst",
+          "name": "ShaderLab Capture",
+          "author": "NotRayST",
+          "description": "In-game depth capture tool for ShaderLab. Embeds depth buffer data into the PNG when you take a screenshot using the ReShade screenshot key, for depth-aware post-processing effects.",
+          "repositoryUrl": "https://github.com/NotRayST/ShaderLab",
+          "license": "MIT",
+          "files": [
+            {
+              "name": "ShaderLabCapture.addon",
+              "arch": "x64",
+              "url": "https://github.com/NotRayST/ShaderLab/releases/latest/download/ShaderLabCapture.addon",
+              "sha256": "8564b0d3a41348ad728d59951ebfd7718c8119529543e6dbfe84011e901a5bb4",
+              "size": 139776,
+              "version": "2026-10-21-8564b0d",
+              "firstSeen": "2026-10-21T09:05:42Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF1ECEDCAE935A\"",
+              "lastModified": "Wed, 30 Sep 2026 08:43:12 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8564b0d3a41348ad-ShaderLabCapture.addon",
+              "payload": [
+                {
+                  "entry": "ShaderLabCapture.addon",
+                  "kind": "addon",
+                  "arch": "x64"
+                }
+              ],
+              "history": []
+            }
+          ]
+        }
+      ]
+    },
+    "shaderPacks": {
+      "updated": "2026-10-21T09:05:42Z",
+      "source": "shader-packs.json",
+      "packs": [
+        {
+          "id": "lilium-hdr",
+          "name": "Lilium HDR shaders",
+          "description": "HDR analysis, inverse tone mapping, brightness and black floor tools. Needs an HDR game, or one forced to scRGB / HDR10.",
+          "repo": "EndlesslyFlowering/ReShade_HDR_shaders",
+          "homepage": "https://github.com/EndlesslyFlowering/ReShade_HDR_shaders",
+          "category": "hdr",
+          "default": true,
+          "source": "branch",
+          "ref": "master",
+          "commit": "b1ada21b27666aa0703c6f9b9d83c389e92063a1",
+          "version": "b1ada21",
+          "license": "GPL-3.0",
+          "file": {
+            "name": "ReShade_HDR_shaders-b1ada21.zip",
+            "arch": "both",
+            "url": "https://github.com/EndlesslyFlowering/ReShade_HDR_shaders/archive/b1ada21b27666aa0703c6f9b9d83c389e92063a1.zip",
+            "sha256": "cdb1c290fbb563f4cdff33f029febd18629f939bfc36d794d4ae638427b24abc",
+            "size": 257013,
+            "version": "2026-10-21-cdb1c29",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"5a7a22fc6978d819c80d3494aba5fbcc0f04b5748bac9a0940349d904a8c11b6\"",
+            "license": "GPL-3.0",
+            "mod": "lilium-hdr",
+            "layout": {
+              "shadersDir": "ReShade_HDR_shaders-b1ada21b27666aa0703c6f9b9d83c389e92063a1/Shaders/",
+              "texturesDir": "ReShade_HDR_shaders-b1ada21b27666aa0703c6f9b9d83c389e92063a1/Textures/",
+              "shaderFiles": 44,
+              "textureFiles": 3
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "pumbo-autohdr",
+          "name": "Pumbo AutoHDR",
+          "description": "AutoHDR-style shader that expands an SDR image into HDR. Works best when the game renders to a float16 / scRGB buffer.",
+          "repo": "Filoppi/PumboAutoHDR",
+          "homepage": "https://github.com/Filoppi/PumboAutoHDR",
+          "category": "hdr",
+          "default": true,
+          "source": "branch",
+          "ref": "master",
+          "commit": "915ae162c7dc134a1835355507e2bf0a3fc2bd4e",
+          "version": "915ae16",
+          "license": "MIT",
+          "file": {
+            "name": "PumboAutoHDR-915ae16.zip",
+            "arch": "both",
+            "url": "https://github.com/Filoppi/PumboAutoHDR/archive/915ae162c7dc134a1835355507e2bf0a3fc2bd4e.zip",
+            "sha256": "e97cba3113b3c7cd30f4170e4984ce7ddc46a808655e7de986aa90a11e4d0c21",
+            "size": 18920,
+            "version": "2026-10-21-e97cba3",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"92bd8632bc07b41a87fd9c1e60e90bea7725f1d3245c7e76b3a5c75614cfc40e\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e97cba3113b3c7cd-PumboAutoHDR-915ae16.zip",
+            "mod": "pumbo-autohdr",
+            "layout": {
+              "shadersDir": "PumboAutoHDR-915ae162c7dc134a1835355507e2bf0a3fc2bd4e/Shaders/",
+              "shaderFiles": 3,
+              "textureFiles": 0
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "renofx",
+          "name": "RenoFX",
+          "description": "RenoFX HDR Toolkit and the SDR compatibility sandwich: brightness, colour, contrast and HDR presentation.",
+          "repo": "clshortfuse/renofx",
+          "homepage": "https://github.com/clshortfuse/renofx",
+          "category": "hdr",
+          "default": true,
+          "source": "branch",
+          "ref": "main",
+          "commit": "13ad80167187de2cfede9640e3e2777ac3d5c1fa",
+          "version": "13ad801",
+          "license": "MIT",
+          "file": {
+            "name": "renofx-13ad801.zip",
+            "arch": "both",
+            "url": "https://github.com/clshortfuse/renofx/archive/13ad80167187de2cfede9640e3e2777ac3d5c1fa.zip",
+            "sha256": "e01d00f1250e2df0c0d2981b9bfbe22db5108b713d5a2aab13be33bdb8180173",
+            "size": 61567,
+            "version": "2026-10-21-e01d00f",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"e0fd93b202e4251c35a6440b265734e54e969d9f767b162b746152930c53423c\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e01d00f1250e2df0-renofx-13ad801.zip",
+            "mod": "renofx",
+            "layout": {
+              "shadersDir": "renofx-13ad80167187de2cfede9640e3e2777ac3d5c1fa/Shaders/",
+              "shaderFiles": 23,
+              "textureFiles": 0
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "maxg2d-simple-hdr",
+          "name": "MaxG2D simple HDR shaders",
+          "description": "Simple HDR-aware cinematic effects (motion blur and others) that keep the image above SDR range.",
+          "repo": "MaxG2D/ReshadeSimpleHDRShaders",
+          "homepage": "https://github.com/MaxG2D/ReshadeSimpleHDRShaders",
+          "category": "hdr",
+          "default": false,
+          "source": "branch",
+          "ref": "main",
+          "commit": "c65253488d323a849f52c9495c197823b5c590f5",
+          "version": "c652534",
+          "file": {
+            "name": "ReshadeSimpleHDRShaders-c652534.zip",
+            "arch": "both",
+            "url": "https://github.com/MaxG2D/ReshadeSimpleHDRShaders/archive/c65253488d323a849f52c9495c197823b5c590f5.zip",
+            "sha256": "81b3d998accafaa2af7adaf75a2ee90e2158aca0dcfc8b75d77e00b03a0e0888",
+            "size": 36656,
+            "version": "2026-10-21-81b3d99",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"204e00b37ae1e37c8b6cca3e3e3f998fbdb4328843a98777d0959cbb4bc8dfce\"",
+            "mod": "maxg2d-simple-hdr",
+            "layout": {
+              "shadersDir": "ReshadeSimpleHDRShaders-c65253488d323a849f52c9495c197823b5c590f5/Shaders/",
+              "shaderFiles": 4,
+              "textureFiles": 0
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "crosire-reshade-shaders",
+          "name": "ReShade shaders (standard)",
+          "description": "crosire's collection of post-processing effects, the 'slim' branch ReShade's own setup offers.",
+          "repo": "crosire/reshade-shaders",
+          "homepage": "https://github.com/crosire/reshade-shaders",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "slim",
+          "commit": "fd0022170615ce0d8162d219bff07232fa6dd84f",
+          "version": "fd00221",
+          "file": {
+            "name": "reshade-shaders-fd00221.zip",
+            "arch": "both",
+            "url": "https://github.com/crosire/reshade-shaders/archive/fd0022170615ce0d8162d219bff07232fa6dd84f.zip",
+            "sha256": "a3b110ba5118f3b944d74f0b0746c21280071d389ed98d615bf3c4b3a1778586",
+            "size": 58091,
+            "version": "2026-10-21-a3b110b",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"138c390f2ef922cbbefb0246f53221b3a358a79893ab1ed979fb18227ae21a46\"",
+            "mod": "crosire-reshade-shaders",
+            "layout": {
+              "shadersDir": "reshade-shaders-fd0022170615ce0d8162d219bff07232fa6dd84f/Shaders/",
+              "texturesDir": "reshade-shaders-fd0022170615ce0d8162d219bff07232fa6dd84f/Textures/",
+              "shaderFiles": 12,
+              "textureFiles": 2
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "crosire-reshade-shaders-legacy",
+          "name": "ReShade shaders (legacy)",
+          "description": "The older, larger set of effects from crosire's repository (the 'legacy' branch).",
+          "repo": "crosire/reshade-shaders",
+          "homepage": "https://github.com/crosire/reshade-shaders",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "legacy",
+          "commit": "bcb5ba54199f4455026dd8ba66dc1b74461d3152",
+          "version": "bcb5ba5",
+          "file": {
+            "name": "reshade-shaders-bcb5ba5.zip",
+            "arch": "both",
+            "url": "https://github.com/crosire/reshade-shaders/archive/bcb5ba54199f4455026dd8ba66dc1b74461d3152.zip",
+            "sha256": "99a05c4273e42d6de50e4509c66caf81c0045bfce2368bfbdf3b7812714306a1",
+            "size": 8535295,
+            "version": "2026-10-21-99a05c4",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"814a9de3073c3c2374009a33cec2a5eeff146f83a8291cdcb6c026774e9c8e4a\"",
+            "mod": "crosire-reshade-shaders-legacy",
+            "layout": {
+              "shadersDir": "reshade-shaders-bcb5ba54199f4455026dd8ba66dc1b74461d3152/Shaders/",
+              "texturesDir": "reshade-shaders-bcb5ba54199f4455026dd8ba66dc1b74461d3152/Textures/",
+              "shaderFiles": 20,
+              "textureFiles": 12
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "sweetfx",
+          "name": "SweetFX",
+          "description": "The SweetFX shader suite: SMAA, LumaSharpen, Vibrance, Tonemap and more.",
+          "repo": "CeeJayDK/SweetFX",
+          "homepage": "https://github.com/CeeJayDK/SweetFX",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361",
+          "version": "93ddf39",
+          "license": "MIT",
+          "file": {
+            "name": "SweetFX-93ddf39.zip",
+            "arch": "both",
+            "url": "https://github.com/CeeJayDK/SweetFX/archive/93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361.zip",
+            "sha256": "e1e1d6515d29c65fcf115c9692a1c5f91ffb8d9734e6871bcf67ac48588dbbce",
+            "size": 123972,
+            "version": "2026-10-21-e1e1d65",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"18ec21eeff0369ebb3f6491e3c3b8075225b68759a866afab9a5fbde2dea70de\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e1e1d6515d29c65f-SweetFX-93ddf39.zip",
+            "mod": "sweetfx",
+            "layout": {
+              "shadersDir": "SweetFX-93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361/Shaders/",
+              "texturesDir": "SweetFX-93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361/Textures/",
+              "shaderFiles": 30,
+              "textureFiles": 3
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "quint",
+          "name": "qUINT",
+          "description": "Marty's general-purpose effects: MXAO, SSR, bloom, lightroom, depth of field and others.",
+          "repo": "martymcmodding/qUINT",
+          "homepage": "https://github.com/martymcmodding/qUINT",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "98fed77b26669202027f575a6d8f590426c21ebd",
+          "version": "98fed77",
+          "file": {
+            "name": "qUINT-98fed77.zip",
+            "arch": "both",
+            "url": "https://github.com/martymcmodding/qUINT/archive/98fed77b26669202027f575a6d8f590426c21ebd.zip",
+            "sha256": "2f6ff2f5dd39ff400c07ecbbfd1156604459f44d9028d07fa6d98b84d4cfbfa9",
+            "size": 38583,
+            "version": "2026-10-21-2f6ff2f",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"625e2548811df99a724c7f60789919dadbb0444e5f58f9cebcf367f1b5b8b10b\"",
+            "mod": "quint",
+            "layout": {
+              "shadersDir": "qUINT-98fed77b26669202027f575a6d8f590426c21ebd/Shaders/",
+              "shaderFiles": 8,
+              "textureFiles": 0
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "immerse",
+          "name": "iMMERSE",
+          "description": "Marty's Mods Epic ReShade Effects, the successor to qUINT: MXAO, ReLight, SMAA, sharpening and more.",
+          "repo": "martymcmodding/iMMERSE",
+          "homepage": "https://github.com/martymcmodding/iMMERSE",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "main",
+          "commit": "f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb",
+          "version": "f57d3af",
+          "file": {
+            "name": "iMMERSE-f57d3af.zip",
+            "arch": "both",
+            "url": "https://github.com/martymcmodding/iMMERSE/archive/f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb.zip",
+            "sha256": "f9b0c851c4f184743561aa90d1ce503260cf1e7b5c0e8c34ad5cdcee3c151a6a",
+            "size": 1075075,
+            "version": "2026-10-21-f9b0c85",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"478733e966a0800a10cfbfd70aef15c379044cd231162be59d16ebd7bba0beda\"",
+            "mod": "immerse",
+            "layout": {
+              "shadersDir": "iMMERSE-f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb/Shaders/",
+              "texturesDir": "iMMERSE-f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb/Textures/",
+              "shaderFiles": 21,
+              "textureFiles": 3
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "prod80",
+          "name": "prod80 colour effects",
+          "description": "Colour, contrast and brightness effects, numbered by suggested load order. A large download because of its LUT templates.",
+          "repo": "prod80/prod80-ReShade-Repository",
+          "homepage": "https://github.com/prod80/prod80-ReShade-Repository",
+          "category": "color",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "1c2ed5b093b03c558bfa6aea45c2087052e99554",
+          "version": "1c2ed5b",
+          "license": "MIT",
+          "file": {
+            "name": "prod80-ReShade-Repository-1c2ed5b.zip",
+            "arch": "both",
+            "url": "https://github.com/prod80/prod80-ReShade-Repository/archive/1c2ed5b093b03c558bfa6aea45c2087052e99554.zip",
+            "sha256": "15b251a3f99901dda81072c3cb8ffa1eb2144dee5399d459a5dde7a50bbd6132",
+            "size": 19803870,
+            "version": "2026-10-21-15b251a",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"a6023ae0033bc66091f332166b38f380aba0599cb3b5211c4580cd691ce8b326\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/15b251a3f99901dd-prod80-ReShade-Repository-1c2ed5b.zip",
+            "mod": "prod80",
+            "layout": {
+              "shadersDir": "prod80-ReShade-Repository-1c2ed5b093b03c558bfa6aea45c2087052e99554/Shaders/",
+              "texturesDir": "prod80-ReShade-Repository-1c2ed5b093b03c558bfa6aea45c2087052e99554/Textures/",
+              "shaderFiles": 34,
+              "textureFiles": 8
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "daodan",
+          "name": "Daodan shaders",
+          "description": "Comic, colour-grading and other stylised effects that read the depth buffer.",
+          "repo": "Daodan317081/reshade-shaders",
+          "homepage": "https://github.com/Daodan317081/reshade-shaders",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16",
+          "version": "f01ddb6",
+          "license": "BSD-3-Clause",
+          "file": {
+            "name": "reshade-shaders-f01ddb6.zip",
+            "arch": "both",
+            "url": "https://github.com/Daodan317081/reshade-shaders/archive/f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16.zip",
+            "sha256": "dc072c7ea68a973c9b6271de4564b4a5dfe2805161fa536627cd0db2642f54de",
+            "size": 41698,
+            "version": "2026-10-21-dc072c7",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"df0c906357b5f2eb744374591a5b0a9e7e55945526f435a8df44e4f12cf2d763\"",
+            "license": "BSD-3-Clause",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dc072c7ea68a973c-reshade-shaders-f01ddb6.zip",
+            "mod": "daodan",
+            "layout": {
+              "shadersDir": "reshade-shaders-f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16/Shaders/",
+              "texturesDir": "reshade-shaders-f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16/Textures/",
+              "shaderFiles": 18,
+              "textureFiles": 2
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "cobrafx",
+          "name": "CobraFX",
+          "description": "SirCobra's shaders for in-game photography. The _CS compute shaders need DirectX 11+, OpenGL 4.3+ or Vulkan.",
+          "repo": "LordKobra/CobraFX",
+          "homepage": "https://github.com/LordKobra/CobraFX",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "bf9295a7bb8ad1bc375aefc83ea447536b322e9a",
+          "version": "bf9295a",
+          "license": "MIT",
+          "file": {
+            "name": "CobraFX-bf9295a.zip",
+            "arch": "both",
+            "url": "https://github.com/LordKobra/CobraFX/archive/bf9295a7bb8ad1bc375aefc83ea447536b322e9a.zip",
+            "sha256": "7bb89ef2946daa473eca4a4dbc270f5dd827f620c2114e6af34caafd73154138",
+            "size": 5532671,
+            "version": "2026-10-21-7bb89ef",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"354fd7cef6c93f4442bda11bab942cde4744758d9463a22ea4ffafae7cf3a19d\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7bb89ef2946daa47-CobraFX-bf9295a.zip",
+            "mod": "cobrafx",
+            "layout": {
+              "shadersDir": "CobraFX-bf9295a7bb8ad1bc375aefc83ea447536b322e9a/Shaders/",
+              "texturesDir": "CobraFX-bf9295a7bb8ad1bc375aefc83ea447536b322e9a/Textures/",
+              "shaderFiles": 9,
+              "textureFiles": 2
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "fxshaders",
+          "name": "FXShaders",
+          "description": "luluco250's collection of ReShade effects.",
+          "repo": "luluco250/FXShaders",
+          "homepage": "https://github.com/luluco250/FXShaders",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "76365e35c48e30170985ca371e67d8daf8eb9a98",
+          "version": "76365e3",
+          "license": "MIT",
+          "file": {
+            "name": "FXShaders-76365e3.zip",
+            "arch": "both",
+            "url": "https://github.com/luluco250/FXShaders/archive/76365e35c48e30170985ca371e67d8daf8eb9a98.zip",
+            "sha256": "f8abdb10c4239ab0a3f90863da05229f9d0939b717e450c813fab81e6983a4fa",
+            "size": 5572776,
+            "version": "2026-10-21-f8abdb1",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"9a98ef9fdbef23271ce0a1c06b3b28ba96f52ca04f10dcd968ce138fbff97a42\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f8abdb10c4239ab0-FXShaders-76365e3.zip",
+            "mod": "fxshaders",
+            "layout": {
+              "shadersDir": "FXShaders-76365e35c48e30170985ca371e67d8daf8eb9a98/Shaders/",
+              "texturesDir": "FXShaders-76365e35c48e30170985ca371e67d8daf8eb9a98/Textures/",
+              "shaderFiles": 53,
+              "textureFiles": 10
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "otisfx",
+          "name": "OtisFX",
+          "description": "Frans Bouma's effects (depth of field, adaptive fog, emphasize, magic bloom and more), kept compatible with current ReShade.",
+          "repo": "FransBouma/OtisFX",
+          "homepage": "https://github.com/FransBouma/OtisFX",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "193aa0bf07ee82fbd5f142b5b813b19c5d169745",
+          "version": "193aa0b",
+          "license": "MIT",
+          "file": {
+            "name": "OtisFX-193aa0b.zip",
+            "arch": "both",
+            "url": "https://github.com/FransBouma/OtisFX/archive/193aa0bf07ee82fbd5f142b5b813b19c5d169745.zip",
+            "sha256": "96f9b21e0da6820f85ada6be8e5408bc8bfb5b64bb47d2657d95ce24a1ffd77e",
+            "size": 7681128,
+            "version": "2026-10-21-96f9b21",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"4a314aece091f04053f11f2c270b0665b7e8d8c8d1eca071b2e59da0c70677e7\"",
+            "license": "MIT",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/96f9b21e0da6820f-OtisFX-193aa0b.zip",
+            "mod": "otisfx",
+            "layout": {
+              "shadersDir": "OtisFX-193aa0bf07ee82fbd5f142b5b813b19c5d169745/Shaders/",
+              "texturesDir": "OtisFX-193aa0bf07ee82fbd5f142b5b813b19c5d169745/Textures/",
+              "shaderFiles": 11,
+              "textureFiles": 28
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "astrayfx",
+          "name": "AstrayFX",
+          "description": "Effects that strayed away from the Depth3D repository: Smart Sharp and others.",
+          "repo": "BlueSkyDefender/AstrayFX",
+          "homepage": "https://github.com/BlueSkyDefender/AstrayFX",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "59bae8b33e34f37a8e521e666864085ccbf08535",
+          "version": "59bae8b",
+          "file": {
+            "name": "AstrayFX-59bae8b.zip",
+            "arch": "both",
+            "url": "https://github.com/BlueSkyDefender/AstrayFX/archive/59bae8b33e34f37a8e521e666864085ccbf08535.zip",
+            "sha256": "97d2f64e02305c4320d852c825faad46ea9853f78e6f38f14fbcebd8c7d75908",
+            "size": 355471,
+            "version": "2026-10-21-97d2f64",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"a00ac686776791d6a72ff51b4a62230d524bd186e421d5e165c1dfab862b79da\"",
+            "mod": "astrayfx",
+            "layout": {
+              "shadersDir": "AstrayFX-59bae8b33e34f37a8e521e666864085ccbf08535/Shaders/",
+              "texturesDir": "AstrayFX-59bae8b33e34f37a8e521e666864085ccbf08535/Textures/",
+              "shaderFiles": 13,
+              "textureFiles": 1
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "depth3d",
+          "name": "Depth3D",
+          "description": "SuperDepth3D and other depth-based stereoscopic 3D shaders.",
+          "repo": "BlueSkyDefender/Depth3D",
+          "homepage": "https://github.com/BlueSkyDefender/Depth3D",
+          "category": "depth-3d",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "8459a9f16b8cb304375d9a0ee39066832099beb2",
+          "version": "8459a9f",
+          "file": {
+            "name": "Depth3D-8459a9f.zip",
+            "arch": "both",
+            "url": "https://github.com/BlueSkyDefender/Depth3D/archive/8459a9f16b8cb304375d9a0ee39066832099beb2.zip",
+            "sha256": "aa2b1c0669d61b7bf868a473a737098b5dcf376b64d230cf93e2bdacf1a72263",
+            "size": 21643259,
+            "version": "2026-10-21-aa2b1c0",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"754c3fb92416d15a6a921ea759a051427db74c159c3d926c14b5d8c5ef45380b\"",
+            "mod": "depth3d",
+            "layout": {
+              "shadersDir": "Depth3D-8459a9f16b8cb304375d9a0ee39066832099beb2/Shaders/",
+              "texturesDir": "Depth3D-8459a9f16b8cb304375d9a0ee39066832099beb2/Textures/",
+              "shaderFiles": 4,
+              "textureFiles": 1
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "cshade",
+          "name": "CShade",
+          "description": "Motion graphics shaders for ReShade.",
+          "repo": "papadanku/CShade",
+          "homepage": "https://github.com/papadanku/CShade",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "main",
+          "commit": "1e9cc77e1c2d30c22ff44a1b347747011c923954",
+          "version": "1e9cc77",
+          "license": "BSD-3-Clause",
+          "file": {
+            "name": "CShade-1e9cc77.zip",
+            "arch": "both",
+            "url": "https://github.com/papadanku/CShade/archive/1e9cc77e1c2d30c22ff44a1b347747011c923954.zip",
+            "sha256": "4499b8ed2f97afdfa9eeb1af453bff6f92fc75c3d9e5383132fced9514b189a5",
+            "size": 134979,
+            "version": "2026-10-21-4499b8e",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"fc251d7e14b2dd8fe8a907d2ef16fcee01cc56e4777f6b578fb23c5d9ae52228\"",
+            "license": "BSD-3-Clause",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/4499b8ed2f97afdf-CShade-1e9cc77.zip",
+            "mod": "cshade",
+            "layout": {
+              "shadersDir": "CShade-1e9cc77e1c2d30c22ff44a1b347747011c923954/shaders/",
+              "shaderFiles": 43,
+              "textureFiles": 0
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "fubax",
+          "name": "Fubax shaders",
+          "description": "Fubax's post-processing shaders.",
+          "repo": "Fubaxiusz/fubax-shaders",
+          "homepage": "https://github.com/Fubaxiusz/fubax-shaders",
+          "category": "general",
+          "default": false,
+          "source": "branch",
+          "ref": "master",
+          "commit": "d902cc2e8216f10801019b02b09f7bd55449fd79",
+          "version": "d902cc2",
+          "file": {
+            "name": "fubax-shaders-d902cc2.zip",
+            "arch": "both",
+            "url": "https://github.com/Fubaxiusz/fubax-shaders/archive/d902cc2e8216f10801019b02b09f7bd55449fd79.zip",
+            "sha256": "578473bc1266ac4d498313ea39e611e4d9405bf29b8e2393e7f381d53046607d",
+            "size": 3522592,
+            "version": "2026-10-21-578473b",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"f0a7d8f013bcd8942d0e4eeea0f85fe5f28aeb984d565ff45f4e05f5fbc97c87\"",
+            "mod": "fubax",
+            "layout": {
+              "shadersDir": "fubax-shaders-d902cc2e8216f10801019b02b09f7bd55449fd79/Shaders/",
+              "texturesDir": "fubax-shaders-d902cc2e8216f10801019b02b09f7bd55449fd79/Textures/",
+              "shaderFiles": 29,
+              "textureFiles": 4
+            },
+            "history": []
+          }
+        },
+        {
+          "id": "zenteonfx",
+          "name": "ZenteonFX",
+          "description": "Zenteon's public ReShade shaders. Under the AGNYA licence: read it before sharing anything built with them.",
+          "repo": "Zenteon/ZenteonFX",
+          "homepage": "https://github.com/Zenteon/ZenteonFX",
+          "category": "cinematic",
+          "default": false,
+          "source": "branch",
+          "ref": "main",
+          "commit": "9fe75bdbaddc84ea5aab5d58fee83a2b9659f771",
+          "version": "9fe75bd",
+          "file": {
+            "name": "ZenteonFX-9fe75bd.zip",
+            "arch": "both",
+            "url": "https://github.com/Zenteon/ZenteonFX/archive/9fe75bdbaddc84ea5aab5d58fee83a2b9659f771.zip",
+            "sha256": "c4cf7514f87ef2de546f463291c5238c4bc047f68fb80c6ceda7c6f09ae5e054",
+            "size": 7162192,
+            "version": "2026-10-21-c4cf751",
+            "firstSeen": "2026-10-21T09:05:42Z",
+            "verified": "2026-10-21",
+            "etag": "\"d1c1362d483a64f2f29c942b42ab5cab4bba058c7e71a9185b8e9ee11b5d2539\"",
+            "mod": "zenteonfx",
+            "layout": {
+              "shadersDir": "ZenteonFX-9fe75bdbaddc84ea5aab5d58fee83a2b9659f771/Shaders/",
+              "texturesDir": "ZenteonFX-9fe75bdbaddc84ea5aab5d58fee83a2b9659f771/Textures/",
+              "shaderFiles": 12,
+              "textureFiles": 6
+            },
+            "history": []
+          }
+        }
+      ]
     }
   },
-  "generated": "2026-10-21T08:06:58Z"
+  "generated": "2026-10-21T09:05:42Z"
 }
