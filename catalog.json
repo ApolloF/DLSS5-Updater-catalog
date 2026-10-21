@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-10-21T09:05:42Z",
+      "updated": "2026-10-21T09:12:04Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -1131,8 +1131,8 @@
               "version": "2026-10-21-a9695a1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-26cc00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297d-26cc00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a9695a1c347f2e00-renodx-ryza3.addon64",
               "history": []
@@ -1160,8 +1160,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -1248,8 +1248,8 @@
               "version": "2026-10-21-63f6b1d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-261200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-261200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/63f6b1d3cf2f0293-renodx-yumia1.addon64",
               "history": []
@@ -1700,8 +1700,8 @@
               "version": "2026-10-21-25b928d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c7-c8a00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "etag": "\"6999a1c6-c8a00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:02 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25b928d52299169e-renodx-black-desert-online.addon64",
               "history": []
@@ -3661,8 +3661,8 @@
               "version": "2026-10-21-a13565d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-263200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad8297b-263200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a13565d95aad9acd-renodx-endermagnolia.addon64",
               "history": []
@@ -3830,8 +3830,8 @@
               "version": "2026-10-21-86215dd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-26c600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad8297c-26c600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/86215ddecb6098ce-renodx-fantasianneodimension.addon64",
               "history": []
@@ -4252,8 +4252,8 @@
               "version": "2026-10-21-0c78785",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-221200\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13982-221200\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:22 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/0c78785c49d30069-renodx-forzahorizon6.addon64",
               "history": []
@@ -4930,8 +4930,8 @@
               "version": "2026-10-21-d3a61a3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-32dc00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13983-32dc00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3a61a367954c235-renodx-helldivers2.addon64",
               "history": []
@@ -6315,8 +6315,8 @@
               "version": "2026-10-21-09b8ea0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-4a4800\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13983-4a4800\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/09b8ea0c2e6c3245-renodx-metroexodus.addon64",
               "history": []
@@ -6811,8 +6811,8 @@
               "version": "2026-10-21-4988bb6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-257a00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-257a00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/4988bb60ecd7b26f-renodx-nightsofazure2.addon64",
               "history": []
@@ -6942,8 +6942,8 @@
               "version": "2026-10-21-6492fe9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1288-22fa00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-22fa00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/6492fe9e62d90fdc-renodx-nioh2.addon64",
               "history": []
@@ -7328,8 +7328,8 @@
               "version": "2026-10-21-8d28d12",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-297c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-297c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8d28d12aa463e5a0-renodx-pathfinder2wotr.addon64",
               "history": []
@@ -7585,8 +7585,8 @@
               "version": "2026-10-21-872d320",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-269200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297b-269200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/872d320939fa83bf-renodx-raidou.addon64",
               "history": []
@@ -8051,8 +8051,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -8084,8 +8084,8 @@
               "version": "2026-10-21-848da8b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-277c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297d-277c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/848da8b59aa5eead-renodx-riseofronin.addon64",
               "history": []
@@ -8389,8 +8389,8 @@
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -9053,8 +9053,8 @@
               "version": "2026-10-21-9345234",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-2d6000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-2d6000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/93452345af06d1cf-renodx-splatoon2.addon64",
               "history": []
@@ -9086,8 +9086,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -9300,8 +9300,8 @@
               "version": "2026-10-21-d1eecd8",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-282e00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40832-282e00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d1eecd8afc586793-renodx-steelrising.addon64",
               "history": []
@@ -9455,8 +9455,8 @@
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -9587,8 +9587,8 @@
               "version": "2026-10-21-c543ce7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40832-26bc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
+              "etag": "\"6ad40831-26bc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c543ce706fca2cca-renodx-teardown.addon64",
               "history": []
@@ -9715,8 +9715,8 @@
               "version": "2026-10-21-a1c38d9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad1dfe9-33ae00\"",
-              "lastModified": "Fri, 16 Oct 2026 08:27:21 GMT",
+              "etag": "\"6ad1dfe8-33ae00\"",
+              "lastModified": "Fri, 16 Oct 2026 08:27:20 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a1c38d93ffa65419-renodx-callistoprotocol.addon64",
               "history": []
@@ -9907,8 +9907,8 @@
               "version": "2026-10-21-a5ab9b6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40833-29dc00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:47 GMT",
+              "etag": "\"6ad40832-29dc00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a5ab9b6b282ea9ee-renodx-vanhelsingfinalcut.addon64",
               "history": []
@@ -10068,8 +10068,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -10264,8 +10264,8 @@
               "version": "2026-10-21-8a84c93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-288000\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13983-288000\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a84c9361b33c1e3-renodx-thewitcher3remastered.addon64",
               "history": []
@@ -10371,8 +10371,8 @@
               "version": "2026-10-21-d22538d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fcd-266800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:25 GMT",
+              "etag": "\"6ad79fcf-266800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:27 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d22538d296ac968b-renodx-terraria-tml.addon64",
               "history": []
@@ -11071,8 +11071,8 @@
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -11104,8 +11104,8 @@
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -16910,7 +16910,7 @@
       ]
     },
     "shaderPacks": {
-      "updated": "2026-10-21T09:05:42Z",
+      "updated": "2026-10-21T09:12:04Z",
       "source": "shader-packs.json",
       "packs": [
         {
@@ -16941,6 +16941,20 @@
             "layout": {
               "shadersDir": "ReShade_HDR_shaders-b1ada21b27666aa0703c6f9b9d83c389e92063a1/Shaders/",
               "texturesDir": "ReShade_HDR_shaders-b1ada21b27666aa0703c6f9b9d83c389e92063a1/Textures/",
+              "effects": [
+                "lilium__blue_noise_dithering.fx",
+                "lilium__cas_hdr.fx",
+                "lilium__filmgrain.fx",
+                "lilium__hdr_and_sdr_analysis.fx",
+                "lilium__hdr_black_floor_fix.fx",
+                "lilium__hdr_brightness_adjustment.fx",
+                "lilium__inverse_tone_mapping.fx",
+                "lilium__map_sdr_into_hdr.fx",
+                "lilium__rcas_hdr.fx",
+                "lilium__sdr_trc_fix.fx",
+                "lilium__test_pattern_generator.fx",
+                "lilium__tone_mapping.fx"
+              ],
               "shaderFiles": 44,
               "textureFiles": 3
             },
@@ -16975,6 +16989,10 @@
             "mod": "pumbo-autohdr",
             "layout": {
               "shadersDir": "PumboAutoHDR-915ae162c7dc134a1835355507e2bf0a3fc2bd4e/Shaders/",
+              "effects": [
+                "AdvancedAutoHDR.fx",
+                "ConvertColorSpace.fx"
+              ],
               "shaderFiles": 3,
               "textureFiles": 0
             },
@@ -17009,6 +17027,10 @@
             "mod": "renofx",
             "layout": {
               "shadersDir": "renofx-13ad80167187de2cfede9640e3e2777ac3d5c1fa/Shaders/",
+              "effects": [
+                "RenoFXHDRToolkit.fx",
+                "RenoFXHDRtoSDRCompatibilitySandwich.fx"
+              ],
               "shaderFiles": 23,
               "textureFiles": 0
             },
@@ -17040,6 +17062,11 @@
             "mod": "maxg2d-simple-hdr",
             "layout": {
               "shadersDir": "ReshadeSimpleHDRShaders-c65253488d323a849f52c9495c197823b5c590f5/Shaders/",
+              "effects": [
+                "HDRBloom.fx",
+                "HDRMotionBlur.fx",
+                "HDRSaturation.fx"
+              ],
               "shaderFiles": 4,
               "textureFiles": 0
             },
@@ -17072,6 +17099,13 @@
             "layout": {
               "shadersDir": "reshade-shaders-fd0022170615ce0d8162d219bff07232fa6dd84f/Shaders/",
               "texturesDir": "reshade-shaders-fd0022170615ce0d8162d219bff07232fa6dd84f/Textures/",
+              "effects": [
+                "Daltonize.fx",
+                "Deband.fx",
+                "DisplayDepth.fx",
+                "LUT.fx",
+                "UIMask.fx"
+              ],
               "shaderFiles": 12,
               "textureFiles": 2
             },
@@ -17104,6 +17138,28 @@
             "layout": {
               "shadersDir": "reshade-shaders-bcb5ba54199f4455026dd8ba66dc1b74461d3152/Shaders/",
               "texturesDir": "reshade-shaders-bcb5ba54199f4455026dd8ba66dc1b74461d3152/Textures/",
+              "effects": [
+                "AdaptiveSharpen.fx",
+                "AmbientLight.fx",
+                "Bloom.fx",
+                "Colourfulness.fx",
+                "Denoise.fx",
+                "DOF.fx",
+                "FakeMotionBlur.fx",
+                "FilmGrain2.fx",
+                "FilmicPass.fx",
+                "FineSharp.fx",
+                "GaussianBlur.fx",
+                "Glitch.fx",
+                "HighPassSharpen.fx",
+                "HQ4X.fx",
+                "HSLShift.fx",
+                "LevelsPlus.fx",
+                "LightDoF.fx",
+                "MagicBloom.fx",
+                "NightVision.fx",
+                "ReflectiveBumpMapping.fx"
+              ],
               "shaderFiles": 20,
               "textureFiles": 12
             },
@@ -17139,6 +17195,36 @@
             "layout": {
               "shadersDir": "SweetFX-93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361/Shaders/",
               "texturesDir": "SweetFX-93ddf39b357f5da534ed6d34ba4ec8cc7dcfa361/Textures/",
+              "effects": [
+                "ASCII.fx",
+                "Border.fx",
+                "Cartoon.fx",
+                "CAS.fx",
+                "ChromaticAberration.fx",
+                "ColorMatrix.fx",
+                "Compare.fx",
+                "CRT.fx",
+                "Curves.fx",
+                "DPX.fx",
+                "FakeHDR.fx",
+                "FilmGrain.fx",
+                "FXAA.fx",
+                "Layer.fx",
+                "Levels.fx",
+                "LiftGammaGain.fx",
+                "LumaSharpen.fx",
+                "Monochrome.fx",
+                "Nostalgia.fx",
+                "Sepia.fx",
+                "SMAA.fx",
+                "Splitscreen.fx",
+                "Technicolor.fx",
+                "Technicolor2.fx",
+                "Template.fx",
+                "Tonemap.fx",
+                "Vibrance.fx",
+                "Vignette.fx"
+              ],
               "shaderFiles": 30,
               "textureFiles": 3
             },
@@ -17170,6 +17256,15 @@
             "mod": "quint",
             "layout": {
               "shadersDir": "qUINT-98fed77b26669202027f575a6d8f590426c21ebd/Shaders/",
+              "effects": [
+                "qUINT_bloom.fx",
+                "qUINT_deband.fx",
+                "qUINT_dof.fx",
+                "qUINT_lightroom.fx",
+                "qUINT_mxao.fx",
+                "qUINT_sharp.fx",
+                "qUINT_ssr.fx"
+              ],
               "shaderFiles": 8,
               "textureFiles": 0
             },
@@ -17202,6 +17297,14 @@
             "layout": {
               "shadersDir": "iMMERSE-f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb/Shaders/",
               "texturesDir": "iMMERSE-f57d3afa1ebe5d1fd6152d4f6fb9a2e75bd1d1cb/Textures/",
+              "effects": [
+                "MartysMods_FILMGRAIN.fx",
+                "MartysMods_LAUNCHPAD.fx",
+                "MartysMods_MXAO.fx",
+                "MartysMods_SHARPEN.fx",
+                "MartysMods_SMAA.fx",
+                "MartysMods_SOLARIS.fx"
+              ],
               "shaderFiles": 21,
               "textureFiles": 3
             },
@@ -17237,6 +17340,37 @@
             "layout": {
               "shadersDir": "prod80-ReShade-Repository-1c2ed5b093b03c558bfa6aea45c2087052e99554/Shaders/",
               "texturesDir": "prod80-ReShade-Repository-1c2ed5b093b03c558bfa6aea45c2087052e99554/Textures/",
+              "effects": [
+                "PD80_01A_RT_Correct_Contrast.fx",
+                "PD80_01B_RT_Correct_Color.fx",
+                "PD80_01_Color_Gamut.fx",
+                "PD80_02_Bloom.fx",
+                "PD80_02_Bonus_LUT_pack.fx",
+                "PD80_02_Cinetools_LUT.fx",
+                "PD80_02_LUT_Creator.fx",
+                "PD80_03_Color_Space_Curves.fx",
+                "PD80_03_Curved_Levels.fx",
+                "PD80_03_Filmic_Adaptation.fx",
+                "PD80_03_Levels.fx",
+                "PD80_03_Shadows_Midtones_Highlights.fx",
+                "PD80_04_BlacknWhite.fx",
+                "PD80_04_Color_Balance.fx",
+                "PD80_04_Color_Gradients.fx",
+                "PD80_04_Color_Isolation.fx",
+                "PD80_04_Color_Temperature.fx",
+                "PD80_04_Contrast_Brightness_Saturation.fx",
+                "PD80_04_Magical_Rectangle.fx",
+                "PD80_04_Saturation_Limit.fx",
+                "PD80_04_Selective_Color.fx",
+                "PD80_04_Selective_Color_v2.fx",
+                "PD80_04_Technicolor.fx",
+                "PD80_05_Sharpening.fx",
+                "PD80_06_Chromatic_Aberration.fx",
+                "PD80_06_Depth_Slicer.fx",
+                "PD80_06_Film_Grain.fx",
+                "PD80_06_Luma_Fade.fx",
+                "PD80_06_Posterize_Pixelate.fx"
+              ],
               "shaderFiles": 34,
               "textureFiles": 8
             },
@@ -17272,6 +17406,23 @@
             "layout": {
               "shadersDir": "reshade-shaders-f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16/Shaders/",
               "texturesDir": "reshade-shaders-f01ddb6f3dce6a8fb75ffb9fee878a1489edfc16/Textures/",
+              "effects": [
+                "AdaptiveTint.fx",
+                "AspectRatioComposition.fx",
+                "ColorfulPoster.fx",
+                "ColorIsolation.fx",
+                "ColorIsolation2.fx",
+                "Comic.fx",
+                "Composition.fx",
+                "DrawOverlay.fx",
+                "HotsamplingHelper.fx",
+                "MeshEdges.fx",
+                "MultiTonePoster.fx",
+                "RemoveTint.fx",
+                "RetroTint.fx",
+                "Stats.fx",
+                "Template.fx"
+              ],
               "shaderFiles": 18,
               "textureFiles": 2
             },
@@ -17307,6 +17458,16 @@
             "layout": {
               "shadersDir": "CobraFX-bf9295a7bb8ad1bc375aefc83ea447536b322e9a/Shaders/",
               "texturesDir": "CobraFX-bf9295a7bb8ad1bc375aefc83ea447536b322e9a/Textures/",
+              "effects": [
+                "CobraMask.fx",
+                "ColorSort_CS.fx",
+                "Droste.fx",
+                "Frequency_CS.fx",
+                "Gravity.fx",
+                "Gravity_CS.fx",
+                "Greyscale.fx",
+                "RealLongExposure.fx"
+              ],
               "shaderFiles": 9,
               "textureFiles": 2
             },
@@ -17342,6 +17503,44 @@
             "layout": {
               "shadersDir": "FXShaders-76365e35c48e30170985ca371e67d8daf8eb9a98/Shaders/",
               "texturesDir": "FXShaders-76365e35c48e30170985ca371e67d8daf8eb9a98/Textures/",
+              "effects": [
+                "AdaptiveTonemapper.fx",
+                "ArcaneBloom.fx",
+                "ArtisticVignette.fx",
+                "AspectRatioSuite.fx",
+                "Checkerboard.fx",
+                "ColorLab.fx",
+                "CRT_Lottes.fx",
+                "CRT_Yee64.fx",
+                "CRT_Yeetron.fx",
+                "Cursor.fx",
+                "DepthAlpha.fx",
+                "Dither.fx",
+                "Flashlight.fx",
+                "FlexibleCA.fx",
+                "FocalDOF.fx",
+                "FramerateLimiter.fx",
+                "GrainSpread.fx",
+                "HexLensFlare.fx",
+                "LiquidLens.fx",
+                "MagicHDR.fx",
+                "MBMB.fx",
+                "MinimalColorGrading.fx",
+                "MultiFX.fx",
+                "NeoBloom.fx",
+                "NormalMap.fx",
+                "Overlay.fx",
+                "PiecewiseFilmicTonemap.fx",
+                "Pong.fx",
+                "RetroFog.fx",
+                "SCurve.fx",
+                "Sketch.fx",
+                "TrackingRays.fx",
+                "UnrealLens.fx",
+                "Unsharp.fx",
+                "VirtualResolution.fx",
+                "WhitepointFixer.fx"
+              ],
               "shaderFiles": 53,
               "textureFiles": 10
             },
@@ -17377,6 +17576,19 @@
             "layout": {
               "shadersDir": "OtisFX-193aa0bf07ee82fbd5f142b5b813b19c5d169745/Shaders/",
               "texturesDir": "OtisFX-193aa0bf07ee82fbd5f142b5b813b19c5d169745/Textures/",
+              "effects": [
+                "AdaptiveFog.fx",
+                "CinematicDOF.fx",
+                "DepthDarkness.fx",
+                "DepthHaze.fx",
+                "DirectionalDepthBlur.fx",
+                "Emphasize.fx",
+                "GoldenRatio.fx",
+                "Heightfog.fx",
+                "MagicBorder.fx",
+                "MultiLUT.fx",
+                "PandaFX.fx"
+              ],
               "shaderFiles": 11,
               "textureFiles": 28
             },
@@ -17409,6 +17621,21 @@
             "layout": {
               "shadersDir": "AstrayFX-59bae8b33e34f37a8e521e666864085ccbf08535/Shaders/",
               "texturesDir": "AstrayFX-59bae8b33e34f37a8e521e666864085ccbf08535/Textures/",
+              "effects": [
+                "BloomingHDR.fx",
+                "Clarity.fx",
+                "Depth_Cues.fx",
+                "DLAA_Plus.fx",
+                "Flair.fx",
+                "GloomAO.fx",
+                "Limbo_Mod.fx",
+                "NFAA.fx",
+                "RadiantGI.fx",
+                "Smart_Sharp.fx",
+                "SnowScape.fx",
+                "Temporal_AA.fx",
+                "Trails.fx"
+              ],
               "shaderFiles": 13,
               "textureFiles": 1
             },
@@ -17441,6 +17668,9 @@
             "layout": {
               "shadersDir": "Depth3D-8459a9f16b8cb304375d9a0ee39066832099beb2/Shaders/",
               "texturesDir": "Depth3D-8459a9f16b8cb304375d9a0ee39066832099beb2/Textures/",
+              "effects": [
+                "SuperDepth3D.fx"
+              ],
               "shaderFiles": 4,
               "textureFiles": 1
             },
@@ -17475,6 +17705,38 @@
             "mod": "cshade",
             "layout": {
               "shadersDir": "CShade-1e9cc77e1c2d30c22ff44a1b347747011c923954/shaders/",
+              "effects": [
+                "cAutoExposure.fx",
+                "cBloom.fx",
+                "cBlurH.fx",
+                "cBlurV.fx",
+                "cCAS.fx",
+                "cCheckerBoard.fx",
+                "cDLAA.fx",
+                "cDots.fx",
+                "cEnsor.fx",
+                "cFlow.fx",
+                "cFXAA.fx",
+                "cGhost.fx",
+                "cLayer.fx",
+                "cLens.fx",
+                "cLetterBox.fx",
+                "cLipse.fx",
+                "cMotionBlur.fx",
+                "cMotionStabilization.fx",
+                "cNoiseBlur.fx",
+                "cNormalize.fx",
+                "cQuantize.fx",
+                "cRCAS.fx",
+                "cShares.fx",
+                "cSolidColor.fx",
+                "cSpace.fx",
+                "cThreshold.fx",
+                "cTransform.fx",
+                "kContour.fx",
+                "kDatamosh.fx",
+                "kMirror.fx"
+              ],
               "shaderFiles": 43,
               "textureFiles": 0
             },
@@ -17507,6 +17769,33 @@
             "layout": {
               "shadersDir": "fubax-shaders-d902cc2e8216f10801019b02b09f7bd55449fd79/Shaders/",
               "texturesDir": "fubax-shaders-d902cc2e8216f10801019b02b09f7bd55449fd79/Textures/",
+              "effects": [
+                "AspectRatio.fx",
+                "BeforeAfter.fx",
+                "Chromakey.fx",
+                "ContrastSharpening.fx",
+                "CurvedMonitor.fx",
+                "FilmicAnamorphSharpen.fx",
+                "FilmicSharpen.fx",
+                "Flipbook.fx",
+                "Image.fx",
+                "Interlaced.fx",
+                "LensDistort.fx",
+                "Letterbox.fx",
+                "LUTTools.fx",
+                "MonitorGamma.fx",
+                "PerfectPerspective_Cinema.fx",
+                "PerfectPerspective_Dual.fx",
+                "PerfectPerspective_Fisheye.fx",
+                "Prism.fx",
+                "SimpleGrain.fx",
+                "SunsetFilter.fx",
+                "TiltShift.fx",
+                "TripleMonitor.fx",
+                "Vectorscope.fx",
+                "Waveform.fx",
+                "ZebraLines.fx"
+              ],
               "shaderFiles": 29,
               "textureFiles": 4
             },
@@ -17539,6 +17828,19 @@
             "layout": {
               "shadersDir": "ZenteonFX-9fe75bdbaddc84ea5aab5d58fee83a2b9659f771/Shaders/",
               "texturesDir": "ZenteonFX-9fe75bdbaddc84ea5aab5d58fee83a2b9659f771/Textures/",
+              "effects": [
+                "BETA_ZenRCAO.fx",
+                "Zenteon_ATA.fx",
+                "Zenteon_FilmGrain.fx",
+                "Zenteon_Framework.fx",
+                "Zenteon_LocalContrast.fx",
+                "Zenteon_Motion.fx",
+                "Zenteon_PaletteMap.fx",
+                "Zenteon_Sharpen.fx",
+                "Zenteon_SSAO_History.fx",
+                "Zenteon_TurboGI.fx",
+                "Zenteon_XenonBloom.fx"
+              ],
               "shaderFiles": 12,
               "textureFiles": 6
             },
@@ -17548,5 +17850,5 @@
       ]
     }
   },
-  "generated": "2026-10-21T09:05:42Z"
+  "generated": "2026-10-21T09:12:04Z"
 }
