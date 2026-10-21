@@ -115,6 +115,34 @@ public class RenodxBuilderTests
     }
 
     [Fact]
+    public void Unreal_extended_notes_become_structured_fields_and_other_engines_get_none()
+    {
+        var r = Build();
+        var games = r.Section.EngineGames;
+
+        var abz = games.Single(g => g.Engine == "ue-extended" && g.Name == "ABZÛ");
+        Assert.Equal("upgrade", abz.Method);
+        Assert.Equal([new UpgradeFormat("B8G8R8A8_TYPELESS", "output-size")], abz.Upgrades);
+        Assert.Null(abz.CopyDestinations);
+        Assert.Null(abz.EngineIni);
+        Assert.Equal("ini", games.Single(g => g.Engine == "ue-extended" && g.Name == "Abiotic Factor").Method);
+        Assert.All(games.Where(g => g.Engine != "ue-extended"), g => Assert.Null(g.Method));
+        Assert.Empty(r.Warnings);
+    }
+
+    [Fact]
+    public void Empty_structured_fields_are_left_out_of_the_json()
+    {
+        var json = System.Text.Json.JsonSerializer.Serialize(
+            Build().Section.EngineGames.Single(g => g.Engine == "ue-extended" && g.Name == "Abiotic Factor"), Json.Options);
+
+        Assert.Contains("\"method\": \"ini\"", json);
+        Assert.DoesNotContain("upgrades", json);
+        Assert.DoesNotContain("copyDestinations", json);
+        Assert.DoesNotContain("engineIni", json);
+    }
+
+    [Fact]
     public void Generic_add_ons_cover_unreal_unity_and_ue_extended()
     {
         var generic = Build().Section.Generic.ToDictionary(g => g.Id);

@@ -116,7 +116,34 @@
         "engine": { "enum": ["ue-extended", "unreal", "unity", "source"] },
         "name": { "type": "string" },
         "compat": { "enum": ["working", "in-progress"] },
-        "notes": { "type": "string", "description": "As written on the wiki (for Unreal Extended: Native HDR, Engine.ini, Upgrade Path: On, resource upgrades)." }
+        "notes": { "type": "string", "description": "As written on the wiki (for Unreal Extended: Native HDR, Engine.ini, Upgrade Path: On, resource upgrades)." },
+        "method": { "enum": ["upgrade", "ini", "native"], "description": "Unreal Extended only, read from `notes`: `upgrade` (Upgrade Path: On), `native` (Upgrade Path: Off or Native HDR) or `ini` (Engine.ini). Absent when the notes don't say." },
+        "upgrades": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Unreal Extended only: the resource upgrades the notes list. Absent when none.",
+          "items": {
+            "type": "object",
+            "required": ["format", "mode"],
+            "properties": {
+              "format": { "enum": ["B10G10R10A2_UNORM", "B8G8R8A8_TYPELESS", "B8G8R8A8_UNORM", "B8G8R8A8_UNORM_SRGB", "R10G10B10A2_TYPELESS", "R10G10B10A2_UNORM", "R11G11B10_FLOAT", "R16G16B16A16_TYPELESS", "R8G8B8A8_SNORM", "R8G8B8A8_TYPELESS", "R8G8B8A8_UNORM", "R8G8B8A8_UNORM_SRGB"] },
+              "mode": { "enum": ["output-size", "output-ratio", "any-size"] }
+            },
+            "additionalProperties": true
+          }
+        },
+        "copyDestinations": { "type": "boolean", "description": "Unreal Extended only: `Upgrade Copy Destinations` On (true) or Off (false), when the notes say." },
+        "engineIni": {
+          "type": "array",
+          "minItems": 1,
+          "description": "Unreal Extended only: Engine.ini settings named in the notes (`r.` keys only).",
+          "items": {
+            "type": "object",
+            "required": ["section", "key", "value"],
+            "properties": { "section": { "type": "string" }, "key": { "type": "string", "pattern": "^r\\." }, "value": { "type": "string" } },
+            "additionalProperties": true
+          }
+        }
       },
       "additionalProperties": true
     },

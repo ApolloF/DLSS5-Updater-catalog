@@ -63,6 +63,17 @@ A **mod** entry:
 | `blocked`, `blockReason` | Set by `overrides.json`; a blocked entry has no files |
 | `files` | The downloadable binaries (below) |
 
+An **engineGames** entry is one row of a wiki per-engine table: `engine` (`ue-extended`, `unreal`, `unity`, `source`),
+`name`, `compat` and the wiki's `notes` as written. For `ue-extended` the notes are also read into optional fields
+(the note stays the source of truth; a field is absent when the note doesn't say):
+
+| Field | Meaning |
+|---|---|
+| `method` | `upgrade` (note says `Upgrade Path: On`), else `native` (`Upgrade Path: Off` or `Native HDR`), else `ini` (mentions `Engine.ini`) |
+| `upgrades` | `[ { "format": "B8G8R8A8_TYPELESS", "mode": "output-size" } ]`. `mode` is `output-size`, `output-ratio` or `any-size`, the words right after the format. Only the 12 formats the add-on knows are listed; anything else (a typo such as `R8G8R8A8_TYPELESS`) is dropped and reported as a warning in the run log |
+| `copyDestinations` | `false` for `Upgrade Copy Destinations Off`, `true` for `On` |
+| `engineIni` | `[ { "section": "SystemSettings", "key": "r.HDR.EnableHDROutput", "value": "1" } ]` for every `r.Key=Value` in the note |
+
 A **file** entry:
 
 | Field | Meaning |

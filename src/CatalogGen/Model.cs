@@ -88,6 +88,14 @@ public sealed class EngineGame
     public string Name { get; set; } = "";
     public string? Compat { get; set; }
     public string? Notes { get; set; }
+
+    // Unreal Extended only, read from the notes by UeExtendedNotes. Null = the notes don't say (and the JSON omits it).
+    /// <summary>"upgrade", "ini" or "native".</summary>
+    public string? Method { get; set; }
+    public List<UpgradeFormat>? Upgrades { get; set; }
+    /// <summary>"Upgrade Copy Destinations" On (true) or Off (false).</summary>
+    public bool? CopyDestinations { get; set; }
+    public List<IniSetting>? EngineIni { get; set; }
 }
 
 public sealed class OverrideBlock

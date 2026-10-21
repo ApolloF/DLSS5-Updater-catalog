@@ -198,6 +198,22 @@ public class RenodxGeneratorTests : IDisposable
     }
 
     [Fact]
+    public void The_schema_checks_the_structured_unreal_extended_fields()
+    {
+        var schema = JsonSchema.FromText(File.ReadAllText(SchemaPath()));
+        string Doc(string game) => """
+            {"schema":1,"repository":"a/b","sections":{"renodx":{"updated":"2026-10-21T12:00:00Z","sources":[],"generic":[],"mods":[],"overrides":{},"engineGames":[GAME]}}}
+            """.Replace("GAME", game);
+        bool Valid(string game) => schema.Evaluate(JsonNode.Parse(Doc(game)), new EvaluationOptions { OutputFormat = OutputFormat.List }).IsValid;
+
+        Assert.True(Valid("""{"engine":"ue-extended","name":"X","method":"upgrade","upgrades":[{"format":"B8G8R8A8_TYPELESS","mode":"output-size"}],"copyDestinations":false,"engineIni":[{"section":"SystemSettings","key":"r.HDR.EnableHDROutput","value":"1"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","method":"magic"}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","upgrades":[{"format":"R8G8R8A8_TYPELESS","mode":"any-size"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","upgrades":[{"format":"R11G11B10_FLOAT","mode":"whatever"}]}"""));
+        Assert.False(Valid("""{"engine":"ue-extended","name":"X","engineIni":[{"section":"SystemSettings","key":"foo","value":"1"}]}"""));
+    }
+
+    [Fact]
     public void The_committed_catalog_json_validates_against_the_schema()
     {
         var path = Path.Combine(Path.GetDirectoryName(SchemaPath())!, "..", "catalog.json");

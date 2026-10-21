@@ -67,7 +67,7 @@ public static class RenodxBuilder
             Mods = mods,
             EngineGames = wiki
                 .Where(r => r.Table is WikiTable.UeExtended or WikiTable.Unreal or WikiTable.Unity or WikiTable.Source)
-                .Select(r => new EngineGame { Engine = EngineOf(r.Table), Name = r.Name, Compat = r.Status, Notes = r.Notes ?? r.StatusNote })
+                .Select(r => EngineGameOf(r, warnings))
                 .OrderBy(e => e.Engine, StringComparer.Ordinal).ThenBy(e => e.Name, StringComparer.OrdinalIgnoreCase)
                 .ToList(),
             Overrides = overrides,
@@ -158,6 +158,19 @@ public static class RenodxBuilder
             case "steam_store" or "epic_store" or "xbox_store" or "snapshot": break;
             default: if (!links.Other.Contains(url)) links.Other.Add(url); break;
         }
+    }
+
+    private static EngineGame EngineGameOf(WikiRow r, List<string> warnings)
+    {
+        var game = new EngineGame { Engine = EngineOf(r.Table), Name = r.Name, Compat = r.Status, Notes = r.Notes ?? r.StatusNote };
+        if (r.Table != WikiTable.UeExtended) return game;
+        var info = UeExtendedNotes.Parse(game.Notes);
+        game.Method = info.Method;
+        game.Upgrades = info.Upgrades.Count > 0 ? info.Upgrades : null;
+        game.CopyDestinations = info.CopyDestinations;
+        game.EngineIni = info.EngineIni.Count > 0 ? info.EngineIni : null;
+        warnings.AddRange(info.Warnings.Select(w => $"{r.Name}: {w}"));
+        return game;
     }
 
     private static string ListingOf(WikiTable t) => t switch { WikiTable.Related => "related", WikiTable.Deprecated => "deprecated", _ => "main" };
