@@ -11,8 +11,8 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
-(Luma, the DLSS5 feeder) are added as new sections without touching these. A reader
+`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `neural`, `optiscalerCompat`, `addons`, `frameLimiters`, `luma` and `shaderPacks` exist so far; later areas
+(the DLSS5 feeder) are added as new sections without touching these. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
 output against it.
@@ -49,6 +49,7 @@ output against it.
     },
     "addons":      { "updated", "source", "addons": [ ... ] },       packages from crosire's Addons.ini
     "frameLimiters": { "updated", "sources", "limiters": [ ... ] },  ReLimiter and Display Commander add-ons
+    "luma":        { "updated", "sources", "release", "packages": [ ... ], "mods": [ ... ], "unrealGames": [ ... ] },  Luma Framework
     "shaderPacks": { "updated", "source", "packs":  [ ... ] }        shader repositories from shader-packs.json
   }
 }
@@ -318,6 +319,23 @@ push to its main branch, so the hash changes while the tag does not), `license` 
 with hash, size, first-seen version and history. The 32-bit file is simply absent when the release has none; a reader must refuse a 32-bit
 game then. A release without the 64-bit file is an error for that limiter (its last good entry stays and the run fails). The debug symbol
 files of Display Commander's release are not listed. The ids are the same as in the `addons` section's `managedBy`.
+
+### `luma`
+
+The Luma Framework (`Filoppi/Luma-Framework`), read from its wiki home page (`https://raw.githubusercontent.com/wiki/Filoppi/Luma-Framework/Home.md`) and the zips
+of its latest release (`https://api.github.com/repos/Filoppi/Luma-Framework/releases/latest`). The repository's licence is NOASSERTION, so every zip is
+**pinned** (the upstream URL plus the hash), never mirrored.
+
+| Field | What it is |
+|---|---|
+| `release` | The release tag the zips were read from (`latest-755`). It is part of every file URL, so a new tag is a new address |
+| `packages` | One per release zip that is needed: `id` is the asset name without `Luma-`, the bitness and `.zip` (`Prey`, `BioShock_Series`, `Unity_Engine`, `Unreal_Engine`). `files` has `x64` (`Luma-<id>.zip`) and/or `x86` (`Luma-<id>-x32.zip`), normal file entries with hash and history. `-Test` and `-Dev` builds, `Generic_Mod` and `Graphics_Analyzer` are not listed |
+| `mods` | The wiki's "Completed Mods" rows: `name`, `authors`, `status` (`working` or `in-progress`), `notes` (plain text), `links` (Nexus Mods, GameBanana, other), `featuresUrl`, `requiresDgVoodoo` with `dgVoodooVersions` and `dgVoodooSetup` (the wiki's `dgVoodoo.conf` lines). `package` is the zip the wiki links, or the release zip with the same normalised name; absent when the mod is only published elsewhere. Release zips the wiki doesn't list are added without `status` |
+| `unrealPackage` | The package that is the generic Unreal Engine mod (`Unreal_Engine`) |
+| `unrealGames` | The wiki's generic Unreal Engine table: `dlss` and `hdr` (`yes`, `blocked`, `in-progress`, absent when empty), `ueVersion`, `notes`, `engineIni` (section, key, value from the "Modify Engine.ini" blocks; the section is `SystemSettings` when the block names none) and `launchArgs` (`-dx11` style arguments the note names) |
+
+If the wiki has fewer than 10 mods or 50 Unreal games, or the release has no `Luma-Unreal_Engine.zip`, the run fails and the previous section stays.
+A dead zip link is a warning and keeps the last good entry. A wiki link to a zip the release doesn't have is a warning and the mod has no `package`.
 
 ### Being polite upstream
 

@@ -166,6 +166,20 @@ public static class Program
 
         try
         {
+            var luma = new LumaGenerator(new HttpText(http), new GitHubText(http, token), zipSync);
+            var output = await luma.BuildAsync(CatalogFile.ReadSection<LumaSection>(root, "luma"), now, cts.Token);
+            failed |= Report(output.Warnings, output.Errors);
+            var changed = CatalogFile.SetSection(root, "luma", output.Section, now);
+            Console.WriteLine(changed ? "luma section changed" : "luma section unchanged");
+        }
+        catch (SourceException ex)
+        {
+            Console.WriteLine($"::error::luma: {ex.Message}. Keeping the last good section.");
+            failed = true;
+        }
+
+        try
+        {
             var list = ShaderPackLists.Load(packsPath);
             var verified = list.Packs.Where(p => p.License is not null).ToDictionary(p => p.Repo, p => p.License!, StringComparer.OrdinalIgnoreCase);
             var packSync = new FileSync(new UpstreamFetcher(http, tempDir, requiredZipEntry: null), new VerifiedLicences(licences, verified), mirror);
@@ -218,6 +232,7 @@ public static class Program
         if (CatalogFile.ReadSection<AddonsSection>(root, "addons") is { } addons) files.AddRange(addons.Addons.SelectMany(a => a.Files));
         if (CatalogFile.ReadSection<FrameLimitersSection>(root, "frameLimiters") is { } limiters)
             files.AddRange(limiters.Limiters.SelectMany(l => l.Files));
+        if (CatalogFile.ReadSection<LumaSection>(root, "luma") is { } luma) files.AddRange(luma.Packages.SelectMany(p => p.Files));
         if (CatalogFile.ReadSection<ShaderPacksSection>(root, "shaderPacks") is { } packs)
             files.AddRange(packs.Packs.Select(p => p.File).OfType<FileEntry>());
         return files;
