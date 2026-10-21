@@ -11,7 +11,7 @@ changed when".
 
 ## What is in it
 
-`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `addons` and `shaderPacks` exist so far; later areas
+`catalog.json` has a schema version and independent sections. `renodx`, `renodxDlss`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas
 (Luma, the DLSS5 feeder, OptiScaler compatibility) are added as new sections without touching these. A reader
 uses the sections it knows and ignores the rest. The machine-readable description is
 [`schema/catalog.schema.json`](schema/catalog.schema.json) (JSON Schema 2020-12); the tests validate the generator's
@@ -37,6 +37,7 @@ output against it.
       "builds": [ ... ]              ShortFuse's renodx-dlss add-on, newest first (at most 10)
     },
     "addons":      { "updated", "source", "addons": [ ... ] },       packages from crosire's Addons.ini
+    "frameLimiters": { "updated", "sources", "limiters": [ ... ] },  ReLimiter and Display Commander add-ons
     "shaderPacks": { "updated", "source", "packs":  [ ... ] }        shader repositories from shader-packs.json
   }
 }
@@ -211,6 +212,21 @@ repository has no licence: the build is **pinned, never mirrored**, so there is 
 zip from `url`, checks the hash, and takes `renodx-dlss.addon64` out of it. A zip without that entry is refused like a bad
 download. If the release list is unreachable, isn't a list or has no matching release, the run fails and the previous
 section stays; a single build whose download fails is a warning and keeps its last good entry.
+
+### `frameLimiters`
+
+The two frame-limiter add-ons DLSS5 Updater installs next to ReShade, read from their authors' GitHub releases:
+
+| Limiter | Release read | Files | Licence |
+|---|---|---|---|
+| ReLimiter (`id` `relimiter`) | `https://api.github.com/repos/RankFTW/ReLimiter/releases/latest` | `relimiter.addon64`, `relimiter.addon32` (only releases from v3.3.1 on have the 32-bit file) | MIT: **mirrored** |
+| Display Commander (`id` `display-commander`) | `https://api.github.com/repos/pmnoxx/display-commander/releases/tags/latest` | `zzz_display_commander.addon64`, `zzz_display_commander.addon32` | none found (the README names a LICENSE file the repository does not have): **pinned**, never mirrored |
+
+Each limiter entry has `id`, `name`, `repository`, `release` (the tag the files came from; Display Commander republishes `latest` on every
+push to its main branch, so the hash changes while the tag does not), `license` (SPDX, absent when none) and `files`, normal file entries
+with hash, size, first-seen version and history. The 32-bit file is simply absent when the release has none; a reader must refuse a 32-bit
+game then. A release without the 64-bit file is an error for that limiter (its last good entry stays and the run fails). The debug symbol
+files of Display Commander's release are not listed. The ids are the same as in the `addons` section's `managedBy`.
 
 ### Being polite upstream
 

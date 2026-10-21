@@ -112,6 +112,20 @@ public static class Program
 
         try
         {
+            var limiters = new FrameLimitersGenerator(new GitHubText(http, token), zipSync);
+            var output = await limiters.BuildAsync(CatalogFile.ReadSection<FrameLimitersSection>(root, "frameLimiters"), now, cts.Token);
+            failed |= Report(output.Warnings, output.Errors);
+            var changed = CatalogFile.SetSection(root, "frameLimiters", output.Section, now);
+            Console.WriteLine(changed ? "frameLimiters section changed" : "frameLimiters section unchanged");
+        }
+        catch (SourceException ex)
+        {
+            Console.WriteLine($"::error::frameLimiters: {ex.Message}. Keeping the last good section.");
+            failed = true;
+        }
+
+        try
+        {
             var list = ShaderPackLists.Load(packsPath);
             var verified = list.Packs.Where(p => p.License is not null).ToDictionary(p => p.Repo, p => p.License!, StringComparer.OrdinalIgnoreCase);
             var packSync = new FileSync(new UpstreamFetcher(http, tempDir, requiredZipEntry: null), new VerifiedLicences(licences, verified), mirror);
@@ -147,6 +161,8 @@ public static class Program
         if (CatalogFile.ReadSection<RenodxSection>(root, "renodx") is { } renodx)
             files.AddRange(renodx.Mods.SelectMany(m => m.Files).Concat(renodx.Generic.SelectMany(g => g.Files)));
         if (CatalogFile.ReadSection<AddonsSection>(root, "addons") is { } addons) files.AddRange(addons.Addons.SelectMany(a => a.Files));
+        if (CatalogFile.ReadSection<FrameLimitersSection>(root, "frameLimiters") is { } limiters)
+            files.AddRange(limiters.Limiters.SelectMany(l => l.Files));
         if (CatalogFile.ReadSection<ShaderPacksSection>(root, "shaderPacks") is { } packs)
             files.AddRange(packs.Packs.Select(p => p.File).OfType<FileEntry>());
         return files;
