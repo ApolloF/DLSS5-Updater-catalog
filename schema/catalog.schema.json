@@ -240,7 +240,7 @@
     "packLayout": {
       "description": "Where the Shaders and Textures folders of a shader pack sit inside its zip. The app extracts everything below these prefixes.",
       "type": "object",
-      "required": ["shadersDir", "effects", "shaderFiles", "textureFiles"],
+      "required": ["shadersDir", "shaderFiles", "textureFiles"],
       "properties": {
         "shadersDir": { "type": "string", "description": "Zip prefix ending in '/', e.g. ReShade_HDR_shaders-ab12cd3/Shaders/." },
         "texturesDir": { "type": "string", "description": "Absent when the pack has no Textures folder." },
