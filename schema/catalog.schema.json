@@ -11,11 +11,14 @@
     "generated": { "type": "string", "format": "date-time", "description": "When any section last changed (UTC). Absent until the first run." },
     "sections": {
       "type": "object",
-      "description": "One entry per catalog area. `renodx`, `renodxDlss` and `optiscalerCompat` exist so far; later areas (luma, addons, shaderPacks, feeder) are added as new keys.",
+      "description": "One entry per catalog area. `renodx`, `renodxDlss`, `optiscalerCompat`, `addons`, `frameLimiters` and `shaderPacks` exist so far; later areas (luma, feeder) are added as new keys.",
       "properties": {
         "renodx": { "$ref": "#/$defs/renodxSection" },
         "renodxDlss": { "$ref": "#/$defs/renodxDlssSection" },
-        "optiscalerCompat": { "$ref": "#/$defs/optiscalerCompatSection" }
+        "optiscalerCompat": { "$ref": "#/$defs/optiscalerCompatSection" },
+        "addons": { "$ref": "#/$defs/addonsSection" },
+        "frameLimiters": { "$ref": "#/$defs/frameLimitersSection" },
+        "shaderPacks": { "$ref": "#/$defs/shaderPacksSection" }
       },
       "additionalProperties": true
     }
@@ -47,7 +50,7 @@
       "required": ["name", "arch", "url", "sha256", "size", "version", "firstSeen", "history"],
       "properties": {
         "name": { "type": "string", "description": "File name as the author publishes it, e.g. renodx-hades2.addon64." },
-        "arch": { "enum": ["x64", "x86"] },
+        "arch": { "enum": ["x64", "x86", "both"], "description": "Bitness of the file; \"both\" for an add-on or shader package that serves 32-bit and 64-bit games." },
         "url": { "type": "string", "format": "uri", "description": "The author's own download address." },
         "sha256": { "$ref": "#/$defs/sha256", "description": "Lowercase hex SHA-256 of the current build." },
         "size": { "type": "integer", "minimum": 1, "description": "Bytes." },
@@ -59,6 +62,9 @@
         "license": { "type": "string", "description": "SPDX id of the source repository's licence, when GitHub reports one." },
         "mirrorUrl": { "type": "string", "format": "uri", "description": "Immutable copy in this repository's release assets (named by hash, never overwritten). Only for MIT, BSD-2/3, Apache-2.0, ISC and Unlicense sources. Absent = pinned: upstream url plus hash only." },
         "mod": { "type": "string", "description": "The upstream games-index mod this file belongs to." },
+        "payload": { "type": "array", "items": { "$ref": "#/$defs/payloadItem" }, "description": "Add-on packages: what the app installs from the zip (or the plain binary)." },
+        "unplaced": { "type": "array", "items": { "type": "string" }, "description": "Add-on packages: zip entries the app does not place; the package is then `manual`." },
+        "layout": { "$ref": "#/$defs/packLayout" },
         "history": { "type": "array", "items": { "$ref": "#/$defs/historyEntry" }, "description": "Previous builds, newest first." }
       },
       "additionalProperties": true
@@ -246,6 +252,122 @@
           }
         },
         "hudfixIncompatible": { "type": "array", "items": { "type": "string" }, "description": "Games upstream lists as incompatible with OptiFG's HUDfix." }
+      },
+      "additionalProperties": true
+    },
+
+    "payloadItem": {
+      "description": "One file of an add-on download that the app installs.",
+      "type": "object",
+      "required": ["entry", "kind"],
+      "properties": {
+        "entry": { "type": "string", "description": "Path inside the zip (the file name for a plain binary)." },
+        "kind": { "enum": ["addon", "effect"], "description": "addon = into the game's add-on folder; effect = below the game's Shaders folder." },
+        "arch": { "enum": ["x64", "x86", "both"], "description": "Add-ons only." },
+        "dest": { "type": "string", "description": "Effects only: path below the game's Shaders folder, with '/' separators." }
+      },
+      "additionalProperties": true
+    },
+
+    "packLayout": {
+      "description": "Where the Shaders and Textures folders of a shader pack sit inside its zip. The app extracts everything below these prefixes.",
+      "type": "object",
+      "required": ["shadersDir", "shaderFiles", "textureFiles"],
+      "properties": {
+        "shadersDir": { "type": "string", "description": "Zip prefix ending in '/', e.g. ReShade_HDR_shaders-ab12cd3/Shaders/." },
+        "texturesDir": { "type": "string", "description": "Absent when the pack has no Textures folder." },
+        "effects": { "type": "array", "items": { "type": "string" }, "description": "File names of the effects (.fx) in the Shaders folder, without folders, sorted. Presets name their effects by file name." },
+        "shaderFiles": { "type": "integer", "minimum": 1 },
+        "textureFiles": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+
+    "addon": {
+      "description": "An add-on package from crosire's Addons.ini.",
+      "type": "object",
+      "required": ["id", "name", "files"],
+      "properties": {
+        "id": { "type": "string", "description": "Slug of the package name." },
+        "name": { "type": "string" },
+        "author": { "type": "string" },
+        "description": { "type": "string" },
+        "repositoryUrl": { "type": "string", "format": "uri" },
+        "effectInstallPath": { "type": "string", "description": "As the list writes it, relative to the game folder." },
+        "license": { "type": "string", "description": "SPDX id of the repository the files are published from, when GitHub reports one." },
+        "managedBy": { "type": "string", "description": "The app manages this add-on as a component of its own (renodx, display-commander, relimiter, dfc, lecram-dlss5, gitc-uplift, dlss5-feeder); no files are listed." },
+        "manual": { "type": "string", "description": "Why the app cannot install the package itself; the repository link is the way in." },
+        "files": { "type": "array", "items": { "$ref": "#/$defs/file" } }
+      },
+      "additionalProperties": true
+    },
+
+    "addonsSection": {
+      "type": "object",
+      "required": ["updated", "source", "addons"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime" },
+        "source": { "type": "string", "format": "uri", "description": "crosire's Addons.ini." },
+        "addons": { "type": "array", "items": { "$ref": "#/$defs/addon" } }
+      },
+      "additionalProperties": true
+    },
+
+    "limiter": {
+      "description": "A frame-limiter add-on (ReLimiter, Display Commander): the add-on binaries of one release. A 32-bit file is absent when the release has none.",
+      "type": "object",
+      "required": ["id", "name", "repository", "release", "files"],
+      "properties": {
+        "id": { "enum": ["relimiter", "display-commander"] },
+        "name": { "type": "string" },
+        "repository": { "type": "string", "description": "owner/repo the files are published from." },
+        "release": { "type": "string", "description": "The release tag the files were read from. Display Commander republishes the tag `latest`." },
+        "license": { "type": "string", "description": "SPDX id of the repository's licence. Absent = no licence found, so the files are pinned (author's URL plus hash), never mirrored." },
+        "files": { "type": "array", "items": { "$ref": "#/$defs/file" }, "description": "`relimiter.addon64` / `.addon32`, `zzz_display_commander.addon64` / `.addon32`." }
+      },
+      "additionalProperties": true
+    },
+
+    "frameLimitersSection": {
+      "type": "object",
+      "required": ["updated", "sources", "limiters"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime" },
+        "sources": { "type": "array", "items": { "type": "object", "required": ["url", "count"], "properties": { "url": { "type": "string", "format": "uri" }, "count": { "type": "integer" } } } },
+        "limiters": { "type": "array", "items": { "$ref": "#/$defs/limiter" } }
+      },
+      "additionalProperties": true
+    },
+
+    "shaderPack": {
+      "description": "A shader repository pinned to a release tag or a commit; the zip is hashed like every other file.",
+      "type": "object",
+      "required": ["id", "name", "repo", "homepage", "category", "source", "ref", "version", "file"],
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "description": { "type": "string" },
+        "repo": { "type": "string", "pattern": "^[^/]+/[^/]+$" },
+        "homepage": { "type": "string", "format": "uri" },
+        "category": { "enum": ["hdr", "general", "color", "depth-3d", "cinematic"] },
+        "default": { "type": "boolean", "description": "Pre-selected for new setups (the HDR essentials)." },
+        "source": { "enum": ["branch", "release-asset"] },
+        "ref": { "type": "string", "description": "Branch name or release tag." },
+        "commit": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "version": { "type": "string", "description": "Release tag, or the first seven characters of the commit." },
+        "license": { "type": "string", "description": "SPDX id: GitHub's, or the one checked by hand when GitHub reports none." },
+        "file": { "allOf": [{ "$ref": "#/$defs/file" }], "required": ["layout"] }
+      },
+      "additionalProperties": true
+    },
+
+    "shaderPacksSection": {
+      "type": "object",
+      "required": ["updated", "source", "packs"],
+      "properties": {
+        "updated": { "$ref": "#/$defs/utcTime" },
+        "source": { "type": "string", "description": "The list we maintain: shader-packs.json." },
+        "packs": { "type": "array", "items": { "$ref": "#/$defs/shaderPack" } }
       },
       "additionalProperties": true
     },
