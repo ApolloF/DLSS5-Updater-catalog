@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-10-21T12:51:54Z",
+      "updated": "2026-10-21T13:26:51Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -85,8 +85,8 @@
               "version": "2026-10-21-48fa2f3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-425be00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297c-425be00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/48fa2f37d7ccfda9-renodx-ue-extended.addon64",
               "history": []
@@ -1160,8 +1160,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1288-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -1519,8 +1519,8 @@
               "version": "2026-10-21-1353ed7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-256000\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad82979-256000\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/1353ed7116620259-renodx-BerserkBotH.addon64",
               "history": []
@@ -1700,8 +1700,8 @@
               "version": "2026-10-21-25b928d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c6-c8a00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:02 GMT",
+              "etag": "\"6999a1c7-c8a00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25b928d52299169e-renodx-black-desert-online.addon64",
               "history": []
@@ -2824,8 +2824,8 @@
               "version": "2026-10-21-d9aad79",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13983-201a00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
+              "etag": "\"6ad13980-201a00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:20 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d9aad79682d48d40-renodx-daysgone.addon64",
               "history": []
@@ -2854,8 +2854,8 @@
               "version": "2026-10-21-3f30d93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40830-3d0600\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:44 GMT",
+              "etag": "\"6ad4082f-3d0600\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:43 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3f30d937d3891505-renodx-deadislandde.addon64",
               "history": []
@@ -3437,8 +3437,8 @@
               "version": "2026-10-21-ec0bfe0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13981-26b400\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
+              "etag": "\"6ad13983-26b400\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec0bfe0b49de9b60-renodx-dragonsdogma2.addon64",
               "history": []
@@ -3661,8 +3661,8 @@
               "version": "2026-10-21-a13565d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297a-263200\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:50 GMT",
+              "etag": "\"6ad8297b-263200\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a13565d95aad9acd-renodx-endermagnolia.addon64",
               "history": []
@@ -4019,8 +4019,8 @@
               "version": "2026-10-21-d3da9e7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1287-22ca00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:27 GMT",
+              "etag": "\"6abc1288-22ca00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3da9e7fc06e4be2-renodx-fatesamurairemnant.addon64",
               "history": []
@@ -4252,8 +4252,8 @@
               "version": "2026-10-21-0c78785",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-221200\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13981-221200\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/0c78785c49d30069-renodx-forzahorizon6.addon64",
               "history": []
@@ -4694,8 +4694,8 @@
               "version": "2026-10-21-85a3bbd",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad4082f-4aee00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:43 GMT",
+              "etag": "\"6ad40831-4aee00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/85a3bbdb8018d203-renodx-guildwars2.addon64",
               "history": []
@@ -4930,8 +4930,8 @@
               "version": "2026-10-21-d3a61a3",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-32dc00\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13981-32dc00\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3a61a367954c235-renodx-helldivers2.addon64",
               "history": []
@@ -5653,8 +5653,8 @@
               "version": "2026-10-21-53ed450",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-1dbc00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297e-1dbc00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/53ed45030c2be331-renodx-yakuzapirates.addon64",
               "history": []
@@ -5787,8 +5787,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -5973,8 +5973,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -6315,8 +6315,8 @@
               "version": "2026-10-21-09b8ea0",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13984-4a4800\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
+              "etag": "\"6ad13983-4a4800\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/09b8ea0c2e6c3245-renodx-metroexodus.addon64",
               "history": []
@@ -6410,8 +6410,8 @@
               "version": "2026-10-21-9fd338d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b1-27be00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b2-27be00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9fd338d56e1a2d8d-renodx-metroidprime.addon64",
               "history": []
@@ -6753,8 +6753,8 @@
               "version": "2026-10-21-8a22097",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-230c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-230c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a22097869d7dfff-renodx-nierreplicant.addon64",
               "history": []
@@ -6782,8 +6782,8 @@
               "version": "2026-10-21-70ca03b",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-25ac00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-25ac00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/70ca03bd323a365e-renodx-nightsofazure1.addon64",
               "history": []
@@ -6811,8 +6811,8 @@
               "version": "2026-10-21-4988bb6",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297c-257a00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
+              "etag": "\"6ad8297b-257a00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/4988bb60ecd7b26f-renodx-nightsofazure2.addon64",
               "history": []
@@ -6942,8 +6942,8 @@
               "version": "2026-10-21-6492fe9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc1289-22fa00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-22fa00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/6492fe9e62d90fdc-renodx-nioh2.addon64",
               "history": []
@@ -7328,8 +7328,8 @@
               "version": "2026-10-21-8d28d12",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297b-297c00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
+              "etag": "\"6ad8297c-297c00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8d28d12aa463e5a0-renodx-pathfinder2wotr.addon64",
               "history": []
@@ -8051,8 +8051,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1288-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -9020,8 +9020,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b4-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b3-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -9086,8 +9086,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -9300,8 +9300,8 @@
               "version": "2026-10-21-d1eecd8",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad40831-282e00\"",
-              "lastModified": "Sat, 17 Oct 2026 23:43:45 GMT",
+              "etag": "\"6ad40832-282e00\"",
+              "lastModified": "Sat, 17 Oct 2026 23:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d1eecd8afc586793-renodx-steelrising.addon64",
               "history": []
@@ -9455,8 +9455,8 @@
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -9715,8 +9715,8 @@
               "version": "2026-10-21-a1c38d9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad1dfe8-33ae00\"",
-              "lastModified": "Fri, 16 Oct 2026 08:27:20 GMT",
+              "etag": "\"6ad1dfe9-33ae00\"",
+              "lastModified": "Fri, 16 Oct 2026 08:27:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a1c38d93ffa65419-renodx-callistoprotocol.addon64",
               "history": []
@@ -9816,8 +9816,8 @@
               "version": "2026-10-21-fa7c51f",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-261600\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297c-261600\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/fa7c51f8a4c0a201-renodx-tew2.addon64",
               "history": []
@@ -9845,8 +9845,8 @@
               "version": "2026-10-21-a026439",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad82979-2aea00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:49 GMT",
+              "etag": "\"6ad8297b-2aea00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a026439a14b6ad0e-renodx-bersekerKhazan.addon64",
               "history": []
@@ -10035,8 +10035,8 @@
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b0-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -10264,8 +10264,8 @@
               "version": "2026-10-21-8a84c93",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad13985-288000\"",
-              "lastModified": "Thu, 15 Oct 2026 20:37:25 GMT",
+              "etag": "\"6ad13984-288000\"",
+              "lastModified": "Thu, 15 Oct 2026 20:37:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a84c9361b33c1e3-renodx-thewitcher3remastered.addon64",
               "history": []
@@ -10371,8 +10371,8 @@
               "version": "2026-10-21-d22538d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad79fcf-266800\"",
-              "lastModified": "Tue, 20 Oct 2026 17:07:27 GMT",
+              "etag": "\"6ad79fcd-266800\"",
+              "lastModified": "Tue, 20 Oct 2026 17:07:25 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d22538d296ac968b-renodx-terraria-tml.addon64",
               "history": []
@@ -10467,8 +10467,8 @@
               "version": "2026-10-21-113bd81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6999a1c8-c3c00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
+              "etag": "\"6999a1c7-c3c00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/113bd81b2bd48d12-renodx-tw-3kingdoms.addon64",
               "history": []
@@ -11071,8 +11071,8 @@
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b2-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -11104,8 +11104,8 @@
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ac0e4b3-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b5-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -11167,8 +11167,8 @@
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6abc128a-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc128b-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -11229,8 +11229,8 @@
               "version": "2026-10-21-f11c2af",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-10-21",
-              "etag": "\"6ad8297d-24fa00\"",
-              "lastModified": "Wed, 21 Oct 2026 02:54:53 GMT",
+              "etag": "\"6ad8297e-24fa00\"",
+              "lastModified": "Wed, 21 Oct 2026 02:54:54 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f11c2afa8153644c-renodx-ys10.addon64",
               "history": []
@@ -25813,7 +25813,3432 @@
           }
         ]
       }
+    },
+    "luma": {
+      "updated": "2026-10-21T13:26:51Z",
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/wiki/Filoppi/Luma-Framework/Home.md",
+          "count": 188
+        },
+        {
+          "url": "https://api.github.com/repos/Filoppi/Luma-Framework/releases/latest",
+          "count": 62
+        }
+      ],
+      "release": "latest-755",
+      "packages": [
+        {
+          "id": "Batman_Arkham_Knight",
+          "files": [
+            {
+              "name": "Luma-Batman_Arkham_Knight.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Batman_Arkham_Knight.zip",
+              "sha256": "c10bb1069f12f83984db60074f8bc56683f6bde09525dfcdffb516d684f95249",
+              "size": 36351705,
+              "version": "2026-10-21-c10bb10",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C793045A0\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Beyond_Two_Souls",
+          "files": [
+            {
+              "name": "Luma-Beyond_Two_Souls.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Beyond_Two_Souls.zip",
+              "sha256": "4f1a56183515e2bd5b0cfc5ff8a0a74e44a2bc861ff5c3198dca594f99128e4f",
+              "size": 5213977,
+              "version": "2026-10-21-4f1a561",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C759EA131\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "BioShock_Series",
+          "files": [
+            {
+              "name": "Luma-BioShock_Series-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-BioShock_Series-x32.zip",
+              "sha256": "3da3b30401098617e5c65eae7ba7805927454ee874577b771114636339f97180",
+              "size": 4452511,
+              "version": "2026-10-21-3da3b30",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75862BAE\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Blue_Reflection_Second_Light",
+          "files": [
+            {
+              "name": "Luma-Blue_Reflection_Second_Light.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Blue_Reflection_Second_Light.zip",
+              "sha256": "f19f568d8d73c828d13c053ee29637c8aa7fe513b3a03da8b653d340ca77fdf8",
+              "size": 37462119,
+              "version": "2026-10-21-f19f568",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B07B03\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Borderlands_2_and_The_Pre-Sequel",
+          "files": [
+            {
+              "name": "Luma-Borderlands_2_and_The_Pre-Sequel-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Borderlands_2_and_The_Pre-Sequel-x32.zip",
+              "sha256": "17904e87fbab7ecc50e5ea0cbd0f77d7e7fb1bdc79fe80688c1de40f258251f6",
+              "size": 4416724,
+              "version": "2026-10-21-17904e8",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75791B07\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Borderlands_GOTY_Enhanced",
+          "files": [
+            {
+              "name": "Luma-Borderlands_GOTY_Enhanced.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Borderlands_GOTY_Enhanced.zip",
+              "sha256": "faaf3fecbb8e87d55a734cf1e7258331486099dac203b2c26f46cb8ff7f8e0cd",
+              "size": 5231615,
+              "version": "2026-10-21-faaf3fe",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75A770F2\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:41 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Burnout_Paradise_Remastered",
+          "files": [
+            {
+              "name": "Luma-Burnout_Paradise_Remastered-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Burnout_Paradise_Remastered-x32.zip",
+              "sha256": "016a3a3e9cfe950cbdf8c65056b4eef5a95a246597765b239f099823a461e2f9",
+              "size": 4437354,
+              "version": "2026-10-21-016a3a3",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7571A95A\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Call_of_Duty_Black_Ops_3",
+          "files": [
+            {
+              "name": "Luma-Call_of_Duty_Black_Ops_3.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Call_of_Duty_Black_Ops_3.zip",
+              "sha256": "6eeda1c5c938ceb73ccff9fec3d3ebde68eec9ab7350ea9d8684981c2a946327",
+              "size": 37374106,
+              "version": "2026-10-21-6eeda1c",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7896CE61\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Deus_Ex_Human_Revolution_Director.s_Cut",
+          "files": [
+            {
+              "name": "Luma-Deus_Ex_Human_Revolution_Director.s_Cut-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Deus_Ex_Human_Revolution_Director.s_Cut-x32.zip",
+              "sha256": "2541d1b872ae2a927ea49caa3fcd3763fc0dad050c7469f95d56165ae67288cd",
+              "size": 4478401,
+              "version": "2026-10-21-2541d1b",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75887319\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Deus_Ex_Mankind_Divided",
+          "files": [
+            {
+              "name": "Luma-Deus_Ex_Mankind_Divided.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Deus_Ex_Mankind_Divided.zip",
+              "sha256": "5a9920b22b3e04e7e33c7da67b79e29cd3ba0f4ee55c0395f7407a283a4291a3",
+              "size": 37230276,
+              "version": "2026-10-21-5a9920b",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78AA407B\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Dishonored_2",
+          "files": [
+            {
+              "name": "Luma-Dishonored_2.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Dishonored_2.zip",
+              "sha256": "094439846407a2611735700a2c08e092bd21da42e4ec88cddd0e29676d060099",
+              "size": 37297437,
+              "version": "2026-10-21-0944398",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B8FCEC\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Dying_Light_2",
+          "files": [
+            {
+              "name": "Luma-Dying_Light_2.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Dying_Light_2.zip",
+              "sha256": "0390ef7fed30c01e5e365425ee5810eb2fc7d1335ed8c35586b043bc20ece5f1",
+              "size": 5197457,
+              "version": "2026-10-21-0390ef7",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75947380\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Fallout_4",
+          "files": [
+            {
+              "name": "Luma-Fallout_4.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Fallout_4.zip",
+              "sha256": "f7230376b2b94ea16be758869d5f15814b3831e7db49359823267980c5dd2ba5",
+              "size": 36369029,
+              "version": "2026-10-21-f723037",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C789B8400\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Far_Cry_5",
+          "files": [
+            {
+              "name": "Luma-Far_Cry_5.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Far_Cry_5.zip",
+              "sha256": "3fc6cb7a734773bd0009f69366213e18cd80c6e87b9ae81247c71e16bb313dbd",
+              "size": 36388400,
+              "version": "2026-10-21-3fc6cb7",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B5A554\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Final_Fantasy_VII_Remake",
+          "files": [
+            {
+              "name": "Luma-Final_Fantasy_VII_Remake.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Final_Fantasy_VII_Remake.zip",
+              "sha256": "88e105986b5ede71d40a4ff340761e5034c080bd8a181797e75772b2ab6e1de4",
+              "size": 42180723,
+              "version": "2026-10-21-88e1059",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78C35183\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Final_Fantasy_XV",
+          "files": [
+            {
+              "name": "Luma-Final_Fantasy_XV.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Final_Fantasy_XV.zip",
+              "sha256": "bf79e527089c18be26c76cc964a1637e7f579374f322dbd180faf2712fb463dc",
+              "size": 42206829,
+              "version": "2026-10-21-bf79e52",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C791A5E4B\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Granblue_Fantasy_Relink",
+          "files": [
+            {
+              "name": "Luma-Granblue_Fantasy_Relink.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Granblue_Fantasy_Relink.zip",
+              "sha256": "13fecbc451c41c3e3539eb6d43cc93ab25f94ccc0c155e1f0aff0b32c2f59920",
+              "size": 37487768,
+              "version": "2026-10-21-13fecbc",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78F09731\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "GreedFall",
+          "files": [
+            {
+              "name": "Luma-GreedFall.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-GreedFall.zip",
+              "sha256": "25f72830ae60d24021cdf274475cae20a0b7dfd895351ffe6d816dbec66a864e",
+              "size": 37228426,
+              "version": "2026-10-21-25f7283",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B07B03\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Halo_The_Master_Chief_Collection",
+          "files": [
+            {
+              "name": "Luma-Halo_The_Master_Chief_Collection.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Halo_The_Master_Chief_Collection.zip",
+              "sha256": "d8594c2f3e5c45fab7cc89b143bd84c942435ccb5a20a5fb56f7e0119cd91c9a",
+              "size": 5517722,
+              "version": "2026-10-21-d8594c2",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C759E05A9\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Heaven_Burns_Red",
+          "files": [
+            {
+              "name": "Luma-Heaven_Burns_Red.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Heaven_Burns_Red.zip",
+              "sha256": "42f36a887b4d7dac6b8aaa2485f06c6200cf306f9a36e4046e29fd882c2de193",
+              "size": 5204178,
+              "version": "2026-10-21-42f36a8",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75925308\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Heavy_Rain",
+          "files": [
+            {
+              "name": "Luma-Heavy_Rain.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Heavy_Rain.zip",
+              "sha256": "1c02ed1b51593f3665df72e04e3819e058b16da65cc3e669bbb01e49a4eb3197",
+              "size": 5243064,
+              "version": "2026-10-21-1c02ed1",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75949A75\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "INSIDE",
+          "files": [
+            {
+              "name": "Luma-INSIDE.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-INSIDE.zip",
+              "sha256": "f0326e445681a614a5f3daa7c07d4b4f9ec0137adf8a5ce62c9de92c3cfb1e69",
+              "size": 5258201,
+              "version": "2026-10-21-f0326e4",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C758A1EEA\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Just_Cause_3",
+          "files": [
+            {
+              "name": "Luma-Just_Cause_3.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Just_Cause_3.zip",
+              "sha256": "2615d33894b5b113fe5b54333a6dda7cdc88bf6e04441900a3628c035d09eba8",
+              "size": 37288825,
+              "version": "2026-10-21-2615d33",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78FE4368\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Kingdom_Come_Deliverance",
+          "files": [
+            {
+              "name": "Luma-Kingdom_Come_Deliverance.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Kingdom_Come_Deliverance.zip",
+              "sha256": "055c9df7545919eaaa7a9e67154853e831ec82bdf27a58c8f85daf87a04e0a83",
+              "size": 36350894,
+              "version": "2026-10-21-055c9df",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78E9E7F1\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "L.A._Noire",
+          "files": [
+            {
+              "name": "Luma-L.A._Noire-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-L.A._Noire-x32.zip",
+              "sha256": "58cd720c40d1327794bdcf69b58848c7fd49120e4197cb488790b6467bb0f71c",
+              "size": 4371839,
+              "version": "2026-10-21-58cd720",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75694E5A\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Lara_Croft_and_the_Temple_of_Osiris",
+          "files": [
+            {
+              "name": "Luma-Lara_Croft_and_the_Temple_of_Osiris-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Lara_Croft_and_the_Temple_of_Osiris-x32.zip",
+              "sha256": "409d692298915833eeab558f3821ee8b7c5afe58555cbacdbdb5ceedc99944dc",
+              "size": 4383666,
+              "version": "2026-10-21-409d692",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7569C301\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Lego_City_Undercover",
+          "files": [
+            {
+              "name": "Luma-Lego_City_Undercover.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Lego_City_Undercover.zip",
+              "sha256": "59f00a203a770ee9b7094e4ef2264ab03feb29712c71f9b3083247d7b426303c",
+              "size": 5222447,
+              "version": "2026-10-21-59f00a2",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C759BE525\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mafia_III",
+          "files": [
+            {
+              "name": "Luma-Mafia_III.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mafia_III.zip",
+              "sha256": "3fd89b117e19733489030c51ee22dad4fb98fd43dccfe096595a6d2ca9c3307f",
+              "size": 36407379,
+              "version": "2026-10-21-3fd89b1",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78A9A4DE\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mafia_II_Definitive_Edition",
+          "files": [
+            {
+              "name": "Luma-Mafia_II_Definitive_Edition.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mafia_II_Definitive_Edition.zip",
+              "sha256": "196f30157d16cdd607e4f30644f4cc055bcda68f53ce28466faa0146a690bb81",
+              "size": 5237959,
+              "version": "2026-10-21-196f301",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7589834D\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mass_Effect",
+          "files": [
+            {
+              "name": "Luma-Mass_Effect-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mass_Effect-x32.zip",
+              "sha256": "9d72c5fc88f7e1ec795bf4237844d766075267e8be3c55d20c448b97b6f42167",
+              "size": 4409222,
+              "version": "2026-10-21-9d72c5f",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C755519D5\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mass_Effect_Andromeda",
+          "files": [
+            {
+              "name": "Luma-Mass_Effect_Andromeda.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mass_Effect_Andromeda.zip",
+              "sha256": "c8eefebd45c38e1f2a35c60f5d786a6aa0342b5b3834e01e9772bd56be410c47",
+              "size": 37238326,
+              "version": "2026-10-21-c8eefeb",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78E2763E\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mass_Effect_Legendary_Edition",
+          "files": [
+            {
+              "name": "Luma-Mass_Effect_Legendary_Edition.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mass_Effect_Legendary_Edition.zip",
+              "sha256": "41c62b3e8f65453c12ac08c2f1c4268413112a0e95187e6c39cfadc3858e4df4",
+              "size": 5269740,
+              "version": "2026-10-21-41c62b3",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7598B47E\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Medal_of_Honor_Airborne",
+          "files": [
+            {
+              "name": "Luma-Medal_of_Honor_Airborne-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Medal_of_Honor_Airborne-x32.zip",
+              "sha256": "bcce6893cb148b7858062007b6b968e6a5172c3380ca05ba6e3ea9fc8a37f24b",
+              "size": 4411079,
+              "version": "2026-10-21-bcce689",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C755677D5\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Metal_Gear_Solid_4_Guns_of_the_Patriots",
+          "files": [
+            {
+              "name": "Luma-Metal_Gear_Solid_4_Guns_of_the_Patriots.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Metal_Gear_Solid_4_Guns_of_the_Patriots.zip",
+              "sha256": "3518272630fb18151ec899c89167d551d51e8f38cfda1232e27c3ad969ba5d6c",
+              "size": 5277198,
+              "version": "2026-10-21-3518272",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C758B7CE5\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Metaphor_ReFantazio",
+          "files": [
+            {
+              "name": "Luma-Metaphor_ReFantazio.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Metaphor_ReFantazio.zip",
+              "sha256": "003fa8b3952fa3e99a9f49822236bbe777a12be7f43ea07d0a20a5728dbfe4ad",
+              "size": 37455175,
+              "version": "2026-10-21-003fa8b",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78AF43DF\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Metro_Redux",
+          "files": [
+            {
+              "name": "Luma-Metro_Redux.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Metro_Redux.zip",
+              "sha256": "37f39c72acfce57ca2d3c8da17c926c23827c00815266e6d1b6ec926cf3cf718",
+              "size": 5224735,
+              "version": "2026-10-21-37f39c7",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C758B7CE5\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Middle-earth_Shadow_of_War",
+          "files": [
+            {
+              "name": "Luma-Middle-earth_Shadow_of_War.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Middle-earth_Shadow_of_War.zip",
+              "sha256": "d9702b7709ebbd391fc350f8ec5e84d4fb02792b803dd67ebf7a57091b50941a",
+              "size": 37268716,
+              "version": "2026-10-21-d9702b7",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78EA8386\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mirror.s_Edge_Catalyst",
+          "files": [
+            {
+              "name": "Luma-Mirror.s_Edge_Catalyst.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mirror.s_Edge_Catalyst.zip",
+              "sha256": "65c20a83f5ebe2d74f53b7c1437149be2fef82a2daf779934dc987b2f852e6e8",
+              "size": 5204232,
+              "version": "2026-10-21-65c20a8",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C758ABA79\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Monster_Hunter_World",
+          "files": [
+            {
+              "name": "Luma-Monster_Hunter_World.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Monster_Hunter_World.zip",
+              "sha256": "9eedaf86edec2531024e5d1adfa8d55c057df91e168093b54960cc69e8f382c4",
+              "size": 36357966,
+              "version": "2026-10-21-9eedaf8",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C789BAAEA\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Mortal_Kombat_11",
+          "files": [
+            {
+              "name": "Luma-Mortal_Kombat_11.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Mortal_Kombat_11.zip",
+              "sha256": "3cb3d4a8832903523d8628b3833e6a3c040072f5564e796ea1a47ee45ba483f2",
+              "size": 36346701,
+              "version": "2026-10-21-3cb3d4a",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B9BF64\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "NieR_Automata",
+          "files": [
+            {
+              "name": "Luma-NieR_Automata.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-NieR_Automata.zip",
+              "sha256": "30c010174f8e914d86c7b3db6247211fa98faafde239c0a5ed866765b786673c",
+              "size": 5204906,
+              "version": "2026-10-21-30c0101",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75776F4B\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Nioh",
+          "files": [
+            {
+              "name": "Luma-Nioh.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Nioh.zip",
+              "sha256": "e9379ef40554b5b087015283c73ddea307c77abceb9c7813cc880f3a7350e764",
+              "size": 5214067,
+              "version": "2026-10-21-e9379ef",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C757FCA44\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Persona_5_Royal",
+          "files": [
+            {
+              "name": "Luma-Persona_5_Royal.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Persona_5_Royal.zip",
+              "sha256": "70a7dc1f2226ce187edb8eb08f355acedb834ef8ec021d0762a78aa2a4fc48bb",
+              "size": 37249432,
+              "version": "2026-10-21-70a7dc1",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7899638C\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Prey",
+          "files": [
+            {
+              "name": "Luma-Prey.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Prey.zip",
+              "sha256": "310dcd0c3bb232087292c5f0648a1fe01777835e8d30f881e87904072c98433e",
+              "size": 37608921,
+              "version": "2026-10-21-310dcd0",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78B9E648\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Project_Diva_Mega_Mix",
+          "files": [
+            {
+              "name": "Luma-Project_Diva_Mega_Mix.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Project_Diva_Mega_Mix.zip",
+              "sha256": "349076e1267589cad6c6b8b47c674a4563d2ab62ba2c5e3b93b0b4e5a62e9b25",
+              "size": 5325635,
+              "version": "2026-10-21-349076e",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C756FAFD2\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Quantum_Break",
+          "files": [
+            {
+              "name": "Luma-Quantum_Break.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Quantum_Break.zip",
+              "sha256": "a48f449f3e7689fa1c53d1c6324a48558f51655989db1f0dc24ee3f17d1773df",
+              "size": 37283779,
+              "version": "2026-10-21-a48f449",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78BF3777\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Saints_Row_The_Third_Remastered",
+          "files": [
+            {
+              "name": "Luma-Saints_Row_The_Third_Remastered.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Saints_Row_The_Third_Remastered.zip",
+              "sha256": "c4d8a6e86bce8e7872d3b4b5fd2db3cac7b1340ac79952f6058f81d83aea0ec8",
+              "size": 5197508,
+              "version": "2026-10-21-c4d8a6e",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C75633AAE\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Sekiro",
+          "files": [
+            {
+              "name": "Luma-Sekiro.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Sekiro.zip",
+              "sha256": "bd1e5d8b2238124b5b2c27813f82377ad4b4de816b19d399802ad9a0197186c9",
+              "size": 6112807,
+              "version": "2026-10-21-bd1e5d8",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C759C80C7\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Shenmue_I_._II",
+          "files": [
+            {
+              "name": "Luma-Shenmue_I_._II.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Shenmue_I_._II.zip",
+              "sha256": "713512d68a68fa8fa40aca5781f2969dede499925ba93a6e2f29113477f7a4bb",
+              "size": 5216632,
+              "version": "2026-10-21-713512d",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7560CC6C\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Snowbreak_Containment_Zone",
+          "files": [
+            {
+              "name": "Luma-Snowbreak_Containment_Zone.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Snowbreak_Containment_Zone.zip",
+              "sha256": "52f453ff10aa11e9b30dd3b02d1dd2a65e441bb6552eaed03f79c225b7005fe3",
+              "size": 37275910,
+              "version": "2026-10-21-52f453f",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78C8F08A\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:46 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "The_Evil_Within_2",
+          "files": [
+            {
+              "name": "Luma-The_Evil_Within_2.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-The_Evil_Within_2.zip",
+              "sha256": "d5362ed9eabee725713d8431adc91ba4392218122f32eac9a206657d03377dbb",
+              "size": 36351983,
+              "version": "2026-10-21-d5362ed",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7880A041\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "The_Witcher_2",
+          "files": [
+            {
+              "name": "Luma-The_Witcher_2-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-The_Witcher_2-x32.zip",
+              "sha256": "7223dede57406c6f997246ed5e1fa51f3a17d4089e91fadf7a68164a57627e2e",
+              "size": 4416602,
+              "version": "2026-10-21-7223ded",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7507EC13\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:39 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Thief_.2014",
+          "files": [
+            {
+              "name": "Luma-Thief_.2014.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Thief_.2014.zip",
+              "sha256": "a6561b0fb299749f2767f6693bd2d9549fa7e441a5500cc42d00f25f3b89539c",
+              "size": 5262092,
+              "version": "2026-10-21-a6561b0",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7561B5CC\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Thumper",
+          "files": [
+            {
+              "name": "Luma-Thumper.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Thumper.zip",
+              "sha256": "8a05fadc6664142ca397eabaff29df06eb5dea9f192f5d0e2f6f0b009ec640fb",
+              "size": 5225404,
+              "version": "2026-10-21-8a05fad",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C754BD571\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Titanfall_2",
+          "files": [
+            {
+              "name": "Luma-Titanfall_2.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Titanfall_2.zip",
+              "sha256": "0169ddb31872ab3430a944675eb38212704b6329977dd45cd41ca70a25a0c287",
+              "size": 5203414,
+              "version": "2026-10-21-0169ddb",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7552D274\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Trine_5",
+          "files": [
+            {
+              "name": "Luma-Trine_5.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Trine_5.zip",
+              "sha256": "cf1c77d85418ed941d3db76307cd96d348406f91e4e4269a82a7294abf668233",
+              "size": 5226164,
+              "version": "2026-10-21-cf1c77d",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C753B464F\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Unity_Engine",
+          "files": [
+            {
+              "name": "Luma-Unity_Engine.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Unity_Engine.zip",
+              "sha256": "6c32a934e7e57a10fd578bcb76eaecb44e9d9a710324d26b6afa8165d0c4ea2a",
+              "size": 5291649,
+              "version": "2026-10-21-6c32a93",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7527956E\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:40 GMT",
+              "mod": "luma",
+              "history": []
+            },
+            {
+              "name": "Luma-Unity_Engine-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Unity_Engine-x32.zip",
+              "sha256": "e316af0bf8e095fe0ffd3a6ae8d36bcf48f797dfc2eb649e018a35416b495f04",
+              "size": 4460564,
+              "version": "2026-10-21-e316af0",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C74FEA7AB\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:39 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Unreal_Engine",
+          "files": [
+            {
+              "name": "Luma-Unreal_Engine.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Unreal_Engine.zip",
+              "sha256": "f87a0e28fc2678db3d8e297efc6715f47c620947e9f2f14941b14ac90d4608d6",
+              "size": 37284739,
+              "version": "2026-10-21-f87a0e2",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C78868D03\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Vanquish",
+          "files": [
+            {
+              "name": "Luma-Vanquish-x32.zip",
+              "arch": "x86",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Vanquish-x32.zip",
+              "sha256": "2f7a383c6ddffc05f9376f5e38597c33abe8b688a765d7e61b2f867917c905e5",
+              "size": 4404843,
+              "version": "2026-10-21-2f7a383",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C74E43890\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:39 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        },
+        {
+          "id": "Watch_Dogs_2",
+          "files": [
+            {
+              "name": "Luma-Watch_Dogs_2.zip",
+              "arch": "x64",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-755/Luma-Watch_Dogs_2.zip",
+              "sha256": "ef31ae9c39693daec51c9a0604fb41b9e7ce4eb644e05ef03452c01d8d1c6480",
+              "size": 37447220,
+              "version": "2026-10-21-ef31ae9",
+              "firstSeen": "2026-10-21T13:26:51Z",
+              "verified": "2026-10-21",
+              "etag": "\"0x8DF2C9C7899FF1E\"",
+              "lastModified": "Sat, 17 Oct 2026 22:17:45 GMT",
+              "mod": "luma",
+              "history": []
+            }
+          ]
+        }
+      ],
+      "mods": [
+        {
+          "id": "alfred-hitchcock-vertigo",
+          "name": "Alfred Hitchcock – Vertigo",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "bioshock-2-remastered",
+          "name": "BioShock 2 Remastered",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "BioShock_Series",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#bioshock-2-remastered"
+        },
+        {
+          "id": "bioshock-remastered",
+          "name": "BioShock Remastered",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/bioshock/mods/94",
+            "other": []
+          },
+          "package": "BioShock_Series",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "borderlands-2",
+          "name": "Borderlands 2",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "notes": "Requires dgVoodoo2 v2.81.3 or dgVoodoo2 v2.87.3",
+          "links": {
+            "nexus": "https://www.nexusmods.com/borderlands2/mods/658",
+            "other": []
+          },
+          "requiresDgVoodoo": true,
+          "dgVoodooVersions": [
+            "2.81.3",
+            "2.87.3"
+          ],
+          "dgVoodooSetup": [
+            "Set these in dgVoodoo.conf:",
+            "[General]",
+            "OutputAPI: d3d11_fl11_0",
+            "[DirectX]",
+            "VideoCard: geforce_9800_gt *(fixes dynamic shadows)*",
+            "dgVoodooWatermark: false *(removes the dgVoodoo watermark)*",
+            "VRAM: 1024"
+          ],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#borderlands-2"
+        },
+        {
+          "id": "borderlands-goty-enhanced",
+          "name": "Borderlands GOTY Enhanced",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/borderlandsgotyenhanced/mods/103",
+            "other": []
+          },
+          "package": "Borderlands_GOTY_Enhanced",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#borderlands-goty-enhanced"
+        },
+        {
+          "id": "borderlands-the-pre-sequel",
+          "name": "Borderlands: The Pre-Sequel",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "notes": "Requires dgVoodoo2 v2.81.3 or dgVoodoo2 v2.87.3",
+          "links": {
+            "nexus": "https://www.nexusmods.com/borderlandspresequel/mods/108",
+            "other": []
+          },
+          "requiresDgVoodoo": true,
+          "dgVoodooVersions": [
+            "2.81.3",
+            "2.87.3"
+          ],
+          "dgVoodooSetup": [
+            "Set these in dgVoodoo.conf:",
+            "[General]",
+            "OutputAPI: d3d11_fl11_0",
+            "[DirectX]",
+            "VideoCard: geforce_9800_gt *(fixes dynamic shadows)*",
+            "dgVoodooWatermark: false *(removes the dgVoodoo watermark)*",
+            "VRAM: 1024"
+          ],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#borderlands-the-pre-sequel"
+        },
+        {
+          "id": "burnout-paradise-remastered",
+          "name": "Burnout Paradise Remastered",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Burnout_Paradise_Remastered",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#burnout-paradise-remastered"
+        },
+        {
+          "id": "call-of-duty-black-ops-iii",
+          "name": "Call of Duty: Black Ops III",
+          "authors": [
+            "XgarhontX"
+          ],
+          "status": "working",
+          "notes": "You may get banned on official public matchmaking.\nAvoid online/public modes.",
+          "links": {
+            "nexus": "https://www.nexusmods.com/callofdutyblackops3/mods/28",
+            "other": []
+          },
+          "package": "Call_of_Duty_Black_Ops_3",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#call-of-duty-black-ops-iii"
+        },
+        {
+          "id": "cocoon",
+          "name": "Cocoon",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "deus-ex-human-revolution",
+          "name": "Deus Ex: Human Revolution",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Not compatible with Boris ENB (DX9).\nWorks on DE and original Edition.\nThe Gold Filter Restoration mod is redundant with this",
+          "package": "Deus_Ex_Human_Revolution_Director.s_Cut",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#deus-ex-human-revolution"
+        },
+        {
+          "id": "dishonored-2-death-of-the-outsider",
+          "name": "Dishonored 2 + Death of the Outsider",
+          "authors": [
+            "Pumbo",
+            "Musa"
+          ],
+          "status": "in-progress",
+          "package": "Dishonored_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "fallout-4",
+          "name": "Fallout 4",
+          "authors": [
+            "Garamond"
+          ],
+          "status": "in-progress",
+          "notes": "DLSS+GTAO Only",
+          "package": "Fallout_4",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "far-changing-tides",
+          "name": "FAR: Changing Tides",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "far-lone-sails",
+          "name": "FAR: Lone Sails",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "far-cry-5",
+          "name": "Far Cry 5",
+          "authors": [
+            "HenDGS"
+          ],
+          "status": "working",
+          "notes": "DLSS/DLAA; borderless native scRGB HDR support. RenoDX is optional.",
+          "links": {
+            "nexus": "https://www.nexusmods.com/farcry5/mods/258",
+            "other": [
+              "https://github.com/HenDGS/fc5-dlss/releases/latest"
+            ]
+          },
+          "package": "Far_Cry_5",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "final-fantasy-vii-remake",
+          "name": "Final Fantasy VII Remake",
+          "authors": [
+            "izueh"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/finalfantasy7remake/mods/1974",
+            "other": []
+          },
+          "package": "Final_Fantasy_VII_Remake",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "final-fantasy-xv",
+          "name": "Final Fantasy XV",
+          "authors": [
+            "izueh"
+          ],
+          "status": "working",
+          "notes": "DLSS + HDR and more.",
+          "package": "Final_Fantasy_XV",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "granblue-fantasy-relink",
+          "name": "Granblue Fantasy: Relink",
+          "authors": [
+            "Izueh"
+          ],
+          "status": "working",
+          "package": "Granblue_Fantasy_Relink",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "greedfall",
+          "name": "Greedfall",
+          "authors": [
+            "Idarion"
+          ],
+          "status": "working",
+          "notes": "DLSS only (no HDR atm)",
+          "package": "GreedFall",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "hatsune-miku-project-diva-mega-mix",
+          "name": "Hatsune Miku: Project DIVA Mega Mix+",
+          "authors": [
+            "XgarhontX"
+          ],
+          "status": "working",
+          "notes": "If bugged, don't use Exclusive Fullscreen. Press (ALT + ENTER) to exit it.",
+          "links": {
+            "nexus": "https://www.nexusmods.com/hatsunemikuprojectdivamegamixplus/mods/15",
+            "gameBanana": "https://gamebanana.com/mods/644390",
+            "other": []
+          },
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "heavy-rain",
+          "name": "Heavy Rain",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Ultrawide might only work on Steam",
+          "package": "Heavy_Rain",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#heavy-rain"
+        },
+        {
+          "id": "hollow-knight-silksong",
+          "name": "Hollow Knight: Silksong",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/hollowknightsilksong/mods/23",
+            "other": []
+          },
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#hollow-knight-silksong"
+        },
+        {
+          "id": "inside",
+          "name": "INSIDE",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Not compatible with Xbox Store version",
+          "package": "INSIDE",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#inside"
+        },
+        {
+          "id": "just-cause-3",
+          "name": "Just Cause 3",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Just_Cause_3",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#just-cause-3"
+        },
+        {
+          "id": "lara-croft-and-the-temple-of-osiris",
+          "name": "Lara Croft and the Temple of Osiris",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Not compatible with Xbox Store version",
+          "package": "Lara_Croft_and_the_Temple_of_Osiris",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "lego-city-undercover",
+          "name": "Lego City: Undercover",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Lego_City_Undercover",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#lego-city-undercover"
+        },
+        {
+          "id": "mafia-ii-definitive-edition",
+          "name": "Mafia II: Definitive Edition",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Mafia_II_Definitive_Edition",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#mafia-ii-definitive-edition"
+        },
+        {
+          "id": "mafia-iii",
+          "name": "Mafia III",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Mafia_III",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#mafia-iii"
+        },
+        {
+          "id": "mass-effect",
+          "name": "Mass Effect",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "notes": "Requires dgVoodoo2 v2.81.3 or dgVoodoo2 v2.87.3",
+          "links": {
+            "nexus": "https://www.nexusmods.com/masseffect/mods/291",
+            "other": []
+          },
+          "package": "Mass_Effect",
+          "requiresDgVoodoo": true,
+          "dgVoodooVersions": [
+            "2.81.3",
+            "2.87.3"
+          ],
+          "dgVoodooSetup": [
+            "Set these in dgVoodoo.conf:",
+            "[General]",
+            "OutputAPI: d3d11_fl11_0",
+            "[DirectX]",
+            "VideoCard: geforce_9800_gt *(fixes dynamic shadows)*",
+            "dgVoodooWatermark: false *(removes the dgVoodoo watermark)*",
+            "VRAM: 1024"
+          ],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#mass-effect"
+        },
+        {
+          "id": "mass-effect-legendary-edition",
+          "name": "Mass Effect Legendary Edition",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/masseffectlegendaryedition/mods/3413",
+            "other": []
+          },
+          "package": "Mass_Effect_Legendary_Edition",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#mass-effect-legendary-edition"
+        },
+        {
+          "id": "mass-effect-andromeda",
+          "name": "Mass Effect: Andromeda",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/masseffectandromeda/mods/1351",
+            "other": []
+          },
+          "package": "Mass_Effect_Andromeda",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#mass-effect-andromeda"
+        },
+        {
+          "id": "medal-of-honor-airborne",
+          "name": "Medal of Honor: Airborne",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "notes": "Requires dgVoodoo2 v2.81.3 or dgVoodoo2 v2.87.3",
+          "links": {
+            "nexus": "https://www.nexusmods.com/medalofhonorairborne/mods/14",
+            "other": []
+          },
+          "package": "Medal_of_Honor_Airborne",
+          "requiresDgVoodoo": true,
+          "dgVoodooVersions": [
+            "2.81.3",
+            "2.87.3"
+          ],
+          "dgVoodooSetup": [
+            "Set these in dgVoodoo.conf:",
+            "[General]",
+            "OutputAPI: d3d11_fl11_0",
+            "[DirectX]",
+            "VideoCard: geforce_9800_gt *(fixes dynamic shadows)*",
+            "dgVoodooWatermark: false *(removes the dgVoodoo watermark)*",
+            "VRAM: 1024"
+          ],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#medal-of-honor-airborne"
+        },
+        {
+          "id": "metal-gear-solid-4-guns-of-the-patriots",
+          "name": "Metal Gear Solid 4: Guns of the Patriots",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Compatible with all other fix mods.",
+          "package": "Metal_Gear_Solid_4_Guns_of_the_Patriots",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "metaphor-refantazio",
+          "name": "Metaphor: ReFantazio",
+          "authors": [
+            "Idarion"
+          ],
+          "status": "working",
+          "package": "Metaphor_ReFantazio",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#metaphor-refantazio"
+        },
+        {
+          "id": "metro-redux-2033-and-last-light",
+          "name": "Metro Redux (2033 and Last Light)",
+          "authors": [
+            "Jon"
+          ],
+          "status": "working",
+          "notes": "Requires using windowed/borderless windowed modes, either via mods or setting fullscreen off in the game's config file.",
+          "package": "Metro_Redux",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "middle-earth-shadow-of-war",
+          "name": "Middle-earth: Shadow of War",
+          "authors": [
+            "Garamond"
+          ],
+          "status": "in-progress",
+          "notes": "DLSS Only",
+          "package": "Middle-earth_Shadow_of_War",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "nioh",
+          "name": "Nioh",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Nioh",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#nioh"
+        },
+        {
+          "id": "persona-5-royal",
+          "name": "Persona 5 Royal",
+          "authors": [
+            "Idarion"
+          ],
+          "status": "working",
+          "package": "Persona_5_Royal",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "prey",
+          "name": "Prey",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/prey2017/mods/149",
+            "other": []
+          },
+          "package": "Prey",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#prey"
+        },
+        {
+          "id": "prince-of-persia-the-lost-crown",
+          "name": "Prince of Persia: The Lost Crown",
+          "authors": [
+            "Pumbo",
+            "Ersh"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "quantum-break",
+          "name": "Quantum Break",
+          "authors": [
+            "Musa"
+          ],
+          "status": "working",
+          "package": "Quantum_Break",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "shadows-of-doubt",
+          "name": "Shadows of Doubt",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "the-witcher-2-assassins-of-kings-enhanced-edition",
+          "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+          "authors": [
+            "DristoforColumb"
+          ],
+          "status": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/witcher2/mods/1180",
+            "other": []
+          },
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#the-witcher-2-assassins-of-kings-enhanced-edition"
+        },
+        {
+          "id": "thief-2014",
+          "name": "Thief (2014)",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Thief_.2014",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#thief-2014"
+        },
+        {
+          "id": "thumper",
+          "name": "Thumper",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Thumper",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#thumper"
+        },
+        {
+          "id": "trine-5",
+          "name": "Trine 5",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Trine_5",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "vanquish",
+          "name": "Vanquish",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "notes": "Requires dgVoodoo to DX11 (separate download)",
+          "package": "Vanquish",
+          "requiresDgVoodoo": true,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#vanquish"
+        },
+        {
+          "id": "watch-dogs-2",
+          "name": "Watch Dogs 2",
+          "authors": [
+            "Pumbo",
+            "Miru"
+          ],
+          "status": "in-progress",
+          "package": "Watch_Dogs_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": [],
+          "featuresUrl": "https://github.com/Filoppi/Luma-Framework/wiki#watch-dogs-2"
+        },
+        {
+          "id": "white-knuckle",
+          "name": "White Knuckle",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "working",
+          "package": "Unity_Engine",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "batman-arkham-knight",
+          "name": "Batman Arkham Knight",
+          "authors": [],
+          "status": "in-progress",
+          "notes": "DLSS only (no HDR atm)",
+          "package": "Batman_Arkham_Knight",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "bioshock-infinite",
+          "name": "BioShock Infinite",
+          "authors": [
+            "Pumbo"
+          ],
+          "status": "in-progress",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "deus-ex-mankind-divided",
+          "name": "Deus Ex: Mankind Divided",
+          "authors": [],
+          "status": "in-progress",
+          "notes": "DLSS only (no HDR atm)",
+          "package": "Deus_Ex_Mankind_Divided",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "mirror-s-edge-catalyst",
+          "name": "Mirror's Edge Catalyst",
+          "authors": [
+            "Musa"
+          ],
+          "status": "in-progress",
+          "package": "Mirror.s_Edge_Catalyst",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "watch-dogs",
+          "name": "Watch Dogs",
+          "authors": [
+            "Miru"
+          ],
+          "status": "in-progress",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "beyond-two-souls",
+          "name": "Beyond Two Souls",
+          "authors": [],
+          "package": "Beyond_Two_Souls",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "blue-reflection-second-light",
+          "name": "Blue Reflection Second Light",
+          "authors": [],
+          "package": "Blue_Reflection_Second_Light",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "borderlands-2-and-the-pre-sequel",
+          "name": "Borderlands 2 and The Pre-Sequel",
+          "authors": [],
+          "package": "Borderlands_2_and_The_Pre-Sequel",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "dying-light-2",
+          "name": "Dying Light 2",
+          "authors": [],
+          "package": "Dying_Light_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "halo-the-master-chief-collection",
+          "name": "Halo The Master Chief Collection",
+          "authors": [],
+          "package": "Halo_The_Master_Chief_Collection",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "heaven-burns-red",
+          "name": "Heaven Burns Red",
+          "authors": [],
+          "package": "Heaven_Burns_Red",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "kingdom-come-deliverance",
+          "name": "Kingdom Come Deliverance",
+          "authors": [],
+          "package": "Kingdom_Come_Deliverance",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "l-a-noire",
+          "name": "L.A. Noire",
+          "authors": [],
+          "package": "L.A._Noire",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "monster-hunter-world",
+          "name": "Monster Hunter World",
+          "authors": [],
+          "package": "Monster_Hunter_World",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "mortal-kombat-11",
+          "name": "Mortal Kombat 11",
+          "authors": [],
+          "package": "Mortal_Kombat_11",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "nier-automata",
+          "name": "NieR Automata",
+          "authors": [],
+          "package": "NieR_Automata",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "project-diva-mega-mix",
+          "name": "Project Diva Mega Mix",
+          "authors": [],
+          "package": "Project_Diva_Mega_Mix",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "saints-row-the-third-remastered",
+          "name": "Saints Row The Third Remastered",
+          "authors": [],
+          "package": "Saints_Row_The_Third_Remastered",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "sekiro",
+          "name": "Sekiro",
+          "authors": [],
+          "package": "Sekiro",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "shenmue-i-ii",
+          "name": "Shenmue I . II",
+          "authors": [],
+          "package": "Shenmue_I_._II",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "snowbreak-containment-zone",
+          "name": "Snowbreak Containment Zone",
+          "authors": [],
+          "package": "Snowbreak_Containment_Zone",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "the-evil-within-2",
+          "name": "The Evil Within 2",
+          "authors": [],
+          "package": "The_Evil_Within_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "the-witcher-2",
+          "name": "The Witcher 2",
+          "authors": [],
+          "package": "The_Witcher_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        },
+        {
+          "id": "titanfall-2",
+          "name": "Titanfall 2",
+          "authors": [],
+          "package": "Titanfall_2",
+          "requiresDgVoodoo": false,
+          "dgVoodooVersions": [],
+          "dgVoodooSetup": []
+        }
+      ],
+      "unrealPackage": "Unreal_Engine",
+      "unrealGames": [
+        {
+          "name": "Abiotic Factor",
+          "dlss": "yes",
+          "ueVersion": "5.4.4.0",
+          "notes": "-DX11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "Abzu",
+          "dlss": "blocked",
+          "hdr": "yes",
+          "ueVersion": "4.12.5.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Ace Combat 7: Skies Unknown",
+          "dlss": "yes",
+          "ueVersion": "4.18",
+          "notes": "In-game: AA \"FXAA High\"",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Agony UNRATED",
+          "dlss": "yes",
+          "ueVersion": "4.17.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Alchemy Garden",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Aliens: Fireteam Elite",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Ancestors Legacy",
+          "dlss": "yes",
+          "ueVersion": "4.17.2.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Ancestors: The Humankind Odyssey",
+          "dlss": "yes",
+          "ueVersion": "4.20.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Ashen",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.19.2",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Aven Colony",
+          "dlss": "blocked",
+          "ueVersion": "4.16.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Biomutant",
+          "dlss": "yes",
+          "hdr": "blocked",
+          "ueVersion": "4.18.0.0",
+          "notes": "In-game: AA \"High\" or \"Max\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Blair Witch",
+          "dlss": "yes",
+          "ueVersion": "4.21.2",
+          "notes": "In-game: TXAA, res. scalability \"Full\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Bloodstained: Ritual Of The Night",
+          "dlss": "yes",
+          "ueVersion": "4.22.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Borderlands 3",
+          "dlss": "in-progress",
+          "ueVersion": "4.20.3.0",
+          "notes": "Seems to have flickering issues",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Bramble: The Mountain King",
+          "dlss": "in-progress",
+          "ueVersion": "4.27.2.0",
+          "notes": "In-game: Quality \"Epic.\" VRAM fills up quickly and eventually causes game stutters. Constantly swapping between Quality \"High\" and \"Epic\" always makes VRAM fill up. Not using Luma makes the game stay at static 2.6 GB VRAM usage.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Breathedge",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Bus Simulator 21",
+          "dlss": "blocked",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Call of the Sea",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "notes": "In-game: Global quality \"Epic\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Chess Ultra",
+          "dlss": "yes",
+          "ueVersion": "4.18.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Circus Electrique",
+          "dlss": "yes",
+          "ueVersion": "4.27.1.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Clash: Artifacts of Chaos",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "In-game: AA quality \"Very High\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Close to the Sun",
+          "dlss": "yes",
+          "ueVersion": "4.18.0.0",
+          "notes": "In-game: AA 4X",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Code Vein",
+          "dlss": "yes",
+          "ueVersion": "4.18.3",
+          "notes": "In-game: AA Highest",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Coral Island",
+          "dlss": "yes",
+          "ueVersion": "4.27.7.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Crab Champions",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "In-game: High Anti-aliasing Type",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Crash Bandicoot 4: It's About Time",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.24.2",
+          "notes": "In-game: at least Medium (2x) Antialiasing Quality",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Cygni: All Guns Blazing",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Daemon x Machina",
+          "dlss": "blocked",
+          "ueVersion": "4.20.3.0",
+          "notes": "On level load or graphics change, game force-applies r.TemporalAASamples=1, disabling DLAA",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Darksiders 3",
+          "dlss": "yes",
+          "ueVersion": "4.19.2.0",
+          "notes": "In-game: AA Epic",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Daylight",
+          "dlss": "blocked",
+          "ueVersion": "(?)",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Daymare: 1998",
+          "dlss": "yes",
+          "ueVersion": "4.20.2.0",
+          "notes": "Works perfectly on its own but crashes if combined with OptiScaler or UUU.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Days Gone",
+          "dlss": "blocked",
+          "ueVersion": "4.10.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Dead Island 2",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "Requires -dx11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "DEADLINE DELIVERY",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "In-game: \"Ultra\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Deceive Inc.",
+          "dlss": "blocked",
+          "ueVersion": "4.27.2.0",
+          "notes": "blocked by Easy Anti-Cheat",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "DESOLATE",
+          "dlss": "yes",
+          "ueVersion": "4.25.4.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Destroy All Humans!",
+          "dlss": "yes",
+          "ueVersion": "4.22.3.0",
+          "notes": "In-game: AA \"Ultra\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Destroy All Humans! – Clone Carnage",
+          "dlss": "blocked",
+          "ueVersion": "4.22.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Devil's Hunt",
+          "dlss": "yes",
+          "ueVersion": "4.21.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Die Young",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "In-game: TAA \"High\" or \"Epic\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "DNF Duel",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "AA does not work in character selection screen.",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Dragon Ball Z: Kakarot",
+          "dlss": "yes",
+          "ueVersion": "4.21.2.0",
+          "notes": "In-game: TAA + use [BDZK_Fix](https://github.com/KingKrouch/DBZK_Fix) for the Legacy version/its [updated fork](https://github.com/NicNamed/DBZK_Fix) for the HD version",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.15",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "6"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.temporalaasamples",
+              "value": "2"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "DRAGON QUEST XI: Echoes of an Elusive Age",
+          "dlss": "yes",
+          "ueVersion": "4.15",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "6"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.temporalaasamples",
+              "value": "2"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "ECHO",
+          "dlss": "in-progress",
+          "hdr": "yes",
+          "ueVersion": "4.14.0.0",
+          "notes": "DLAA stopped working after first level. While its working with AutoExposure: On light sources are strobing, with AutoExposure: Off antialiasing became much worse.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Eriksholm: The Stolen Dream",
+          "dlss": "yes",
+          "ueVersion": "5.4.4.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Filament",
+          "dlss": "yes",
+          "ueVersion": "4.24.3.0",
+          "notes": "In game: AA \"High\" or \"Very High\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Ghostrunner",
+          "hdr": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "GigaBash",
+          "dlss": "blocked",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Goat Simulator 3",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "In-game: High AA",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Grounded",
+          "dlss": "yes",
+          "ueVersion": "4.27.2",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Guilty Gear Strive",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "AA does not work in character selection screen.\nIn-game: AA \"Temporal Anti Aliasing\"",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Gylt",
+          "dlss": "yes",
+          "ueVersion": "4.27.2",
+          "notes": "Launch using -dx11. In-game: Upscaling Method \"TAAU, 100%.\" Recommended to use r.motionblur.amount=0 via Engine.ini for motion clarity",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "Hell Let Loose",
+          "dlss": "blocked",
+          "ueVersion": "4.25.0.0",
+          "notes": "blocked by Easy Anti-Cheat",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Hellblade: Senua's Sacrifice",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "-DX11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "It Takes Two",
+          "dlss": "in-progress",
+          "ueVersion": "4.26",
+          "notes": "Only works on the title screen sequence",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Just Die Already",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Kao the Kangaroo",
+          "dlss": "yes",
+          "notes": "In-game: AA \"High\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Kholat",
+          "dlss": "blocked",
+          "ueVersion": "4.7.5.3",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Kid A Mnesia Exhibition",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "KINGDOM HEARTS III + Re Mind (DLC)",
+          "dlss": "yes",
+          "ueVersion": "4.17",
+          "notes": "In-game: \"TXAA\"",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.AntiAliasingMethod",
+              "value": "2"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Layers of Fear 2",
+          "dlss": "yes",
+          "ueVersion": "4.21.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Life is Strange: 2",
+          "dlss": "yes",
+          "ueVersion": "4.16.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Life is Strange: True Colors",
+          "dlss": "in-progress",
+          "ueVersion": "4.25.0.0",
+          "notes": "Use [Luma build 189](https://github.com/Filoppi/Luma-Framework/releases/download/latest-189/Luma-Unreal_Engine.zip). Latest builds do not work. Having RTSS (and similar programs) open prior to game's launch may break the mod. Launch using -dx11 parameter. In-game: Antialiasing \"Very High\" or \"Cinematic\"",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "Little Nightmares",
+          "dlss": "yes",
+          "ueVersion": "4.13.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Little Nightmares Enhanced Edition",
+          "hdr": "yes",
+          "ueVersion": "4.27.2",
+          "notes": "-DX11 launch argument. The original works. Remastered unknown.",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "Little Nightmares III",
+          "dlss": "blocked",
+          "ueVersion": "4.27.2",
+          "notes": "Doesn't boot in DX11",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Maneater",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Master Detective Archives: RAIN CODE Plus",
+          "dlss": "yes",
+          "notes": "In-game: AA quality \"High\", resolution slider at max",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Mordhau",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Mothergunship",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Mutant Year Zero: Road to Eden",
+          "dlss": "yes",
+          "ueVersion": "4.17.2",
+          "notes": "In-game: AA \"High\". Recommended to use r.motionblur.amount=0 via Engine.ini for motion clarity",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "NARUTO TO BORUTO: SHINOBI STRIKER",
+          "dlss": "blocked",
+          "ueVersion": "4.16.3.0",
+          "notes": "blocked by Easy Anti-Cheat",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "No More Heroes 3",
+          "dlss": "yes",
+          "ueVersion": "4.27.1.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Octopath Traveler",
+          "dlss": "yes",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Orcs Must Die! 3",
+          "dlss": "yes",
+          "ueVersion": "4.27.1.0",
+          "notes": "In-game: AA quality \"High\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Persona 3 Reload",
+          "dlss": "blocked",
+          "ueVersion": "4.27.2",
+          "notes": "Doesn't boot in DX11",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Poppy Playtime",
+          "dlss": "blocked",
+          "ueVersion": "5.2.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Predecessor",
+          "dlss": "blocked",
+          "ueVersion": "5.4.4.0",
+          "notes": "blocked by Easy Anti-Cheat",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Project : Wingman",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.27.2",
+          "notes": "In-game: AA \"FXAA\"",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Psychonauts 2",
+          "dlss": "yes",
+          "ueVersion": "4.26.1.0",
+          "notes": "Requires -dx11 launch argument (GOG/Steam only, will not work on Microsoft Store/Gamepass as this version does not support DirectX 11)",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "RAD",
+          "dlss": "yes",
+          "notes": "In-game: AA \"Ultra\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Redeemer",
+          "dlss": "yes",
+          "ueVersion": "4.19.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Redout 2",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "-DX11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "Redout: Enhanced Edition",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "-DX11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "Relicta",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Remnant: From the Ashes",
+          "dlss": "yes",
+          "ueVersion": "4.22.3.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Rime",
+          "dlss": "blocked",
+          "hdr": "yes",
+          "ueVersion": "4.12.5.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "RoboQuest",
+          "dlss": "yes",
+          "ueVersion": "4.26.2",
+          "notes": "In-game: TAA, Quality \"3\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "RUINER",
+          "dlss": "yes",
+          "ueVersion": "4.23.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Scarlet Nexus",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.25.0.0",
+          "notes": "In-game: AA \"TXAA\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Scorn",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.27.2.0",
+          "notes": "Has native support of FSR 2.1, so DLSS or any other upscaler can be added via OptiScaler.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Selfloss",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Shenmue3",
+          "dlss": "yes",
+          "ueVersion": "4.20.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Sherlock Holmes Chapter One",
+          "dlss": "in-progress",
+          "ueVersion": "4.25.0.0",
+          "notes": "-dx11 launch argument Poor CPU performance in DX11 mode. DLAA with AutoExposure:On have jagged edges on grass.",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "Sherwood Extreme",
+          "dlss": "in-progress",
+          "ueVersion": "4.25.4.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Shin Megami Tensei V: Vengeance",
+          "dlss": "yes",
+          "notes": "Needs Lyall's Fix to force TAA.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Sifu",
+          "hdr": "blocked",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Snake Pass",
+          "dlss": "yes",
+          "ueVersion": "4.14.1.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Solar Ash",
+          "dlss": "yes",
+          "ueVersion": "4.25.0.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Song of Nunu",
+          "dlss": "in-progress",
+          "ueVersion": "5.1",
+          "notes": "Launch using -oss=Steam -dx11. In-game: AA \"High\". Recommended to use r.TemporalAASamples=4 via engine.ini (default: 8). Visible jittering in foliage and microscopic elements.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Spirit of the North",
+          "dlss": "yes",
+          "ueVersion": "4.27.2",
+          "notes": "In-game: Graphics Quality \"Ultra\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "SpongeBob SquarePants: The Cosmic Shake",
+          "dlss": "yes",
+          "notes": "In-game: AA \"Ultra\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Spyro Reignited Trilogy",
+          "dlss": "yes",
+          "ueVersion": "4.19.0.0",
+          "notes": "In-game: High TAA",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Star Wars Jedi: Fallen Order",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.21.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "State of Decay 2: Juggernaut Edition",
+          "dlss": "yes",
+          "ueVersion": "4.13.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Steel Rats",
+          "dlss": "yes",
+          "ueVersion": "4.19.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Stray",
+          "dlss": "yes",
+          "ueVersion": "4.27.2",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Styx: Shards of Darkness",
+          "dlss": "yes",
+          "ueVersion": "4.13.1.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Submerged Hidden Depths",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "notes": "In-game: AA \"High\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "SUCCUBUS",
+          "dlss": "yes",
+          "ueVersion": "4.24.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Supraland",
+          "dlss": "yes",
+          "ueVersion": "4.26.6.0",
+          "notes": "In-game: AA \"Temporal Anti Aliasing\"",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tales of Arise",
+          "dlss": "yes",
+          "ueVersion": "4.20.3",
+          "notes": "Requires [Arise-SDK](https://www.nexusmods.com/talesofarise/mods/5), UseUE4TAA = true",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tandem A Tale of Shadows",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tekken 7",
+          "dlss": "yes",
+          "ueVersion": "4.13.2.0",
+          "notes": "Use -nod3d9ex launch argument.",
+          "engineIni": [
+            {
+              "section": "/Script/Engine.RendererSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "/Script/Engine.RendererSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            },
+            {
+              "section": "/Script/Engine.RendererSettings",
+              "key": "r.TemporalAASamples",
+              "value": "16"
+            }
+          ],
+          "launchArgs": [
+            "-nod3d9ex"
+          ]
+        },
+        {
+          "name": "Tell Me Why",
+          "dlss": "yes",
+          "ueVersion": "4.20.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tetris Effect: Connected",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "notes": "In-game: AA \"FXAA:6\" and Rendering Scale 100%",
+          "engineIni": [
+            {
+              "section": "/Script/Engine.RendererSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "/Script/Engine.RendererSettings",
+              "key": "r.TemporalAA.Upsampling",
+              "value": "1"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "The Ascent",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.26.4.0",
+          "notes": "-DX11 launch argument",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        },
+        {
+          "name": "The Awesome Adventures of Captain Spirit",
+          "dlss": "yes",
+          "ueVersion": "4.16.3.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "The Dark Pictures Anthology: Man of Medan",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "notes": "Requires [Supermassive Games Border Remover](https://community.pcgamingwiki.com/files/file/2041-supermassive-games-border-remover/). Use -dx11 launch parameter. In-game: Antialiasing \"Medium\" as higher settings enable TAA with Upsampling that freeze the image. Other pillarbox removal mods such as UUU may show broken image.",
+          "engineIni": [],
+          "launchArgs": [
+            "-dx11"
+          ]
+        },
+        {
+          "name": "The Gunk",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "The Outer Worlds: Spacer's Choice Edition",
+          "dlss": "blocked",
+          "ueVersion": "4.27.2",
+          "notes": "Doesn't boot in DX11",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "The Pathless",
+          "dlss": "yes",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "The Sinking City",
+          "hdr": "yes",
+          "ueVersion": "4.20.1",
+          "notes": "The original works. Remastered unknown.",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "The Vanishing of Ethan Carter Redux",
+          "dlss": "blocked",
+          "ueVersion": "4.8.0.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tiny Tina's Wonderlands",
+          "dlss": "yes",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Trek to Yomi",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Tribes of Midgard",
+          "dlss": "yes",
+          "ueVersion": "4.27.0.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Tyrant's Realm",
+          "dlss": "yes",
+          "hdr": "yes",
+          "ueVersion": "4.25.4.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Vampyr",
+          "dlss": "yes",
+          "ueVersion": "4.15.1",
+          "notes": "In-game: AA TXAA 6X",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Warhammer 40,000: Boltgun",
+          "dlss": "yes",
+          "ueVersion": "4.27.2.0",
+          "engineIni": [
+            {
+              "section": "SystemSettings",
+              "key": "r.DefaultFeature.AntiAliasing",
+              "value": "2"
+            },
+            {
+              "section": "SystemSettings",
+              "key": "r.PostProcessAAQuality",
+              "value": "4"
+            }
+          ],
+          "launchArgs": []
+        },
+        {
+          "name": "Weird West",
+          "dlss": "yes",
+          "ueVersion": "4.26.2.0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "What Remains of Edith Finch",
+          "dlss": "yes",
+          "ueVersion": "4.10.0",
+          "notes": "DLAA works without any additional changes, but with Luma installed, the game doesn't completely close upon exit. To fix this, you need to install OptiScaler in addition to Luma. Magic. The game is broken in 4K resolution. To fix this, set the in-game Effects setting to Low and edit the engine.ini as follows.\n[SystemSettings]\nr.TranslucencyLightingVolumeDim=64\nr.RefractionQuality=2\nr.SSR.Quality=4\nr.SceneColorFormat=3\nr.DetailMode=2\nr.TranslucencyVolumeBlur=1\nr.MaterialQualityLevel=1\nr.SSR.Temporal=0",
+          "engineIni": [],
+          "launchArgs": []
+        },
+        {
+          "name": "Witch It",
+          "dlss": "yes",
+          "ueVersion": "5.4.4.0",
+          "notes": "-DX11 launch argument. In-game: \"Temporal AA\"",
+          "engineIni": [],
+          "launchArgs": [
+            "-DX11"
+          ]
+        }
+      ]
     }
   },
-  "generated": "2026-10-21T12:51:54Z"
+  "generated": "2026-10-21T13:26:51Z"
 }
