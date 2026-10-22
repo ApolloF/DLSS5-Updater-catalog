@@ -17,8 +17,8 @@ public class NeuralTests : IDisposable
     private static byte[] DlssNr(int build) =>
         TestPe.Make(internalName: "DLSSNR", originalName: "CL 38718415", fileVersion: [310, 8, build, 0], fileVersionText: $"310,8,{build},0");
 
-    private static byte[] Lecram10(string label) =>
-        TestPe.Make(originalName: "renodx-dlss5.addon64", fileVersion: [0, 2026, 926, 210], extra: "\0RenoDX.DLSS5\0v6.1.0\0" + label + "\0");
+    private static byte[] Lecram10(string label, int[]? fileVersion = null) =>
+        TestPe.Make(originalName: "renodx-dlss5.addon64", fileVersion: fileVersion ?? [0, 2026, 926, 210], extra: "\0RenoDX.DLSS5\0v6.1.0\0" + label + "\0");
 
     private static byte[] Lecram11(string label) =>
         TestPe.Make(extra: "\0RenoDX.DLSS5\0NR-SETTINGS\0NR-COMPAT\0v6.1.0\0" + label + "\0");
@@ -90,7 +90,7 @@ public class NeuralTests : IDisposable
 
     [Fact]
     public void The_dlssnr_dll_is_known_by_its_version_resource_not_its_name() =>
-        Assert.Equal(new Identified(NeuralKind.DlssNr, "nvngx_dlssnr.dll", "310.8.3", null), NeuralIdentify.Identify(Write("a", DlssNr(3)), "whatever.dll"));
+        Assert.Equal(new Identified(NeuralKind.DlssNr, "nvngx_dlssnr.dll", "310.8.3", null, "310.8.3"), NeuralIdentify.Identify(Write("a", DlssNr(3)), "whatever.dll"));
 
     [Fact]
     public void Lecram_v10_names_itself_in_the_version_resource_and_v11_by_its_strings()
@@ -98,7 +98,7 @@ public class NeuralTests : IDisposable
         var v10 = Write("v10", Lecram10("v8.5.0-rc10"));
         var v11 = Write("v11", Lecram11("v11.0.2"));
 
-        Assert.Equal(new Identified(NeuralKind.Lecram, "renodx-dlss5.addon64", "v8.5.0-rc10", "v10"), NeuralIdentify.Identify(v10, "drop(1).bin"));
+        Assert.Equal(new Identified(NeuralKind.Lecram, "renodx-dlss5.addon64", "v8.5.0-rc10", "v10", "0.2026.926.210"), NeuralIdentify.Identify(v10, "drop(1).bin"));
         Assert.Equal(new Identified(NeuralKind.Lecram, "dlss5-nr.addon64", "v11.0.2", "v11"), NeuralIdentify.Identify(v11, "drop(2).bin"));
     }
 
@@ -224,6 +224,93 @@ public class NeuralTests : IDisposable
         Assert.Equal("v11.0.1", output.Section.Lecram.Current!.Version);
         Assert.Equal(["v9.0.0"], output.Section.Lecram.History.Select(b => b.Version).ToArray());
     }
+
+    [Fact]
+    public async Task The_file_version_is_recorded_for_both_kinds()
+    {
+        var drops = new[] { MakeDrop("a", DlssNr(5)), MakeDrop("b", Lecram10("v310.8.0", [0, 2026, 828, 517])), MakeDrop("c", Lecram11("v11.0.2")) };
+
+        var output = await Generator("[]", new FakeFiles(_dir), new FakeMirrorSink()).BuildAsync(null, drops, Now, default);
+
+        Assert.Equal("310.8.5", output.Section.Dlssnr.Current!.FileVersion);
+        Assert.Equal("v11.0.2", output.Section.Lecram.Current!.Version);
+        Assert.Null(output.Section.Lecram.Current.FileVersion);
+        Assert.Equal("0.2026.828.517", output.Section.Lecram.History.Single().FileVersion);
+    }
+
+    [Fact]
+    public async Task Builds_with_one_version_label_order_by_file_version_and_the_highest_is_current()
+    {
+        var drops = new[]
+        {
+            MakeDrop("a", Lecram10("v310.8.0", [0, 2026, 828, 517])),
+            MakeDrop("b", Lecram10("v310.8.0", [0, 2026, 1002, 9])),
+            MakeDrop("c", Lecram10("v310.8.0", [0, 2026, 926, 210])),
+            MakeDrop("d", Lecram10("v310.8.0", [0, 0, 0, 0])),
+        };
+
+        var output = await Generator("[]", new FakeFiles(_dir), new FakeMirrorSink()).BuildAsync(null, drops, Now, default);
+
+        var all = new[] { output.Section.Lecram.Current! }.Concat(output.Section.Lecram.History).Select(b => b.FileVersion).ToArray();
+        Assert.Equal(new string?[] { "0.2026.1002.9", "0.2026.926.210", "0.2026.828.517", null }, all);
+    }
+
+    [Fact]
+    public async Task A_listed_build_without_file_version_gets_it_from_its_mirror_copy()
+    {
+        var bytes = Lecram10("v310.8.0", [0, 2026, 828, 517]);
+        var old = Entry(bytes, "https://mirror.test/old");
+        var files = new FakeFiles(_dir);
+        files.Served[old.MirrorUrl] = bytes;
+        var previous = new NeuralSection { Lecram = new NeuralLecram { Current = old, Generation = "v10" } };
+
+        var output = await Generator("[]", files, new FakeMirrorSink()).BuildAsync(previous, [], Now, default);
+
+        Assert.Equal("0.2026.828.517", output.Section.Lecram.Current!.FileVersion);
+        Assert.Empty(output.Warnings);
+    }
+
+    [Fact]
+    public async Task A_failed_backfill_keeps_the_entry_with_a_warning()
+    {
+        var bytes = Lecram10("v310.8.0", [0, 2026, 828, 517]);
+        var gone = Entry(bytes, "https://mirror.test/gone");
+        var changed = Entry(bytes, "https://mirror.test/changed");
+        changed.Sha256 = new string('a', 64);
+        var files = new FakeFiles(_dir);
+        files.Served[changed.MirrorUrl] = bytes;
+        var previous = new NeuralSection { Lecram = new NeuralLecram { Current = gone, History = [changed], Generation = "v10" } };
+
+        var output = await Generator("[]", files, new FakeMirrorSink()).BuildAsync(previous, [], Now, default);
+
+        var kept = new[] { output.Section.Lecram.Current! }.Concat(output.Section.Lecram.History).ToList();
+        Assert.Equal(2, kept.Count);
+        Assert.All(kept, b => Assert.Null(b.FileVersion));
+        Assert.Equal(2, output.Warnings.Count);
+    }
+
+    [Fact]
+    public async Task A_listed_dlssnr_takes_its_file_version_from_its_version_without_a_download()
+    {
+        var old = new NeuralBuild { Name = "nvngx_dlssnr.dll", Version = "310.8.3", Sha256 = new string('b', 64), Size = 5, FirstSeen = "2026-09-01T00:00:00Z", MirrorUrl = "https://mirror.test/dll" };
+        var files = new FakeFiles(_dir);
+
+        var output = await Generator("[]", files, new FakeMirrorSink()).BuildAsync(new NeuralSection { Dlssnr = new NeuralStream { Current = old } }, [], Now, default);
+
+        Assert.Equal("310.8.3", output.Section.Dlssnr.Current!.FileVersion);
+        Assert.Empty(files.Requested);
+    }
+
+    private static NeuralBuild Entry(byte[] bytes, string mirrorUrl) => new()
+    {
+        Name = "renodx-dlss5.addon64",
+        Version = "v310.8.0",
+        Sha256 = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(bytes)).ToLowerInvariant(),
+        Size = bytes.Length,
+        FirstSeen = "2026-09-01T00:00:00Z",
+        MirrorUrl = mirrorUrl,
+        Generation = "v10",
+    };
 
     [Fact]
     public async Task A_failed_upload_leaves_the_drop_in_place()

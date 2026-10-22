@@ -252,7 +252,7 @@ NVIDIA's `nvngx_dlssnr.dll` and Lecram's DLSS5 add-on builds, hosted in this rep
 Each entry has `name`, `version`, `sha256`, `size`, `firstSeen` and `mirrorUrl`; a reader downloads `mirrorUrl`, checks the hash and
 size and saves the file as `name`. `url` (where the build was taken from, absent for a hand-dropped file) is provenance. `current` is
 the newest build, `history` the older ones, newest first; together at most 20 per kind. Order: Lecram's v11 builds above v10, then
-the version (numerically, a release above its release candidates), then first-seen time. A build is identified by its SHA-256, so
+the version (numerically, a release above its release candidates), then `fileVersion` (numerically per dotted part, builds without one last), then first-seen time. Several Lecram v10 builds carry the same SDK label as `version`; `fileVersion`, the PE file version as digits (`0.2026.828.517`), tells them apart. It is optional: entries listed before it existed get it on a later run, read from their mirror copy after the size and SHA-256 check (at most 10 files per run; a failed read leaves the entry as it is and logs a warning). A build is identified by its SHA-256, so
 the same binary from two sources is listed once. `lecram.generation` is the generation of `current`; a build's own `generation` is
 `v10` (`renodx-dlss5.addon64`, v10 and older) or `v11` (`dlss5-nr.addon64`).
 
