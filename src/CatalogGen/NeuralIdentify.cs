@@ -7,7 +7,8 @@ public enum NeuralKind { DlssNr, Lecram, RenodxDlss }
 
 /// <param name="FileName">The name the mirrored file carries.</param>
 /// <param name="Generation">Lecram only: "v10" (v10 and older, renodx-dlss5.addon64) or "v11" (dlss5-nr.addon64).</param>
-public sealed record Identified(NeuralKind Kind, string FileName, string? Version, string? Generation);
+/// <param name="FileVersion">The PE file version as digits (0.2026.828.517); null when the file has none.</param>
+public sealed record Identified(NeuralKind Kind, string FileName, string? Version, string? Generation, string? FileVersion = null);
 
 /// <summary>Tells which of the mirrored binaries a PE file is, from what is inside it rather than from how it was named.</summary>
 public static partial class NeuralIdentify
@@ -28,7 +29,7 @@ public static partial class NeuralIdentify
         var original = pe?.Get("OriginalFilename");
         if (pe?.Get("InternalName")?.Equals("DLSSNR", StringComparison.OrdinalIgnoreCase) == true
             || Is(original, DlssNrFile) || Is(name, DlssNrFile))
-            return new Identified(NeuralKind.DlssNr, DlssNrFile, pe?.FileVersion ?? Digits(pe?.Get("FileVersion")), null);
+            return new Identified(NeuralKind.DlssNr, DlssNrFile, FileVersionOf(pe), null, FileVersionOf(pe));
 
         if (Is(original, RenodxFile) || (original is null && name.StartsWith("renodx-dlss", StringComparison.OrdinalIgnoreCase)
             && !name.StartsWith("renodx-dlss5", StringComparison.OrdinalIgnoreCase) && name.EndsWith(".addon64", StringComparison.OrdinalIgnoreCase)))
@@ -41,7 +42,12 @@ public static partial class NeuralIdentify
     }
 
     private static Identified Lecram(string path, string file, string generation, PeVersion? pe) =>
-        new(NeuralKind.Lecram, file, FindBuildLabel(File.ReadAllBytes(path)) ?? pe?.FileVersion ?? (generation == "v11" ? "v11" : null), generation);
+        new(NeuralKind.Lecram, file, FindBuildLabel(File.ReadAllBytes(path)) ?? pe?.FileVersion ?? (generation == "v11" ? "v11" : null), generation, FileVersionOf(pe));
+
+    /// <summary>The PE file version of <paramref name="path"/> as digits (0.2026.828.517); null when the file has none.</summary>
+    public static string? FileVersionOf(string path) => FileVersionOf(PeInfo.ReadVersion(path));
+
+    private static string? FileVersionOf(PeVersion? pe) => pe?.FileVersion ?? Digits(pe?.Get("FileVersion"));
 
     private static bool Is(string? value, string expected) => value?.Equals(expected, StringComparison.OrdinalIgnoreCase) == true;
 

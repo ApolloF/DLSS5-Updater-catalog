@@ -235,6 +235,7 @@
       "properties": {
         "name": { "type": "string", "description": "nvngx_dlssnr.dll, renodx-dlss5.addon64 (Lecram v10 and older) or dlss5-nr.addon64 (Lecram v11 and newer)." },
         "version": { "type": "string", "description": "nvngx_dlssnr.dll: the file version (310.8.3). Lecram: the build label inside the add-on (v8.5.0-rc10)." },
+        "fileVersion": { "type": "string", "description": "The file's PE version as digits (0.2026.828.517). Tells apart builds that share one `version`; absent when the file has none." },
         "sha256": { "$ref": "#/$defs/sha256" },
         "size": { "type": "integer", "minimum": 1 },
         "firstSeen": { "$ref": "#/$defs/utcTime" },

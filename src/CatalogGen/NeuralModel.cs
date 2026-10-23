@@ -6,6 +6,8 @@ public sealed class NeuralBuild
     /// <summary>The file's name for the reader to save it under, e.g. nvngx_dlssnr.dll.</summary>
     public string Name { get; set; } = "";
     public string Version { get; set; } = "";
+    /// <summary>The PE file version as digits (0.2026.828.517). Tells apart builds that share one <c>version</c> label; absent when the file has none.</summary>
+    public string? FileVersion { get; set; }
     public string Sha256 { get; set; } = "";
     public long Size { get; set; }
     public string FirstSeen { get; set; } = "";

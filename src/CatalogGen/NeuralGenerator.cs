@@ -65,6 +65,8 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
             if (await IngestAsync(known, drop.Path, drop.Identified, null, now, errors, ct, drop.Sha256, drop.Size)) drop.Handled = true;
         }
 
+        await BackfillFileVersionsAsync(dlssnr.Concat(lecram), warnings, ct);
+
         var section = new NeuralSection { Source = RenodxDlssGenerator.ReleasesUrl, Dlssnr = Order(dlssnr, new NeuralStream(), keep), Lecram = Order(lecram, new NeuralLecram(), keep) };
         section.Lecram.Generation = section.Lecram.Current?.Generation;
         return new NeuralOutput(section, warnings, errors);
@@ -82,6 +84,7 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
         if (known.FirstOrDefault(b => b.Sha256 == sha256) is { } same)
         {
             same.Url ??= url;
+            same.FileVersion ??= identified.FileVersion;
             return true;
         }
 
@@ -93,6 +96,7 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
             {
                 Name = identified.FileName,
                 Version = identified.Version ?? FileSync.VersionOf(now, sha256),
+                FileVersion = identified.FileVersion,
                 Sha256 = sha256,
                 Size = size.Value,
                 FirstSeen = firstSeen,
@@ -114,6 +118,7 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
         var sorted = builds
             .OrderByDescending(b => b.Generation, StringComparer.Ordinal)
             .ThenBy(b => b, Comparer<NeuralBuild>.Create((a, b) => CompareVersions(b.Version, a.Version)))
+            .ThenBy(b => b, Comparer<NeuralBuild>.Create((a, b) => CompareFileVersions(b.FileVersion, a.FileVersion)))
             .ThenByDescending(b => b.FirstSeen, StringComparer.Ordinal)
             .ThenBy(b => b.Sha256, StringComparer.Ordinal)
             .Take(keep)
@@ -122,6 +127,41 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
         stream.History = sorted.Skip(1).ToList();
         return stream;
     }
+
+    /// <summary>Numeric per dotted part; a build without a file version ranks below every build that has one.</summary>
+    internal static int CompareFileVersions(string? a, string? b) =>
+        a is null || b is null ? (a is null ? 0 : 1) - (b is null ? 0 : 1) : CompareVersions(a, b);
+
+    /// <summary>
+    /// Builds listed before <c>fileVersion</c> existed get it from their mirror copy (nvngx_dlssnr.dll from its version; the rest checked against the listed size and SHA-256).
+    /// At most <see cref="BackfillLimit"/> files are fetched per run; a failure leaves the entry as it is.
+    /// </summary>
+    private async Task BackfillFileVersionsAsync(IEnumerable<NeuralBuild> builds, List<string> warnings, CancellationToken ct)
+    {
+        var budget = BackfillLimit;
+        foreach (var build in builds.Where(b => b.FileVersion is null && b.MirrorUrl.Length > 0))
+        {
+            // nvngx_dlssnr.dll is large and its version is already its file version.
+            if (build.Name == NeuralIdentify.DlssNrFile && DottedDigits().IsMatch(build.Version)) { build.FileVersion = build.Version; continue; }
+            if (budget-- <= 0) break;
+            var label = $"{build.Name} ({build.Sha256[..7]})";
+            var result = await fetcher.FetchAsync(build.MirrorUrl, null, ct);
+            if (result is not FetchResult.Fetched fetched)
+            {
+                warnings.Add($"{label}: file version not read, {(result as FetchResult.Failed)?.Reason ?? "could not be downloaded"}");
+                continue;
+            }
+            try
+            {
+                if (fetched.Sha256 != build.Sha256 || fetched.Size != build.Size)
+                    warnings.Add($"{label}: file version not read, the mirror copy does not match the listed size and SHA-256");
+                else build.FileVersion = NeuralIdentify.FileVersionOf(fetched.Path);
+            }
+            finally { TryDelete(fetched.Path); }
+        }
+    }
+
+    internal const int BackfillLimit = 10;
 
     /// <summary>Compares 310.8.3 with 310.8.0, and v8.5.0-rc10 with v8.5.0-rc5 and v8.5.0 (a release beats its pre-releases).</summary>
     internal static int CompareVersions(string a, string b)
@@ -232,6 +272,9 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
 
     [GeneratedRegex(@"^v?(\d+(?:\.\d+)*)")]
     private static partial Regex CoreRule();
+
+    [GeneratedRegex(@"^\d+(\.\d+)+$")]
+    private static partial Regex DottedDigits();
 
     [GeneratedRegex(@"\d+|\D+")]
     private static partial Regex Tokens();

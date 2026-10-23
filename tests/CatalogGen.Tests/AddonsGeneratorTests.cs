@@ -171,7 +171,7 @@ public class AddonsGeneratorTests : IDisposable
     }
 
     [Fact]
-    public async Task A_download_that_is_not_a_binary_or_zip_never_becomes_a_build()
+    public void A_download_that_is_not_a_binary_or_zip_never_becomes_a_build()
     {
         // The real fetcher refuses what DownloadCheck refuses; FakeFiles would hand out any bytes.
         var path = Path.Combine(_dir, "page.html");
