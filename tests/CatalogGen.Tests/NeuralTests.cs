@@ -121,8 +121,19 @@ public class NeuralTests : IDisposable
     [InlineData("v8.5.0", "v8.5.0-rc10", 1)]
     [InlineData("v8.5.0", "v8.4.9", 1)]
     [InlineData("v8.5.0", "v8.5.0", 0)]
+    [InlineData("v8.5.0-rc10", "v7.0.0-rc8", 1)]
     public void Versions_order_numerically_and_releases_beat_their_candidates(string a, string b, int expected) =>
         Assert.Equal(expected, Math.Sign(NeuralGenerator.CompareVersions(a, b)));
+
+    [Theory]
+    [InlineData("renodx-dlss5-7.0.0-rc8", "v7.0.0-rc8")]
+    [InlineData("renodx-dlss5-8.5.0-rc10", "v8.5.0-rc10")]
+    [InlineData("renodx-dlss5-4.60", "v4.60")]
+    [InlineData("dlss5-nr-v11.0.2", "v11.0.2")]
+    [InlineData("renodx-dlss5-latest", null)]
+    [InlineData("dlssnr-310.8.3", null)]
+    public void Lecram_release_tags_name_the_version(string tag, string? expected) =>
+        Assert.Equal(expected, NeuralGenerator.TagVersion(tag));
 
     // ---------- the section ----------
 
@@ -311,6 +322,45 @@ public class NeuralTests : IDisposable
         MirrorUrl = mirrorUrl,
         Generation = "v10",
     };
+
+    [Fact]
+    public async Task Lecram_release_builds_take_their_version_from_the_tag_not_the_SDK_string_in_the_binary()
+    {
+        var files = new FakeFiles(_dir);
+        files.Served[Url("renodx-dlss5-7.0.0-rc8", "a.zip")] = TestPe.Zip("renodx-dlss5.addon64", Lecram10("v310.8.0", [0, 2026, 923, 307]));
+        files.Served[Url("renodx-dlss5-8.5.0-rc10", "b.zip")] = TestPe.Zip("renodx-dlss5.addon64", Lecram10("v8.5.0-rc10", [0, 2026, 926, 210]));
+        var json = List(
+            Release("renodx-dlss5-7.0.0-rc8", "2026-09-23T03:00:00Z", "a.zip"),
+            Release("renodx-dlss5-8.5.0-rc10", "2026-09-26T23:00:00Z", "b.zip"));
+
+        var output = await Generator(json, files, new FakeMirrorSink()).BuildAsync(null, [], Now, default);
+
+        Assert.Equal("v8.5.0-rc10", output.Section.Lecram.Current!.Version);
+        Assert.Equal("0.2026.926.210", output.Section.Lecram.Current.FileVersion);
+        Assert.Equal(["v7.0.0-rc8"], output.Section.Lecram.History.Select(b => b.Version).ToArray());
+    }
+
+    [Fact]
+    public async Task Listed_Lecram_builds_are_relabelled_from_their_release_tag_and_an_untagged_SDK_label_ranks_last()
+    {
+        var rc8 = Entry(Lecram10("v310.8.0", [0, 2026, 923, 307]), "https://mirror.test/rc8");
+        rc8.FileVersion = "0.2026.923.307";
+        rc8.Url = Url("renodx-dlss5-7.0.0-rc8", "renodx-dlss5_7.0.0-rc8.zip");
+        var rc10 = Entry(Lecram10("v8.5.0-rc10"), "https://mirror.test/rc10");
+        rc10.Version = "v8.5.0-rc10";
+        rc10.FileVersion = "0.2026.926.210";
+        rc10.Url = Url("renodx-dlss5-8.5.0-rc10", "renodx-dlss5_8.5.0-rc10.zip");
+        var dropped = Entry(Lecram10("v310.8.0", [0, 2026, 1002, 9]), "https://mirror.test/dropped");
+        dropped.FileVersion = "0.2026.1002.9";
+        var previous = new NeuralSection { Lecram = new NeuralLecram { Current = rc8, History = [rc10, dropped], Generation = "v10" } };
+        var files = new FakeFiles(_dir);
+
+        var output = await Generator("[]", files, new FakeMirrorSink()).BuildAsync(previous, [], Now, default);
+
+        Assert.Equal("v8.5.0-rc10", output.Section.Lecram.Current!.Version);
+        Assert.Equal(["v7.0.0-rc8", "v310.8.0"], output.Section.Lecram.History.Select(b => b.Version).ToArray());
+        Assert.Empty(files.Requested);
+    }
 
     [Fact]
     public async Task A_failed_upload_leaves_the_drop_in_place()
