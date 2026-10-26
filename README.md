@@ -252,7 +252,7 @@ NVIDIA's `nvngx_dlssnr.dll` and Lecram's DLSS5 add-on builds, hosted in this rep
 Each entry has `name`, `version`, `sha256`, `size`, `firstSeen` and `mirrorUrl`; a reader downloads `mirrorUrl`, checks the hash and
 size and saves the file as `name`. `url` (where the build was taken from, absent for a hand-dropped file) is provenance. `current` is
 the newest build, `history` the older ones, newest first; together at most 20 per kind. Order: Lecram's v11 builds above v10, then
-the version (numerically, a release above its release candidates), then `fileVersion` (numerically per dotted part, builds without one last), then first-seen time. Several Lecram v10 builds carry the same SDK label as `version`; `fileVersion`, the PE file version as digits (`0.2026.828.517`), tells them apart. It is optional: entries listed before it existed get it on a later run, read from their mirror copy after the size and SHA-256 check (at most 10 files per run; a failed read leaves the entry as it is and logs a warning). A build is identified by its SHA-256, so
+labelled builds above those whose only label is the DLSS SDK's (`v310.8.0`), then the version (numerically, a release above its release candidates), then `fileVersion` (numerically per dotted part, builds without one last), then first-seen time. Lecram v10 builds can share one `version` label; `fileVersion`, the PE file version as digits (`0.2026.828.517`), tells them apart. It is optional: entries listed before it existed get it on a later run, read from their mirror copy after the size and SHA-256 check (at most 10 files per run; a failed read leaves the entry as it is and logs a warning). A build is identified by its SHA-256, so
 the same binary from two sources is listed once. `lecram.generation` is the generation of `current`; a build's own `generation` is
 `v10` (`renodx-dlss5.addon64`, v10 and older) or `v11` (`dlss5-nr.addon64`).
 
@@ -268,7 +268,9 @@ Sources, in this order of work:
 Identification reads the PE version resource (without Windows APIs): `nvngx_dlssnr.dll` has the internal name `DLSSNR` and its
 file version (`310,8,3,0` is `310.8.3`) is the version; Lecram v10 names itself `renodx-dlss5.addon64` in `OriginalFilename`, v11
 is the file with the strings `RenoDX.DLSS5`, `NR-SETTINGS` and `NR-COMPAT`; both take the highest `v1.2.3[-pre]` string in the
-binary as their version (the rule of the app's Lecram import). ShortFuse's `renodx-dlss.addon64` is recognised by its name.
+binary as their version (the rule of the app's Lecram import). A Lecram build from an rhi-repo release takes its version from the tag
+instead (`renodx-dlss5-7.0.0-rc8` is `v7.0.0-rc8`), also for builds listed earlier: older v10 binaries hold no label of their own,
+only the DLSS SDK's `v310.8.0`. ShortFuse's `renodx-dlss.addon64` is recognised by its name.
 
 Mirroring is needed: a run with `--no-mirror` (or without a token) leaves the `neural` section as it is.
 

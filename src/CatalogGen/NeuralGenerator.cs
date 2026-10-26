@@ -65,6 +65,7 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
             if (await IngestAsync(known, drop.Path, drop.Identified, null, now, errors, ct, drop.Sha256, drop.Size)) drop.Handled = true;
         }
 
+        LabelFromTags(lecram);
         await BackfillFileVersionsAsync(dlssnr.Concat(lecram), warnings, ct);
 
         var section = new NeuralSection { Source = RenodxDlssGenerator.ReleasesUrl, Dlssnr = Order(dlssnr, new NeuralStream(), keep), Lecram = Order(lecram, new NeuralLecram(), keep) };
@@ -113,10 +114,26 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
         }
     }
 
+    /// <summary>
+    /// A Lecram build taken from an rhi-repo release is labelled by its tag. Older v10 binaries hold no label of their own, only the
+    /// DLSS SDK's v310.8.0, which outranked every real build; entries listed with that label are corrected here.
+    /// </summary>
+    private static void LabelFromTags(IEnumerable<NeuralBuild> builds)
+    {
+        foreach (var build in builds)
+            if (build.Url is not null && ReleaseDownload().Match(build.Url) is { Success: true } m && TagVersion(m.Groups[1].Value) is { } version)
+                build.Version = version;
+    }
+
+    /// <summary>"renodx-dlss5-7.0.0-rc8" -> "v7.0.0-rc8"; null for a tag that names no version.</summary>
+    internal static string? TagVersion(string tag) => LecramTag().Match(tag) is { Success: true } m ? "v" + m.Groups[1].Value : null;
+
     private static T Order<T>(List<NeuralBuild> builds, T stream, int keep) where T : NeuralStream
     {
         var sorted = builds
             .OrderByDescending(b => b.Generation, StringComparer.Ordinal)
+            // A hand-dropped Lecram build has no tag; when its only label is the SDK's, it ranks below the labelled builds of its generation.
+            .ThenBy(b => b.Generation is not null && SdkLabel().IsMatch(b.Version))
             .ThenBy(b => b, Comparer<NeuralBuild>.Create((a, b) => CompareVersions(b.Version, a.Version)))
             .ThenBy(b => b, Comparer<NeuralBuild>.Create((a, b) => CompareFileVersions(b.FileVersion, a.FileVersion)))
             .ThenByDescending(b => b.FirstSeen, StringComparer.Ordinal)
@@ -272,6 +289,15 @@ public sealed partial class NeuralGenerator(ITextSource text, IFetcher fetcher, 
 
     [GeneratedRegex(@"^v?(\d+(?:\.\d+)*)")]
     private static partial Regex CoreRule();
+
+    [GeneratedRegex(@"^(?:renodx-dlss5|dlss5-nr)-v?(\d+(?:\.\d+)*(?:-[0-9A-Za-z.]+)?)$")]
+    private static partial Regex LecramTag();
+
+    [GeneratedRegex(@"^v\d{3,}\.")]
+    private static partial Regex SdkLabel();
+
+    [GeneratedRegex(@"^https://github\.com/RankFTW/rhi-repo/releases/download/([^/]+)/")]
+    private static partial Regex ReleaseDownload();
 
     [GeneratedRegex(@"^\d+(\.\d+)+$")]
     private static partial Regex DottedDigits();

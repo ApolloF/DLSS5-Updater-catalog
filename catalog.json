@@ -26689,7 +26689,7 @@
       ]
     },
     "neural": {
-      "updated": "2026-10-23T17:07:07Z",
+      "updated": "2026-10-26T11:36:52Z",
       "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
       "dlssnr": {
         "current": {
@@ -26749,148 +26749,16 @@
         "generation": "v10",
         "current": {
           "name": "renodx-dlss5.addon64",
-          "version": "v310.8.0",
-          "fileVersion": "0.2026.923.307",
-          "sha256": "ff8b9738738265e09f01a1c470a0cb0a59eb021b2b23797c3df7cea722a724b6",
-          "size": 1921024,
+          "version": "v8.5.0-rc10",
+          "fileVersion": "0.2026.926.210",
+          "sha256": "dcd93881e976ad033d83c2bb01f4bc3e4ddc59c15fe0dd4ca165bc5fc7d1ac68",
+          "size": 3141632,
           "firstSeen": "2026-10-21T12:48:05Z",
-          "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ff8b9738738265e0-renodx-dlss5.addon64",
+          "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dcd93881e976ad03-renodx-dlss5.addon64",
           "generation": "v10",
-          "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-7.0.0-rc8/renodx-dlss5_7.0.0-rc8.zip"
+          "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-8.5.0-rc10/renodx-dlss5_8.5.0-rc10.zip"
         },
         "history": [
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.923.53",
-            "sha256": "e7e4f46c384ad237e2c73403dff306b94e31bb530565bc9fd633aeee5c06946c",
-            "size": 1392128,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e7e4f46c384ad237-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-7.0.0-rc1/renodx-dlss5_7.0.0-rc1.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.917.1432",
-            "sha256": "342341f669f1d64e0c70c8593a07a2fab5075e073dfae97c331c9a6776260a0a",
-            "size": 878080,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/342341f669f1d64e-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-6.5.3/renodx-dlss5_6.5.3.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.917.1432",
-            "sha256": "e2da94aa9cb96677b307aa904777a5810ff026bb504a873a08e9af3c18bc51af",
-            "size": 862208,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e2da94aa9cb96677-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-6.4.1/renodx-dlss5_6.4.1.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.2110",
-            "sha256": "25dd0642bec96fc929456815651824356583da33678ee2448d70ff3d4d934305",
-            "size": 550912,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25dd0642bec96fc9-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-3.3.4/renodx-dlss5_3.3.4.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.2110",
-            "sha256": "a1b78052b58fc285f018362ac8652df8a01d31be9f3ecbb9e31776866ead5887",
-            "size": 655360,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a1b78052b58fc285-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-5.2.1/renodx-dlss5_5.2.1.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.2110",
-            "sha256": "a8b5e164cbc3222a5d62bbddf44a2cc68d359b0caf729e55f2877c49e73e9aac",
-            "size": 550912,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b5e164cbc3222a-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-3.3.1/renodx-dlss5_3.3.1.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.2110",
-            "sha256": "e1c28fde0922b12fc10734e58c3d24a36808e575247f4fd4f36226540d7ee023",
-            "size": 573440,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e1c28fde0922b12f-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.5/renodx-dlss5_4.5.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.517",
-            "sha256": "245c06137ad13b1ca03afaad5100c1e8f0dce8c11fe50a9272ea562f33cea601",
-            "size": 1703424,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/245c06137ad13b1c-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.60/renodx-dlss5_4.60.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.517",
-            "sha256": "9150097cdee2953cdc9894d2e5606ea5100e6c8f95fc7bb1b407328b4391a07a",
-            "size": 1694720,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9150097cdee2953c-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.55/renodx-dlss5_4.55.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.828.517",
-            "sha256": "d5adf82eb44b065f4c590ac91fe824bab07afea0eb9f994bde936710c8593952",
-            "size": 1732608,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d5adf82eb44b065f-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.70/renodx-dlss5_4.70.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v310.8.0",
-            "fileVersion": "0.2026.827.2036",
-            "sha256": "87aef9ddd937c7241e6bf8d8efea0045d63559135e254c60dab316db3d3a4aee",
-            "size": 391168,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/87aef9ddd937c724-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-2.5/renodx-dlss5_2.5.zip"
-          },
-          {
-            "name": "renodx-dlss5.addon64",
-            "version": "v8.5.0-rc10",
-            "fileVersion": "0.2026.926.210",
-            "sha256": "dcd93881e976ad033d83c2bb01f4bc3e4ddc59c15fe0dd4ca165bc5fc7d1ac68",
-            "size": 3141632,
-            "firstSeen": "2026-10-21T12:48:05Z",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dcd93881e976ad03-renodx-dlss5.addon64",
-            "generation": "v10",
-            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-8.5.0-rc10/renodx-dlss5_8.5.0-rc10.zip"
-          },
           {
             "name": "renodx-dlss5.addon64",
             "version": "v8.5.0-rc5",
@@ -26912,6 +26780,138 @@
             "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/fc0eea458dcd8381-renodx-dlss5.addon64",
             "generation": "v10",
             "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-8.5.0-rc4/renodx-dlss5_8.5.0-rc4.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v7.0.0-rc8",
+            "fileVersion": "0.2026.923.307",
+            "sha256": "ff8b9738738265e09f01a1c470a0cb0a59eb021b2b23797c3df7cea722a724b6",
+            "size": 1921024,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ff8b9738738265e0-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-7.0.0-rc8/renodx-dlss5_7.0.0-rc8.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v7.0.0-rc1",
+            "fileVersion": "0.2026.923.53",
+            "sha256": "e7e4f46c384ad237e2c73403dff306b94e31bb530565bc9fd633aeee5c06946c",
+            "size": 1392128,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e7e4f46c384ad237-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-7.0.0-rc1/renodx-dlss5_7.0.0-rc1.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v6.5.3",
+            "fileVersion": "0.2026.917.1432",
+            "sha256": "342341f669f1d64e0c70c8593a07a2fab5075e073dfae97c331c9a6776260a0a",
+            "size": 878080,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/342341f669f1d64e-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-6.5.3/renodx-dlss5_6.5.3.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v6.4.1",
+            "fileVersion": "0.2026.917.1432",
+            "sha256": "e2da94aa9cb96677b307aa904777a5810ff026bb504a873a08e9af3c18bc51af",
+            "size": 862208,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e2da94aa9cb96677-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-6.4.1/renodx-dlss5_6.4.1.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v5.2.1",
+            "fileVersion": "0.2026.828.2110",
+            "sha256": "a1b78052b58fc285f018362ac8652df8a01d31be9f3ecbb9e31776866ead5887",
+            "size": 655360,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a1b78052b58fc285-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-5.2.1/renodx-dlss5_5.2.1.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v4.70",
+            "fileVersion": "0.2026.828.517",
+            "sha256": "d5adf82eb44b065f4c590ac91fe824bab07afea0eb9f994bde936710c8593952",
+            "size": 1732608,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d5adf82eb44b065f-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.70/renodx-dlss5_4.70.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v4.60",
+            "fileVersion": "0.2026.828.517",
+            "sha256": "245c06137ad13b1ca03afaad5100c1e8f0dce8c11fe50a9272ea562f33cea601",
+            "size": 1703424,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/245c06137ad13b1c-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.60/renodx-dlss5_4.60.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v4.55",
+            "fileVersion": "0.2026.828.517",
+            "sha256": "9150097cdee2953cdc9894d2e5606ea5100e6c8f95fc7bb1b407328b4391a07a",
+            "size": 1694720,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9150097cdee2953c-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.55/renodx-dlss5_4.55.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v4.5",
+            "fileVersion": "0.2026.828.2110",
+            "sha256": "e1c28fde0922b12fc10734e58c3d24a36808e575247f4fd4f36226540d7ee023",
+            "size": 573440,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/e1c28fde0922b12f-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-4.5/renodx-dlss5_4.5.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v3.3.4",
+            "fileVersion": "0.2026.828.2110",
+            "sha256": "25dd0642bec96fc929456815651824356583da33678ee2448d70ff3d4d934305",
+            "size": 550912,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/25dd0642bec96fc9-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-3.3.4/renodx-dlss5_3.3.4.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v3.3.1",
+            "fileVersion": "0.2026.828.2110",
+            "sha256": "a8b5e164cbc3222a5d62bbddf44a2cc68d359b0caf729e55f2877c49e73e9aac",
+            "size": 550912,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b5e164cbc3222a-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-3.3.1/renodx-dlss5_3.3.1.zip"
+          },
+          {
+            "name": "renodx-dlss5.addon64",
+            "version": "v2.5",
+            "fileVersion": "0.2026.827.2036",
+            "sha256": "87aef9ddd937c7241e6bf8d8efea0045d63559135e254c60dab316db3d3a4aee",
+            "size": 391168,
+            "firstSeen": "2026-10-21T12:48:05Z",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/87aef9ddd937c724-renodx-dlss5.addon64",
+            "generation": "v10",
+            "url": "https://github.com/RankFTW/rhi-repo/releases/download/renodx-dlss5-2.5/renodx-dlss5_2.5.zip"
           }
         ]
       }
@@ -31170,5 +31170,5 @@
       ]
     }
   },
-  "generated": "2026-10-26T04:46:39Z"
+  "generated": "2026-10-26T11:36:52Z"
 }
