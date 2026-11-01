@@ -38,7 +38,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
+      # The branch tip, not the commit that triggered the run: a run that waited in the concurrency queue would
+      # otherwise build on a catalog.json the run before it already replaced, and its push would be rejected.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.0.x
@@ -65,6 +69,8 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git commit -m "Update catalog.json"
+            # Someone may have merged to main during the run; only this job writes catalog.json, so the rebase is clean.
+            git pull --rebase
             git push
           fi
 
