@@ -164,14 +164,15 @@ what is ticked the first time.
 If the source repository's licence is MIT, BSD-2-Clause, BSD-3-Clause, Apache-2.0, ISC or the Unlicense (GitHub API
 `license.spdx_id`; `https://<owner>.github.io/<repo>/...` is looked up as `<owner>/<repo>`), the file is uploaded as an
 immutable release asset of this repository and `mirrorUrl` points at it. Assets live in one release per month
-(`mirror-2026-10`, by the month the build was first seen), are named `<first 16 hash characters>-<file name>`, and are
+(`mirror-2026-10`, by the month the build was first seen; GitHub allows 1000 assets per release, so a full month
+continues in `mirror-2026-10.2`, `.3` and so on), are named `<first 16 hash characters>-<file name>`, and are
 never overwritten or replaced. Any other licence, no licence, or a source we can't attribute to a repository: no copy is
 made, the entry keeps the upstream `url` plus the hash, and the app refuses the file if upstream changes it before the
 next run.
 
 MIT, BSD and Apache require the copyright and licence notice to travel with copies, so the notes of every `mirror-YYYY-MM`
-release carry them. After the file sync the generator groups every mirrored file (the current build and the history entries
-that kept a `mirrorUrl`) by month and source repository, reads each repository's licence file once
+(and `mirror-YYYY-MM.N`) release carry them. After the file sync the generator groups every mirrored file (the current build and the history entries
+that kept a `mirrorUrl`) by release and source repository, reads each repository's licence file once
 (`GET /repos/{repo}/license`), and writes one block per repository, sorted by name: the `owner/repo` link, the SPDX id, a
 link to the licence file, the `Copyright ...` lines of the licence text (or "Copyright holder: see the licence file at
 <link>" when it has none) and the asset names. The full licence text is not copied. The release's first paragraph is

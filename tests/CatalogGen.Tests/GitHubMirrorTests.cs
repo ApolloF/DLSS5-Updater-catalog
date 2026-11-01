@@ -114,6 +114,73 @@ public class GitHubMirrorTests : IDisposable
         Assert.Equal(1, fake.Uploads);
     }
 
+    /// <summary>mirror-2026-10 (id 77) holds <paramref name="full"/>; mirror-2026-10.2 (id 78) holds <paramref name="second"/> or doesn't exist yet.</summary>
+    private sealed class PartsFake(List<object> full, List<object>? second)
+    {
+        public List<string> Calls { get; } = [];
+        public List<string> Uploads => Calls.Where(c => c.StartsWith("POST https://uploads")).ToList();
+
+        public HttpResponseMessage Respond(HttpRequestMessage req)
+        {
+            var url = req.RequestUri!.ToString();
+            Calls.Add($"{req.Method} {url}");
+            if (req.Method == HttpMethod.Get && url.EndsWith("/releases/tags/mirror-2026-10")) return Json(HttpStatusCode.OK, new { id = 77 });
+            if (req.Method == HttpMethod.Get && url.EndsWith("/releases/tags/mirror-2026-10.2"))
+                return second is null ? new HttpResponseMessage(HttpStatusCode.NotFound) : Json(HttpStatusCode.OK, new { id = 78 });
+            if (req.Method == HttpMethod.Post && url.EndsWith("/releases")) return Json(HttpStatusCode.Created, new { id = 78 });
+            if (req.Method == HttpMethod.Get && url.Contains("/releases/77/assets")) return Json(HttpStatusCode.OK, full);
+            if (req.Method == HttpMethod.Get && url.Contains("/releases/78/assets")) return Json(HttpStatusCode.OK, second ?? []);
+            if (req.Method == HttpMethod.Post && url.StartsWith("https://uploads.github.com"))
+            {
+                var name = Uri.UnescapeDataString(url[(url.IndexOf("name=", StringComparison.Ordinal) + 5)..]);
+                return Json(HttpStatusCode.Created, new
+                {
+                    id = 901, name, state = "uploaded", size = 1234,
+                    browser_download_url = $"https://github.com/{Repo}/releases/download/mirror-2026-10.2/{name}",
+                });
+            }
+            return new HttpResponseMessage(HttpStatusCode.InternalServerError);
+        }
+    }
+
+    [Fact]
+    public async Task A_full_monthly_release_continues_in_a_second_one()
+    {
+        var fake = new PartsFake([Asset(1, "a", "uploaded", 1), Asset(2, "b", "uploaded", 1)], null);
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok", maxAssets: 2);
+
+        var url = await mirror.PublishAsync("renodx-x.addon64", Sha, "2026-10", _file, default);
+
+        Assert.Contains("/mirror-2026-10.2/", url);
+        Assert.Contains(fake.Calls, c => c == $"POST https://api.github.com/repos/{Repo}/releases");
+        Assert.Equal([$"POST https://uploads.github.com/repos/{Repo}/releases/78/assets?name=cccccccccccccccc-renodx-x.addon64"], fake.Uploads);
+    }
+
+    [Fact]
+    public async Task An_asset_in_a_full_release_is_still_found_there()
+    {
+        var fake = new PartsFake([Asset(1, "a", "uploaded", 1), Asset(5, "cccccccccccccccc-renodx-x.addon64", "uploaded", 1234)], null);
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok", maxAssets: 2);
+
+        var url = await mirror.PublishAsync("renodx-x.addon64", Sha, "2026-10", _file, default);
+
+        Assert.Contains("/mirror-2026-10/", url);
+        Assert.Empty(fake.Uploads);
+        Assert.DoesNotContain(fake.Calls, c => c.Contains("mirror-2026-10.2"));
+    }
+
+    [Fact]
+    public async Task An_asset_already_in_the_continuation_release_is_not_uploaded_again()
+    {
+        var fake = new PartsFake([Asset(1, "a", "uploaded", 1), Asset(2, "b", "uploaded", 1)], [Asset(6, "cccccccccccccccc-renodx-x.addon64", "uploaded", 1234)]);
+        var mirror = new GitHubMirror(new HttpClient(new StubHandler(fake.Respond)), Repo, "tok", maxAssets: 2);
+
+        await mirror.PublishAsync("renodx-x.addon64", Sha, "2026-10", _file, default);
+
+        Assert.Empty(fake.Uploads);
+        Assert.DoesNotContain(fake.Calls, c => c.StartsWith("POST"));
+    }
+
     [Fact]
     public async Task A_refused_upload_throws_with_the_status()
     {

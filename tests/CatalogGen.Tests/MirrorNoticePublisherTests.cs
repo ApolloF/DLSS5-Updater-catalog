@@ -70,6 +70,23 @@ public class MirrorNoticePublisherTests
     }
 
     [Fact]
+    public async Task A_continuation_release_of_a_full_month_gets_its_own_notes()
+    {
+        var mirror = new Mirror();
+        var files = new[]
+        {
+            File("a/x", "a1.addon64", Url("2026-10", "1111-a1.addon64")),
+            File("a/x", "a2.addon64", Url("2026-10.2", "2222-a2.addon64")),
+        };
+
+        await new MirrorNoticePublisher(new Notices(new() { ["a/x"] = Mit("a") }), mirror).PublishAsync(files, [], default);
+
+        Assert.Equal(["2026-10", "2026-10.2"], mirror.Notes.Select(n => n.Month).ToArray());
+        Assert.Contains("  - 2222-a2.addon64", mirror.Notes[1].Body);
+        Assert.DoesNotContain("1111-a1.addon64", mirror.Notes[1].Body);
+    }
+
+    [Fact]
     public async Task Nothing_mirrored_means_no_lookup_and_no_call()
     {
         var notices = new Notices([]);

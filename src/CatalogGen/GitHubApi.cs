@@ -90,9 +90,10 @@ internal static class GitHubRequest
 
 /// <summary>
 /// Release assets of the catalog repository: one release per month (<c>mirror-2026-10</c>), assets named by hash and never
-/// overwritten, so a <c>mirrorUrl</c> keeps pointing at the exact bytes that were hashed.
+/// overwritten, so a <c>mirrorUrl</c> keeps pointing at the exact bytes that were hashed. GitHub holds at most 1000 assets
+/// per release, so a full month continues in <c>mirror-2026-10.2</c>, <c>mirror-2026-10.3</c> and so on.
 /// </summary>
-public sealed partial class GitHubMirror(HttpClient http, string repo, string token) : IMirror
+public sealed partial class GitHubMirror(HttpClient http, string repo, string token, int maxAssets = 1000) : IMirror
 {
     private sealed record Asset(long Id, string Name, string State, long Size, string Url);
 
@@ -109,11 +110,21 @@ public sealed partial class GitHubMirror(HttpClient http, string repo, string to
 
     public async Task<string> PublishAsync(string fileName, string sha256, string month, string path, CancellationToken ct)
     {
-        var tag = $"mirror-{month}";
-        var release = await _releases.GetOrAdd(tag, t => new Lazy<Task<MonthRelease>>(() => EnsureReleaseAsync(t, ct))).Value;
         var name = AssetName(sha256, fileName);
         var size = new FileInfo(path).Length;
 
+        // The parts fill in order, so a part with room is the last one: the asset is in an earlier part or nowhere yet.
+        for (var part = 1; ; part++)
+        {
+            var tag = part == 1 ? $"mirror-{month}" : $"mirror-{month}.{part}";
+            var release = await _releases.GetOrAdd(tag, t => new Lazy<Task<MonthRelease>>(() => EnsureReleaseAsync(t, ct))).Value;
+            if (await TryPublishAsync(release, name, size, path, ct) is { } url) return url;
+        }
+    }
+
+    /// <summary>Null when the release is full and doesn't hold the asset.</summary>
+    private async Task<string?> TryPublishAsync(MonthRelease release, string name, long size, string path, CancellationToken ct)
+    {
         await release.Gate.WaitAsync(ct);
         try
         {
@@ -124,6 +135,7 @@ public sealed partial class GitHubMirror(HttpClient http, string repo, string to
                 await DeleteAssetAsync(existing.Id, ct);
                 release.Assets.Remove(name);
             }
+            else if (release.Assets.Count >= maxAssets) return null;
 
             await using var fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read, 1 << 20, true);
             using var content = new StreamContent(fs);
