@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-11-01T13:42:12Z",
+      "updated": "2026-11-01T22:01:57Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -107,8 +107,8 @@
               "version": "2026-11-01-7a646df",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71464-3792e00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
+              "etag": "\"6ae71461-3792e00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:49 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/7a646df750c50ddc-renodx-ue-extended.addon64",
               "history": [
@@ -1702,8 +1702,8 @@
               "version": "2026-11-01-f69946b",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71464-26bc00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
+              "etag": "\"6ae7145d-26bc00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/f69946b25d3073d0-renodx-ryza2.addon64",
               "history": [
@@ -1798,8 +1798,8 @@
               "version": "2026-11-01-0b6a035",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71460-26cc00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:48 GMT",
+              "etag": "\"6ae71464-26cc00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/0b6a0352cdeac1df-renodx-ryza3.addon64",
               "history": [
@@ -1894,8 +1894,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6abc128a-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -1974,8 +1974,8 @@
               "version": "2026-11-01-1765002",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae7145d-257000\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:45 GMT",
+              "etag": "\"6ae71464-257000\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/1765002786313488-renodx-sophie1.addon64",
               "history": [
@@ -2580,8 +2580,8 @@
               "version": "2026-11-01-189fc65",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71461-256000\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:49 GMT",
+              "etag": "\"6ae7145b-256000\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:43 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/189fc65de9897b88-renodx-BerserkBotH.addon64",
               "history": [
@@ -5981,8 +5981,8 @@
               "version": "2026-11-01-8a18cce",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71462-263200\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:50 GMT",
+              "etag": "\"6ae7145b-263200\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:43 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/8a18cce5041de5c2-renodx-endermagnolia.addon64",
               "history": [
@@ -7014,8 +7014,8 @@
               "version": "2026-10-27-cb2d91c",
               "firstSeen": "2026-10-27T18:01:10Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae0d781-21ea00\"",
-              "lastModified": "Tue, 27 Oct 2026 16:55:29 GMT",
+              "etag": "\"6ae0d780-21ea00\"",
+              "lastModified": "Tue, 27 Oct 2026 16:55:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/cb2d91ccee73a1de-renodx-forzahorizon6.addon64",
               "history": [
@@ -7067,16 +7067,23 @@
               "name": "renodx-gotsushima.addon64",
               "arch": "x64",
               "url": "https://hartapfel.github.io/renodx/renodx-gotsushima.addon64",
-              "sha256": "17205134f0691b16a8037945cfab1606a914ab3bce3a3c8e4d142c4368560aa3",
+              "sha256": "7ebec7063bc5437148cec70f9f6ef988c034139b5d403d0f474d9564f6ae0dd9",
               "size": 2835968,
-              "version": "2026-11-01-1720513",
-              "firstSeen": "2026-11-01T13:23:17Z",
+              "version": "2026-11-01-7ebec70",
+              "firstSeen": "2026-11-01T22:01:57Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae72c02-2b4600\"",
-              "lastModified": "Sun, 01 Nov 2026 12:09:38 GMT",
+              "etag": "\"6ae77bcf-2b4600\"",
+              "lastModified": "Sun, 01 Nov 2026 17:50:07 GMT",
               "license": "MIT",
-              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/17205134f0691b16-renodx-gotsushima.addon64",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/7ebec7063bc54371-renodx-gotsushima.addon64",
               "history": [
+                {
+                  "version": "2026-11-01-1720513",
+                  "sha256": "17205134f0691b16a8037945cfab1606a914ab3bce3a3c8e4d142c4368560aa3",
+                  "size": 2835968,
+                  "firstSeen": "2026-11-01T13:23:17Z",
+                  "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/17205134f0691b16-renodx-gotsushima.addon64"
+                },
                 {
                   "version": "2026-10-31-03b3718",
                   "sha256": "03b371896dc83a17bbdb5c5ac43413b104b15445954bce262455c632e07c0ee2",
@@ -7787,8 +7794,8 @@
               "version": "2026-10-26-ba20794",
               "firstSeen": "2026-10-26T04:46:39Z",
               "verified": "2026-11-01",
-              "etag": "\"6ade842f-4ac000\"",
-              "lastModified": "Sun, 25 Oct 2026 22:35:27 GMT",
+              "etag": "\"6ade842e-4ac000\"",
+              "lastModified": "Sun, 25 Oct 2026 22:35:26 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ba20794d5f96192d-renodx-guildwars2.addon64",
               "history": [
@@ -9260,8 +9267,8 @@
               "version": "2026-11-01-3e033ef",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71461-1dbc00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:49 GMT",
+              "etag": "\"6ae7145e-1dbc00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/3e033efa3d0f67d7-renodx-yakuzapirates.addon64",
               "history": [
@@ -9527,8 +9534,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b0-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
+              "etag": "\"6ac0e4b3-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -9801,8 +9808,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b1-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b3-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -10482,8 +10489,8 @@
               "version": "2026-10-21-04bc9fe",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b3-27a600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-27a600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/04bc9fee5e3b812e-renodx-metroiddread.addon64",
               "history": []
@@ -10515,8 +10522,8 @@
               "version": "2026-10-21-9fd338d",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b1-27be00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b2-27be00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9fd338d56e1a2d8d-renodx-metroidprime.addon64",
               "history": []
@@ -10624,8 +10631,8 @@
               "version": "2026-10-21-9eb522e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b2-268e00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b1-268e00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9eb522e5066e82a5-renodx-mhgu.addon64",
               "history": []
@@ -10990,8 +10997,8 @@
               "version": "2026-10-21-8a22097",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6abc1288-230c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1289-230c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8a22097869d7dfff-renodx-nierreplicant.addon64",
               "history": []
@@ -11019,8 +11026,8 @@
               "version": "2026-11-01-6db019b",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71463-25ac00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:51 GMT",
+              "etag": "\"6ae71460-25ac00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/6db019ba6cf32713-renodx-nightsofazure1.addon64",
               "history": [
@@ -11963,8 +11970,8 @@
               "version": "2026-11-01-4d75628",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71463-297c00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:51 GMT",
+              "etag": "\"6ae71460-297c00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/4d75628234826068-renodx-pathfinder2wotr.addon64",
               "history": [
@@ -12397,8 +12404,8 @@
               "version": "2026-11-01-690e2dd",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71463-269200\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:51 GMT",
+              "etag": "\"6ae7145d-269200\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/690e2ddc7459237f-renodx-raidou.addon64",
               "history": [
@@ -12902,7 +12909,7 @@
             "Lego Liam Neeson"
           ],
           "listing": "main",
-          "compat": "in-progress",
+          "compat": "working",
           "blocked": false,
           "files": [
             {
@@ -13183,8 +13190,8 @@
               "version": "2026-11-01-8c24491",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae7145d-277e00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:45 GMT",
+              "etag": "\"6ae71463-277e00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:51 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/8c24491238944f4f-renodx-riseofronin.addon64",
               "history": [
@@ -13803,8 +13810,8 @@
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6abc1289-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -14113,8 +14120,8 @@
               "version": "2026-11-01-58a9ab8",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71464-338e00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
+              "etag": "\"6ae71460-338e00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/58a9ab84c0762b7f-renodx-smt5.addon64",
               "history": [
@@ -14831,8 +14838,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b2-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -14864,8 +14871,8 @@
               "version": "2026-10-21-9345234",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b4-2d6000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b2-2d6000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/93452345af06d1cf-renodx-splatoon2.addon64",
               "history": []
@@ -14897,8 +14904,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b2-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b3-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -15420,8 +15427,8 @@
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b3-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b4-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -15448,16 +15455,23 @@
               "name": "renodx-sao-alicization.addon64",
               "arch": "x64",
               "url": "https://github.com/Toru77/renodx/releases/download/snapshot/renodx-sao-alicization.addon64",
-              "sha256": "70f898cc0d7cd2aa683c3839a88411a8ca31fd089c0b53fdf28690616ee9fc99",
+              "sha256": "d8bf3f2aaf1a95f73fd7d471c2d490e41ceb8410556ce9c792141726a8bd8422",
               "size": 2574336,
-              "version": "2026-11-01-70f898c",
-              "firstSeen": "2026-11-01T13:42:12Z",
+              "version": "2026-11-01-d8bf3f2",
+              "firstSeen": "2026-11-01T22:01:57Z",
               "verified": "2026-11-01",
-              "etag": "\"0x8DF381C5EE7818D\"",
-              "lastModified": "Sun, 01 Nov 2026 13:31:01 GMT",
+              "etag": "\"0x8DF3823E747587A\"",
+              "lastModified": "Sun, 01 Nov 2026 14:24:56 GMT",
               "license": "MIT",
-              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/70f898cc0d7cd2aa-renodx-sao-alicization.addon64",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/d8bf3f2aaf1a95f7-renodx-sao-alicization.addon64",
               "history": [
+                {
+                  "version": "2026-11-01-70f898c",
+                  "sha256": "70f898cc0d7cd2aa683c3839a88411a8ca31fd089c0b53fdf28690616ee9fc99",
+                  "size": 2574336,
+                  "firstSeen": "2026-11-01T13:42:12Z",
+                  "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/70f898cc0d7cd2aa-renodx-sao-alicization.addon64"
+                },
                 {
                   "version": "2026-10-30-7fbfb10",
                   "sha256": "7fbfb10e935e938cd2a4663d280e3c772779e21c886a50bdf27118e47e1a8fbd",
@@ -16112,8 +16126,8 @@
               "version": "2026-11-01-de2d945",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71464-261600\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:52 GMT",
+              "etag": "\"6ae71461-261600\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:49 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/de2d9457dd805ae7-renodx-tew2.addon64",
               "history": [
@@ -16359,8 +16373,8 @@
               "version": "2026-10-26-da64324",
               "firstSeen": "2026-10-26T04:46:39Z",
               "verified": "2026-11-01",
-              "etag": "\"6ade8431-29b000\"",
-              "lastModified": "Sun, 25 Oct 2026 22:35:29 GMT",
+              "etag": "\"6ade8430-29b000\"",
+              "lastModified": "Sun, 25 Oct 2026 22:35:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/da643244dbdceab7-renodx-vanhelsingfinalcut.addon64",
               "history": [
@@ -16564,8 +16578,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b3-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -16878,8 +16892,8 @@
               "version": "2026-10-27-c5ee579",
               "firstSeen": "2026-10-27T18:01:10Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae0d782-291200\"",
-              "lastModified": "Tue, 27 Oct 2026 16:55:30 GMT",
+              "etag": "\"6ae0d783-291200\"",
+              "lastModified": "Tue, 27 Oct 2026 16:55:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c5ee579225d2cc0f-renodx-thewitcher3remastered.addon64",
               "history": [
@@ -17037,8 +17051,8 @@
               "version": "2026-10-30-39826ee",
               "firstSeen": "2026-10-30T05:48:29Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae3d1bd-267200\"",
-              "lastModified": "Thu, 29 Oct 2026 23:07:41 GMT",
+              "etag": "\"6ae3d1c2-267200\"",
+              "lastModified": "Thu, 29 Oct 2026 23:07:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10.2/39826eeab2f842c0-renodx-terraria-tml.addon64",
               "history": [
@@ -17611,8 +17625,8 @@
               "version": "2026-10-21-9d07c01",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"68fd62e5-f4c00\"",
-              "lastModified": "Sat, 25 Oct 2025 23:53:09 GMT",
+              "etag": "\"68fd62e4-f4c00\"",
+              "lastModified": "Sat, 25 Oct 2025 23:53:08 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9d07c0152868bd28-renodx-warframe.addon64",
               "history": []
@@ -18096,8 +18110,8 @@
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b3-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b5-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -18129,8 +18143,8 @@
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6ac0e4b2-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b5-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -18214,8 +18228,8 @@
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-01",
-              "etag": "\"6abc128a-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc128b-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -18276,8 +18290,8 @@
               "version": "2026-11-01-501a52c",
               "firstSeen": "2026-11-01T13:23:17Z",
               "verified": "2026-11-01",
-              "etag": "\"6ae71461-24fc00\"",
-              "lastModified": "Sun, 01 Nov 2026 10:28:49 GMT",
+              "etag": "\"6ae71465-24fc00\"",
+              "lastModified": "Sun, 01 Nov 2026 10:28:53 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/501a52c9e28c1de1-renodx-ys10.addon64",
               "history": [
@@ -23406,7 +23420,7 @@
       ]
     },
     "addons": {
-      "updated": "2026-10-28T05:42:14Z",
+      "updated": "2026-11-01T22:01:57Z",
       "source": "https://raw.githubusercontent.com/crosire/reshade-shaders/list/Addons.ini",
       "addons": [
         {
@@ -24305,104 +24319,191 @@
           "name": "VR Enhancer Mod (VREM) for DCS world",
           "description": "ReShade addon designed to enhance the VR experience in DCS World (though most features are also compatible with 2D gameplay).",
           "repositoryUrl": "https://github.com/lefufu/DCS-world-reshade-VREM2",
-          "manual": "The package holds files this app does not place (VREM_shaderreplace/AH64_rotor2PS.cso, VREM_shaderreplace/AH64_rotorPS.cso, VREM_shaderreplace/full_red.cso, ...); install it by hand from the repository.",
+          "manual": "The package holds files this app does not place (ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/AH64_rotor2PS.cso, ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/AH64_rotorPS.cso, ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/full_red.cso, ...); install it by hand from the repository.",
           "files": [
             {
               "name": "ReshadeDCS_VREM2_latest.zip",
               "arch": "both",
               "url": "https://github.com/lefufu/DCS-world-reshade-VREM2/releases/download/latest/ReshadeDCS_VREM2_latest.zip",
-              "sha256": "eae3064e27e5bbffabf9d1484a73697b533945fb129fa4d89fbf402729cbabcd",
-              "size": 190750,
-              "version": "2026-10-21-eae3064",
-              "firstSeen": "2026-10-21T09:15:17Z",
-              "verified": "2026-10-28",
-              "etag": "\"0x8DEFBB69C26094E\"",
-              "lastModified": "Sun, 16 Aug 2026 16:51:25 GMT",
+              "sha256": "8d82a7da20b9368262e6a5e6796dc25a2e818e16e742b8c36864e1feed5bb72c",
+              "size": 385786,
+              "version": "2026-11-01-8d82a7d",
+              "firstSeen": "2026-11-01T22:01:57Z",
+              "verified": "2026-11-01",
+              "etag": "\"0x8DF38444A716ACE\"",
+              "lastModified": "Sun, 01 Nov 2026 18:16:46 GMT",
               "payload": [
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/Debug_VREM.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/Debug_VREM.fx",
                   "kind": "effect",
                   "dest": "VREM/Debug_VREM.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/FXAA.fxh",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/FXAA.fxh",
                   "kind": "effect",
                   "dest": "VREM/FXAA.fxh"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/SMAA.fxh",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/SMAA.fxh",
                   "kind": "effect",
                   "dest": "VREM/SMAA.fxh"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/SMAA_VREM.fxh",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/SMAA_VREM.fxh",
                   "kind": "effect",
                   "dest": "VREM/SMAA_VREM.fxh"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM.fxh",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM.fxh",
                   "kind": "effect",
                   "dest": "VREM/VREM.fxh"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_ColorMatrix.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_ColorMatrix.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_ColorMatrix.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_Deband.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_Deband.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_Deband.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_FakeHDR.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_FakeHDR.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_FakeHDR.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_FXAA.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_FXAA.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_FXAA.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_LumaSharpen.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_LumaSharpen.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_LumaSharpen.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_settings.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_settings.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_settings.fx"
                 },
                 {
-                  "entry": "reshade-shaders/Shaders/VREM/VREM_Technicolor2.fx",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/reshade-shaders/Shaders/VREM/VREM_Technicolor2.fx",
                   "kind": "effect",
                   "dest": "VREM/VREM_Technicolor2.fx"
                 },
                 {
-                  "entry": "VREM_launcher.addon64",
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin/VREM_launcher.addon64",
+                  "kind": "addon",
+                  "arch": "x64"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/Debug_VREM.fx",
+                  "kind": "effect",
+                  "dest": "VREM/Debug_VREM.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/FXAA.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/FXAA.fxh"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/SMAA.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/SMAA.fxh"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/SMAA_VREM.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/SMAA_VREM.fxh"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM.fxh",
+                  "kind": "effect",
+                  "dest": "VREM/VREM.fxh"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_ColorMatrix.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_ColorMatrix.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_Deband.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_Deband.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_FakeHDR.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_FakeHDR.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_FXAA.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_FXAA.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_LumaSharpen.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_LumaSharpen.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_settings.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_settings.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/reshade-shaders/Shaders/VREM/VREM_Technicolor2.fx",
+                  "kind": "effect",
+                  "dest": "VREM/VREM_Technicolor2.fx"
+                },
+                {
+                  "entry": "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_launcher.addon64",
                   "kind": "addon",
                   "arch": "x64"
                 }
               ],
               "unplaced": [
-                "VREM_shaderreplace/AH64_rotor2PS.cso",
-                "VREM_shaderreplace/AH64_rotorPS.cso",
-                "VREM_shaderreplace/full_red.cso",
-                "VREM_shaderreplace/global_PS_2.cso",
-                "VREM_shaderreplace/IHADSS_PNVS_PS.cso",
-                "VREM_shaderreplace/IHADSS_PS.cso",
-                "VREM_shaderreplace/IHADSS_VS.cso",
-                "VREM_shaderreplace/labels_PS.cso",
-                "VREM_shaderreplace/NVG_extPS.cso",
-                "VREM_shaderreplace/NVG_intPS.cso",
-                "VREM_shaderreplace/UH1_rotorPS.cso",
-                "VREM_shaderreplace/visor_PS.cso",
-                "VREM_shaderreplace/visor_VS.cso",
-                "VREM_shaderreplace/VR_GUI_PS.cso",
-                "VREM_shaderreplace/VR_GUI_VS.cso"
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/AH64_rotor2PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/AH64_rotorPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/full_red.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/global_PS_2.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/IHADSS_PNVS_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/IHADSS_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/IHADSS_VS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/labels_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/NVG_extPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/NVG_intPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/UH1_rotorPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/visor_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/visor_VS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/VR_GUI_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin/VREM_shaderreplace/VR_GUI_VS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/AH64_rotor2PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/AH64_rotorPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/full_red.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/global_PS_2.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/IHADSS_PNVS_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/IHADSS_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/IHADSS_VS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/labels_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/NVG_extPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/NVG_intPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/UH1_rotorPS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/visor_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/visor_VS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/VR_GUI_PS.cso",
+                "ReshadeDCS_VREM2_v1.4.1/bin-mt/VREM_shaderreplace/VR_GUI_VS.cso"
               ],
-              "history": []
+              "history": [
+                {
+                  "version": "2026-10-21-eae3064",
+                  "sha256": "eae3064e27e5bbffabf9d1484a73697b533945fb129fa4d89fbf402729cbabcd",
+                  "size": 190750,
+                  "firstSeen": "2026-10-21T09:15:17Z"
+                }
+              ]
             }
           ]
         },
@@ -40624,5 +40725,5 @@
       ]
     }
   },
-  "generated": "2026-11-01T13:42:12Z"
+  "generated": "2026-11-01T22:01:57Z"
 }
