@@ -70,6 +70,7 @@ public sealed partial class MirrorNoticePublisher(INoticeSource notices, IMirror
 
     private static string AssetNameOf(string url) => Uri.UnescapeDataString(url[(url.LastIndexOf('/') + 1)..]);
 
-    [GeneratedRegex(@"/mirror-(\d{4}-\d{2})/")]
+    // The month plus the part number of a full month's continuation release (2026-10.2): one set of notes per release.
+    [GeneratedRegex(@"/mirror-(\d{4}-\d{2}(?:\.\d+)?)/")]
     private static partial Regex MonthRule();
 }
