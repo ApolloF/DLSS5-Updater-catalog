@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-11-08T22:04:26Z",
+      "updated": "2026-11-09T06:26:24Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -2124,9 +2124,9 @@
               "size": 2386944,
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6abc128a-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6abc1289-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -2153,9 +2153,9 @@
               "size": 6428672,
               "version": "2026-11-05-5794693",
               "firstSeen": "2026-11-05T06:45:47Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aeb9197-621800\"",
-              "lastModified": "Wed, 04 Nov 2026 20:12:07 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aeb9199-621800\"",
+              "lastModified": "Wed, 04 Nov 2026 20:12:09 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/5794693c7571b5de-renodx-atelierryzadx.addon64",
               "history": [
@@ -2336,9 +2336,9 @@
               "size": 2494976,
               "version": "2026-11-05-2411caa",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64f-261200\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:35 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64c-261200\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:32 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/2411caa947f1c301-renodx-yumia1.addon64",
               "history": [
@@ -2922,9 +2922,9 @@
               "size": 2449408,
               "version": "2026-11-05-d3fa3ca",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd649-256000\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:29 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd648-256000\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/d3fa3ca8d3f70d09-renodx-BerserkBotH.addon64",
               "history": [
@@ -5164,9 +5164,9 @@
               "size": 3991552,
               "version": "2026-11-05-f4b8a5c",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aec7bbb-3ce800\"",
-              "lastModified": "Thu, 05 Nov 2026 12:51:07 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aec7bb5-3ce800\"",
+              "lastModified": "Thu, 05 Nov 2026 12:51:01 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/f4b8a5ce4bf5bbff-renodx-deadislandde.addon64",
               "history": [
@@ -6282,9 +6282,9 @@
               "size": 2563584,
               "version": "2026-11-07-5d2a233",
               "firstSeen": "2026-11-07T05:58:06Z",
-              "verified": "2026-11-07",
-              "etag": "\"6aee400d-271e00\"",
-              "lastModified": "Fri, 06 Nov 2026 21:01:01 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aee400c-271e00\"",
+              "lastModified": "Fri, 06 Nov 2026 21:01:00 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/5d2a233c72682a30-renodx-dragonsdogma2.addon64",
               "history": [
@@ -6751,9 +6751,9 @@
               "size": 2503168,
               "version": "2026-11-05-77aaad0",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64c-263200\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:32 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd649-263200\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/77aaad070bfb5506-renodx-endermagnolia.addon64",
               "history": [
@@ -7938,9 +7938,9 @@
               "size": 2284544,
               "version": "2026-11-07-bb8436c",
               "firstSeen": "2026-11-07T05:58:06Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aee400e-22dc00\"",
-              "lastModified": "Fri, 06 Nov 2026 21:01:02 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aee400c-22dc00\"",
+              "lastModified": "Fri, 06 Nov 2026 21:01:00 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/bb8436c7f466f3d3-renodx-forzahorizon6.addon64",
               "history": [
@@ -8017,9 +8017,9 @@
               "size": 2835968,
               "version": "2026-11-02-49d6423",
               "firstSeen": "2026-11-02T15:50:41Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ae887e6-2b4600\"",
-              "lastModified": "Mon, 02 Nov 2026 12:53:58 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ae887e9-2b4600\"",
+              "lastModified": "Mon, 02 Nov 2026 12:54:01 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/49d6423d149acd35-renodx-gotsushima.addon64",
               "history": [
@@ -9248,9 +9248,9 @@
               "size": 3354624,
               "version": "2026-11-07-da311b6",
               "firstSeen": "2026-11-07T05:58:06Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aee400c-333000\"",
-              "lastModified": "Fri, 06 Nov 2026 21:01:00 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aee400e-333000\"",
+              "lastModified": "Fri, 06 Nov 2026 21:01:02 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/da311b6359879aeb-renodx-helldivers2.addon64",
               "history": [
@@ -10431,9 +10431,9 @@
               "size": 2624512,
               "version": "2026-10-21-981cd8e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-280c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b0-280c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/981cd8e6908c2a9c-renodx-legohpc.addon64",
               "history": []
@@ -10780,9 +10780,9 @@
               "size": 2549248,
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b1-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -11082,9 +11082,9 @@
               "size": 2532352,
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b2-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -11727,9 +11727,9 @@
               "size": 5080064,
               "version": "2026-11-07-13ad0c5",
               "firstSeen": "2026-11-07T05:58:06Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aee400e-4d8400\"",
-              "lastModified": "Fri, 06 Nov 2026 21:01:02 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aee400d-4d8400\"",
+              "lastModified": "Fri, 06 Nov 2026 21:01:01 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/13ad0c5f38f7b971-renodx-metroexodus.addon64",
               "history": [
@@ -11847,9 +11847,9 @@
               "size": 2598400,
               "version": "2026-10-21-04bc9fe",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b2-27a600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b3-27a600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/04bc9fee5e3b812e-renodx-metroiddread.addon64",
               "history": []
@@ -11880,9 +11880,9 @@
               "size": 2604544,
               "version": "2026-10-21-9fd338d",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-27be00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b1-27be00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9fd338d56e1a2d8d-renodx-metroidprime.addon64",
               "history": []
@@ -11996,9 +11996,9 @@
               "size": 2526720,
               "version": "2026-10-21-9eb522e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b2-268e00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b1-268e00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9eb522e5066e82a5-renodx-mhgu.addon64",
               "history": []
@@ -12426,9 +12426,9 @@
               "size": 2468864,
               "version": "2026-11-05-a37680d",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64a-25ac00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:30 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64d-25ac00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:33 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/a37680d8779fae15-renodx-nightsofazure1.addon64",
               "history": [
@@ -12550,9 +12550,9 @@
               "size": 2456064,
               "version": "2026-11-05-b642d50",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64a-257a00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:30 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64d-257a00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:33 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/b642d50ea9fe96b2-renodx-nightsofazure2.addon64",
               "history": [
@@ -13510,9 +13510,9 @@
               "size": 2718720,
               "version": "2026-11-05-916db83",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64a-297c00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:30 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64b-297c00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/916db83ec89427fc-renodx-pathfinder2wotr.addon64",
               "history": [
@@ -14891,9 +14891,9 @@
               "size": 2588160,
               "version": "2026-11-05-97b6997",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64b-277e00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:31 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64d-277e00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:33 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/97b6997fc04fce7a-renodx-riseofronin.addon64",
               "history": [
@@ -15947,9 +15947,9 @@
               "size": 3378688,
               "version": "2026-11-05-71bc6e7",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64e-338e00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:34 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64b-338e00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/71bc6e71d250fe9c-renodx-smt5.addon64",
               "history": [
@@ -16763,9 +16763,9 @@
               "size": 2576384,
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b4-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -16829,9 +16829,9 @@
               "size": 2678272,
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b3-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b4-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -17159,9 +17159,9 @@
               "size": 2626560,
               "version": "2026-11-05-ceb60a1",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aec7bc8-281400\"",
-              "lastModified": "Thu, 05 Nov 2026 12:51:20 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aec7bb7-281400\"",
+              "lastModified": "Thu, 05 Nov 2026 12:51:03 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/ceb60a1fcdea7d2a-renodx-steelrising.addon64",
               "history": [
@@ -17234,9 +17234,9 @@
               "size": 2286080,
               "version": "2026-10-21-266ef81",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6abc128a-22e200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6abc1289-22e200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/266ef81bbca05104-renodx-sopffo.addon64",
               "history": []
@@ -17401,9 +17401,9 @@
               "size": 2826752,
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b4-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b2-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -18177,9 +18177,9 @@
               "size": 2496000,
               "version": "2026-11-05-71d181d",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64b-261600\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:31 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64e-261600\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:34 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/71d181d74334c16a-renodx-tew2.addon64",
               "history": [
@@ -18301,9 +18301,9 @@
               "size": 2812928,
               "version": "2026-11-05-e8c7930",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd649-2aec00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:29 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd648-2aec00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/e8c7930aea0e338c-renodx-bersekerKhazan.addon64",
               "history": [
@@ -18673,9 +18673,9 @@
               "size": 2795008,
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b2-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4af-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:11 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -18706,9 +18706,9 @@
               "size": 2739200,
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b2-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b5-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -19242,9 +19242,9 @@
               "size": 2521600,
               "version": "2026-11-05-cf3d4e8",
               "firstSeen": "2026-11-05T06:45:47Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aeb919d-267a00\"",
-              "lastModified": "Wed, 04 Nov 2026 20:12:13 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aeb919a-267a00\"",
+              "lastModified": "Wed, 04 Nov 2026 20:12:10 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/cf3d4e81ef9def70-renodx-terraria-tml.addon64",
               "history": [
@@ -19476,9 +19476,9 @@
               "size": 801792,
               "version": "2026-10-21-113bd81",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6999a1c7-c3c00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6999a1c8-c3c00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/113bd81b2bd48d12-renodx-tw-3kingdoms.addon64",
               "history": []
@@ -19894,9 +19894,9 @@
               "size": 1002496,
               "version": "2026-10-21-9d07c01",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"68fd62e5-f4c00\"",
-              "lastModified": "Sat, 25 Oct 2025 23:53:09 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"68fd62e4-f4c00\"",
+              "lastModified": "Sat, 25 Oct 2025 23:53:08 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9d07c0152868bd28-renodx-warframe.addon64",
               "history": []
@@ -20428,9 +20428,9 @@
               "size": 3161088,
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b5-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b3-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -20461,9 +20461,9 @@
               "size": 2520576,
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6ac0e4b5-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6ac0e4b2-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -20553,9 +20553,9 @@
               "size": 8398848,
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-08",
-              "etag": "\"6abc128b-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:31 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6abc128a-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -20615,9 +20615,9 @@
               "size": 2423808,
               "version": "2026-11-05-7eb1d6a",
               "firstSeen": "2026-11-05T19:56:34Z",
-              "verified": "2026-11-08",
-              "etag": "\"6aecd64f-24fc00\"",
-              "lastModified": "Thu, 05 Nov 2026 19:17:35 GMT",
+              "verified": "2026-11-09",
+              "etag": "\"6aecd64c-24fc00\"",
+              "lastModified": "Thu, 05 Nov 2026 19:17:32 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/7eb1d6a38275dfba-renodx-ys10.addon64",
               "history": [
@@ -25395,7 +25395,7 @@
       }
     },
     "renodxDlss": {
-      "updated": "2026-11-04T06:21:23Z",
+      "updated": "2026-11-09T06:26:24Z",
       "source": "https://api.github.com/repos/RankFTW/rhi-repo/releases?per_page=100",
       "builds": [
         {
@@ -25430,7 +25430,7 @@
             "size": 1254012,
             "version": "2026-10-26-bc4ec58",
             "firstSeen": "2026-10-26T22:40:08Z",
-            "verified": "2026-11-02",
+            "verified": "2026-11-09",
             "etag": "\"0x8DF3363A6B936F8\"",
             "lastModified": "Mon, 26 Oct 2026 13:18:40 GMT",
             "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/bc4ec58d31565f69-renodx-dlss_SF_26.1016.1304.zip",
@@ -27916,7 +27916,7 @@
       ]
     },
     "frameLimiters": {
-      "updated": "2026-11-08T22:04:26Z",
+      "updated": "2026-11-09T06:26:24Z",
       "sources": [
         {
           "url": "https://api.github.com/repos/RankFTW/ReLimiter/releases/latest",
@@ -27980,16 +27980,22 @@
               "name": "zzz_display_commander.addon64",
               "arch": "x64",
               "url": "https://github.com/pmnoxx/display-commander/releases/download/latest/zzz_display_commander.addon64",
-              "sha256": "2b810a38ba8ea93d189c7f66be98b62fa6f7d2761561f1772bd038b7bfe415ea",
-              "size": 1499136,
-              "version": "2026-11-08-2b810a3",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DDCDDE3E672\"",
-              "lastModified": "Sun, 08 Nov 2026 21:11:33 GMT",
+              "sha256": "601dc01193dafbf31fe4dcad523edc6346cb8afa992b366a499f7416f8d550f6",
+              "size": 1500160,
+              "version": "2026-11-09-601dc01",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3DE63BF0DF8B\"",
+              "lastModified": "Sun, 08 Nov 2026 22:18:36 GMT",
               "license": "AGPL-3.0",
               "mod": "display-commander",
               "history": [
+                {
+                  "version": "2026-11-08-2b810a3",
+                  "sha256": "2b810a38ba8ea93d189c7f66be98b62fa6f7d2761561f1772bd038b7bfe415ea",
+                  "size": 1499136,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-5eeb10b",
                   "sha256": "5eeb10b8982cd55400c34570f6a7ba7ad8be3f9255550d58bbd817692502ed35",
@@ -28080,16 +28086,22 @@
               "name": "zzz_display_commander.addon32",
               "arch": "x86",
               "url": "https://github.com/pmnoxx/display-commander/releases/download/latest/zzz_display_commander.addon32",
-              "sha256": "acaa2482a75d4cc8985a2bd0e817ec660ea8f701fef428d75854588717594297",
-              "size": 1223168,
-              "version": "2026-11-08-acaa248",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DDCDE51C880\"",
-              "lastModified": "Sun, 08 Nov 2026 21:11:34 GMT",
+              "sha256": "58a66909fe6786621f6f32c19d3b6a18333322fdc7d35b277261fc3315a74ae7",
+              "size": 1223680,
+              "version": "2026-11-09-58a6690",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3DE63C4E26FD\"",
+              "lastModified": "Sun, 08 Nov 2026 22:18:37 GMT",
               "license": "AGPL-3.0",
               "mod": "display-commander",
               "history": [
+                {
+                  "version": "2026-11-08-acaa248",
+                  "sha256": "acaa2482a75d4cc8985a2bd0e817ec660ea8f701fef428d75854588717594297",
+                  "size": 1223168,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-7f11ffa",
                   "sha256": "7f11ffa4016bc61c6161f8d87d213340e589fc3fa4911fdccb2b95c16387045d",
@@ -35996,7 +36008,7 @@
       }
     },
     "luma": {
-      "updated": "2026-11-08T22:04:26Z",
+      "updated": "2026-11-09T06:26:24Z",
       "sources": [
         {
           "url": "https://raw.githubusercontent.com/wiki/Filoppi/Luma-Framework/Home.md",
@@ -36004,10 +36016,10 @@
         },
         {
           "url": "https://api.github.com/repos/Filoppi/Luma-Framework/releases/latest",
-          "count": 66
+          "count": 65
         }
       ],
-      "release": "latest-810",
+      "release": "latest-812",
       "packages": [
         {
           "id": "Batman_Arkham_Knight",
@@ -36015,16 +36027,22 @@
             {
               "name": "Luma-Batman_Arkham_Knight.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Batman_Arkham_Knight.zip",
-              "sha256": "1f1e993908d8235baca215867aaf03a4ea7fdd01ce97ae5706538b091ebcec4c",
-              "size": 36355240,
-              "version": "2026-11-08-1f1e993",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DD907EF\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Batman_Arkham_Knight.zip",
+              "sha256": "d2f137d6468cbb12736f5e1e45ce526e357f9c6d0aa6439b509c65aaada668f9",
+              "size": 36355300,
+              "version": "2026-11-09-d2f137d",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644B5FAF2\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-1f1e993",
+                  "sha256": "1f1e993908d8235baca215867aaf03a4ea7fdd01ce97ae5706538b091ebcec4c",
+                  "size": 36355240,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0e3c0e2",
                   "sha256": "0e3c0e20b7e6dfe08fd052e747cbf6c6eb6491710e7f50779d10e8226e366c11",
@@ -36119,16 +36137,22 @@
             {
               "name": "Luma-Beyond_Two_Souls.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Beyond_Two_Souls.zip",
-              "sha256": "f2e74d1f9ac30edd3894617ff2e5527c6850f520e14867dc3d6bde4c456a8077",
-              "size": 5216728,
-              "version": "2026-11-08-f2e74d1",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3749D12C\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Beyond_Two_Souls.zip",
+              "sha256": "dc43b71471c3ead3aa0b47239ffbc7af4b479b110d1eab3be624975d140c39ef",
+              "size": 5216856,
+              "version": "2026-11-09-dc43b71",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641798673\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-f2e74d1",
+                  "sha256": "f2e74d1f9ac30edd3894617ff2e5527c6850f520e14867dc3d6bde4c456a8077",
+                  "size": 5216728,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-374aa14",
                   "sha256": "374aa14bd24e7de77ce2d968ddf99db294d5c03b28862e7f673a61c0198c088d",
@@ -36223,16 +36247,22 @@
             {
               "name": "Luma-BioShock_Series-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-BioShock_Series-x32.zip",
-              "sha256": "9cd330647b3a406607a9687a8491fb0e4f509c2463f261459c6bef4545babb4a",
-              "size": 4455647,
-              "version": "2026-11-08-9cd3306",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD370290E6\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-BioShock_Series-x32.zip",
+              "sha256": "54989b5f4c4843a93988227cf1267378dfe490a5e7f71ae0ae23967f4ca7b8ff",
+              "size": 4456005,
+              "version": "2026-11-09-54989b5",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26415E2DF0\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-9cd3306",
+                  "sha256": "9cd330647b3a406607a9687a8491fb0e4f509c2463f261459c6bef4545babb4a",
+                  "size": 4455647,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-5d8cf0a",
                   "sha256": "5d8cf0af9670552098be88ab48f3cec794600a836b446858a3e5ce00345d08aa",
@@ -36327,16 +36357,22 @@
             {
               "name": "Luma-Blue_Reflection_Second_Light.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Blue_Reflection_Second_Light.zip",
-              "sha256": "fe9c88d9a670a2e904f9de0eaaddc955fdfef025f3f859072e6b4a620a5fa4dd",
-              "size": 37466526,
-              "version": "2026-11-08-fe9c88d",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DECC7DA\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Blue_Reflection_Second_Light.zip",
+              "sha256": "aca391f02cc0db8b010bdfe4314a933571e40be03b448122b0e5f96ba4117f88",
+              "size": 37466472,
+              "version": "2026-11-09-aca391f",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644AE3B7A\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-fe9c88d",
+                  "sha256": "fe9c88d9a670a2e904f9de0eaaddc955fdfef025f3f859072e6b4a620a5fa4dd",
+                  "size": 37466526,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-8e4ea11",
                   "sha256": "8e4ea1188fdb0f1e7baddbb54f54beb3432e84d43018fa290ee21389dc089520",
@@ -36431,16 +36467,22 @@
             {
               "name": "Luma-Borderlands_2_and_The_Pre-Sequel-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Borderlands_2_and_The_Pre-Sequel-x32.zip",
-              "sha256": "27fc6f197426f1f4bceb1a0fc59789674e2b3235141fb71f7d46a221d4409c01",
-              "size": 4419837,
-              "version": "2026-11-08-27fc6f1",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36F20C91\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Borderlands_2_and_The_Pre-Sequel-x32.zip",
+              "sha256": "d892971f5228f873c1b9cf792ecc560070e615aff0fc922827fc8ab4836cc72d",
+              "size": 4420121,
+              "version": "2026-11-09-d892971",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26415DB93F\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-27fc6f1",
+                  "sha256": "27fc6f197426f1f4bceb1a0fc59789674e2b3235141fb71f7d46a221d4409c01",
+                  "size": 4419837,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-27a4f11",
                   "sha256": "27a4f115361942204ac3b53c60ddbbbcdb0f840e4998515dd648e4f2624d708b",
@@ -36535,16 +36577,22 @@
             {
               "name": "Luma-Borderlands_GOTY_Enhanced.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Borderlands_GOTY_Enhanced.zip",
-              "sha256": "dd3cbfed885f354dd190083046145e7dec2b36bedb5062f5596ae5280ad31132",
-              "size": 136065882,
-              "version": "2026-11-08-dd3cbfe",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD42A2C05E\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:18 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Borderlands_GOTY_Enhanced.zip",
+              "sha256": "03db6403f8a88b5d2e87f1be9703c1e0b470fa157f08a9e105c64fa515e7901b",
+              "size": 136065857,
+              "version": "2026-11-09-03db640",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2647310A19\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:03 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-dd3cbfe",
+                  "sha256": "dd3cbfed885f354dd190083046145e7dec2b36bedb5062f5596ae5280ad31132",
+                  "size": 136065882,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-ff3298b",
                   "sha256": "ff3298bfeeb8bfebf4cd64aa8928430aa0d7dcd899a942e6460c2ac8891f8bf0",
@@ -36639,16 +36687,22 @@
             {
               "name": "Luma-Burnout_Paradise_Remastered-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Burnout_Paradise_Remastered-x32.zip",
-              "sha256": "1b2be5a86e7a70e0289b675ad6be55e6f9cd73903733f9185e0de2b32d6216f4",
-              "size": 4441075,
-              "version": "2026-11-08-1b2be5a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36F81561\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Burnout_Paradise_Remastered-x32.zip",
+              "sha256": "f9806b937b607a66962950cbcc7e02f4fb25ee2f6b57fcffec5c23acc1abf126",
+              "size": 4441490,
+              "version": "2026-11-09-f9806b9",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26415EC983\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-1b2be5a",
+                  "sha256": "1b2be5a86e7a70e0289b675ad6be55e6f9cd73903733f9185e0de2b32d6216f4",
+                  "size": 4441075,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-5769844",
                   "sha256": "576984436295559d0d218023f04df0e79c78d194f570412939740d082cf96aad",
@@ -36743,16 +36797,22 @@
             {
               "name": "Luma-Call_of_Duty_Black_Ops_3.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Call_of_Duty_Black_Ops_3.zip",
-              "sha256": "dec4e3d244b198b5e1140b4448fba8e8f95fc0387f2c4d08345be3e8d5001ed8",
-              "size": 37378256,
-              "version": "2026-11-08-dec4e3d",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DEEE856\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Call_of_Duty_Black_Ops_3.zip",
+              "sha256": "79cf767e74650f3fc8f5abdff98607787b1e3fa67ac17fdf42a8aa904ffd90c3",
+              "size": 37378111,
+              "version": "2026-11-09-79cf767",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644B4015E\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-dec4e3d",
+                  "sha256": "dec4e3d244b198b5e1140b4448fba8e8f95fc0387f2c4d08345be3e8d5001ed8",
+                  "size": 37378256,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0d0f9f1",
                   "sha256": "0d0f9f1b1261f58c76ab6efc0be9bb692014858cd84cef08166c72f061fc8268",
@@ -36847,16 +36907,22 @@
             {
               "name": "Luma-Deus_Ex_Human_Revolution_Director.s_Cut-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Deus_Ex_Human_Revolution_Director.s_Cut-x32.zip",
-              "sha256": "23b9a6098324afca926a07fe57597488b11e30264aa62f5284a5be320ac290cb",
-              "size": 4482630,
-              "version": "2026-11-08-23b9a60",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36FFADF2\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Deus_Ex_Human_Revolution_Director.s_Cut-x32.zip",
+              "sha256": "c11206b864ce7d0ae42c897f7b22d4b5f9822811129de2fd7b6b04413c86a645",
+              "size": 4482889,
+              "version": "2026-11-09-c11206b",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264164687D\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-23b9a60",
+                  "sha256": "23b9a6098324afca926a07fe57597488b11e30264aa62f5284a5be320ac290cb",
+                  "size": 4482630,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-61c2058",
                   "sha256": "61c20589071f73ef30503fc73ae4ec39ab81b8319b7b09c0b20f3f0526e411ed",
@@ -36951,16 +37017,22 @@
             {
               "name": "Luma-Deus_Ex_Mankind_Divided.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Deus_Ex_Mankind_Divided.zip",
-              "sha256": "b20e89a8cac8ad0d96298d9af171872d96f421b89c280f981eaec8a7d3a3baf8",
-              "size": 37234330,
-              "version": "2026-11-08-b20e89a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3E00FCD8\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Deus_Ex_Mankind_Divided.zip",
+              "sha256": "4cafbe6181df4295f6996a8b554b6e6ac4f4162277190537e16fd47a6a54f7b7",
+              "size": 37234144,
+              "version": "2026-11-09-4cafbe6",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644D28AA9\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-b20e89a",
+                  "sha256": "b20e89a8cac8ad0d96298d9af171872d96f421b89c280f981eaec8a7d3a3baf8",
+                  "size": 37234330,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-f36a152",
                   "sha256": "f36a1529993026f193c7e3227d67ff0615fbff64b3f96a9fa8502f26f6e28dfd",
@@ -37055,16 +37127,22 @@
             {
               "name": "Luma-Dishonored_2.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Dishonored_2.zip",
-              "sha256": "6a6eec5c407a6b48b0d7fbea08c252d42699f044aab2602c70a53fa57f17f134",
-              "size": 37301860,
-              "version": "2026-11-08-6a6eec5",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DE29A1F\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Dishonored_2.zip",
+              "sha256": "5a81d094c3bec6296eafeb00e6398fb162290e921da4ae2f6af38d1506d2b4e9",
+              "size": 37302268,
+              "version": "2026-11-09-5a81d09",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C5A0D1\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-6a6eec5",
+                  "sha256": "6a6eec5c407a6b48b0d7fbea08c252d42699f044aab2602c70a53fa57f17f134",
+                  "size": 37301860,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-5484c7e",
                   "sha256": "5484c7e2f4056f741f6058ec4e9632f2101c6df84bd285d0737b041de1c9f02a",
@@ -37159,16 +37237,22 @@
             {
               "name": "Luma-Dying_Light_2.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Dying_Light_2.zip",
-              "sha256": "53ea4ec8bdd97350652dad9c17127df610837d54006d8d7292f04a3ece66271a",
-              "size": 5200931,
-              "version": "2026-11-08-53ea4ec",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD376E4731\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Dying_Light_2.zip",
+              "sha256": "51294326ef3d5ab19fe8cad0a2f15623e6d9cdcc73ac1956ebf4f93f423856ce",
+              "size": 5201164,
+              "version": "2026-11-09-5129432",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641717935\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-53ea4ec",
+                  "sha256": "53ea4ec8bdd97350652dad9c17127df610837d54006d8d7292f04a3ece66271a",
+                  "size": 5200931,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-4bfb51b",
                   "sha256": "4bfb51b0c8610fee97fc34801c40b5285f9be25ec244a2a806decb8b8f800103",
@@ -37263,16 +37347,22 @@
             {
               "name": "Luma-Fallout_4.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Fallout_4.zip",
-              "sha256": "29b4df33c9c0bfff4339d636063a9722658e2a9aefcae0d302df9008c02f984c",
-              "size": 36372321,
-              "version": "2026-11-08-29b4df3",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DAAD8CC\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Fallout_4.zip",
+              "sha256": "add8f67e27f491144df71d7e88f3dd5a2d20d580bb3df0136f8d60c79c53d18c",
+              "size": 36372393,
+              "version": "2026-11-09-add8f67",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C2224B\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-29b4df3",
+                  "sha256": "29b4df33c9c0bfff4339d636063a9722658e2a9aefcae0d302df9008c02f984c",
+                  "size": 36372321,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-355f340",
                   "sha256": "355f340e12a637374e5b6f1c05cb56a9c24904e05fa7020996289f8b038f3372",
@@ -37367,16 +37457,22 @@
             {
               "name": "Luma-Far_Cry_5.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Far_Cry_5.zip",
-              "sha256": "8dd97b375621dbafa28f51e92583ce67568db1a5b2f4b9fb0cfb51e1df48999e",
-              "size": 36396620,
-              "version": "2026-11-08-8dd97b3",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DACF946\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Far_Cry_5.zip",
+              "sha256": "154f81494f0bd723634f855700a1924628e25d5898a693775d4f219cfbfb334f",
+              "size": 36396668,
+              "version": "2026-11-09-154f814",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644B05BF9\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-8dd97b3",
+                  "sha256": "8dd97b375621dbafa28f51e92583ce67568db1a5b2f4b9fb0cfb51e1df48999e",
+                  "size": 36396620,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-b272611",
                   "sha256": "b272611e6650e22f9e5176eeee8a207237faff2a88988fa3078bb0002ae293fe",
@@ -37471,16 +37567,22 @@
             {
               "name": "Luma-Final_Fantasy_VII_Remake.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Final_Fantasy_VII_Remake.zip",
-              "sha256": "726ed9848e5587fbc0e736c8f6632d6c42026ed56eadc1a3691644b3f7773356",
-              "size": 136695671,
-              "version": "2026-11-08-726ed98",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD43102FFB\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:19 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Final_Fantasy_VII_Remake.zip",
+              "sha256": "c3cffed49966d6a2496aa8bcf2e1d7b249c2097a101ed1fd7200bd1ad62649be",
+              "size": 136695751,
+              "version": "2026-11-09-c3cffed",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2647C6EE58\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:04 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-726ed98",
+                  "sha256": "726ed9848e5587fbc0e736c8f6632d6c42026ed56eadc1a3691644b3f7773356",
+                  "size": 136695671,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-4bf3ffd",
                   "sha256": "4bf3ffd174abde6715f4cc2180e50be6b10cf0c3d6e1f3645925f15f0db116c3",
@@ -37570,125 +37672,27 @@
           ]
         },
         {
-          "id": "Final_Fantasy_XV",
-          "files": [
-            {
-              "name": "Luma-Final_Fantasy_XV.zip",
-              "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Final_Fantasy_XV.zip",
-              "sha256": "6d1db00799b22610a246ca78ed00957aaf2308e68f83a8d6c58050b02777b20a",
-              "size": 136739848,
-              "version": "2026-11-08-6d1db00",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD42F745B8\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:19 GMT",
-              "mod": "luma",
-              "history": [
-                {
-                  "version": "2026-11-07-6f33097",
-                  "sha256": "6f330972f741b8931905c24ecdc452a23dcd74871b3f05fc80c043e8ff2e45fb",
-                  "size": 136739848,
-                  "firstSeen": "2026-11-07T05:58:06Z"
-                },
-                {
-                  "version": "2026-11-06-886b9f0",
-                  "sha256": "886b9f031aa87bc40a580b4d342afbfc8daed162501046e6942f7f003a6d7f14",
-                  "size": 136722766,
-                  "firstSeen": "2026-11-06T19:24:34Z"
-                },
-                {
-                  "version": "2026-11-02-027d998",
-                  "sha256": "027d9985ce695a84359b79b52cb9884667266503ce064d205d25ee1edd5408a3",
-                  "size": 136721582,
-                  "firstSeen": "2026-11-02T06:00:38Z"
-                },
-                {
-                  "version": "2026-11-01-dd0f86f",
-                  "sha256": "dd0f86f7fdc087e7bf82aa2360ae1fc17e706a3fab4dbd97f2259b9b2ab3c750",
-                  "size": 76900762,
-                  "firstSeen": "2026-11-01T06:03:07Z"
-                },
-                {
-                  "version": "2026-10-31-5ddadcb",
-                  "sha256": "5ddadcb20d29ab25cdebbcc1f7c5c794ab531aeb6825a94ffb47bd7f7be2cbc0",
-                  "size": 76900762,
-                  "firstSeen": "2026-10-31T05:40:10Z"
-                },
-                {
-                  "version": "2026-10-30-586b00a",
-                  "sha256": "586b00a5abeafb34026e183bc616de6a0c72ea6a9beea69fb358912af1426a57",
-                  "size": 76901040,
-                  "firstSeen": "2026-10-30T22:19:19Z"
-                },
-                {
-                  "version": "2026-10-30-11c9ff7",
-                  "sha256": "11c9ff70fb6e411fee6b811318d00ed3d15d4932218d772d39daf4460c44c6d8",
-                  "size": 76901047,
-                  "firstSeen": "2026-10-30T05:48:29Z"
-                },
-                {
-                  "version": "2026-10-29-d218819",
-                  "sha256": "d2188191148f8b2d4a745b7fd2cc8d06d376751d80faedd7760fd073c70090a9",
-                  "size": 42278615,
-                  "firstSeen": "2026-10-29T22:44:58Z"
-                },
-                {
-                  "version": "2026-10-29-359b8b2",
-                  "sha256": "359b8b2799d4c82aef4e66f3d8cb19e4ef3ceb8e5a5523f026fe2cd4bc795996",
-                  "size": 42207366,
-                  "firstSeen": "2026-10-29T05:47:41Z"
-                },
-                {
-                  "version": "2026-10-28-9cd96c5",
-                  "sha256": "9cd96c583852fa1e401f1b8f7805340da07372a9d792c82fc9eebe1b9d887076",
-                  "size": 42207366,
-                  "firstSeen": "2026-10-28T22:35:04Z"
-                },
-                {
-                  "version": "2026-10-27-b1144ec",
-                  "sha256": "b1144ec3fb8ce3a15b76dac1955f0809ed2bc29d19216eff0ea5247b8f7bb8a3",
-                  "size": 42207367,
-                  "firstSeen": "2026-10-27T18:01:10Z"
-                },
-                {
-                  "version": "2026-10-23-166e6ec",
-                  "sha256": "166e6ec7692725f8aa3629e30bcc501c4c036ea1e7139d137fecee6659051a78",
-                  "size": 42206856,
-                  "firstSeen": "2026-10-23T04:49:04Z"
-                },
-                {
-                  "version": "2026-10-21-1325fdc",
-                  "sha256": "1325fdc5e38f998a8c12db4444381f4dc24f752fd121b0dc78df1815165d7c00",
-                  "size": 42206829,
-                  "firstSeen": "2026-10-21T21:42:50Z"
-                },
-                {
-                  "version": "2026-10-21-bf79e52",
-                  "sha256": "bf79e527089c18be26c76cc964a1637e7f579374f322dbd180faf2712fb463dc",
-                  "size": 42206829,
-                  "firstSeen": "2026-10-21T13:26:51Z"
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "Granblue_Fantasy_Relink",
           "files": [
             {
               "name": "Luma-Granblue_Fantasy_Relink.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Granblue_Fantasy_Relink.zip",
-              "sha256": "4d486617339d5b12f3ff82ce2e151c5d29c8a71870f423028e463c83c7a03896",
-              "size": 131759151,
-              "version": "2026-11-08-4d48661",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD42F21B67\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:19 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Granblue_Fantasy_Relink.zip",
+              "sha256": "17d449dda41aaa6a693bcc6aa0a0d4315428f417a81934806af31840186fcaa3",
+              "size": 131759168,
+              "version": "2026-11-09-17d449d",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26474ED0D6\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:03 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-4d48661",
+                  "sha256": "4d486617339d5b12f3ff82ce2e151c5d29c8a71870f423028e463c83c7a03896",
+                  "size": 131759151,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-972d033",
                   "sha256": "972d03312a4f5ee50bc5f60f6d5585feb5bde74e42503b2bd1a4b5aacff42aab",
@@ -37783,16 +37787,22 @@
             {
               "name": "Luma-GreedFall.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-GreedFall.zip",
-              "sha256": "85d9d75941d04ed663206366a4e48259e383b662832132cc30e6c49705ffcada",
-              "size": 37231776,
-              "version": "2026-11-08-85d9d75",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3E25E584\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:11 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-GreedFall.zip",
+              "sha256": "0dd2f38f419778fd79e872aeca9da1ac0ec902bc52d945f7f6fa8b8d2106a0c9",
+              "size": 37231909,
+              "version": "2026-11-09-0dd2f38",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C15FD6\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-85d9d75",
+                  "sha256": "85d9d75941d04ed663206366a4e48259e383b662832132cc30e6c49705ffcada",
+                  "size": 37231776,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-2ee5f26",
                   "sha256": "2ee5f26c676b1a10a81f8f7119e6b6d62bba51c4d030d3e7603a388a339797f5",
@@ -37887,16 +37897,22 @@
             {
               "name": "Luma-Halo_The_Master_Chief_Collection.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Halo_The_Master_Chief_Collection.zip",
-              "sha256": "f5cb855644f1e270afe8c1dbf51a612edb98b64a7ca88af8f4808c386dea2fa3",
-              "size": 5520985,
-              "version": "2026-11-08-f5cb855",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37726144\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Halo_The_Master_Chief_Collection.zip",
+              "sha256": "daf7e4977f6d97fa4202e7d61b5cc78e7cfd63e69ed6dd6e32a61f9c4cc5f6e0",
+              "size": 5521213,
+              "version": "2026-11-09-daf7e49",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26417911CC\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-f5cb855",
+                  "sha256": "f5cb855644f1e270afe8c1dbf51a612edb98b64a7ca88af8f4808c386dea2fa3",
+                  "size": 5520985,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0b105e1",
                   "sha256": "0b105e1a63e8d7c68ed4495b9a17921f8871bc5a88d204ad0178233b74a06d83",
@@ -37991,16 +38007,22 @@
             {
               "name": "Luma-Heaven_Burns_Red.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Heaven_Burns_Red.zip",
-              "sha256": "ab9b84aaa98e87e849757e0d0af524a571e8aba6920f1e7e09d84cf207701491",
-              "size": 5207738,
-              "version": "2026-11-08-ab9b84a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD376F7E5A\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Heaven_Burns_Red.zip",
+              "sha256": "2eadb17d09f7bf8c84cf68b481bd598eec480b52df4151551e35f3a4661dbdd3",
+              "size": 5208046,
+              "version": "2026-11-09-2eadb17",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264165ED77\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-ab9b84a",
+                  "sha256": "ab9b84aaa98e87e849757e0d0af524a571e8aba6920f1e7e09d84cf207701491",
+                  "size": 5207738,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-7ed7116",
                   "sha256": "7ed71168ed2cb62e70a6cb4ba5f48efb0e72566daa491b910a149495810c9316",
@@ -38095,16 +38117,22 @@
             {
               "name": "Luma-Heavy_Rain.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Heavy_Rain.zip",
-              "sha256": "8908daaddc9694cd0ae198d02fe784825b6bdc6bdf07bc8d8dc4e80ea82bd9e0",
-              "size": 5245657,
-              "version": "2026-11-08-8908daa",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3744CDBC\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Heavy_Rain.zip",
+              "sha256": "600df2fa0f93233bb3c062bac5cf315466ef0a559d4ffa1ebb891221271d259c",
+              "size": 5245845,
+              "version": "2026-11-09-600df2f",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264205AF74\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:54 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-8908daa",
+                  "sha256": "8908daaddc9694cd0ae198d02fe784825b6bdc6bdf07bc8d8dc4e80ea82bd9e0",
+                  "size": 5245657,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-45a4db4",
                   "sha256": "45a4db4d8f2a1b6362e1bb725d535e265bd517543b4908a1d0f9e57e8fa93abf",
@@ -38199,16 +38227,22 @@
             {
               "name": "Luma-INSIDE.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-INSIDE.zip",
-              "sha256": "f384df645877adb0f7688d52e2e5fdfd2dd29d1c3a25a4b1ea2a5312178d3f9b",
-              "size": 5261610,
-              "version": "2026-11-08-f384df6",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37553610\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-INSIDE.zip",
+              "sha256": "6ea03ff6b95404e8c82e3f56a7fc31eb5533a44b98b2e61d667edb59e888328a",
+              "size": 5261828,
+              "version": "2026-11-09-6ea03ff",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641767C9C\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-f384df6",
+                  "sha256": "f384df645877adb0f7688d52e2e5fdfd2dd29d1c3a25a4b1ea2a5312178d3f9b",
+                  "size": 5261610,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-61f027f",
                   "sha256": "61f027f92e70b3e947c9322dcda543dd4ea644e28890f6f7fed5d40f74e788f2",
@@ -38303,16 +38337,22 @@
             {
               "name": "Luma-Just_Cause_3.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Just_Cause_3.zip",
-              "sha256": "a1240a0d5b634e432ef78cff5d64207eb4c04da5fe8b4a6c4ef078b3829b4ce3",
-              "size": 37293001,
-              "version": "2026-11-08-a1240a0",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3E7D6735\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:11 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Just_Cause_3.zip",
+              "sha256": "b73e39c96b92bff5062b79ef4e75a28f338518be1e71922ad44a68d813d2d2a7",
+              "size": 37293014,
+              "version": "2026-11-09-b73e39c",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644E2A528\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-a1240a0",
+                  "sha256": "a1240a0d5b634e432ef78cff5d64207eb4c04da5fe8b4a6c4ef078b3829b4ce3",
+                  "size": 37293001,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-43742a2",
                   "sha256": "43742a2454ce12c03d2eff3e0c075207c9d76b6aa32a0e66dc37e949799d1ab0",
@@ -38407,16 +38447,22 @@
             {
               "name": "Luma-Kingdom_Come_Deliverance.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Kingdom_Come_Deliverance.zip",
-              "sha256": "d61fc25802857450bc33f149952fc739dc3cede2ec55bb3a7a11446e44d1c8a7",
-              "size": 36354432,
-              "version": "2026-11-08-d61fc25",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DCBF73A\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Kingdom_Come_Deliverance.zip",
+              "sha256": "8d5b5c2fdcc14d6b80d8a655e37ba5f055c54449c0a51ff5fa34df86baadd801",
+              "size": 36354371,
+              "version": "2026-11-09-8d5b5c2",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644A45B7C\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-d61fc25",
+                  "sha256": "d61fc25802857450bc33f149952fc739dc3cede2ec55bb3a7a11446e44d1c8a7",
+                  "size": 36354432,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-8648fd5",
                   "sha256": "8648fd5ecc6d826b97ef90405ce0412cdfe56d1a6eaf23f7ad2ecfbd24b119fe",
@@ -38511,16 +38557,22 @@
             {
               "name": "Luma-L.A._Noire-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-L.A._Noire-x32.zip",
-              "sha256": "18dc30d2ccaca6d1fd4448c798aa07ec24436acefc2a7801e8ef94b9c2620096",
-              "size": 4375389,
-              "version": "2026-11-08-18dc30d",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36E7B7E5\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-L.A._Noire-x32.zip",
+              "sha256": "cf886cd60a15fc0157e6821ea69000eb4a23b83362667ea26eea5d953d8898e1",
+              "size": 4376052,
+              "version": "2026-11-09-cf886cd",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641451CC9\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-18dc30d",
+                  "sha256": "18dc30d2ccaca6d1fd4448c798aa07ec24436acefc2a7801e8ef94b9c2620096",
+                  "size": 4375389,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0c1236c",
                   "sha256": "0c1236c3261068d6d751c1a65a5ef52b45fdb9454aacae1674b2a3c7929670d2",
@@ -38615,16 +38667,22 @@
             {
               "name": "Luma-Lara_Croft_and_the_Temple_of_Osiris-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Lara_Croft_and_the_Temple_of_Osiris-x32.zip",
-              "sha256": "caae73010665321364bb7f62df0396a7b571c02e1b609207b62497ce63c9c5b0",
-              "size": 4387033,
-              "version": "2026-11-08-caae730",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36E98A9A\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Lara_Croft_and_the_Temple_of_Osiris-x32.zip",
+              "sha256": "d3e7c9c5737511685ffda662b6f1a1374da17c4b9a31265f30fcc3c6a842ebd5",
+              "size": 4387644,
+              "version": "2026-11-09-d3e7c9c",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264176CA69\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-caae730",
+                  "sha256": "caae73010665321364bb7f62df0396a7b571c02e1b609207b62497ce63c9c5b0",
+                  "size": 4387033,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-2254826",
                   "sha256": "2254826009c2f4ad3171765ae5d868ab1b90ce4383a54944bfd66770eb7f6ed3",
@@ -38719,16 +38777,22 @@
             {
               "name": "Luma-Lego_City_Undercover.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Lego_City_Undercover.zip",
-              "sha256": "f926ca280860c26d5cba84834d4cd2dce2d31d6c81a6849f31bc31aa087c8ae6",
-              "size": 5224987,
-              "version": "2026-11-08-f926ca2",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD373FF131\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Lego_City_Undercover.zip",
+              "sha256": "63b2e9542aafad9414d78b3ffb23a4bd905c9e6f07fd1e9f40fe26972d808ee6",
+              "size": 5225193,
+              "version": "2026-11-09-63b2e95",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641659FAA\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-f926ca2",
+                  "sha256": "f926ca280860c26d5cba84834d4cd2dce2d31d6c81a6849f31bc31aa087c8ae6",
+                  "size": 5224987,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-92a2b8e",
                   "sha256": "92a2b8e140813ba5851ad35680fed615a2e0c4083b7988e8eaecc7066611f330",
@@ -38823,16 +38887,22 @@
             {
               "name": "Luma-Mafia_Definitive_Edition.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mafia_Definitive_Edition.zip",
-              "sha256": "988652f3286d53be68dc50ddefe2fcc8c6499d9eec718ff11562263ffdf08b03",
-              "size": 36364771,
-              "version": "2026-11-08-988652f",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DB7002E\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mafia_Definitive_Edition.zip",
+              "sha256": "af68f8eb62cdb706c58a16628b53c17191e2150131080abd81c980398b289a46",
+              "size": 36364765,
+              "version": "2026-11-09-af68f8e",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C63C67\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-988652f",
+                  "sha256": "988652f3286d53be68dc50ddefe2fcc8c6499d9eec718ff11562263ffdf08b03",
+                  "size": 36364771,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-03669c8",
                   "sha256": "03669c8d0f4cbea6d086bc060a545157d4d3abf7eb2ea991fefaf0c56e875ad2",
@@ -38855,16 +38925,22 @@
             {
               "name": "Luma-Mafia_III.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mafia_III.zip",
-              "sha256": "ae0278e664d3c63610587f28bba62b78146b0eb4f7e8e050f22a21dc5c4a29c2",
-              "size": 36411044,
-              "version": "2026-11-08-ae0278e",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DB1FCBA\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mafia_III.zip",
+              "sha256": "c6936e6632879dafcd36742f92839df92c9eff15a7c2ff2f9db927d5e59be527",
+              "size": 36411107,
+              "version": "2026-11-09-c6936e6",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26450A2509\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-ae0278e",
+                  "sha256": "ae0278e664d3c63610587f28bba62b78146b0eb4f7e8e050f22a21dc5c4a29c2",
+                  "size": 36411044,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-88da4ef",
                   "sha256": "88da4ef7b492c3c0b4248a26f6fd90d49bd279d0443893363b5488eebed5a7e5",
@@ -38959,16 +39035,22 @@
             {
               "name": "Luma-Mafia_II_Definitive_Edition.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mafia_II_Definitive_Edition.zip",
-              "sha256": "27e2b3a0e445b65456bb600f97113198749b1846049f9cd9982ad93ae6c70768",
-              "size": 5241028,
-              "version": "2026-11-08-27e2b3a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD374762E2\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mafia_II_Definitive_Edition.zip",
+              "sha256": "2da8baa8776da8fabfcd2d75128d98f4645ba58018320d6aad0a04bada04c301",
+              "size": 5241124,
+              "version": "2026-11-09-2da8baa",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264167C022\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-27e2b3a",
+                  "sha256": "27e2b3a0e445b65456bb600f97113198749b1846049f9cd9982ad93ae6c70768",
+                  "size": 5241028,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-65e48ee",
                   "sha256": "65e48eec6d39fd279962a4bc61d31b208d5d0f9a5ea93e69ff8f442dc3854f6e",
@@ -39063,16 +39145,22 @@
             {
               "name": "Luma-Mass_Effect-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mass_Effect-x32.zip",
-              "sha256": "2e84f38b4c08e56cca0366cabe773e5a3ec315a81085f315d53446b21a3ca2f9",
-              "size": 4412860,
-              "version": "2026-11-08-2e84f38",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36E93CD1\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mass_Effect-x32.zip",
+              "sha256": "5b98b0bd7100241416579586b17d6257d477b0054177bb8fa23490fceec7b98f",
+              "size": 4413300,
+              "version": "2026-11-09-5b98b0b",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26413C73F3\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-2e84f38",
+                  "sha256": "2e84f38b4c08e56cca0366cabe773e5a3ec315a81085f315d53446b21a3ca2f9",
+                  "size": 4412860,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-60d2c47",
                   "sha256": "60d2c47a93fc4a0a27ae3dd0fd2b75a29807f0e187165115db872f4c7a449ad0",
@@ -39167,16 +39255,22 @@
             {
               "name": "Luma-Mass_Effect_Andromeda.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mass_Effect_Andromeda.zip",
-              "sha256": "5e3b19e5ab75e58150399901ccc8c24f6242c9aae1e40623e3bdd264177d60cc",
-              "size": 131684348,
-              "version": "2026-11-08-5e3b19e",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD41EB59EB\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:17 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mass_Effect_Andromeda.zip",
+              "sha256": "4a06dc742b14b246d7784d102a43bec71d9824ae5cdb232f024e80967226ac5a",
+              "size": 131684018,
+              "version": "2026-11-09-4a06dc7",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264756B73B\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:03 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-5e3b19e",
+                  "sha256": "5e3b19e5ab75e58150399901ccc8c24f6242c9aae1e40623e3bdd264177d60cc",
+                  "size": 131684348,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-fcd7a4d",
                   "sha256": "fcd7a4d1923e6df56ebba69933dd0996deae0bd5ff892c8daa4c5044bebac282",
@@ -39271,16 +39365,22 @@
             {
               "name": "Luma-Mass_Effect_Legendary_Edition.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mass_Effect_Legendary_Edition.zip",
-              "sha256": "9c8d4c4495f3d0afa7cb2283d2a57b32dc6ee2bedc1a6b7370d75e80e54c17d4",
-              "size": 5273092,
-              "version": "2026-11-08-9c8d4c4",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3745694D\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mass_Effect_Legendary_Edition.zip",
+              "sha256": "428cd4e780674a98a412b4af64e1901a8a82b2c5711d548a73cef9a9bf727458",
+              "size": 5273257,
+              "version": "2026-11-09-428cd4e",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264162E395\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-9c8d4c4",
+                  "sha256": "9c8d4c4495f3d0afa7cb2283d2a57b32dc6ee2bedc1a6b7370d75e80e54c17d4",
+                  "size": 5273092,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-eb86ce7",
                   "sha256": "eb86ce77fb539d6bc01b0d97d5a8bace0b7bf4b69f1362a5dc2444b6b6e66d72",
@@ -39375,16 +39475,22 @@
             {
               "name": "Luma-Medal_of_Honor_Airborne-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Medal_of_Honor_Airborne-x32.zip",
-              "sha256": "5655cbd6b5b18c752d202b1ecd1bec5c30936d7020c0830860d393707f4c7829",
-              "size": 4414406,
-              "version": "2026-11-08-5655cbd",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36F88A0F\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Medal_of_Honor_Airborne-x32.zip",
+              "sha256": "af6eb9e816594835c31ca4799edb3cd269804d21172aa09ebb23169b75f8aed7",
+              "size": 4414652,
+              "version": "2026-11-09-af6eb9e",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264135FC58\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-5655cbd",
+                  "sha256": "5655cbd6b5b18c752d202b1ecd1bec5c30936d7020c0830860d393707f4c7829",
+                  "size": 4414406,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-8e5b9f8",
                   "sha256": "8e5b9f86972d88ced786760d026100a9f115535d0c76f2d93985c33a120c8e75",
@@ -39479,16 +39585,22 @@
             {
               "name": "Luma-Metal_Gear_Solid_4_Guns_of_the_Patriots.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Metal_Gear_Solid_4_Guns_of_the_Patriots.zip",
-              "sha256": "a4050d53a03e5804358cd80cbe46f5f3455af8320e00db0a7b48229eb5da59fd",
-              "size": 5280235,
-              "version": "2026-11-08-a4050d5",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3772FCDA\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Metal_Gear_Solid_4_Guns_of_the_Patriots.zip",
+              "sha256": "5460559d42dca498e0aa1b9a2772099b3cfb56b40b08b8327531f1aae11cceb8",
+              "size": 5280514,
+              "version": "2026-11-09-5460559",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26416DFAAD\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-a4050d5",
+                  "sha256": "a4050d53a03e5804358cd80cbe46f5f3455af8320e00db0a7b48229eb5da59fd",
+                  "size": 5280235,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-dcf85c7",
                   "sha256": "dcf85c74dfab780633b54f88c4b823cd2407dbb62344ddf01c544f97c63b4c7d",
@@ -39583,16 +39695,22 @@
             {
               "name": "Luma-Metal_Gear_Solid_V_The_Phantom_Pain.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Metal_Gear_Solid_V_The_Phantom_Pain.zip",
-              "sha256": "dbc657161151f8b566c81a015beb512c2995dac13d05751816e7881677df6cba",
-              "size": 71867434,
-              "version": "2026-11-08-dbc6571",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3FCAF6A1\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:13 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Metal_Gear_Solid_V_The_Phantom_Pain.zip",
+              "sha256": "8b8fb6e528ba4e8216db1b69fa6b48eee99564c23b815492c803b082fbea9a11",
+              "size": 71867407,
+              "version": "2026-11-09-8b8fb6e",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2645BC4094\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:00 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-dbc6571",
+                  "sha256": "dbc657161151f8b566c81a015beb512c2995dac13d05751816e7881677df6cba",
+                  "size": 71867434,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0260753",
                   "sha256": "026075352bc9dfe1784f30d2d5068a08d9562f96bf3e4fd03f7ffea0e498974d",
@@ -39615,16 +39733,22 @@
             {
               "name": "Luma-Metaphor_ReFantazio.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Metaphor_ReFantazio.zip",
-              "sha256": "1153f685d76877f460ed7fc701175481dd5abace5d32e327819e97fecc075dcb",
-              "size": 37459546,
-              "version": "2026-11-08-1153f68",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DE29A1F\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Metaphor_ReFantazio.zip",
+              "sha256": "77e0ab352f72f004b1c4c69172324cea2328f7da45c8aa8a01d764f366845e63",
+              "size": 37459724,
+              "version": "2026-11-09-77e0ab3",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C3596B\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-1153f68",
+                  "sha256": "1153f685d76877f460ed7fc701175481dd5abace5d32e327819e97fecc075dcb",
+                  "size": 37459546,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-d88e4f7",
                   "sha256": "d88e4f7b9a1da60d6c97a7df564da2a51b458e981a5982307ab75cb4453922ab",
@@ -39719,16 +39843,22 @@
             {
               "name": "Luma-Metro_Redux.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Metro_Redux.zip",
-              "sha256": "e9a0d47492e5045ee559ac6478bf89cbae6afdf0c960769d7cda7038095dd16d",
-              "size": 5231523,
-              "version": "2026-11-08-e9a0d47",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37445916\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Metro_Redux.zip",
+              "sha256": "06b06a8159c4d45211e8730b331061be9fa04a70f719ff58e788ca0be9349e1b",
+              "size": 5231689,
+              "version": "2026-11-09-06b06a8",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641542710\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-e9a0d47",
+                  "sha256": "e9a0d47492e5045ee559ac6478bf89cbae6afdf0c960769d7cda7038095dd16d",
+                  "size": 5231523,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-8dd5a37",
                   "sha256": "8dd5a371c13a97af6fc1257648dbce72a83d5bd50187085a320997976400fbe9",
@@ -39823,16 +39953,22 @@
             {
               "name": "Luma-Middle-earth_Shadow_of_War.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Middle-earth_Shadow_of_War.zip",
-              "sha256": "7a008056fcfe854f8090d1f760b79e4b5eed1587dff4f5c767ff81cd83a7771d",
-              "size": 37271973,
-              "version": "2026-11-08-7a00805",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DDC38A4\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Middle-earth_Shadow_of_War.zip",
+              "sha256": "4b772c2c8b8897b05a10cc350e7f38937e373df0df6bbcd32edb35440eec86b7",
+              "size": 37271839,
+              "version": "2026-11-09-4b772c2",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644DC1CCA\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-7a00805",
+                  "sha256": "7a008056fcfe854f8090d1f760b79e4b5eed1587dff4f5c767ff81cd83a7771d",
+                  "size": 37271973,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-9084aff",
                   "sha256": "9084aff905f3677f0639ffe213ba3294aa20d4a9147b25c355a7bb9c35b56ae8",
@@ -39927,16 +40063,22 @@
             {
               "name": "Luma-Mirror.s_Edge_Catalyst.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mirror.s_Edge_Catalyst.zip",
-              "sha256": "4d46aa1e26b7f9e1da042c0619bdb0aa6145a001677902153506907ddd3d1444",
-              "size": 5207735,
-              "version": "2026-11-08-4d46aa1",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD374D28C3\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mirror.s_Edge_Catalyst.zip",
+              "sha256": "e8a275fb9ff5d32d45f153b139e512bf7bc2c7c6e9db698ac2e6371c6b639651",
+              "size": 5207935,
+              "version": "2026-11-09-e8a275f",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641500D02\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-4d46aa1",
+                  "sha256": "4d46aa1e26b7f9e1da042c0619bdb0aa6145a001677902153506907ddd3d1444",
+                  "size": 5207735,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-b990509",
                   "sha256": "b9905095eaef6b6862ca654361dc82fd3ee7f1cc50d4744bd8d64f2c6e371f5e",
@@ -40031,16 +40173,22 @@
             {
               "name": "Luma-Monster_Hunter_World.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Monster_Hunter_World.zip",
-              "sha256": "7789389960f69e01dd90fe44322f51b944d01f2f0e1d83f407ed1a18bef75c0f",
-              "size": 36361857,
-              "version": "2026-11-08-7789389",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DD4EDDB\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Monster_Hunter_World.zip",
+              "sha256": "32b9d334e506717a1977140393d34e75361c2ebe7e14d7e6542ba8be8a3b6d0b",
+              "size": 36361881,
+              "version": "2026-11-09-32b9d33",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26448D1D08\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:58 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-7789389",
+                  "sha256": "7789389960f69e01dd90fe44322f51b944d01f2f0e1d83f407ed1a18bef75c0f",
+                  "size": 36361857,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-e8aa0ed",
                   "sha256": "e8aa0ed6cec144137f32e290d3681cfb9be5162154c2b8481ff0cca6ac361b24",
@@ -40135,16 +40283,22 @@
             {
               "name": "Luma-Mortal_Kombat_11.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Mortal_Kombat_11.zip",
-              "sha256": "cad51edd850db9c85665722f932981b514bd78bd34d88f528c227fc787a54d01",
-              "size": 36350158,
-              "version": "2026-11-08-cad51ed",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DBA7EAD\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Mortal_Kombat_11.zip",
+              "sha256": "05985f46fd456b63fb69dc271a750e7f66ccf3c01e6c2daa38ea178b76025162",
+              "size": 36350240,
+              "version": "2026-11-09-05985f4",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644A544D5\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-cad51ed",
+                  "sha256": "cad51edd850db9c85665722f932981b514bd78bd34d88f528c227fc787a54d01",
+                  "size": 36350158,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-f3fa74b",
                   "sha256": "f3fa74bbf18ac8abaf7572fd100321ba49be3f38cbac0ed0dff62366cd6a4efc",
@@ -40239,16 +40393,22 @@
             {
               "name": "Luma-NieR_Automata.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-NieR_Automata.zip",
-              "sha256": "9b5c9c11cb730d580a21f453a109859b8d4fd168a6cfb1f1d55be8c25e8c1c34",
-              "size": 5208138,
-              "version": "2026-11-08-9b5c9c1",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD373D3525\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-NieR_Automata.zip",
+              "sha256": "8ced2cb7d67c8a496acfff4f8454cf7b11a9712183dc010bc24f6023e74b03d0",
+              "size": 5208517,
+              "version": "2026-11-09-8ced2cb",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26414ED5D7\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-9b5c9c1",
+                  "sha256": "9b5c9c11cb730d580a21f453a109859b8d4fd168a6cfb1f1d55be8c25e8c1c34",
+                  "size": 5208138,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-5dac2bf",
                   "sha256": "5dac2bf027b2f3e609415b9379bf17405281a0660e31b22abc189afbfe6918ab",
@@ -40343,16 +40503,22 @@
             {
               "name": "Luma-NieR_Replicant.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-NieR_Replicant.zip",
-              "sha256": "ac51e62b9464f5c7cac0a67ff68d73cef89e594ef19acc5fba217bd8d7dee29b",
-              "size": 37286736,
-              "version": "2026-11-08-ac51e62",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DF549CA\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-NieR_Replicant.zip",
+              "sha256": "c04d2969fdf6e999c653bb9f818f183328a27e704313ce232cf286c01adcc5d7",
+              "size": 37286788,
+              "version": "2026-11-09-c04d296",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C7737F\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-ac51e62",
+                  "sha256": "ac51e62b9464f5c7cac0a67ff68d73cef89e594ef19acc5fba217bd8d7dee29b",
+                  "size": 37286736,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-47ccbf3",
                   "sha256": "47ccbf357107aa7e66d469a088f6a9d6b858d607d3e8f4812bc2eaa39c97976e",
@@ -40441,16 +40607,22 @@
             {
               "name": "Luma-Nioh.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Nioh.zip",
-              "sha256": "93e6f3aad4bc69587e08d013719389c60b63c0aef1c9cfddeeed406db9a2ab13",
-              "size": 5217542,
-              "version": "2026-11-08-93e6f3a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3745DE00\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Nioh.zip",
+              "sha256": "ba803f75421ca032977afa9f6020875ee287537a58b7a5814d06425ddea93d64",
+              "size": 5217749,
+              "version": "2026-11-09-ba803f7",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641527B47\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-93e6f3a",
+                  "sha256": "93e6f3aad4bc69587e08d013719389c60b63c0aef1c9cfddeeed406db9a2ab13",
+                  "size": 5217542,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-4a780c5",
                   "sha256": "4a780c518fce4197c6f61227ee2a866b56a65570b9b1b2651b6c1a5a16b06f1d",
@@ -40545,16 +40717,22 @@
             {
               "name": "Luma-Persona_5_Royal.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Persona_5_Royal.zip",
-              "sha256": "732888d7c41c639628cda9b55401bf5a09362a01148caec97f049f90d3399439",
-              "size": 37253220,
-              "version": "2026-11-08-732888d",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DFB3695\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Persona_5_Royal.zip",
+              "sha256": "f416639ec286e79379bf6930988daea77f3014ebd7ed70ffd3db5468e156043f",
+              "size": 37253334,
+              "version": "2026-11-09-f416639",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C3A734\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-732888d",
+                  "sha256": "732888d7c41c639628cda9b55401bf5a09362a01148caec97f049f90d3399439",
+                  "size": 37253220,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-3a8cd7b",
                   "sha256": "3a8cd7bc2c3fc193cf04097a97615400a80d6170253242c3243932a93d121670",
@@ -40649,16 +40827,22 @@
             {
               "name": "Luma-Prey.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Prey.zip",
-              "sha256": "d796ec341c8e4c125fdc2908808b0e2c7829d1d28abb8905a98a32cfaa468528",
-              "size": 37612202,
-              "version": "2026-11-08-d796ec3",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3E224016\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:11 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Prey.zip",
+              "sha256": "c729f9a90a7034ec6d46ac07822a2f7915b1bb8a916723ec67a066ec8fd52146",
+              "size": 37612354,
+              "version": "2026-11-09-c729f9a",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644C6FED5\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-d796ec3",
+                  "sha256": "d796ec341c8e4c125fdc2908808b0e2c7829d1d28abb8905a98a32cfaa468528",
+                  "size": 37612202,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-ae1483f",
                   "sha256": "ae1483fbf9c57a903f1d5e39a90643e32329f4e47c92517e84be88df5fdc98ea",
@@ -40753,16 +40937,22 @@
             {
               "name": "Luma-Project_Diva_Mega_Mix.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Project_Diva_Mega_Mix.zip",
-              "sha256": "8913f74e982e4780443e14bec64406cbae81bbf3eaae13bd6292554067ba3dc4",
-              "size": 5386986,
-              "version": "2026-11-08-8913f74",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37685A73\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Project_Diva_Mega_Mix.zip",
+              "sha256": "45b6cddbf628ade981299ec72a7e23a521df9933b3af62b397746da315fd180f",
+              "size": 5387114,
+              "version": "2026-11-09-45b6cdd",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641522D91\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-8913f74",
+                  "sha256": "8913f74e982e4780443e14bec64406cbae81bbf3eaae13bd6292554067ba3dc4",
+                  "size": 5386986,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0f58c85",
                   "sha256": "0f58c85c7dcfd28904ad4521a14cccce03b9b3359f86d2b7d17b15430257e8a8",
@@ -40857,16 +41047,22 @@
             {
               "name": "Luma-Quantum_Break.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Quantum_Break.zip",
-              "sha256": "8cbdfe25e42d796267460112edc877d93fd9f380e15531435d30b717176f1c10",
-              "size": 37287437,
-              "version": "2026-11-08-8cbdfe2",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DCA4B6D\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Quantum_Break.zip",
+              "sha256": "33c22b3d069df7f1fd7dedb644a433d77d06eedc249848e79f5f8449b3071363",
+              "size": 37287466,
+              "version": "2026-11-09-33c22b3",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644A0416E\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-8cbdfe2",
+                  "sha256": "8cbdfe25e42d796267460112edc877d93fd9f380e15531435d30b717176f1c10",
+                  "size": 37287437,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-a7352c6",
                   "sha256": "a7352c6fc6113dd5a60c20b957b63378cfe909fe53beb6fd3e3495fb30c62dd0",
@@ -40961,16 +41157,22 @@
             {
               "name": "Luma-Saints_Row_The_Third_Remastered.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Saints_Row_The_Third_Remastered.zip",
-              "sha256": "2c8aafde916ee783be6e5c60e8ddc12ec5b27acf7070d35b1afae90a440aeceb",
-              "size": 37299530,
-              "version": "2026-11-08-2c8aafd",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DEDD81F\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Saints_Row_The_Third_Remastered.zip",
+              "sha256": "c9303ba5b806d2f391c6908d93af798ce3bf5a93c0598301fae1b26b4681865e",
+              "size": 37299639,
+              "version": "2026-11-09-c9303ba",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644CC9DCF\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-2c8aafd",
+                  "sha256": "2c8aafde916ee783be6e5c60e8ddc12ec5b27acf7070d35b1afae90a440aeceb",
+                  "size": 37299530,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-9ffd237",
                   "sha256": "9ffd2379abec955a6e452cca835470e3d0c1d92b7939950a7b71a5b4816d37ae",
@@ -41065,16 +41267,22 @@
             {
               "name": "Luma-Sekiro.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Sekiro.zip",
-              "sha256": "83545ac8158b686e9a4dcd6e42963e6fab0643b845f40d72c7476c1acd6b406f",
-              "size": 6116816,
-              "version": "2026-11-08-83545ac",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3785D372\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Sekiro.zip",
+              "sha256": "dfecabeffd758cc5e144b16cd077e722a45a2f1a00148c4d8da599b61cd5aeb0",
+              "size": 6116983,
+              "version": "2026-11-09-dfecabe",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26416DACE6\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-83545ac",
+                  "sha256": "83545ac8158b686e9a4dcd6e42963e6fab0643b845f40d72c7476c1acd6b406f",
+                  "size": 6116816,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-a75e940",
                   "sha256": "a75e940687805d2903f6428d6ff855be3ddecc45494fad4b01713db6f8a8f362",
@@ -41169,16 +41377,22 @@
             {
               "name": "Luma-Shenmue_I_._II.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Shenmue_I_._II.zip",
-              "sha256": "5f12359ffa280b7849404826e75631ae5a18a9dcfd47b30a0d1f25bacc370884",
-              "size": 5220060,
-              "version": "2026-11-08-5f12359",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37439698\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Shenmue_I_._II.zip",
+              "sha256": "539a00794621c13c2a4792c1127a051cb99111bd6e692c7c7d24c9eaf1ef7c9d",
+              "size": 5220280,
+              "version": "2026-11-09-539a007",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26416AC9F9\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-5f12359",
+                  "sha256": "5f12359ffa280b7849404826e75631ae5a18a9dcfd47b30a0d1f25bacc370884",
+                  "size": 5220060,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-7757dda",
                   "sha256": "7757dda72f726a7f062e84b3923dfb33d37e70fe4de12acfbb85f1f7eae22494",
@@ -41273,16 +41487,22 @@
             {
               "name": "Luma-Snowbreak_Containment_Zone.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Snowbreak_Containment_Zone.zip",
-              "sha256": "7092ba9e84136df7a0c346f4a7febd1c0e51f96d75e10337ce5216a9cba3b4cc",
-              "size": 37279075,
-              "version": "2026-11-08-7092ba9",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DE3AA5E\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Snowbreak_Containment_Zone.zip",
+              "sha256": "f64c14388d3115fff5711a9d97925bbc06d26a8786340d0bd974e1815aaaf97b",
+              "size": 37279310,
+              "version": "2026-11-09-f64c143",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644A2FD7B\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-7092ba9",
+                  "sha256": "7092ba9e84136df7a0c346f4a7febd1c0e51f96d75e10337ce5216a9cba3b4cc",
+                  "size": 37279075,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-3871d2f",
                   "sha256": "3871d2f65022f17238d75c05ef93255682b7aed4eb93ee4a618b4f080f6cc150",
@@ -41377,16 +41597,22 @@
             {
               "name": "Luma-Sunset_Overdrive.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Sunset_Overdrive.zip",
-              "sha256": "47bb65095c33237fc25bdf141fa9572963144f890a00492b114bb77b921d253b",
-              "size": 37297201,
-              "version": "2026-11-08-47bb650",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DDF904B\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Sunset_Overdrive.zip",
+              "sha256": "3424ea88bcfb26aee32962634ba4a0984ff8ddec08481007e47e305aaaea3565",
+              "size": 37297369,
+              "version": "2026-11-09-3424ea8",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644BC0E9D\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:59 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-47bb650",
+                  "sha256": "47bb65095c33237fc25bdf141fa9572963144f890a00492b114bb77b921d253b",
+                  "size": 37297201,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-6e9f218",
                   "sha256": "6e9f2187acc9b3e6f7b7a819c999ee8d751fae264d791f07c15bf9f43ab37b40",
@@ -41409,16 +41635,22 @@
             {
               "name": "Luma-The_Evil_Within_2.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-The_Evil_Within_2.zip",
-              "sha256": "b9a37f1f9b66d525612e3d72f329234fcba1d37d2ebf4b63b2572c47c42a804f",
-              "size": 36355534,
-              "version": "2026-11-08-b9a37f1",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3DAE3069\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:10 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-The_Evil_Within_2.zip",
+              "sha256": "1b90c0b2914138bf4a3752032f4c9dc743c433e4a989a37d0aea5c1f8a9470ea",
+              "size": 36355530,
+              "version": "2026-11-09-1b90c0b",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26447D027F\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:58 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-b9a37f1",
+                  "sha256": "b9a37f1f9b66d525612e3d72f329234fcba1d37d2ebf4b63b2572c47c42a804f",
+                  "size": 36355534,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-6a32402",
                   "sha256": "6a32402dd03c905822a0762ffdc7a379af238fc501d5c48eeec11f415d94517c",
@@ -41513,16 +41745,22 @@
             {
               "name": "Luma-The_Witcher_2-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-The_Witcher_2-x32.zip",
-              "sha256": "01457cbaa8c1eb07537e2414fb052368c50ce60fc145d935791daea7e0a14452",
-              "size": 4420244,
-              "version": "2026-11-08-01457cb",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36D77A45\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-The_Witcher_2-x32.zip",
+              "sha256": "34d5dd9a9d0c78ace3a71ef9bdf6095a090b9a6157ac75114114b7b2b5bb6707",
+              "size": 4420406,
+              "version": "2026-11-09-34d5dd9",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2640DBE56D\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-01457cb",
+                  "sha256": "01457cbaa8c1eb07537e2414fb052368c50ce60fc145d935791daea7e0a14452",
+                  "size": 4420244,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-bee728c",
                   "sha256": "bee728ccb12671048089f2021c9d2a79ba534d2dd0cb29a026b5be9d8188f284",
@@ -41617,16 +41855,22 @@
             {
               "name": "Luma-Thief_.2014.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Thief_.2014.zip",
-              "sha256": "c962adc46b7a8ac510ed844a828b6b60152b3851c7308c5fc840568de29e204e",
-              "size": 5264872,
-              "version": "2026-11-08-c962adc",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD374604DA\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Thief_.2014.zip",
+              "sha256": "0228e1bbb6ff889a614dbc720a6c7b9d54c5e0b27ad389cf5aba95593f987d28",
+              "size": 5265113,
+              "version": "2026-11-09-0228e1b",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2641031789\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:53 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-c962adc",
+                  "sha256": "c962adc46b7a8ac510ed844a828b6b60152b3851c7308c5fc840568de29e204e",
+                  "size": 5264872,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-25ef6a7",
                   "sha256": "25ef6a71c4cc1c0b483a33cd76a412986a64aeef9b031d46d00144071c82b349",
@@ -41721,16 +41965,22 @@
             {
               "name": "Luma-Thumper.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Thumper.zip",
-              "sha256": "b3b3ead7ad29b4de322772a4889466f78e038f835fc3a187898a7df990cb9b09",
-              "size": 5228238,
-              "version": "2026-11-08-b3b3ead",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37439698\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Thumper.zip",
+              "sha256": "50b0d69ac6dcb307cdab59c410908b24b869b761a272e996c57792ed7efc7ecd",
+              "size": 5228501,
+              "version": "2026-11-09-50b0d69",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2640D14302\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-b3b3ead",
+                  "sha256": "b3b3ead7ad29b4de322772a4889466f78e038f835fc3a187898a7df990cb9b09",
+                  "size": 5228238,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-1d6a625",
                   "sha256": "1d6a625fc13817baacd0ebc524590a58660d9e4f92f3bce5c92b9bd17aeb2c24",
@@ -41825,16 +42075,22 @@
             {
               "name": "Luma-Titanfall_2.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Titanfall_2.zip",
-              "sha256": "f57e35a8f1c2948798404a2bd2ac3f6c7a452359ab5c4c1e6d16c54f85446337",
-              "size": 5206895,
-              "version": "2026-11-08-f57e35a",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3737E3EB\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Titanfall_2.zip",
+              "sha256": "ddf2fafba1213bdaca34c2776fde9255eba58c40a24e92d88c747fe968303b89",
+              "size": 5207128,
+              "version": "2026-11-09-ddf2faf",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2640995AD0\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-f57e35a",
+                  "sha256": "f57e35a8f1c2948798404a2bd2ac3f6c7a452359ab5c4c1e6d16c54f85446337",
+                  "size": 5206895,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-46cb9b9",
                   "sha256": "46cb9b90f559db58a17a3568b766f7709856bf8ea7cecf7f56621870c071db16",
@@ -41929,16 +42185,22 @@
             {
               "name": "Luma-Trine_5.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Trine_5.zip",
-              "sha256": "e3558852dc8018c33fd46cf3b788a7630df4153227ecda8014477e71d2eaa7ca",
-              "size": 5229600,
-              "version": "2026-11-08-e355885",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD37337C0D\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Trine_5.zip",
+              "sha256": "0d2a49d292209f4f3cb45517f55e8f382d1fb00e507423cebc9087b424728fa0",
+              "size": 5229765,
+              "version": "2026-11-09-0d2a49d",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26408463C1\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-e355885",
+                  "sha256": "e3558852dc8018c33fd46cf3b788a7630df4153227ecda8014477e71d2eaa7ca",
+                  "size": 5229600,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-22e6839",
                   "sha256": "22e68392e1a2b7f6c3cf66e65ef0720ac862a4472d42c18d90b2830d0d14b3ac",
@@ -42033,16 +42295,22 @@
             {
               "name": "Luma-Unity_Engine.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Unity_Engine.zip",
-              "sha256": "90c40312aabac48e99afad318e6f87ccca4a1ce5d7785ad1df4df4dd14cf3546",
-              "size": 5294706,
-              "version": "2026-11-08-90c4031",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3747B0A8\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:59 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Unity_Engine.zip",
+              "sha256": "6c6d68a7920df019e8f75657ab8233abb43c5427c75ac57820d6846285542775",
+              "size": 5294858,
+              "version": "2026-11-09-6c6d68a",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2640C5DE22\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-90c4031",
+                  "sha256": "90c40312aabac48e99afad318e6f87ccca4a1ce5d7785ad1df4df4dd14cf3546",
+                  "size": 5294706,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-b4757b6",
                   "sha256": "b4757b66686cddfb8f888b87a8f7eed8dad5309c82e677425959a7bedc0ccde3",
@@ -42132,16 +42400,22 @@
             {
               "name": "Luma-Unity_Engine-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Unity_Engine-x32.zip",
-              "sha256": "ad813343746e96da25b9d93a142ce1d9dc8a3039dc323b1635adcbc651ca38bd",
-              "size": 4464004,
-              "version": "2026-11-08-ad81334",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36E6CE93\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Unity_Engine-x32.zip",
+              "sha256": "6bf87748e1de4e94a67b17e1a5ec7fa6839ed114429b90d7264e70495eee480a",
+              "size": 4464284,
+              "version": "2026-11-09-6bf8774",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2640A9EA06\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:52 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-ad81334",
+                  "sha256": "ad813343746e96da25b9d93a142ce1d9dc8a3039dc323b1635adcbc651ca38bd",
+                  "size": 4464004,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-cf53b61",
                   "sha256": "cf53b61e9fd04dc64c85d506d246495dfec7bcdd328f2716fa10fcadf7707b47",
@@ -42236,16 +42510,22 @@
             {
               "name": "Luma-Unreal_Engine.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Unreal_Engine.zip",
-              "sha256": "6dedb5fe7f0f216f34874f69a8c6cf1b425ecb8e5b489220e8b77f8800ed8b95",
-              "size": 131730848,
-              "version": "2026-11-08-6dedb5f",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD42273D50\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:17 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Unreal_Engine.zip",
+              "sha256": "0bf955680e3e8fdd9bb753d191de86eba66e0daac2e57cfb74c8815d24ce5031",
+              "size": 131732831,
+              "version": "2026-11-09-0bf9556",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E264741994A\"",
+              "lastModified": "Mon, 09 Nov 2026 05:57:03 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-6dedb5f",
+                  "sha256": "6dedb5fe7f0f216f34874f69a8c6cf1b425ecb8e5b489220e8b77f8800ed8b95",
+                  "size": 131730848,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-44b579d",
                   "sha256": "44b579d3a3dcee483dbba3bfef69cfafe1c102794b135d77864e67aacb7b0c90",
@@ -42340,16 +42620,22 @@
             {
               "name": "Luma-Vanquish-x32.zip",
               "arch": "x86",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Vanquish-x32.zip",
-              "sha256": "9c80380f617e36bbef088744a8bc5a3ec9ed3366089d1d021220326531bbb531",
-              "size": 4408102,
-              "version": "2026-11-08-9c80380",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD36CCFEBD\"",
-              "lastModified": "Sun, 08 Nov 2026 17:24:58 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Vanquish-x32.zip",
+              "sha256": "b54764ac60966b9e2e9023753713243db7323ea75c185bf132dd79382c9e380e",
+              "size": 4408736,
+              "version": "2026-11-09-b54764a",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E26402FF574\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:51 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-9c80380",
+                  "sha256": "9c80380f617e36bbef088744a8bc5a3ec9ed3366089d1d021220326531bbb531",
+                  "size": 4408102,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-9187328",
                   "sha256": "91873281b483ccfedb0fce30c8af2fffb1e92f70df270ec3b2652ab6a46397c5",
@@ -42444,16 +42730,22 @@
             {
               "name": "Luma-Watch_Dogs_2.zip",
               "arch": "x64",
-              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-810/Luma-Watch_Dogs_2.zip",
-              "sha256": "63df284139f98176ee883f23a285fb5e57481082517384a571a32d9a1dfff007",
-              "size": 37450748,
-              "version": "2026-11-08-63df284",
-              "firstSeen": "2026-11-08T22:04:26Z",
-              "verified": "2026-11-08",
-              "etag": "\"0x8DF3DBD3E601510\"",
-              "lastModified": "Sun, 08 Nov 2026 17:25:11 GMT",
+              "url": "https://github.com/Filoppi/Luma-Framework/releases/download/latest-812/Luma-Watch_Dogs_2.zip",
+              "sha256": "2a541973c1e56a4b8fa12876742cae6ae714b5506a44e2cad2220fa3d55ff184",
+              "size": 37450791,
+              "version": "2026-11-09-2a54197",
+              "firstSeen": "2026-11-09T06:26:24Z",
+              "verified": "2026-11-09",
+              "etag": "\"0x8DF3E2644358BE0\"",
+              "lastModified": "Mon, 09 Nov 2026 05:56:58 GMT",
               "mod": "luma",
               "history": [
+                {
+                  "version": "2026-11-08-63df284",
+                  "sha256": "63df284139f98176ee883f23a285fb5e57481082517384a571a32d9a1dfff007",
+                  "size": 37450748,
+                  "firstSeen": "2026-11-08T22:04:26Z"
+                },
                 {
                   "version": "2026-11-07-0965f78",
                   "sha256": "0965f789b4d81ce4229feb840f37aec9849595e5263b55762e1a6d7d3958fd38",
@@ -42784,7 +43076,6 @@
           ],
           "status": "working",
           "notes": "DLSS + HDR and more.",
-          "package": "Final_Fantasy_XV",
           "requiresDgVoodoo": false,
           "dgVoodooVersions": [],
           "dgVoodooSetup": []
@@ -44834,5 +45125,5 @@
       ]
     }
   },
-  "generated": "2026-11-08T22:04:26Z"
+  "generated": "2026-11-09T06:26:24Z"
 }
