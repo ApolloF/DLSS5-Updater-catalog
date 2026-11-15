@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-11-15T06:30:19Z",
+      "updated": "2026-11-15T18:50:42Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -11,7 +11,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/wiki/clshortfuse/renodx/Mods.md",
-          "count": 1114
+          "count": 1139
         }
       ],
       "generic": [
@@ -134,9 +134,9 @@
               "size": 64981504,
               "version": "2026-11-12-25e6a19",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af51235-3df8a00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:17 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af51238-3df8a00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:20 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/25e6a19154b0d155-renodx-ue-extended.addon64",
               "history": [
@@ -2484,8 +2484,8 @@
               "version": "2026-11-12-bae4d32",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51237-26cc00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
+              "etag": "\"6af51235-26cc00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/bae4d3253b6b04a4-renodx-ryza3.addon64",
               "history": [
@@ -2729,9 +2729,9 @@
               "size": 2453504,
               "version": "2026-11-12-35c49c6",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af5123a-257000\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:22 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af51237-257000\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/35c49c6a0b5ddb12-renodx-sophie1.addon64",
               "history": [
@@ -3630,8 +3630,8 @@
               "version": "2026-11-12-e3573f2",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51232-256000\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:14 GMT",
+              "etag": "\"6af51237-256000\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/e3573f2d061b09a1-renodx-BerserkBotH.addon64",
               "history": [
@@ -6401,8 +6401,8 @@
               "version": "2026-11-13-893a9b4",
               "firstSeen": "2026-11-13T06:45:05Z",
               "verified": "2026-11-15",
-              "etag": "\"6af62da9-207000\"",
-              "lastModified": "Thu, 12 Nov 2026 21:20:41 GMT",
+              "etag": "\"6af62da8-207000\"",
+              "lastModified": "Thu, 12 Nov 2026 21:20:40 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/893a9b4eee19b8ce-renodx-daysgone.addon64",
               "history": [
@@ -6473,9 +6473,9 @@
               "size": 3996672,
               "version": "2026-11-09-44a7051",
               "firstSeen": "2026-11-09T22:21:13Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af1fe84-3cfc00\"",
-              "lastModified": "Mon, 09 Nov 2026 17:10:28 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af1fe82-3cfc00\"",
+              "lastModified": "Mon, 09 Nov 2026 17:10:26 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/44a7051702ceb614-renodx-deadislandde.addon64",
               "history": [
@@ -8966,8 +8966,8 @@
               "version": "2026-11-12-a59a92f",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51238-26c600\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:20 GMT",
+              "etag": "\"6af51235-26c600\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/a59a92fb5b73fa89-renodx-fantasianneodimension.addon64",
               "history": [
@@ -10114,8 +10114,8 @@
               "version": "2026-11-02-49d6423",
               "firstSeen": "2026-11-02T15:50:41Z",
               "verified": "2026-11-15",
-              "etag": "\"6ae887e6-2b4600\"",
-              "lastModified": "Mon, 02 Nov 2026 12:53:58 GMT",
+              "etag": "\"6ae887e7-2b4600\"",
+              "lastModified": "Mon, 02 Nov 2026 12:53:59 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/49d6423d149acd35-renodx-gotsushima.addon64",
               "history": [
@@ -13232,9 +13232,9 @@
               "size": 1948672,
               "version": "2026-11-12-6eb8476",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af51238-1dbc00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:20 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af51236-1dbc00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/6eb84764c6e816d6-renodx-yakuzapirates.addon64",
               "history": [
@@ -13632,9 +13632,9 @@
               "size": 2549248,
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6ac0e4b3-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6ac0e4b0-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -14019,8 +14019,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-15",
-              "etag": "\"6ac0e4b3-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b1-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -14986,9 +14986,9 @@
               "size": 2598400,
               "version": "2026-10-21-04bc9fe",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6ac0e4b2-27a600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6ac0e4b1-27a600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/04bc9fee5e3b812e-renodx-metroiddread.addon64",
               "history": []
@@ -15709,8 +15709,8 @@
               "version": "2026-11-12-fe73d62",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51239-25ac00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
+              "etag": "\"6af51234-25ac00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/fe73d62f79b20763-renodx-nightsofazure1.addon64",
               "history": [
@@ -15854,8 +15854,8 @@
               "version": "2026-11-12-1200737",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51236-257a00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
+              "etag": "\"6af51239-257a00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/120073710a0e0e19-renodx-nightsofazure2.addon64",
               "history": [
@@ -17086,9 +17086,9 @@
               "size": 2718720,
               "version": "2026-11-12-a9c4318",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af51236-297c00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af51239-297c00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/a9c43185b5336c2e-renodx-pathfinder2wotr.addon64",
               "history": [
@@ -17710,8 +17710,8 @@
               "version": "2026-11-12-aa42645",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51239-269200\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
+              "etag": "\"6af51237-269200\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/aa4264530aa5fa25-renodx-raidou.addon64",
               "history": [
@@ -19682,9 +19682,9 @@
               "size": 2404864,
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6abc128a-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6abc1288-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -20938,9 +20938,9 @@
               "size": 2227200,
               "version": "2026-10-21-b546e4a",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6abc128a-21fc00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6abc1289-21fc00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/b546e4ad0eef8ec3-renodx-sonicunleashedrecomp.addon64",
               "history": []
@@ -20968,8 +20968,8 @@
               "version": "2026-10-21-95d69dc",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-15",
-              "etag": "\"6abc128a-246600\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246600\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/95d69dc11790ba56-renodx-sonsoftheforest.addon64",
               "history": []
@@ -21179,9 +21179,9 @@
               "size": 2576384,
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6ac0e4b3-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6ac0e4b4-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -21246,8 +21246,8 @@
               "version": "2026-10-21-8efd95c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-15",
-              "etag": "\"6ac0e4b4-28de00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b2-28de00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/8efd95c6d9472165-renodx-splatoon3.addon64",
               "history": []
@@ -21950,9 +21950,9 @@
               "size": 2826752,
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6ac0e4b4-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6ac0e4b3-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -22323,9 +22323,9 @@
               "size": 2536960,
               "version": "2026-11-09-6e7c278",
               "firstSeen": "2026-11-09T22:21:13Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af1fe86-26b600\"",
-              "lastModified": "Mon, 09 Nov 2026 17:10:30 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af1fe84-26b600\"",
+              "lastModified": "Mon, 09 Nov 2026 17:10:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/6e7c2783c0cc753f-renodx-teardown.addon64",
               "history": [
@@ -23005,8 +23005,8 @@
               "version": "2026-11-12-c4ee842",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-15",
-              "etag": "\"6af51237-2aec00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
+              "etag": "\"6af51232-2aec00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/c4ee842e6fdb317a-renodx-bersekerKhazan.addon64",
               "history": [
@@ -23447,8 +23447,8 @@
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-15",
-              "etag": "\"6ac0e4b0-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
+              "etag": "\"6ac0e4b2-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -25718,9 +25718,9 @@
               "size": 2520576,
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-14",
-              "etag": "\"6ac0e4b3-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6ac0e4b2-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -25893,9 +25893,9 @@
               "size": 2423808,
               "version": "2026-11-12-8ce5edb",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-14",
-              "etag": "\"6af51236-24fc00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
+              "verified": "2026-11-15",
+              "etag": "\"6af5123b-24fc00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/8ce5edb7acc23e11-renodx-ys10.addon64",
               "history": [
@@ -26166,8 +26166,7 @@
           "engine": "ue-extended",
           "name": "A Way Out",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Lacks testing.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Lacks testing."
         },
         {
           "engine": "ue-extended",
@@ -26180,8 +26179,7 @@
           "engine": "ue-extended",
           "name": "ABZÛ",
           "compat": "working",
-          "notes": "Upgrade Path: On\nB8G8R8A8_TYPELESS Output Size for 100% render resolution or Output Ratio for other percentages.",
-          "method": "upgrade",
+          "notes": "SDR to HDR\nB8G8R8A8_TYPELESS Output Size for 100% render resolution or Output Ratio for other percentages.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26207,8 +26205,7 @@
           "engine": "ue-extended",
           "name": "Astroneer",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading and flickering issues.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Grading and flickering issues."
         },
         {
           "engine": "ue-extended",
@@ -26235,8 +26232,7 @@
           "engine": "ue-extended",
           "name": "BLACKTAIL",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26277,8 +26273,8 @@
           "engine": "ue-extended",
           "name": "Chromatic Conundrum",
           "compat": "working",
-          "notes": "Upgrade Path: Off. Broken rendering when enabled.",
-          "method": "native"
+          "notes": "Engine.ini",
+          "method": "ini"
         },
         {
           "engine": "ue-extended",
@@ -26333,8 +26329,8 @@
           "engine": "ue-extended",
           "name": "Deep Rock Galactic: Rogue Core",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Native HDR is broken.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, R10G10B10A2_UNORM Output Size. Native HDR is broken.",
+          "method": "native",
           "upgrades": [
             {
               "format": "R10G10B10A2_UNORM",
@@ -26346,8 +26342,7 @@
           "engine": "ue-extended",
           "name": "Deliver Us The Moon",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26359,8 +26354,7 @@
           "engine": "ue-extended",
           "name": "Destroy All Humans",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26386,8 +26380,8 @@
           "engine": "ue-extended",
           "name": "End of Abyss",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Engine.ini HDR can't be used due to issues with saving game progress.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, R10G10B10A2_UNORM Output Size. Engine.ini HDR can't be used due to issues with saving game progress.",
+          "method": "ini",
           "upgrades": [
             {
               "format": "R10G10B10A2_UNORM",
@@ -26399,8 +26393,7 @@
           "engine": "ue-extended",
           "name": "Escape the Backrooms",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Lacks testing.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size. Lacks testing.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26412,8 +26405,7 @@
           "engine": "ue-extended",
           "name": "Eternal Strands",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, R10G10B10A2_UNORM Output Size.",
           "upgrades": [
             {
               "format": "R10G10B10A2_UNORM",
@@ -26439,8 +26431,7 @@
           "engine": "ue-extended",
           "name": "FlyKnight Enhanced Edition",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size. Multiple in-game filters change HDR presentation, Lacks testing.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size. Multiple in-game filters change HDR presentation, Lacks testing.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26452,8 +26443,7 @@
           "engine": "ue-extended",
           "name": "Frostpunk 2",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. UI slider controls paper white.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. UI slider controls paper white."
         },
         {
           "engine": "ue-extended",
@@ -26473,15 +26463,13 @@
           "engine": "ue-extended",
           "name": "Ghostrunner",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "Ghostrunner 2",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Tonemapping issues, Lacks testing."
         },
         {
           "engine": "ue-extended",
@@ -26494,8 +26482,7 @@
           "engine": "ue-extended",
           "name": "Goat Simulator 3",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26508,8 +26495,7 @@
           "engine": "ue-extended",
           "name": "Grand Theft Auto: The Trilogy – The Definitive Edition (III, Vice City, San Andreas)",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26543,16 +26529,15 @@
           "engine": "ue-extended",
           "name": "Hi-Fi Rush",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. Gameplay and highlights are clamped to UI brightness.\nUpgrade Copy Destinations Off\nR8G8R8A8_TYPELESS Any Size",
-          "method": "upgrade",
+          "notes": "SDR to HDR as Engine.ini edits overexposed the shading. Gameplay and highlights are clamped to UI brightness.\nUpgrade Copy Destinations Off\nR8G8R8A8_TYPELESS Any Size",
+          "method": "ini",
           "copyDestinations": false
         },
         {
           "engine": "ue-extended",
           "name": "Hydroneer",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26565,8 +26550,7 @@
           "engine": "ue-extended",
           "name": "It Takes Two",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26593,8 +26577,7 @@
           "engine": "ue-extended",
           "name": "Like a Dragon: Ishin!",
           "compat": "working",
-          "notes": "Upgrade Path: On, R8G8B8A8_TYPELESS Output Size, R10G10B10A2_UNORM Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, R8G8B8A8_TYPELESS Output Size, R10G10B10A2_UNORM Output Size.",
           "upgrades": [
             {
               "format": "R8G8B8A8_TYPELESS",
@@ -26610,29 +26593,25 @@
           "engine": "ue-extended",
           "name": "Little Nightmares",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares Enhanced",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares II",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading issues.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Grading issues."
         },
         {
           "engine": "ue-extended",
           "name": "Little Nightmares II Enhanced",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Grading issues.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Grading issues."
         },
         {
           "engine": "ue-extended",
@@ -26687,8 +26666,7 @@
           "engine": "ue-extended",
           "name": "Motor Town: Behind The Wheel",
           "compat": "working",
-          "notes": "Upgrade Path: On. Sliders do not change in real-time.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Sliders do not change in real-time."
         },
         {
           "engine": "ue-extended",
@@ -26708,8 +26686,7 @@
           "engine": "ue-extended",
           "name": "Pacific Drive",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26721,22 +26698,19 @@
           "engine": "ue-extended",
           "name": "Palworld",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Lacks testing.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Lacks testing."
         },
         {
           "engine": "ue-extended",
           "name": "Persona 3 Reload",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "Pih",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26777,15 +26751,13 @@
           "engine": "ue-extended",
           "name": "Scorn",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "Sifu",
           "compat": "working",
-          "notes": "Upgrade Path: On. Limited brightness.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Limited brightness."
         },
         {
           "engine": "ue-extended",
@@ -26812,14 +26784,18 @@
           "engine": "ue-extended",
           "name": "SPRAWL",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
               "mode": "output-size"
             }
           ]
+        },
+        {
+          "engine": "ue-extended",
+          "name": "STAR WARS Jedi: Fallen Order",
+          "notes": "Use the Luma Framework mod below."
         },
         {
           "engine": "ue-extended",
@@ -26839,8 +26815,7 @@
           "engine": "ue-extended",
           "name": "State Of Decay 2",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size, R10G10B10A2_UNORM Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size, R10G10B10A2_UNORM Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26856,8 +26831,7 @@
           "engine": "ue-extended",
           "name": "Stellar Blade",
           "compat": "working",
-          "notes": "Upgrade Path: On. Disable in game HDR.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Disable in game HDR."
         },
         {
           "engine": "ue-extended",
@@ -26870,8 +26844,7 @@
           "engine": "ue-extended",
           "name": "Stray",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26891,8 +26864,7 @@
           "engine": "ue-extended",
           "name": "The Alters",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
@@ -26919,15 +26891,13 @@
           "engine": "ue-extended",
           "name": "The First Berserker: Khazan",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On. Tonemapping issues, Lacks testing.",
-          "method": "upgrade"
+          "notes": "SDR to HDR. Tonemapping issues, Lacks testing."
         },
         {
           "engine": "ue-extended",
           "name": "The Forgotten City",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26939,8 +26909,8 @@
           "engine": "ue-extended",
           "name": "The iDOLM@STER: Starlit Season",
           "compat": "in-progress",
-          "notes": "Upgrade Path: On as Engine.ini edits overexposed the shading. DX11; refused to boot up DX12 as Low Level Fatal Error Line: 266\nCamped to UI brightness has issues with Commu's blue lighting, as well for the stage lighting on the top. Small cameras with multiple idols during certain Commus does not highlight the HDR.\nUpgrade Copy Destinations Off\nB8G8R8A8_TYPELESS Any Size",
-          "method": "upgrade",
+          "notes": "SDR to HDR as Engine.ini edits overexposed the shading. DX11; refused to boot up DX12 as Low Level Fatal Error Line: 266\nCamped to UI brightness has issues with Commu's blue lighting, as well for the stage lighting on the top. Small cameras with multiple idols during certain Commus does not highlight the HDR.\nUpgrade Copy Destinations Off\nB8G8R8A8_TYPELESS Any Size",
+          "method": "ini",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26951,10 +26921,16 @@
         },
         {
           "engine": "ue-extended",
+          "name": "The Midnight Walk",
+          "compat": "working",
+          "notes": "Engine.ini",
+          "method": "ini"
+        },
+        {
+          "engine": "ue-extended",
           "name": "THRESHOLD",
           "compat": "working",
-          "notes": "Upgrade Path: On, B8G8R8A8_TYPELESS Output Size.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, B8G8R8A8_TYPELESS Output Size.",
           "upgrades": [
             {
               "format": "B8G8R8A8_TYPELESS",
@@ -26973,8 +26949,7 @@
           "engine": "ue-extended",
           "name": "Tormented Souls 2",
           "compat": "working",
-          "notes": "Upgrade Path: On, R10G10B10A2_UNORM Output Size. Turn off in game HDR.",
-          "method": "upgrade",
+          "notes": "SDR to HDR, R10G10B10A2_UNORM Output Size. Turn off in game HDR.",
           "upgrades": [
             {
               "format": "R10G10B10A2_UNORM",
@@ -26993,15 +26968,13 @@
           "engine": "ue-extended",
           "name": "VHOLUME",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "ue-extended",
           "name": "What Remains of Edith Finch",
           "compat": "working",
-          "notes": "Upgrade Path: On",
-          "method": "upgrade"
+          "notes": "SDR to HDR"
         },
         {
           "engine": "unity",
@@ -27369,6 +27342,12 @@
         },
         {
           "engine": "unity",
+          "name": "Blasphemous",
+          "compat": "in-progress",
+          "notes": "Enable Swapchain Proxy, Encoding: Gamma."
+        },
+        {
+          "engine": "unity",
           "name": "BlazBlue Entropy Effect",
           "compat": "in-progress",
           "notes": "Upgrade R11G11B10_FLOAT"
@@ -27378,6 +27357,12 @@
           "name": "Bloody Hell",
           "compat": "in-progress",
           "notes": "Upgrade R11G11B10_FLOAT. Both compatibility offsets +1"
+        },
+        {
+          "engine": "unity",
+          "name": "Bloons TD 6",
+          "compat": "working",
+          "notes": "Swapchain Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS to Any Size."
         },
         {
           "engine": "unity",
@@ -27568,6 +27553,12 @@
           "engine": "unity",
           "name": "Darkwood",
           "compat": "working"
+        },
+        {
+          "engine": "unity",
+          "name": "Database Detective: Minor Crimes",
+          "compat": "in-progress",
+          "notes": "Works out of the box, but very brightness limited (peaks around 220 nits)."
         },
         {
           "engine": "unity",
@@ -28005,6 +27996,12 @@
         },
         {
           "engine": "unity",
+          "name": "Green Hell",
+          "compat": "working",
+          "notes": "Avoid Exclusive Fullscreen."
+        },
+        {
+          "engine": "unity",
           "name": "GRIME",
           "compat": "in-progress"
         },
@@ -28136,6 +28133,12 @@
         },
         {
           "engine": "unity",
+          "name": "I Have No Mouth, and I Must Scream",
+          "compat": "in-progress",
+          "notes": "Swapchain Encoding: Gamma. Pre-rendered graphics limit HDR."
+        },
+        {
+          "engine": "unity",
           "name": "I Know a Guy: Shady Life Simulator",
           "compat": "in-progress",
           "notes": "Upgrade R11G11B10_FLOAT"
@@ -28168,6 +28171,11 @@
           "name": "Inscryption",
           "compat": "working",
           "notes": "Swapchain Encoding: Gamma, Upgrade R8G8B8A8_TYPELESS to Any Size."
+        },
+        {
+          "engine": "unity",
+          "name": "INSIDE",
+          "notes": "Use the Luma Framework mod below"
         },
         {
           "engine": "unity",
@@ -28514,6 +28522,12 @@
         },
         {
           "engine": "unity",
+          "name": "My Summer Car",
+          "compat": "working",
+          "notes": "Disable in-game HDR. Enable Swapchain Proxy, Encoding: Gamma."
+        },
+        {
+          "engine": "unity",
           "name": "Mycopunk",
           "compat": "working"
         },
@@ -28568,6 +28582,11 @@
           "name": "NODE: The Last Favor of the Antarii",
           "compat": "working",
           "notes": "Upgrade R11G11B10_FLOAT"
+        },
+        {
+          "engine": "unity",
+          "name": "Nomad Drive",
+          "compat": "working"
         },
         {
           "engine": "unity",
@@ -28683,6 +28702,11 @@
         },
         {
           "engine": "unity",
+          "name": "Papers, Please",
+          "notes": "Swapchain Encoding: Gamma. Does not really work, output is clamped."
+        },
+        {
+          "engine": "unity",
           "name": "Parkitect",
           "compat": "working"
         },
@@ -28722,12 +28746,18 @@
           "engine": "unity",
           "name": "Phasmophobia",
           "compat": "in-progress",
-          "notes": "Upgrade ??????????????"
+          "notes": "Needs testing."
         },
         {
           "engine": "unity",
           "name": "Phoenix Point",
           "compat": "in-progress"
+        },
+        {
+          "engine": "unity",
+          "name": "Phoenix Wright: Ace Attorney Trilogy",
+          "compat": "in-progress",
+          "notes": "Enable Swapchain Proxy, Encoding: Gamma. Artwork is what it is."
         },
         {
           "engine": "unity",
@@ -28769,6 +28799,12 @@
         },
         {
           "engine": "unity",
+          "name": "Pony Island",
+          "compat": "in-progress",
+          "notes": "Enable Swapchain Proxy, Encoding: Gamma. Not very impactful HDR."
+        },
+        {
+          "engine": "unity",
           "name": "POOLS",
           "compat": "working"
         },
@@ -28776,6 +28812,11 @@
           "engine": "unity",
           "name": "POSTAL: Brain Damaged",
           "compat": "in-progress"
+        },
+        {
+          "engine": "unity",
+          "name": "Potion Craft: Alchemist Simulator",
+          "notes": "Custom rendering, broken with the mod."
         },
         {
           "engine": "unity",
@@ -28817,6 +28858,16 @@
         },
         {
           "engine": "unity",
+          "name": "Raft",
+          "compat": "working"
+        },
+        {
+          "engine": "unity",
+          "name": "Rain World",
+          "notes": "Custom rendering, broken with the mod."
+        },
+        {
+          "engine": "unity",
           "name": "ReCore: Definitive Edition",
           "compat": "in-progress"
         },
@@ -28850,6 +28901,11 @@
           "engine": "unity",
           "name": "ReStory: Chill Electronics Repairs",
           "compat": "working"
+        },
+        {
+          "engine": "unity",
+          "name": "Return of the Obra Dinn",
+          "notes": "Does not work."
         },
         {
           "engine": "unity",
@@ -28909,7 +28965,7 @@
         {
           "engine": "unity",
           "name": "Schedule I",
-          "compat": "in-progress"
+          "compat": "working"
         },
         {
           "engine": "unity",
@@ -28954,6 +29010,11 @@
         {
           "engine": "unity",
           "name": "Shape of Dreams",
+          "compat": "working"
+        },
+        {
+          "engine": "unity",
+          "name": "ShellShock Live",
           "compat": "working"
         },
         {
@@ -29220,6 +29281,12 @@
         },
         {
           "engine": "unity",
+          "name": "Thalassomania",
+          "compat": "working",
+          "notes": "Swapchain Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS to Any Size."
+        },
+        {
+          "engine": "unity",
           "name": "The Dungeon Of Naheulbeuk: The Amulet Of Chaos",
           "compat": "in-progress"
         },
@@ -29295,6 +29362,12 @@
         },
         {
           "engine": "unity",
+          "name": "The Room",
+          "compat": "in-progress",
+          "notes": "Swapchain Encoding: Gamma. Lacks testing."
+        },
+        {
+          "engine": "unity",
           "name": "The Room 4: Old Sins",
           "compat": "working"
         },
@@ -29336,6 +29409,11 @@
           "name": "The Wandering Village",
           "compat": "in-progress",
           "notes": "Enable Swapchain Proxy. Not very bright."
+        },
+        {
+          "engine": "unity",
+          "name": "Thief Simulator",
+          "compat": "working"
         },
         {
           "engine": "unity",
@@ -29426,6 +29504,12 @@
         },
         {
           "engine": "unity",
+          "name": "Ultimate Chicken Horse",
+          "compat": "in-progress",
+          "notes": "Swapchain Encoding: Gamma. Not very impactful HDR."
+        },
+        {
+          "engine": "unity",
           "name": "ULTRAKILL",
           "compat": "working",
           "notes": "Swapchain Encoding: Gamma"
@@ -29450,6 +29534,12 @@
         },
         {
           "engine": "unity",
+          "name": "Untitled Goose Game",
+          "compat": "in-progress",
+          "notes": "Enable Swapchain Proxy. Not very impactful HDR."
+        },
+        {
+          "engine": "unity",
           "name": "V Rising",
           "compat": "working",
           "notes": "Toggle Pause or Options menu in solo to refresh LUT. In multi stay under the sun or in Graphic settings Calibrate Brightness > Confirm (leave 50 default value)"
@@ -29459,6 +29549,12 @@
           "name": "Valley",
           "compat": "in-progress",
           "notes": "Enable Swapchain Proxy"
+        },
+        {
+          "engine": "unity",
+          "name": "Vampire Survivors",
+          "compat": "in-progress",
+          "notes": "Swapchain Encoding: Gamma. Partially works, sprites limit HDR."
         },
         {
           "engine": "unity",
@@ -29542,6 +29638,11 @@
           "engine": "unity",
           "name": "Whisper of the House",
           "compat": "in-progress"
+        },
+        {
+          "engine": "unity",
+          "name": "White Knuckle",
+          "compat": "working"
         },
         {
           "engine": "unity",
@@ -33235,7 +33336,7 @@
       ]
     },
     "frameLimiters": {
-      "updated": "2026-11-15T06:30:19Z",
+      "updated": "2026-11-15T18:50:42Z",
       "sources": [
         {
           "url": "https://api.github.com/repos/RankFTW/ReLimiter/releases/latest",
@@ -33299,16 +33400,22 @@
               "name": "zzz_display_commander.addon64",
               "arch": "x64",
               "url": "https://github.com/pmnoxx/display-commander/releases/download/latest/zzz_display_commander.addon64",
-              "sha256": "304b3a680b2108b4be78622f94359cf397f9d024e1d979a501278544ff4ab2ed",
-              "size": 1500160,
-              "version": "2026-11-15-304b3a6",
-              "firstSeen": "2026-11-15T06:30:19Z",
+              "sha256": "562d7d4b194da552e9fc26f44121199dc942e7c964ab440e9bddade40735e805",
+              "size": 1517568,
+              "version": "2026-11-15-562d7d4",
+              "firstSeen": "2026-11-15T18:50:42Z",
               "verified": "2026-11-15",
-              "etag": "\"0x8DF42E1D791F6AB\"",
-              "lastModified": "Sun, 15 Nov 2026 06:29:46 GMT",
+              "etag": "\"0x8DF42EC7C0C5825\"",
+              "lastModified": "Sun, 15 Nov 2026 07:45:57 GMT",
               "license": "AGPL-3.0",
               "mod": "display-commander",
               "history": [
+                {
+                  "version": "2026-11-15-304b3a6",
+                  "sha256": "304b3a680b2108b4be78622f94359cf397f9d024e1d979a501278544ff4ab2ed",
+                  "size": 1500160,
+                  "firstSeen": "2026-11-15T06:30:19Z"
+                },
                 {
                   "version": "2026-11-09-601dc01",
                   "sha256": "601dc01193dafbf31fe4dcad523edc6346cb8afa992b366a499f7416f8d550f6",
@@ -33411,16 +33518,22 @@
               "name": "zzz_display_commander.addon32",
               "arch": "x86",
               "url": "https://github.com/pmnoxx/display-commander/releases/download/latest/zzz_display_commander.addon32",
-              "sha256": "da000c55ae307f5caab3856bf570f459aebac030efd873da3b20830102e4a46a",
-              "size": 1223680,
-              "version": "2026-11-15-da000c5",
-              "firstSeen": "2026-11-15T06:30:19Z",
+              "sha256": "201c31fc26199f97e774c36464012aa2f2df23e73136b5b7c0429dd4ba256737",
+              "size": 1235456,
+              "version": "2026-11-15-201c31f",
+              "firstSeen": "2026-11-15T18:50:42Z",
               "verified": "2026-11-15",
-              "etag": "\"0x8DF42E1D8231466\"",
-              "lastModified": "Sun, 15 Nov 2026 06:29:47 GMT",
+              "etag": "\"0x8DF42EC7C72A816\"",
+              "lastModified": "Sun, 15 Nov 2026 07:45:57 GMT",
               "license": "AGPL-3.0",
               "mod": "display-commander",
               "history": [
+                {
+                  "version": "2026-11-15-da000c5",
+                  "sha256": "da000c55ae307f5caab3856bf570f459aebac030efd873da3b20830102e4a46a",
+                  "size": 1223680,
+                  "firstSeen": "2026-11-15T06:30:19Z"
+                },
                 {
                   "version": "2026-11-09-58a6690",
                   "sha256": "58a66909fe6786621f6f32c19d3b6a18333322fdc7d35b277261fc3315a74ae7",
@@ -52445,5 +52558,5 @@
       ]
     }
   },
-  "generated": "2026-11-15T06:30:19Z"
+  "generated": "2026-11-15T18:50:42Z"
 }
