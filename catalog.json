@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-11-22T06:46:53Z",
+      "updated": "2026-11-22T19:39:06Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -11,7 +11,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/wiki/clshortfuse/renodx/Mods.md",
-          "count": 1130
+          "count": 1129
         }
       ],
       "generic": [
@@ -2455,8 +2455,8 @@
               "version": "2026-11-12-bae4d32",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af51239-26cc00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
+              "etag": "\"6af51237-26cc00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/bae4d3253b6b04a4-renodx-ryza3.addon64",
               "history": [
@@ -2600,8 +2600,8 @@
               "version": "2026-10-21-a8b586c",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6abc128a-246c00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1289-246c00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a8b586cd9fecf337-renodx-ryza.addon64",
               "history": []
@@ -2701,8 +2701,8 @@
               "version": "2026-11-12-35c49c6",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af5123a-257000\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:22 GMT",
+              "etag": "\"6af51235-257000\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/35c49c6a0b5ddb12-renodx-sophie1.addon64",
               "history": [
@@ -2847,8 +2847,8 @@
               "version": "2026-11-12-25ec0ed",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af5123b-261200\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:23 GMT",
+              "etag": "\"6af51236-261200\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/25ec0ed5930d1e29-renodx-yumia1.addon64",
               "history": [
@@ -6463,8 +6463,8 @@
               "version": "2026-11-21-45c6731",
               "firstSeen": "2026-11-21T19:15:36Z",
               "verified": "2026-11-22",
-              "etag": "\"6b01bc30-3d7200\"",
-              "lastModified": "Sat, 21 Nov 2026 15:43:44 GMT",
+              "etag": "\"6b01bc2e-3d7200\"",
+              "lastModified": "Sat, 21 Nov 2026 15:43:42 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/45c673166d443119-renodx-deadislandde.addon64",
               "history": [
@@ -8983,8 +8983,8 @@
               "version": "2026-11-12-a59a92f",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af51238-26c600\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:20 GMT",
+              "etag": "\"6af51233-26c600\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/a59a92fb5b73fa89-renodx-fantasianneodimension.addon64",
               "history": [
@@ -9504,9 +9504,9 @@
               "size": 2279936,
               "version": "2026-10-21-d3da9e7",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6abc1287-22ca00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:27 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6abc1288-22ca00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3da9e7fc06e4be2-renodx-fatesamurairemnant.addon64",
               "history": []
@@ -10131,8 +10131,8 @@
               "version": "2026-11-02-49d6423",
               "firstSeen": "2026-11-02T15:50:41Z",
               "verified": "2026-11-22",
-              "etag": "\"6ae887e6-2b4600\"",
-              "lastModified": "Mon, 02 Nov 2026 12:53:58 GMT",
+              "etag": "\"6ae887e7-2b4600\"",
+              "lastModified": "Mon, 02 Nov 2026 12:53:59 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/49d6423d149acd35-renodx-gotsushima.addon64",
               "history": [
@@ -11112,8 +11112,8 @@
               "version": "2026-11-21-1a49c23",
               "firstSeen": "2026-11-21T19:15:36Z",
               "verified": "2026-11-22",
-              "etag": "\"6b01bc30-4b4800\"",
-              "lastModified": "Sat, 21 Nov 2026 15:43:44 GMT",
+              "etag": "\"6b01bc2e-4b4800\"",
+              "lastModified": "Sat, 21 Nov 2026 15:43:42 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/1a49c23d500eeebb-renodx-guildwars2.addon64",
               "history": [
@@ -13203,8 +13203,8 @@
               "version": "2026-10-21-981cd8e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6ac0e4b0-280c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:12 GMT",
+              "etag": "\"6ac0e4b3-280c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/981cd8e6908c2a9c-renodx-legohpc.addon64",
               "history": []
@@ -14021,9 +14021,9 @@
               "size": 2532352,
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6ac0e4b1-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6ac0e4b3-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -15176,9 +15176,9 @@
               "size": 2526720,
               "version": "2026-10-21-9eb522e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6ac0e4b3-268e00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6ac0e4b1-268e00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9eb522e5066e82a5-renodx-mhgu.addon64",
               "history": []
@@ -15711,9 +15711,9 @@
               "size": 2468864,
               "version": "2026-11-12-fe73d62",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-21",
-              "etag": "\"6af51234-25ac00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:16 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6af51236-25ac00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/fe73d62f79b20763-renodx-nightsofazure1.addon64",
               "history": [
@@ -16253,9 +16253,9 @@
               "size": 2292224,
               "version": "2026-10-21-6492fe9",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6abc1289-22fa00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6abc1288-22fa00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/6492fe9e62d90fdc-renodx-nioh2.addon64",
               "history": []
@@ -17090,8 +17090,8 @@
               "version": "2026-11-12-a9c4318",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af51236-297c00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:18 GMT",
+              "etag": "\"6af51239-297c00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/a9c43185b5336c2e-renodx-pathfinder2wotr.addon64",
               "history": [
@@ -18762,8 +18762,8 @@
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6abc1289-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc1288-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -18795,8 +18795,8 @@
               "version": "2026-11-12-859b51b",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-22",
-              "etag": "\"6af51239-277e00\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:21 GMT",
+              "etag": "\"6af51237-277e00\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/859b51b0dc11a1f6-renodx-riseofronin.addon64",
               "history": [
@@ -19652,9 +19652,9 @@
               "size": 2404864,
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6abc128a-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6abc1289-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -20938,8 +20938,8 @@
               "version": "2026-10-21-95d69dc",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6abc1289-246600\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "etag": "\"6abc128a-246600\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/95d69dc11790ba56-renodx-sonsoftheforest.addon64",
               "history": []
@@ -21150,8 +21150,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6ac0e4b2-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -21629,9 +21629,9 @@
               "size": 2661888,
               "version": "2026-11-21-b3dfa29",
               "firstSeen": "2026-11-21T19:15:36Z",
-              "verified": "2026-11-21",
-              "etag": "\"6b01bc34-289e00\"",
-              "lastModified": "Sat, 21 Nov 2026 15:43:48 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6b01bc32-289e00\"",
+              "lastModified": "Sat, 21 Nov 2026 15:43:46 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/b3dfa297ffaf0835-renodx-steelrising.addon64",
               "history": [
@@ -21948,9 +21948,9 @@
               "size": 2826752,
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6ac0e4b4-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6ac0e4b3-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -22322,8 +22322,8 @@
               "version": "2026-11-21-d194ea9",
               "firstSeen": "2026-11-21T19:15:36Z",
               "verified": "2026-11-22",
-              "etag": "\"6b01bc33-273000\"",
-              "lastModified": "Sat, 21 Nov 2026 15:43:47 GMT",
+              "etag": "\"6b01bc34-273000\"",
+              "lastModified": "Sat, 21 Nov 2026 15:43:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/d194ea950a3f40b5-renodx-teardown.addon64",
               "history": [
@@ -22664,8 +22664,8 @@
               "version": "2026-10-29-333c337",
               "firstSeen": "2026-10-29T05:47:41Z",
               "verified": "2026-11-22",
-              "etag": "\"6ae27f98-338800\"",
-              "lastModified": "Wed, 28 Oct 2026 23:04:56 GMT",
+              "etag": "\"6ae27f99-338800\"",
+              "lastModified": "Wed, 28 Oct 2026 23:04:57 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/333c337e1cc30340-renodx-callistoprotocol.addon64",
               "history": [
@@ -22885,9 +22885,9 @@
               "size": 2496000,
               "version": "2026-11-12-e33b116",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-21",
-              "etag": "\"6af51237-261600\"",
-              "lastModified": "Thu, 12 Nov 2026 01:11:19 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6af5123a-261600\"",
+              "lastModified": "Thu, 12 Nov 2026 01:11:22 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/e33b116bf58442f6-renodx-tew2.addon64",
               "history": [
@@ -23570,8 +23570,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6ac0e4b3-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b5-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -24241,9 +24241,9 @@
               "size": 2522624,
               "version": "2026-11-12-6b37441",
               "firstSeen": "2026-11-12T07:09:24Z",
-              "verified": "2026-11-21",
-              "etag": "\"6af54a71-267e00\"",
-              "lastModified": "Thu, 12 Nov 2026 05:11:13 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6af54a72-267e00\"",
+              "lastModified": "Thu, 12 Nov 2026 05:11:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/6b37441f280f5d97-renodx-terraria-tml.addon64",
               "history": [
@@ -24510,8 +24510,8 @@
               "version": "2026-10-21-113bd81",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6999a1c7-c3c00\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "etag": "\"6999a1c8-c3c00\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/113bd81b2bd48d12-renodx-tw-3kingdoms.addon64",
               "history": []
@@ -25746,9 +25746,9 @@
               "size": 2520576,
               "version": "2026-10-21-38a37de",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-21",
-              "etag": "\"6ac0e4b3-267600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "verified": "2026-11-22",
+              "etag": "\"6ac0e4b5-267600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/38a37de1048e6d6b-renodx-xbcx.addon64",
               "history": []
@@ -25860,8 +25860,8 @@
               "version": "2026-10-21-f30df27",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-22",
-              "etag": "\"6abc128a-802800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc128b-802800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:31 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/f30df2789583bb9c-renodx-yakuza0.addon64",
               "history": []
@@ -27013,13 +27013,13 @@
           "engine": "unity",
           "name": "60 Parsecs!",
           "compat": "working",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
           "name": "7 Days to Die",
           "compat": "working",
-          "notes": "If using basic upscaler (Dynamic Resolution or Scale), Enable Swapchain Proxy."
+          "notes": "Enable Swapchain Proxy if using a basic upscaler (Dynamic Resolution or Scale)."
         },
         {
           "engine": "unity",
@@ -27035,7 +27035,7 @@
           "engine": "unity",
           "name": "A Short Hike",
           "compat": "working",
-          "notes": "32-bit. Swapchain Encoding: Gamma, Upgrade R8G8B8A8_TYPELESS to Any Size."
+          "notes": "32-bit. Upgrade R8G8B8A8_TYPELESS to Any Size. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27053,25 +27053,25 @@
           "engine": "unity",
           "name": "Aeterna Noctis",
           "compat": "working",
-          "notes": "Upgrade R8G8B8A8_TYPELESS to Output ratio or Any size"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Output Ratio or Any Size."
         },
         {
           "engine": "unity",
           "name": "Afterparty",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Agatha Christie - Death on the Nile",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Agent A: A puzzle in disguise",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27087,31 +27087,31 @@
           "engine": "unity",
           "name": "AKIBA'S TRIP: Hellbound & Debriefed",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "All We Need",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Altheia: The Wrath of Aferi",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "American Fugitive",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy. Game's Graphics Quality setting to Medium or above."
+          "notes": "Enable Swapchain Proxy. Set Graphics Quality to Medium or above in-game."
         },
         {
           "engine": "unity",
           "name": "Amerzone - The Explorer's Legacy (2025)",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27138,7 +27138,7 @@
           "engine": "unity",
           "name": "Anodyne 2: Return to Dust",
           "compat": "working",
-          "notes": "32-bit. Enable Swapchain Proxy, Encoding: Gamma. Both compatibility offsets +1"
+          "notes": "32-bit. Enable Swapchain Proxy. Swapchain Encoding: Gamma. Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
@@ -27149,7 +27149,7 @@
           "engine": "unity",
           "name": "Aragami",
           "compat": "working",
-          "notes": "Tonemap/CG not in real time (restart level to reload)"
+          "notes": "Tonemap/color grading not in real time. Restart the level to refresh."
         },
         {
           "engine": "unity",
@@ -27172,7 +27172,7 @@
           "engine": "unity",
           "name": "Assault Android Cactus+",
           "compat": "working",
-          "notes": "32-bit. Enable Swapchain Proxy"
+          "notes": "32-bit. Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -27188,7 +27188,7 @@
           "engine": "unity",
           "name": "ATLYSS",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27233,7 +27233,7 @@
           "engine": "unity",
           "name": "Ball x Pit",
           "compat": "in-progress",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27244,13 +27244,13 @@
           "engine": "unity",
           "name": "Batbarian: Testament of the Primordials",
           "compat": "working",
-          "notes": "Increase R8G8B8A8_TYPELESS Upgrade to Any Size. Enable Swapchain Proxy."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size. Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Battlestar Galactica Deadlock",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -27287,7 +27287,7 @@
           "engine": "unity",
           "name": "Beholder",
           "compat": "working",
-          "notes": "32-bit. Increase R8G8B8A8_TYPELESS Upgrade to Any Size. Enable Swapchain Proxy, Swapchain Encoding: Gamma"
+          "notes": "32-bit. Upgrade R8G8B8A8_TYPELESS to Any Size. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27315,7 +27315,7 @@
           "engine": "unity",
           "name": "Bendy and the Ink Machine",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Tonemap/color grading not in real time"
+          "notes": "Enable Swapchain Proxy. Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
@@ -27326,13 +27326,13 @@
           "engine": "unity",
           "name": "Bendy: Secrets of the Machine",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Besiege",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy, Swapchain Encoding: Gamma."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27343,7 +27343,7 @@
           "engine": "unity",
           "name": "Beyond Galaxyland",
           "compat": "in-progress",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27354,13 +27354,13 @@
           "engine": "unity",
           "name": "Bionic Bay",
           "compat": "in-progress",
-          "notes": "Not entirely playable yet"
+          "notes": "Not entirely playable yet."
         },
         {
           "engine": "unity",
           "name": "Biped",
           "compat": "in-progress",
-          "notes": "Tonemap/color grading not in real time (Load Save Point to refresh)"
+          "notes": "Tonemap/color grading not in real time. Load a save point to refresh."
         },
         {
           "engine": "unity",
@@ -27372,25 +27372,25 @@
           "engine": "unity",
           "name": "Blasphemous",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "BlazBlue Entropy Effect",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Bloody Hell",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Both compatibility offsets +1"
+          "notes": "Upgrade R11G11B10_FLOAT. Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
           "name": "Bloons TD 6",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS to Any Size."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27406,7 +27406,7 @@
           "engine": "unity",
           "name": "Bounty Star",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27417,7 +27417,7 @@
           "engine": "unity",
           "name": "Breachway",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27428,7 +27428,7 @@
           "engine": "unity",
           "name": "Bubsy 4D",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27451,7 +27451,7 @@
           "engine": "unity",
           "name": "Bō: Path of the Teal Lotus",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27462,13 +27462,13 @@
           "engine": "unity",
           "name": "Cakey's Twisted Bakery",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Cat Quest III",
           "compat": "in-progress",
-          "notes": "32-bit. Swapchain encoding: gamma"
+          "notes": "32-bit. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27480,19 +27480,19 @@
           "engine": "unity",
           "name": "Children of Morta",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Children of the Sun",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Circuit Superstars",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27503,13 +27503,13 @@
           "engine": "unity",
           "name": "Cloudpunk",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Cloverpit",
           "compat": "in-progress",
-          "notes": "Use DX11 (Second launch option)"
+          "notes": "Use DX11 (second launch option)."
         },
         {
           "engine": "unity",
@@ -27535,19 +27535,19 @@
           "engine": "unity",
           "name": "Copycat",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS"
+          "notes": "Upgrade R10G10B10A2_TYPELESS."
         },
         {
           "engine": "unity",
           "name": "Core Keeper",
           "compat": "in-progress",
-          "notes": "Upgrade R8G8B8A8_TYPELESS to Output Ratio or Any Size"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Output Ratio or Any Size."
         },
         {
           "engine": "unity",
           "name": "Coridden",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27558,13 +27558,13 @@
           "engine": "unity",
           "name": "Creature Kitchen",
           "compat": "working",
-          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size."
         },
         {
           "engine": "unity",
           "name": "Ctrl Alt Ego",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -27575,7 +27575,7 @@
           "engine": "unity",
           "name": "Cuphead",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -27586,13 +27586,13 @@
           "engine": "unity",
           "name": "Database Detective: Minor Crimes",
           "compat": "in-progress",
-          "notes": "Works out of the box, but very brightness limited (peaks around 220 nits)."
+          "notes": "Works out of the box, but does not make use of HDR."
         },
         {
           "engine": "unity",
           "name": "DAVE THE DIVER",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27603,7 +27603,7 @@
           "engine": "unity",
           "name": "DeadCore Redux Demo",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time"
+          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
@@ -27614,7 +27614,7 @@
           "engine": "unity",
           "name": "Deep Rock Survivor",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27647,7 +27647,7 @@
           "engine": "unity",
           "name": "Dino Topia",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27668,37 +27668,37 @@
           "engine": "unity",
           "name": "DRACOMATON",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "DRAGON QUEST BUILDERS",
           "compat": "in-progress",
-          "notes": "Enable Bloom in-game (can be disabled in addon)"
+          "notes": "Enable Bloom in-game (can be disabled in addon)."
         },
         {
           "engine": "unity",
           "name": "Dread Delusion",
           "compat": "in-progress",
-          "notes": "32-bit"
+          "notes": "32-bit."
         },
         {
           "engine": "unity",
           "name": "Dread Templar",
           "compat": "in-progress",
-          "notes": "Works out of the box. Crashes when any settings are applied/saved but settings are saved anyways."
+          "notes": "Works out of the box. Game crashes when settings are applied, but they still save."
         },
         {
           "engine": "unity",
           "name": "Dreamfall Chapters - The Final Cut",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Game save preview pictures are broken."
+          "notes": "Enable Swapchain Proxy. Save preview images are broken."
         },
         {
           "engine": "unity",
           "name": "DREDGE",
           "compat": "in-progress",
-          "notes": "32-bit"
+          "notes": "32-bit."
         },
         {
           "engine": "unity",
@@ -27709,31 +27709,31 @@
           "engine": "unity",
           "name": "Drova Forsaken Kin",
           "compat": "in-progress",
-          "notes": "Use fullscreen windowed borderless. Swapchain encoding set to gamma."
+          "notes": "Swapchain Encoding: Gamma. Use Borderless Windowed mode."
         },
         {
           "engine": "unity",
           "name": "Dungeons 2",
           "compat": "in-progress",
-          "notes": "Scaling AND Tonemap offset = 1. Main Menu will be black, but everything is fine once loaded in game."
+          "notes": "Both Compatibility Offsets +1. Main menu is black, but in-game is fine."
         },
         {
           "engine": "unity",
           "name": "Dungeons 3",
           "compat": "in-progress",
-          "notes": "Swampchain proxy on."
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Dungeons 4",
           "compat": "in-progress",
-          "notes": "Change game's Brightness (Gamma) setting to refresh LUT"
+          "notes": "Tonemap/color grading not in real time. Change Brightness (Gamma) in-game to refresh."
         },
         {
           "engine": "unity",
           "name": "DUSK",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma, Upgrade R8G8B8A8_TYPELESS to Any Size."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27749,19 +27749,19 @@
           "engine": "unity",
           "name": "Dystopika",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT"
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Eastern Exorcist",
           "compat": "in-progress",
-          "notes": "Both compatibility offsets +1"
+          "notes": "Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
           "name": "Eastshade",
           "compat": "in-progress",
-          "notes": "Click Game Brightness setting and save to refresh LUT"
+          "notes": "Tonemap/color grading not in real time. Change and save Brightness in-game to refresh."
         },
         {
           "engine": "unity",
@@ -27772,25 +27772,25 @@
           "engine": "unity",
           "name": "Egging On",
           "compat": "working",
-          "notes": "Upgrade R10G10B10A2_TYPELESS"
+          "notes": "Upgrade R10G10B10A2_TYPELESS."
         },
         {
           "engine": "unity",
           "name": "Eiyuden Chronicle: Hundred Heroes",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Eiyuden Chronicle: Rising",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "El Paso, Elsewhere",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27801,19 +27801,19 @@
           "engine": "unity",
           "name": "Encased",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "End Transmission?",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT"
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Enigma of Fear",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27825,13 +27825,13 @@
           "engine": "unity",
           "name": "Epistory - Typing Chronicles",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Ereban - Shadow Legacy",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27863,25 +27863,25 @@
           "engine": "unity",
           "name": "Fabledom",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. (If game's Anti-aliasing is enabled, Compatibility Blit Copy: Scaling only)"
+          "notes": "Upgrade R11G11B10_FLOAT. If in-game Anti-aliasing is enabled, Compatibility Blit Copy: Scaling Only."
         },
         {
           "engine": "unity",
           "name": "Fallen Aces",
           "compat": "in-progress",
-          "notes": "Both compatibilty offsets +1"
+          "notes": "Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
           "name": "Fantasy General II",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "FAR: Lone Sails",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -27913,43 +27913,43 @@
           "engine": "unity",
           "name": "Firewatch",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Five Nights at Freddy's: Into the Pit",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Flashback 2",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "For The King",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "For The King II",
           "compat": "in-progress",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
           "name": "Forgotten 23",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "FRONT MISSION 2: Remake",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS"
+          "notes": "Upgrade R10G10B10A2_TYPELESS."
         },
         {
           "engine": "unity",
@@ -27960,7 +27960,7 @@
           "engine": "unity",
           "name": "Furi",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -27977,7 +27977,7 @@
           "engine": "unity",
           "name": "Gatekeeper",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -27988,13 +27988,13 @@
           "engine": "unity",
           "name": "Ghost of a Tale",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Enable Bloom in-game (can be disabled in addon)"
+          "notes": "Enable Swapchain Proxy. Enable Bloom in-game (can be disabled in addon)."
         },
         {
           "engine": "unity",
           "name": "Giggleland: Terry’s Vegetable Patch",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28020,7 +28020,7 @@
           "engine": "unity",
           "name": "Great God Grove",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT to Output Ratio"
+          "notes": "Upgrade R11G11B10_FLOAT to Output Ratio."
         },
         {
           "engine": "unity",
@@ -28037,7 +28037,7 @@
           "engine": "unity",
           "name": "Gunfire Reborn",
           "compat": "in-progress",
-          "notes": "Upgrade ??????????????"
+          "notes": "Needs unknown resource upgrade."
         },
         {
           "engine": "unity",
@@ -28048,13 +28048,13 @@
           "engine": "unity",
           "name": "Halve Demo",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Hardspace: Shipbreaker",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28065,13 +28065,13 @@
           "engine": "unity",
           "name": "Have a Nice Death",
           "compat": "in-progress",
-          "notes": "32-bit. Upgrade R11G11B10_FLOAT"
+          "notes": "32-bit. Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Heart of the Machine",
           "compat": "working",
-          "notes": "Compatibility Scaling Offset +1"
+          "notes": "Compatibility Scaling Offset +1."
         },
         {
           "engine": "unity",
@@ -28087,7 +28087,7 @@
           "engine": "unity",
           "name": "Herdling",
           "compat": "in-progress",
-          "notes": "Disable games's native HDR from game's config file."
+          "notes": "Disable native HDR in the game's config file."
         },
         {
           "engine": "unity",
@@ -28103,7 +28103,7 @@
           "engine": "unity",
           "name": "Hollow Cocoon",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT. Game's Rendering Quality setting should be 100%"
+          "notes": "Upgrade R11G11B10_FLOAT. Set Rendering Quality to 100% in-game."
         },
         {
           "engine": "unity",
@@ -28114,7 +28114,7 @@
           "engine": "unity",
           "name": "Hordelord",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28125,7 +28125,7 @@
           "engine": "unity",
           "name": "House Flipper 2",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time (change game Saturation setting to refresh)"
+          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time. Change Saturation in-game to refresh."
         },
         {
           "engine": "unity",
@@ -28141,7 +28141,7 @@
           "engine": "unity",
           "name": "Human Fall Flat",
           "compat": "in-progress",
-          "notes": "32-bit. Enable Swapchain Proxy. Both compatibilty offsets +1"
+          "notes": "32-bit. Enable Swapchain Proxy. Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
@@ -28152,7 +28152,7 @@
           "engine": "unity",
           "name": "HUNTER×HUNTER NEN×IMPACT",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28169,25 +28169,25 @@
           "engine": "unity",
           "name": "I Know a Guy: Shady Life Simulator",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "ICEY",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "In Sound Mind",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "INCISION",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -28198,12 +28198,12 @@
           "engine": "unity",
           "name": "Inscryption",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma, Upgrade R8G8B8A8_TYPELESS to Any Size."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "INSIDE",
-          "notes": "Use the Luma Framework mod below"
+          "notes": "Use the Luma Framework mod below."
         },
         {
           "engine": "unity",
@@ -28239,49 +28239,49 @@
           "engine": "unity",
           "name": "Jotunnslayer: Hordes of Hel",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time"
+          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
           "name": "Katamari Damacy REROLL",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Kaze and the Wild Masks",
           "compat": "working",
-          "notes": "Upgrade R8G8B8A8_TYPELESS to Any size"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size."
         },
         {
           "engine": "unity",
           "name": "Keep Talking and Nobody Explodes",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Kerbal Space Program",
           "compat": "in-progress",
-          "notes": "Swapchain encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "KeyWe",
           "compat": "in-progress",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
           "name": "KILL KNIGHT",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Killer Frequency",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28297,7 +28297,7 @@
           "engine": "unity",
           "name": "Kona",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -28318,7 +28318,7 @@
           "engine": "unity",
           "name": "LEGO Bricktales",
           "compat": "working",
-          "notes": "Upgrade ??????????????"
+          "notes": "Needs unknown resource upgrade."
         },
         {
           "engine": "unity",
@@ -28329,7 +28329,7 @@
           "engine": "unity",
           "name": "LEGO Voyagers",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -28350,19 +28350,19 @@
           "engine": "unity",
           "name": "Little Kitty, Big City",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Little Noah: Scion of Paradise",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Little Witch in the Woods",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28383,7 +28383,7 @@
           "engine": "unity",
           "name": "Lost In Random",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28394,7 +28394,7 @@
           "engine": "unity",
           "name": "Lost In Vivo",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -28416,37 +28416,37 @@
           "engine": "unity",
           "name": "Lumines Arise",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT by Output Ratio"
+          "notes": "Upgrade R11G11B10_FLOAT to Output Ratio."
         },
         {
           "engine": "unity",
           "name": "Lysfanga: The Time Shift Warrior",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT. Compatibilty Scaling offset +1."
+          "notes": "Upgrade R11G11B10_FLOAT. Compatibility Scaling Offset +1."
         },
         {
           "engine": "unity",
           "name": "Mage Arena",
           "compat": "in-progress",
-          "notes": "Upgrade R8G8R8A8_TYPELESS Any Size"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size."
         },
         {
           "engine": "unity",
           "name": "Mages of Mystralia",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Mai: Child of Ages",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Maid of Sker",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28467,7 +28467,7 @@
           "engine": "unity",
           "name": "Metal: Hellsinger",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28483,7 +28483,7 @@
           "engine": "unity",
           "name": "Minishoot Adventures",
           "compat": "working",
-          "notes": "Compatibility Scaling offset +1."
+          "notes": "Compatibility Scaling Offset +1."
         },
         {
           "engine": "unity",
@@ -28499,7 +28499,7 @@
           "engine": "unity",
           "name": "Monster Train",
           "compat": "in-progress",
-          "notes": "Upgrade ??????????????"
+          "notes": "Needs unknown resource upgrade."
         },
         {
           "engine": "unity",
@@ -28510,49 +28510,49 @@
           "engine": "unity",
           "name": "Monument Valley",
           "compat": "in-progress",
-          "notes": "Swapchain encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Monument Valley 2",
           "compat": "in-progress",
-          "notes": "Swapchain encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Moonlighter",
           "compat": "in-progress",
-          "notes": "swapchain (enable proxy ?)"
+          "notes": "Unknown if Swapchain Proxy is needed."
         },
         {
           "engine": "unity",
           "name": "Morbid Metal (demo)",
           "compat": "in-progress",
-          "notes": "Upgrade ??????????????"
+          "notes": "Needs unknown resource upgrade."
         },
         {
           "engine": "unity",
           "name": "Mouthwashing",
           "compat": "in-progress",
-          "notes": "Use borderless. Both compatibilty offsets +1. Upgrade R8G8B8A8_TYPELESS to Output Ratio."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Output Ratio. Both Compatibility Offsets +1. Use Borderless Windowed mode."
         },
         {
           "engine": "unity",
           "name": "My Friend Pedro",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Tonemap/CG not in real time (restart level to reload)"
+          "notes": "Enable Swapchain Proxy. Tonemap/color grading not in real time. Restart the level to refresh."
         },
         {
           "engine": "unity",
           "name": "My Friendly Neighborhood",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "My Summer Car",
           "compat": "working",
-          "notes": "Disable in-game HDR. Enable Swapchain Proxy, Encoding: Gamma."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma. Disable in-game HDR."
         },
         {
           "engine": "unity",
@@ -28563,25 +28563,25 @@
           "engine": "unity",
           "name": "NECROPOLIS: BRUTAL EDITION",
           "compat": "in-progress",
-          "notes": "32-bit. ReShade can be [asi-loaded](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases)"
+          "notes": "32-bit. ReShade can be loaded with [ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases)."
         },
         {
           "engine": "unity",
           "name": "Neon Abyss",
           "compat": "in-progress",
-          "notes": "Upgrade Upgrade_R16G16B16A16_TYPELESS. Enable Swapchain Proxy"
+          "notes": "Upgrade R16G16B16A16_TYPELESS. Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "NEOVERSE",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "New Super Lucky's Tale",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -28597,19 +28597,19 @@
           "engine": "unity",
           "name": "No Rest For The Wicked",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT (Output Ratio if using upscaling)"
+          "notes": "Upgrade R11G11B10_FLOAT (to Output Ratio if using upscaling)."
         },
         {
           "engine": "unity",
           "name": "Nocturnal",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS"
+          "notes": "Upgrade R10G10B10A2_TYPELESS."
         },
         {
           "engine": "unity",
           "name": "NODE: The Last Favor of the Antarii",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28625,13 +28625,13 @@
           "engine": "unity",
           "name": "NOTTOLOT",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Both compatibilty offsets +1."
+          "notes": "Upgrade R11G11B10_FLOAT. Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
           "name": "Nova Lands",
           "compat": "in-progress",
-          "notes": "swapchain (enable proxy ?)"
+          "notes": "Unknown if Swapchain Proxy is needed."
         },
         {
           "engine": "unity",
@@ -28648,7 +28648,7 @@
           "engine": "unity",
           "name": "Oddworld: Soulstorm Enhanced Edition",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS. Tonemap/CG not in real time (restart checkpoint/level to reload)"
+          "notes": "Upgrade R10G10B10A2_TYPELESS. Tonemap/color grading not in real time. Restart the checkpoint or level to refresh."
         },
         {
           "engine": "unity",
@@ -28669,7 +28669,7 @@
           "engine": "unity",
           "name": "Operation Wolf Returns: First Mission",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28680,7 +28680,7 @@
           "engine": "unity",
           "name": "ORDER 13",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time (change Brightness in game settings to reload)"
+          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time. Change Brightness in-game to refresh."
         },
         {
           "engine": "unity",
@@ -28691,7 +28691,7 @@
           "engine": "unity",
           "name": "Outer Wilds",
           "compat": "working",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
@@ -28702,36 +28702,36 @@
           "engine": "unity",
           "name": "Overcooked",
           "compat": "working",
-          "notes": "32-bit. Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "32-bit. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Overcooked! 2",
           "compat": "working",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Overcooked! All You Can Eat",
           "compat": "working",
-          "notes": "64-bit. Enable Swapchain Proxy, Encoding: Gamma. R8G8B8A8_TYPELESS Upgrade to Output ratio or Any Size"
+          "notes": "64-bit. Upgrade R8G8B8A8_TYPELESS to Output Ratio or Any Size. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Oxenfree",
           "compat": "in-progress",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "OXENFREE II: Lost Signals",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Papers, Please",
-          "notes": "Swapchain Encoding: Gamma. Does not really work, output is clamped."
+          "notes": "Swapchain Encoding: Gamma. Does not make use of HDR and color grading does not work (UI-based game)."
         },
         {
           "engine": "unity",
@@ -28747,7 +28747,7 @@
           "engine": "unity",
           "name": "Party Club",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT"
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28758,7 +28758,7 @@
           "engine": "unity",
           "name": "PEAK",
           "compat": "working",
-          "notes": "Use DX11"
+          "notes": "Use DX11."
         },
         {
           "engine": "unity",
@@ -28774,7 +28774,7 @@
           "engine": "unity",
           "name": "Phasmophobia",
           "compat": "in-progress",
-          "notes": "Needs testing."
+          "notes": "Lacks testing."
         },
         {
           "engine": "unity",
@@ -28785,13 +28785,13 @@
           "engine": "unity",
           "name": "Phoenix Wright: Ace Attorney Trilogy",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma. Artwork is what it is."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma. Does not make use of HDR."
         },
         {
           "engine": "unity",
           "name": "Pillars of Eternity",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Set swapchain encoding to Gamma. Set scaling and tonemap offset to 1."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma. Both Compatibility Offsets +1."
         },
         {
           "engine": "unity",
@@ -28818,7 +28818,7 @@
           "engine": "unity",
           "name": "Playing Kafka",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -28829,7 +28829,7 @@
           "engine": "unity",
           "name": "Pony Island",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma. Not very impactful HDR."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma. Minimal HDR impact."
         },
         {
           "engine": "unity",
@@ -28844,7 +28844,7 @@
         {
           "engine": "unity",
           "name": "Potion Craft: Alchemist Simulator",
-          "notes": "Custom rendering, broken with the mod."
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma. Does not make use of HDR and color grading does not work (UI-based game). Some textures are broken."
         },
         {
           "engine": "unity",
@@ -28860,7 +28860,7 @@
         {
           "engine": "unity",
           "name": "Prince of Persia: The Lost Crown",
-          "notes": "Color grading unaffected (other than Peak and UI Brightness).\nUse the Luma Framework mod below"
+          "notes": "Color grading unaffected (except Peak and UI Brightness). Use the Luma Framework mod below."
         },
         {
           "engine": "unity",
@@ -28871,18 +28871,13 @@
           "engine": "unity",
           "name": "Quern - Undying Thoughts",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "R.E.P.O.",
           "compat": "in-progress",
-          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size"
-        },
-        {
-          "engine": "unity",
-          "name": "Raft",
-          "compat": "in-progress"
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size."
         },
         {
           "engine": "unity",
@@ -28913,7 +28908,7 @@
           "engine": "unity",
           "name": "REKA",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28933,13 +28928,13 @@
         {
           "engine": "unity",
           "name": "Return of the Obra Dinn",
-          "notes": "Does not work."
+          "notes": "32-bit. Enable Swapchain Proxy. Swapchain Encoding: Gamma. Does not make use of HDR and color grading does not work."
         },
         {
           "engine": "unity",
           "name": "REVEIL",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -28955,13 +28950,13 @@
           "engine": "unity",
           "name": "Road 96: Mile 0",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Road Redemption",
           "compat": "in-progress",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
@@ -28972,7 +28967,7 @@
           "engine": "unity",
           "name": "Ruined King: A League of Legends Story",
           "compat": "in-progress",
-          "notes": "Pause menu background is broken"
+          "notes": "Pause menu background is broken."
         },
         {
           "engine": "unity",
@@ -29004,31 +28999,31 @@
           "engine": "unity",
           "name": "Sektori",
           "compat": "in-progress",
-          "notes": "32-bit. Upgrade R11G11B10_FLOAT"
+          "notes": "32-bit. Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Shadow Labyrinth",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Shadow of the Road (demo)",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Shadows of Doubt",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Shadows: Awakening",
           "compat": "working",
-          "notes": "Tonemap/color grading not in real time"
+          "notes": "Tonemap/color grading not in real time."
         },
         {
           "engine": "unity",
@@ -29049,25 +29044,25 @@
           "engine": "unity",
           "name": "Shift 87",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Silver Pines",
           "compat": "working",
-          "notes": "Flickering warning in addon, only in title menu on very first launch when no save file is created yet"
+          "notes": "Addon shows a flickering warning in the title menu on first launch only (before a save file exists)."
         },
         {
           "engine": "unity",
           "name": "Skate Story",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT. Disable in-game HDR"
+          "notes": "Upgrade R11G11B10_FLOAT. Disable in-game HDR."
         },
         {
           "engine": "unity",
           "name": "Sker Ritual",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT. Open game graphic settings and hit Apply to refresh Tonemap/Color grading."
+          "notes": "Upgrade R11G11B10_FLOAT. Tonemap/color grading not in real time. Click Apply in graphics settings to refresh."
         },
         {
           "engine": "unity",
@@ -29113,25 +29108,25 @@
           "engine": "unity",
           "name": "Songs Of Silence",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT. Compatibility Scaling offset +2."
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT. Compatibility Scaling Offset +2."
         },
         {
           "engine": "unity",
           "name": "Soulstone Survivors",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Space Crew",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Spacebase Startopia",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29147,13 +29142,13 @@
           "engine": "unity",
           "name": "Spellforce Conquest of Eo",
           "compat": "in-progress",
-          "notes": "swapchain (enable proxy ?)"
+          "notes": "Unknown if Swapchain Proxy is needed."
         },
         {
           "engine": "unity",
           "name": "Spiritfall",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT. Enable Swapchain Proxy"
+          "notes": "Upgrade R11G11B10_FLOAT. Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -29186,7 +29181,7 @@
           "engine": "unity",
           "name": "Streets of Rogue",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -29207,13 +29202,13 @@
           "engine": "unity",
           "name": "Summoner's War: Chronicles",
           "compat": "in-progress",
-          "notes": "Enable Bloom in game settings."
+          "notes": "Enable Bloom in-game."
         },
         {
           "engine": "unity",
           "name": "Sunless Skies: Sovereign Edition",
           "compat": "in-progress",
-          "notes": "32-bit"
+          "notes": "32-bit."
         },
         {
           "engine": "unity",
@@ -29224,19 +29219,19 @@
           "engine": "unity",
           "name": "SUPER CRAZY RHYTHM CASTLE",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "SUPERHOT",
           "compat": "in-progress",
-          "notes": "64 bit, Swapchain Encoding: Gamma."
+          "notes": "64-bit. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "SUPERHOT: MIND CONTROL DELETE",
           "compat": "in-progress",
-          "notes": "32 bit, Enable Swapchain Proxy, Swapchain Encoding: Gamma."
+          "notes": "32-bit. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -29247,19 +29242,19 @@
           "engine": "unity",
           "name": "SWORN",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Syberia - Remastered",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Syberia - The World Before",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29270,7 +29265,7 @@
           "engine": "unity",
           "name": "Tainted Grail: Conquest",
           "compat": "working",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29281,37 +29276,37 @@
           "engine": "unity",
           "name": "Tales of Berseria Remastered",
           "compat": "working",
-          "notes": "64-bit. Enable Swapchain Proxy, Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS. FMV anime cutscenes also affected"
+          "notes": "64-bit. Upgrade R8G8B8A8_TYPELESS. Enable Swapchain Proxy. Swapchain Encoding: Gamma. FMV anime cutscenes are also affected."
         },
         {
           "engine": "unity",
           "name": "Tales of the Shire: A The Lord of The Rings Game",
           "compat": "working",
-          "notes": "64-bit. Enable Swapchain Proxy, Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS"
+          "notes": "64-bit. Upgrade R8G8B8A8_TYPELESS. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Tales of Xillia Remastered",
           "compat": "working",
-          "notes": "64-bit. Enable Swapchain Proxy, Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS"
+          "notes": "64-bit. Upgrade R8G8B8A8_TYPELESS. Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Teenage Mutant Ninja Turtles: Mutants Unleashed",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "TerraTech",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy, Encoding: Gamma"
+          "notes": "Enable Swapchain Proxy. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Thalassomania",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma. Upgrade R8G8B8A8_TYPELESS to Any Size."
+          "notes": "Upgrade R8G8B8A8_TYPELESS to Any Size. Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
@@ -29338,13 +29333,13 @@
           "engine": "unity",
           "name": "The Karters 2: Turbo Charged",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "The Knightling",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29375,7 +29370,7 @@
           "engine": "unity",
           "name": "The Pedestrian",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -29386,7 +29381,7 @@
           "engine": "unity",
           "name": "The Rogue Prince of Persia",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29425,7 +29420,7 @@
           "engine": "unity",
           "name": "The Upturned",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Compatibility Scaling offset +1"
+          "notes": "Upgrade R11G11B10_FLOAT. Compatibility Scaling Offset +1."
         },
         {
           "engine": "unity",
@@ -29436,7 +29431,7 @@
           "engine": "unity",
           "name": "The Wandering Village",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Not very bright."
+          "notes": "Enable Swapchain Proxy. Image is quite dim."
         },
         {
           "engine": "unity",
@@ -29452,13 +29447,13 @@
           "engine": "unity",
           "name": "Tin Can",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Tinykin",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29484,19 +29479,19 @@
           "engine": "unity",
           "name": "Towa and the Guardians of the Sacred Tree",
           "compat": "in-progress",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT"
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Towaga: Among Shadows",
           "compat": "in-progress",
-          "notes": "32-bit. Enable Swapchain Proxy. Enable Post-processing in game settings."
+          "notes": "32-bit. Enable Swapchain Proxy. Enable Post-Processing in-game."
         },
         {
           "engine": "unity",
           "name": "Trailmakers",
           "compat": "in-progress",
-          "notes": "Enable Post Processing (any quality) and Internal HDR in game settings"
+          "notes": "Enable Post-Processing (any quality) and Internal HDR in-game."
         },
         {
           "engine": "unity",
@@ -29517,7 +29512,7 @@
           "engine": "unity",
           "name": "Turbo Golf Racing",
           "compat": "in-progress",
-          "notes": "Enable Post-Processing in game's graphics settings."
+          "notes": "Enable Post-Processing in-game."
         },
         {
           "engine": "unity",
@@ -29528,55 +29523,55 @@
           "engine": "unity",
           "name": "Two Point Hospital",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Ultimate Chicken Horse",
           "compat": "in-progress",
-          "notes": "Swapchain Encoding: Gamma. Not very impactful HDR."
+          "notes": "Swapchain Encoding: Gamma. Minimal HDR impact."
         },
         {
           "engine": "unity",
           "name": "ULTRAKILL",
           "compat": "working",
-          "notes": "Swapchain Encoding: Gamma"
+          "notes": "Swapchain Encoding: Gamma."
         },
         {
           "engine": "unity",
           "name": "Ultros",
           "compat": "in-progress",
-          "notes": "Enable Color Grading in game settings."
+          "notes": "Enable Color Grading in-game."
         },
         {
           "engine": "unity",
           "name": "UNDYING",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT (>= Output_Ratio) if using FSR1"
+          "notes": "Upgrade R11G11B10_FLOAT to Output Ratio or Any Size if using FSR1."
         },
         {
           "engine": "unity",
           "name": "Unruly Heroes",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
           "name": "Untitled Goose Game",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Not very impactful HDR."
+          "notes": "Enable Swapchain Proxy. Minimal HDR impact."
         },
         {
           "engine": "unity",
           "name": "V Rising",
           "compat": "working",
-          "notes": "Toggle Pause or Options menu in solo to refresh LUT. In multi stay under the sun or in Graphic settings Calibrate Brightness > Confirm (leave 50 default value)"
+          "notes": "To refresh the LUT in solo, toggle the Pause or Options menu. In multiplayer, stand in sunlight, or open Graphics settings > Calibrate Brightness > Confirm (leave at default 50)."
         },
         {
           "engine": "unity",
           "name": "Valley",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy"
+          "notes": "Enable Swapchain Proxy."
         },
         {
           "engine": "unity",
@@ -29588,7 +29583,7 @@
           "engine": "unity",
           "name": "Viewfinder",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Enable Post-processing in game settings."
+          "notes": "Upgrade R11G11B10_FLOAT. Enable Post-Processing in-game."
         },
         {
           "engine": "unity",
@@ -29600,7 +29595,7 @@
           "engine": "unity",
           "name": "Void Crew",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. DLSS clamps colors to bt709"
+          "notes": "Upgrade R11G11B10_FLOAT. DLSS clamps colors to BT.709."
         },
         {
           "engine": "unity",
@@ -29643,19 +29638,19 @@
           "engine": "unity",
           "name": "Wasteland 3",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT. Enable Swapchain Proxy. Compatibility Scaling offset +1"
+          "notes": "Upgrade R11G11B10_FLOAT. Enable Swapchain Proxy. Compatibility Scaling Offset +1."
         },
         {
           "engine": "unity",
           "name": "Wavetale",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "We Were Here Expeditions: The FriendShip",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
@@ -29676,7 +29671,7 @@
           "engine": "unity",
           "name": "Wicked Seed",
           "compat": "working",
-          "notes": "Upgrade R8G8B8A8_TYPELESS. Game settings: Scaling Resolution 100%, Borderless Windowed."
+          "notes": "Upgrade R8G8B8A8_TYPELESS. Set Scaling Resolution to 100% and use Borderless Windowed mode in-game."
         },
         {
           "engine": "unity",
@@ -29687,7 +29682,7 @@
           "engine": "unity",
           "name": "Windblown",
           "compat": "working",
-          "notes": "Upgrade R10G10B10A2_TYPELESS & R11G11B10_FLOAT if using FSR1"
+          "notes": "Upgrade R10G10B10A2_TYPELESS and R11G11B10_FLOAT if using FSR1."
         },
         {
           "engine": "unity",
@@ -29698,13 +29693,13 @@
           "engine": "unity",
           "name": "WitchSpring R - The Story of Pieberry",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "Wizard with a Gun",
           "compat": "in-progress",
-          "notes": "Enable Swapchain Proxy. Recommend raising highlights quite a bit as highlights are quite dim otherwise."
+          "notes": "Enable Swapchain Proxy. Raise Highlights significantly, as they are quite dim otherwise."
         },
         {
           "engine": "unity",
@@ -29721,13 +29716,13 @@
           "engine": "unity",
           "name": "Yooka-Replaylee",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unity",
           "name": "东方异域见闻 ~ Touhou Dystopian",
           "compat": "in-progress",
-          "notes": "Upgrade R11G11B10_FLOAT"
+          "notes": "Upgrade R11G11B10_FLOAT."
         },
         {
           "engine": "unreal",
@@ -31243,7 +31238,7 @@
       ]
     },
     "addons": {
-      "updated": "2026-11-22T06:46:53Z",
+      "updated": "2026-11-22T19:39:06Z",
       "source": "https://raw.githubusercontent.com/crosire/reshade-shaders/list/Addons.ini",
       "addons": [
         {
@@ -31430,6 +31425,28 @@
           "repositoryUrl": "https://github.com/FransBouma/ShaderToggler",
           "license": "MIT",
           "files": [
+            {
+              "name": "ShaderToggler_x86_101.zip",
+              "arch": "x86",
+              "url": "https://github.com/FransBouma/ShaderToggler/releases/download/1.2.2/ShaderToggler_x86_101.zip",
+              "sha256": "c1b5d6e447899400e8a2718a4a1e1719a76eb0b13a43ed1d0586ee243131217b",
+              "size": 43526,
+              "version": "2026-11-22-c1b5d6e",
+              "firstSeen": "2026-11-22T19:39:06Z",
+              "verified": "2026-11-22",
+              "etag": "\"0x8DA291C681C03B6\"",
+              "lastModified": "Thu, 28 Apr 2022 13:38:40 GMT",
+              "license": "MIT",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/c1b5d6e447899400-ShaderToggler_x86_101.zip",
+              "payload": [
+                {
+                  "entry": "ShaderToggler.addon",
+                  "kind": "addon",
+                  "arch": "x86"
+                }
+              ],
+              "history": []
+            },
             {
               "name": "ShaderToggler_v122.zip",
               "arch": "x64",
@@ -52611,5 +52628,5 @@
       ]
     }
   },
-  "generated": "2026-11-22T06:46:53Z"
+  "generated": "2026-11-22T19:39:06Z"
 }
