@@ -3,7 +3,7 @@
   "repository": "ApolloF/DLSS5-Updater-catalog",
   "sections": {
     "renodx": {
-      "updated": "2026-11-26T08:16:50Z",
+      "updated": "2026-11-26T21:30:35Z",
       "sources": [
         {
           "url": "https://github.com/clshortfuse/renodx/releases/download/snapshot/games-index.json",
@@ -11,7 +11,7 @@
         },
         {
           "url": "https://raw.githubusercontent.com/wiki/clshortfuse/renodx/Mods.md",
-          "count": 1131
+          "count": 1132
         }
       ],
       "generic": [
@@ -135,8 +135,8 @@
               "version": "2026-11-24-63b47b8",
               "firstSeen": "2026-11-24T09:53:38Z",
               "verified": "2026-11-26",
-              "etag": "\"6b04d249-3e10000\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:49 GMT",
+              "etag": "\"6b04d248-3e10000\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/63b47b84247c9be2-renodx-ue-extended.addon64",
               "history": [
@@ -2903,9 +2903,9 @@
               "size": 2525184,
               "version": "2026-11-24-11039a1",
               "firstSeen": "2026-11-24T09:53:38Z",
-              "verified": "2026-11-24",
-              "etag": "\"6b04d248-268800\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:48 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6b04d24a-268800\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/11039a154a30db81-renodx-yumia1.addon64",
               "history": [
@@ -6477,8 +6477,8 @@
               "version": "2026-11-13-893a9b4",
               "firstSeen": "2026-11-13T06:45:05Z",
               "verified": "2026-11-26",
-              "etag": "\"6af62da8-207000\"",
-              "lastModified": "Thu, 12 Nov 2026 21:20:40 GMT",
+              "etag": "\"6af62da9-207000\"",
+              "lastModified": "Thu, 12 Nov 2026 21:20:41 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/893a9b4eee19b8ce-renodx-daysgone.addon64",
               "history": [
@@ -6549,9 +6549,9 @@
               "size": 4026880,
               "version": "2026-11-24-b1c3e6a",
               "firstSeen": "2026-11-24T22:25:49Z",
-              "verified": "2026-11-25",
-              "etag": "\"6b05c22e-3d7200\"",
-              "lastModified": "Tue, 24 Nov 2026 16:58:22 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6b05c22d-3d7200\"",
+              "lastModified": "Tue, 24 Nov 2026 16:58:21 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/b1c3e6aca3191269-renodx-deadislandde.addon64",
               "history": [
@@ -8663,8 +8663,8 @@
               "version": "2026-11-24-3d9cfde",
               "firstSeen": "2026-11-24T09:53:38Z",
               "verified": "2026-11-26",
-              "etag": "\"6b04d246-26a800\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:46 GMT",
+              "etag": "\"6b04d247-26a800\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:47 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/3d9cfded230ca78a-renodx-endermagnolia.addon64",
               "history": [
@@ -9684,8 +9684,8 @@
               "version": "2026-10-21-d3da9e7",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6abc1288-22ca00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
+              "etag": "\"6abc1287-22ca00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:27 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d3da9e7fc06e4be2-renodx-fatesamurairemnant.addon64",
               "history": []
@@ -11291,8 +11291,8 @@
               "version": "2026-11-24-220229e",
               "firstSeen": "2026-11-24T22:25:49Z",
               "verified": "2026-11-26",
-              "etag": "\"6b05c22e-4b4800\"",
-              "lastModified": "Tue, 24 Nov 2026 16:58:22 GMT",
+              "etag": "\"6b05c22f-4b4800\"",
+              "lastModified": "Tue, 24 Nov 2026 16:58:23 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/220229e26946815c-renodx-guildwars2.addon64",
               "history": [
@@ -13836,8 +13836,8 @@
               "version": "2026-10-21-3066452",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b1-26e600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b3-26e600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/3066452bb45a826e-renodx-lm3.addon64",
               "history": []
@@ -14222,8 +14222,8 @@
               "version": "2026-10-21-9cdf896",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b1-26a400\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:13 GMT",
+              "etag": "\"6ac0e4b2-26a400\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/9cdf8966f6d53c69-renodx-mk8.addon64",
               "history": []
@@ -16505,9 +16505,9 @@
               "size": 2292224,
               "version": "2026-10-21-6492fe9",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-25",
-              "etag": "\"6abc1289-22fa00\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6abc1288-22fa00\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/6492fe9e62d90fdc-renodx-nioh2.addon64",
               "history": []
@@ -19035,9 +19035,9 @@
               "size": 2459648,
               "version": "2026-10-21-a584be1",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-25",
-              "etag": "\"6abc1289-258800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6abc1288-258800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/a584be15610172e5-renodx-rotsp.addon64",
               "history": []
@@ -19962,8 +19962,8 @@
               "version": "2026-10-21-dd9a6be",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6abc128a-24b200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "etag": "\"6abc1288-24b200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:28 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/dd9a6be1bab936d1-renodx-shadowgambit.addon64",
               "history": []
@@ -20412,8 +20412,8 @@
               "version": "2026-11-24-9eae838",
               "firstSeen": "2026-11-24T09:53:38Z",
               "verified": "2026-11-26",
-              "etag": "\"6b04d249-340400\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:49 GMT",
+              "etag": "\"6b04d247-340400\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:47 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/9eae838a1c4e4596-renodx-smt5.addon64",
               "history": [
@@ -21121,6 +21121,23 @@
           ]
         },
         {
+          "id": "sniper-elite-5-dx12",
+          "name": "Sniper Elite 5 (DX12)",
+          "aliases": [],
+          "steamAppIds": [],
+          "authors": [
+            "Ostad"
+          ],
+          "listing": "main",
+          "compat": "working",
+          "links": {
+            "nexus": "https://www.nexusmods.com/sniperelite5/mods/22",
+            "other": []
+          },
+          "blocked": false,
+          "files": []
+        },
+        {
           "id": "sonic-generations",
           "name": "Sonic Generations",
           "aliases": [],
@@ -21491,8 +21508,8 @@
               "version": "2026-10-21-964a2e9",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b3-275000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
+              "etag": "\"6ac0e4b2-275000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/964a2e97828c20ec-renodx-splatoon.addon64",
               "history": []
@@ -21524,8 +21541,8 @@
               "version": "2026-10-21-9345234",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b4-2d6000\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
+              "etag": "\"6ac0e4b3-2d6000\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/93452345af06d1cf-renodx-splatoon2.addon64",
               "history": []
@@ -22094,9 +22111,9 @@
               "size": 2286080,
               "version": "2026-10-21-266ef81",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-25",
-              "etag": "\"6abc128a-22e200\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6abc1289-22e200\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/266ef81bbca05104-renodx-sopffo.addon64",
               "history": []
@@ -22304,8 +22321,8 @@
               "version": "2026-10-21-7dc8a1e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b2-2b2200\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4b4-2b2200\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:16 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/7dc8a1e0f6d7b4c3-renodx-supermario3dworld.addon64",
               "history": []
@@ -22676,9 +22693,9 @@
               "size": 2568192,
               "version": "2026-11-24-0e1da5a",
               "firstSeen": "2026-11-24T22:25:49Z",
-              "verified": "2026-11-25",
-              "etag": "\"6b05c230-273000\"",
-              "lastModified": "Tue, 24 Nov 2026 16:58:24 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6b05c231-273000\"",
+              "lastModified": "Tue, 24 Nov 2026 16:58:25 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/0e1da5a14c4f65b3-renodx-teardown.addon64",
               "history": [
@@ -23276,8 +23293,8 @@
               "version": "2026-11-24-f8cf2a1",
               "firstSeen": "2026-11-24T09:53:38Z",
               "verified": "2026-11-26",
-              "etag": "\"6b04d247-268c00\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:47 GMT",
+              "etag": "\"6b04d24a-268c00\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:50 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/f8cf2a1d33402c60-renodx-tew2.addon64",
               "history": [
@@ -23427,9 +23444,9 @@
               "size": 2842624,
               "version": "2026-11-24-8b7511b",
               "firstSeen": "2026-11-24T09:53:38Z",
-              "verified": "2026-11-25",
-              "etag": "\"6b04d247-2b6000\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:47 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6b04d245-2b6000\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:45 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/8b7511b1c69be78f-renodx-bersekerKhazan.addon64",
               "history": [
@@ -23663,8 +23680,8 @@
               "version": "2026-11-24-6991225",
               "firstSeen": "2026-11-24T22:25:49Z",
               "verified": "2026-11-26",
-              "etag": "\"6b05c232-2a3800\"",
-              "lastModified": "Tue, 24 Nov 2026 16:58:26 GMT",
+              "etag": "\"6b05c230-2a3800\"",
+              "lastModified": "Tue, 24 Nov 2026 16:58:24 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/69912252dd746c6c-renodx-vanhelsingfinalcut.addon64",
               "history": [
@@ -23919,8 +23936,8 @@
               "version": "2026-10-21-160dd57",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b2-2aa600\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
+              "etag": "\"6ac0e4af-2aa600\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:11 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/160dd578ad65a8e1-renodx-botw.addon64",
               "history": []
@@ -23988,8 +24005,8 @@
               "version": "2026-10-21-d322d3e",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b5-29cc00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "etag": "\"6ac0e4b3-29cc00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:15 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/d322d3e2abc84e6c-renodx-totk.addon64",
               "history": []
@@ -24660,8 +24677,8 @@
               "version": "2026-11-12-6b37441",
               "firstSeen": "2026-11-12T07:09:24Z",
               "verified": "2026-11-26",
-              "etag": "\"6af54a71-267e00\"",
-              "lastModified": "Thu, 12 Nov 2026 05:11:13 GMT",
+              "etag": "\"6af54a72-267e00\"",
+              "lastModified": "Thu, 12 Nov 2026 05:11:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/6b37441f280f5d97-renodx-terraria-tml.addon64",
               "history": [
@@ -25740,9 +25757,9 @@
               "size": 2308096,
               "version": "2026-10-21-ec7e155",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-24",
-              "etag": "\"6abc128a-233800\"",
-              "lastModified": "Tue, 29 Sep 2026 19:33:30 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6abc1289-233800\"",
+              "lastModified": "Tue, 29 Sep 2026 19:33:29 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/ec7e155fc413945e-renodx-wolong.addon64",
               "history": []
@@ -26087,9 +26104,9 @@
               "size": 1314816,
               "version": "2026-10-21-c32aaee",
               "firstSeen": "2026-10-21T07:18:45Z",
-              "verified": "2026-11-25",
-              "etag": "\"6999a1c7-141000\"",
-              "lastModified": "Sat, 21 Feb 2026 12:15:03 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6999a1c8-141000\"",
+              "lastModified": "Sat, 21 Feb 2026 12:15:04 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/c32aaee51f894864-renodx-xcom2.addon64",
               "history": []
@@ -26117,8 +26134,8 @@
               "version": "2026-10-21-81ea767",
               "firstSeen": "2026-10-21T07:18:45Z",
               "verified": "2026-11-26",
-              "etag": "\"6ac0e4b5-303c00\"",
-              "lastModified": "Sat, 03 Oct 2026 11:19:17 GMT",
+              "etag": "\"6ac0e4b2-303c00\"",
+              "lastModified": "Sat, 03 Oct 2026 11:19:14 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-10/81ea767c9e2ed5ee-renodx-xenobladechronicles.addon64",
               "history": []
@@ -26324,9 +26341,9 @@
               "size": 2453504,
               "version": "2026-11-24-936dc60",
               "firstSeen": "2026-11-24T09:53:38Z",
-              "verified": "2026-11-25",
-              "etag": "\"6b04d24a-257000\"",
-              "lastModified": "Mon, 23 Nov 2026 23:54:50 GMT",
+              "verified": "2026-11-26",
+              "etag": "\"6b04d248-257000\"",
+              "lastModified": "Mon, 23 Nov 2026 23:54:48 GMT",
               "license": "MIT",
               "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/936dc605aa75f3cf-renodx-ys10.addon64",
               "history": [
@@ -32824,7 +32841,7 @@
       ]
     },
     "shaderPacks": {
-      "updated": "2026-11-25T08:32:54Z",
+      "updated": "2026-11-26T21:30:35Z",
       "source": "shader-packs.json",
       "packs": [
         {
@@ -33626,24 +33643,24 @@
           "default": false,
           "source": "branch",
           "ref": "main",
-          "commit": "2b220380477c9b227acb9201e31c23f5c6669ba5",
-          "version": "2b22038",
+          "commit": "da676feac3a4994f9e131c8f0506d2ef65f02838",
+          "version": "da676fe",
           "license": "BSD-3-Clause",
           "file": {
-            "name": "CShade-2b22038.zip",
+            "name": "CShade-da676fe.zip",
             "arch": "both",
-            "url": "https://github.com/papadanku/CShade/archive/2b220380477c9b227acb9201e31c23f5c6669ba5.zip",
-            "sha256": "1455c11e4df7b5f6befa120d07a4288c0eabc58fa5e6dbe6ca8622cf8ed7e2b5",
-            "size": 134992,
-            "version": "2026-11-01-1455c11",
-            "firstSeen": "2026-11-01T13:23:17Z",
-            "verified": "2026-11-22",
-            "etag": "\"389c4ede6efaeeb24237ed150ea9770622dff070f54b192fcd396e2b1f47a6c2\"",
+            "url": "https://github.com/papadanku/CShade/archive/da676feac3a4994f9e131c8f0506d2ef65f02838.zip",
+            "sha256": "8269ddb52c16446821c8be2d12bd57f49430fa773aa4f9ee5b07bcd5a6cefdde",
+            "size": 136083,
+            "version": "2026-11-26-8269ddb",
+            "firstSeen": "2026-11-26T21:30:35Z",
+            "verified": "2026-11-26",
+            "etag": "\"10634c780740669e6df7cb112e791ad1a758f58deccd2a8d088787d0e1677604\"",
             "license": "BSD-3-Clause",
-            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/1455c11e4df7b5f6-CShade-2b22038.zip",
+            "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/8269ddb52c164468-CShade-da676fe.zip",
             "mod": "cshade",
             "layout": {
-              "shadersDir": "CShade-2b220380477c9b227acb9201e31c23f5c6669ba5/shaders/",
+              "shadersDir": "CShade-da676feac3a4994f9e131c8f0506d2ef65f02838/shaders/",
               "effects": [
                 "cAutoExposure.fx",
                 "cBloom.fx",
@@ -33680,6 +33697,13 @@
               "textureFiles": 0
             },
             "history": [
+              {
+                "version": "2026-11-01-1455c11",
+                "sha256": "1455c11e4df7b5f6befa120d07a4288c0eabc58fa5e6dbe6ca8622cf8ed7e2b5",
+                "size": 134992,
+                "firstSeen": "2026-11-01T13:23:17Z",
+                "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11/1455c11e4df7b5f6-CShade-2b22038.zip"
+              },
               {
                 "version": "2026-10-21-4499b8e",
                 "sha256": "4499b8ed2f97afdfa9eeb1af453bff6f92fc75c3d9e5383132fced9514b189a5",
@@ -33797,7 +33821,7 @@
       ]
     },
     "frameLimiters": {
-      "updated": "2026-11-25T21:41:15Z",
+      "updated": "2026-11-26T21:30:35Z",
       "sources": [
         {
           "url": "https://api.github.com/repos/RankFTW/ReLimiter/releases/latest",
@@ -33813,24 +33837,31 @@
           "id": "relimiter",
           "name": "ReLimiter",
           "repository": "RankFTW/ReLimiter",
-          "release": "v4.1.1",
+          "release": "v4.1.2",
           "license": "MIT",
           "files": [
             {
               "name": "relimiter.addon64",
               "arch": "x64",
-              "url": "https://github.com/RankFTW/ReLimiter/releases/download/v4.1.1/relimiter.addon64",
-              "sha256": "b60d83406a33a79a356c82b2cf8de5824e9d6702ec366fc9460349d92f0b72b2",
-              "size": 2882560,
-              "version": "2026-11-25-b60d834",
-              "firstSeen": "2026-11-25T21:41:15Z",
-              "verified": "2026-11-25",
-              "etag": "\"0x8DF4B394ACDBE1A\"",
-              "lastModified": "Wed, 25 Nov 2026 21:15:55 GMT",
+              "url": "https://github.com/RankFTW/ReLimiter/releases/download/v4.1.2/relimiter.addon64",
+              "sha256": "6ad0bf464e6297a9299455f13bc083c796868a81fb34228301f02b89116b156e",
+              "size": 2883584,
+              "version": "2026-11-26-6ad0bf4",
+              "firstSeen": "2026-11-26T21:30:35Z",
+              "verified": "2026-11-26",
+              "etag": "\"0x8DF4BCF5BAAFF20\"",
+              "lastModified": "Thu, 26 Nov 2026 15:10:07 GMT",
               "license": "MIT",
-              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/b60d83406a33a79a-relimiter.addon64",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/6ad0bf464e6297a9-relimiter.addon64",
               "mod": "relimiter",
               "history": [
+                {
+                  "version": "2026-11-25-b60d834",
+                  "sha256": "b60d83406a33a79a356c82b2cf8de5824e9d6702ec366fc9460349d92f0b72b2",
+                  "size": 2882560,
+                  "firstSeen": "2026-11-25T21:41:15Z",
+                  "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/b60d83406a33a79a-relimiter.addon64"
+                },
                 {
                   "version": "2026-11-24-7ed93fc",
                   "sha256": "7ed93fcd6aea2d9fb967fda02f15e70815124e0f94bc2bfd6486cbd5f6edc3fc",
@@ -33878,18 +33909,25 @@
             {
               "name": "relimiter.addon32",
               "arch": "x86",
-              "url": "https://github.com/RankFTW/ReLimiter/releases/download/v4.1.1/relimiter.addon32",
-              "sha256": "1f4f146af7d794674c70a62bce1e1ac5d10de32f2128bfb064b09c53084b0849",
-              "size": 1453568,
-              "version": "2026-11-25-1f4f146",
-              "firstSeen": "2026-11-25T21:41:15Z",
-              "verified": "2026-11-25",
-              "etag": "\"0x8DF4B394ABF9D8E\"",
-              "lastModified": "Wed, 25 Nov 2026 21:15:54 GMT",
+              "url": "https://github.com/RankFTW/ReLimiter/releases/download/v4.1.2/relimiter.addon32",
+              "sha256": "78cb7c783d37f4a5bbec7eaf24cefbca4c6f55b961f536530945083fe45238c0",
+              "size": 1454080,
+              "version": "2026-11-26-78cb7c7",
+              "firstSeen": "2026-11-26T21:30:35Z",
+              "verified": "2026-11-26",
+              "etag": "\"0x8DF4BCF5BA09672\"",
+              "lastModified": "Thu, 26 Nov 2026 15:10:07 GMT",
               "license": "MIT",
-              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/1f4f146af7d79467-relimiter.addon32",
+              "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/78cb7c783d37f4a5-relimiter.addon32",
               "mod": "relimiter",
               "history": [
+                {
+                  "version": "2026-11-25-1f4f146",
+                  "sha256": "1f4f146af7d794674c70a62bce1e1ac5d10de32f2128bfb064b09c53084b0849",
+                  "size": 1453568,
+                  "firstSeen": "2026-11-25T21:41:15Z",
+                  "mirrorUrl": "https://github.com/ApolloF/DLSS5-Updater-catalog/releases/download/mirror-2026-11.2/1f4f146af7d79467-relimiter.addon32"
+                },
                 {
                   "version": "2026-11-24-be3fce0",
                   "sha256": "be3fce01d1684746ce9635b8463b44a19dc815b37731924037f4c00a717d9620",
@@ -53105,5 +53143,5 @@
       ]
     }
   },
-  "generated": "2026-11-26T08:16:50Z"
+  "generated": "2026-11-26T21:30:35Z"
 }
